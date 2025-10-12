@@ -45,6 +45,8 @@ public class MCTSVariations extends AI
 
         //Simulation
         if (simulation == "default" || simulation == "random"){this.simulationPolicy =  new RandomSimulation();}
+        if (simulation == "MAST"){this.simulationPolicy =  new MASTSimulation();}
+        if (simulation == "LGR"){this.simulationPolicy =  new LGRSimulation();}
 
         //Backpropagation
         if (backpropagation == "default" || backpropagation == "standard"){this.backpropPolicy = new StandardBackprop();}

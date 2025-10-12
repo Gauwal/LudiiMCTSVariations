@@ -30,7 +30,7 @@ public class AITest {
         final int numPlayers = game.players().count();
         for (int p = 1; p <= numPlayers; ++p)
         {
-            agents.add(new MCTSVariations("flat","random","decay"));
+            agents.add(new MCTSVariations("flat","MAST","decay"));
         }
         for (int i = 0; i < numGames; ++i) {
 
