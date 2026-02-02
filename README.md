@@ -249,12 +249,12 @@ java -cp "Ludii.jar:bin" experiments.planning.GenerateTestPlan \
 | `--games-per-matchup <n>` | Games per variant-vs-baseline matchup |
 | `--move-time <seconds>` | Time per move |
 | `--max-moves <n>` | Maximum moves per game (0 = no limit) |
-| `--design <type>` | `ONE_FACTOR` (vary one component) or `FULL_COMBO` (all combinations) |
+| `--design <type>` | `ONEFACTOR` (vary one component) or `FULLCOMBO` (all combinations) |
 | `--seed <n>` | Random seed for reproducibility |
 
 **Design Types:**
-- **ONE_FACTOR**: Tests each policy variation while keeping others at baseline (UCB1/Random/MonteCarlo/Robust)
-- **FULL_COMBO**: Tests all possible combinations (exponentially more tests)
+- **ONEFACTOR**: Tests each policy variation while keeping others at baseline (UCB1/Random/MonteCarlo/Robust)
+- **FULLCOMBO**: Tests all possible combinations (equivalent if elements are independant (which they are))
 
 ### Step 3: Generate SLURM Scripts
 

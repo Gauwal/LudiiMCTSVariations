@@ -380,6 +380,7 @@ public final class GenerateTestPlan
 			}
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
+			final MethodPairingState pairingState = new MethodPairingState();
 
 			int guard = 0;
 			while (out.size() < numTests && guard++ < numTests * 200)
@@ -401,7 +402,9 @@ public final class GenerateTestPlan
 
 					final double diversityGain = sel.gain + sim.gain + back.gain + fin.gain;
 					final int globalCount = globalGameCounts.getOrDefault(game, 0);
-					final double gain = diversityGain - 0.05 * globalCount;
+					final Config candidateVariant = new Config(sel.method, sim.method, back.method, fin.method);
+					final double pairingPenalty = pairingState.pairingPenalty(candidateVariant);
+					final double gain = diversityGain - 0.05 * globalCount - 0.1 * pairingPenalty;
 					if (gain <= bestGain)
 						continue;
 
@@ -444,6 +447,7 @@ public final class GenerateTestPlan
 				coverage.record(Component.SIMULATION, best.sim.method, best.gameIndex);
 				coverage.record(Component.BACKPROP, best.back.method, best.gameIndex);
 				coverage.record(Component.FINAL_MOVE, best.fin.method, best.gameIndex);
+				pairingState.record(variant);
 				globalGameCounts.merge(game, 1, Integer::sum);
 			}
 
@@ -512,6 +516,50 @@ public final class GenerateTestPlan
 		{
 			this.method = method;
 			this.gain = gain;
+		}
+	}
+
+	/**
+	 * Tracks how often pairs of methods from different components appear together.
+	 * Used to penalize repeated pairings and encourage orthogonal designs.
+	 */
+	static final class MethodPairingState
+	{
+		private final Map<String, Integer> pairCounts = new HashMap<>();
+
+		void record(final Config variant)
+		{
+			increment(Component.SELECTION, variant.selection, Component.SIMULATION, variant.simulation);
+			increment(Component.SELECTION, variant.selection, Component.BACKPROP, variant.backprop);
+			increment(Component.SELECTION, variant.selection, Component.FINAL_MOVE, variant.finalMove);
+			increment(Component.SIMULATION, variant.simulation, Component.BACKPROP, variant.backprop);
+			increment(Component.SIMULATION, variant.simulation, Component.FINAL_MOVE, variant.finalMove);
+			increment(Component.BACKPROP, variant.backprop, Component.FINAL_MOVE, variant.finalMove);
+		}
+
+		double pairingPenalty(final Config variant)
+		{
+			return getCount(Component.SELECTION, variant.selection, Component.SIMULATION, variant.simulation)
+				+ getCount(Component.SELECTION, variant.selection, Component.BACKPROP, variant.backprop)
+				+ getCount(Component.SELECTION, variant.selection, Component.FINAL_MOVE, variant.finalMove)
+				+ getCount(Component.SIMULATION, variant.simulation, Component.BACKPROP, variant.backprop)
+				+ getCount(Component.SIMULATION, variant.simulation, Component.FINAL_MOVE, variant.finalMove)
+				+ getCount(Component.BACKPROP, variant.backprop, Component.FINAL_MOVE, variant.finalMove);
+		}
+
+		private void increment(final Component c1, final String m1, final Component c2, final String m2)
+		{
+			pairCounts.merge(pairKey(c1, m1, c2, m2), 1, Integer::sum);
+		}
+
+		private int getCount(final Component c1, final String m1, final Component c2, final String m2)
+		{
+			return pairCounts.getOrDefault(pairKey(c1, m1, c2, m2), 0);
+		}
+
+		private static String pairKey(final Component c1, final String m1, final Component c2, final String m2)
+		{
+			return c1.name() + "|" + normalize(m1) + "|" + c2.name() + "|" + normalize(m2);
 		}
 	}
 
