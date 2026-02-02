@@ -1,0 +1,30 @@
+selection,simulation,backprop,finalMove,wins,losses,draws,failures,completedGames,attemptedGames,averageMoves
+AG0,Random,MCback,Robust,0,2,0,0,2,2,143.0000
+Alpha-Beta,Random,MCback,Robust,1,1,0,0,2,2,128.0000
+ExIt,Random,MCback,Robust,0,2,0,0,2,2,143.0000
+Implicit Minimax,Random,MCback,Robust,2,0,0,0,2,2,151.0000
+McBRAVE,Random,MCback,Robust,0,2,0,0,2,2,149.0000
+McGRAVE,Random,MCback,Robust,0,2,0,0,2,2,131.0000
+Noisy AG0,Random,MCback,Robust,0,2,0,0,2,2,153.0000
+Progressive Bias,Random,MCback,Robust,0,2,0,0,2,2,125.0000
+Progressive History,Random,MCback,Robust,1,1,0,0,2,2,176.0000
+Progressive Widening,Random,MCback,Robust,0,2,0,0,2,2,157.0000
+UCB1 GRAVE,Random,MCback,Robust,1,1,0,0,2,2,142.0000
+UCB1 tuned,Random,MCback,Robust,2,0,0,0,2,2,157.0000
+UCB1,Heuristic Samping,MCback,Robust,0,2,0,0,2,2,143.0000
+UCB1,Heuristic Sampling,MCback,Robust,2,0,0,0,2,2,171.0000
+UCB1,Heuristic,MCback,Robust,1,1,0,0,2,2,176.0000
+UCB1,HS Playout,MCback,Robust,0,2,0,0,2,2,139.0000
+UCB1,LGR,MCback,Robust,0,2,0,0,2,2,161.0000
+UCB1,MAST,MCback,Robust,1,1,0,0,2,2,144.0000
+UCB1,NST,MCback,Robust,0,2,0,0,2,2,155.0000
+UCB1,PlayoutHS,MCback,Robust,0,2,0,0,2,2,147.0000
+UCB1,Random,AlphaGo,Robust,1,1,0,0,2,2,158.0000
+UCB1,Random,Heuristic,Robust,0,2,0,0,2,2,163.0000
+UCB1,Random,Implicit Minimax,Robust,1,1,0,0,2,2,172.0000
+UCB1,Random,MCback,Max Avg,1,1,0,0,2,2,170.0000
+UCB1,Random,MCback,MaxAvgScore,2,0,0,0,2,2,167.0000
+UCB1,Random,MCback,Proportional Exp,0,2,0,0,2,2,147.0000
+UCB1,Random,MCback,Robust,1,1,0,0,2,2,164.0000
+UCB1,Random,Qualitative,Robust,0,2,0,0,2,2,137.0000
+UCB1,Random,Score Bounded,Robust,2,0,0,0,2,2,161.0000

@@ -1,223 +1,225 @@
 package mcts;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ThreadLocalRandom;
-
-import experiments.fastGameLengths.TrialRecord;
 import game.Game;
-import main.collections.FastArrayList;
+import mcts.backpropagation.*;
+import mcts.selection.*;
 import other.AI;
-import other.RankUtils;
 import other.context.Context;
 import other.move.Move;
+import search.mcts.MCTS;
+import search.mcts.backpropagation.*;
+import search.mcts.finalmoveselection.*;
+import search.mcts.playout.*;
+import search.mcts.selection.*;
 
-import mcts.selection.*;
-import mcts.backpropagation.*;
-import mcts.simulation.*;
+import java.util.Locale;
 
+/**
+ * Wrapper around Ludii's built-in MCTS implementation that exposes a string-based
+ * configuration mirroring the earlier custom policies.
+ */
 public class MCTSVariations extends AI
 {
-
-    //-------------------------------------------------------------------------
-
     /** Our player index */
     protected int player = -1;
 
-    /** Strategy components */
-    protected SelectionPolicy selectionPolicy;
-    protected SimulationPolicy simulationPolicy;
-    protected BackpropagationPolicy backpropPolicy;
+    /** Delegated Ludii MCTS implementation */
+    private final MCTS mcts;
 
-    //-------------------------------------------------------------------------
+    /** Labels used for the friendly name */
+    private final String selectionLabel;
+    private final String playoutLabel;
+    private final String backpropLabel;
 
     /**
      * Constructor (name of selection, simulation, backpropagation policies)
      */
-    public MCTSVariations(String selection, String simulation, String backpropagation)
+    public MCTSVariations(final String selection, final String simulation, final String backpropagation, final String finalMoveSelect)
     {
-        //Selection
-        if (selection == "default" || selection=="UCB1"){this.selectionPolicy = new UCB1Selection();}
-        if (selection == "flat" || selection=="flat UCB"){this.selectionPolicy = new FlatUCBSelection();}
-        if (selection == "UCB1 tuned"){this.selectionPolicy = new UCB1TunedSelection();}
-        if (selection == "FPU" || selection == "first play urgency"){this.selectionPolicy = new FPUSelection(0.5);}
+        final StrategyChoice<SelectionStrategy> selectionChoice = buildSelectionStrategy(selection);
+        final StrategyChoice<PlayoutStrategy> playoutChoice = buildPlayoutStrategy(simulation);
+        final StrategyChoice<BackpropagationStrategy> backpropChoice = buildBackpropStrategy(backpropagation);
+        final FinalMoveSelectionStrategy finalMoveSelection = buildFinalMoveSelection(finalMoveSelect);
 
+        this.mcts = new MCTS(
+                selectionChoice.strategy,
+                playoutChoice.strategy,
+                backpropChoice.strategy,
+                finalMoveSelection
+        );
 
-        //Simulation
-        if (simulation == "default" || simulation == "random"){this.simulationPolicy =  new RandomSimulation();}
-        if (simulation == "MAST"){this.simulationPolicy =  new MASTSimulation();}
-        if (simulation == "LGR"){this.simulationPolicy =  new LGRSimulation();}
+        this.mcts.setTreeReuse(false);
 
-        //Backpropagation
-        if (backpropagation == "default" || backpropagation == "standard"){this.backpropPolicy = new StandardBackprop();}
-        if (backpropagation == "decay" || backpropagation == "decayingReward"){this.backpropPolicy = new DecayingRewardBackprop(0.5);}
+        this.selectionLabel = selectionChoice.label;
+        this.playoutLabel = playoutChoice.label;
+        this.backpropLabel = backpropChoice.label;
 
-
-
-        this.friendlyName = "MCTS Variation - "
-                + this.selectionPolicy.getName() + "+"
-                + this.simulationPolicy.getName() + "+"
-                + this.backpropPolicy.getName() + "+";
-
+        this.friendlyName = String.format("MCTS [%s | %s | %s]",
+                selectionLabel, playoutLabel, backpropLabel);
     }
-
 
     @Override
-    public Move selectAction
-            (
-                    final Game game,
-                    final Context context,
-                    final double maxSeconds,
-                    final int maxIterations,
-                    final int maxDepth
-            )
+    public Move selectAction(
+            final Game game,
+            final Context context,
+            final double maxSeconds,
+            final int maxIterations,
+            final int maxDepth
+    )
     {
-        final Node root = new Node(null, null, context);
-
-        final long stopTime = (maxSeconds > 0.0) ? System.currentTimeMillis() + (long) (maxSeconds * 1000L) : Long.MAX_VALUE;
-        final int maxIts = (maxIterations >= 0) ? maxIterations : Integer.MAX_VALUE;
-
-        int numIterations = 0;
-
-        while
-        (
-                numIterations < maxIts &&
-                        System.currentTimeMillis() < stopTime &&
-                        !wantsInterrupt
-        )
-        {
-            // Selection + Expansion phase
-            Node leaf = selectionPolicy.selectLeaf(root, game);
-
-            // Simulation phase
-            double[] utilities = simulationPolicy.runSimulation(leaf.context, game);
-
-            // Backpropagation phase
-            backpropPolicy.backpropagate(leaf, utilities, game);
-
-            ++numIterations;
-        }
-
-        // Return the move we wish to play
-        return finalMoveSelection(root);
-    }
-
-
-
-    /**
-     * Selects the move we wish to play using the "Robust Child" strategy
-     * (meaning that we play the move leading to the child of the root node
-     * with the highest visit count).
-     *
-     * @param rootNode
-     * @return
-     */
-    public static Move finalMoveSelection(final MCTSVariations.Node rootNode)
-    {
-        MCTSVariations.Node bestChild = null;
-        int bestVisitCount = Integer.MIN_VALUE;
-        int numBestFound = 0;
-
-        final int numChildren = rootNode.children.size();
-
-        for (int i = 0; i < numChildren; ++i)
-        {
-            final MCTSVariations.Node child = rootNode.children.get(i);
-            final int visitCount = child.visitCount;
-
-            if (visitCount > bestVisitCount)
-            {
-                bestVisitCount = visitCount;
-                bestChild = child;
-                numBestFound = 1;
-            }
-            else if
-            (
-                    visitCount == bestVisitCount &&
-                            ThreadLocalRandom.current().nextInt() % ++numBestFound == 0
-            )
-            {
-                // this case implements random tie-breaking
-                bestChild = child;
-            }
-        }
-
-        return bestChild.moveFromParent;
+        return mcts.selectAction(game, context, maxSeconds, maxIterations, maxDepth);
     }
 
     @Override
     public void initAI(final Game game, final int playerID)
     {
         this.player = playerID;
+        mcts.initAI(game, playerID);
+    }
+
+    @Override
+    public void closeAI()
+    {
+        mcts.closeAI();
     }
 
     @Override
     public boolean supportsGame(final Game game)
     {
-        if (game.isStochasticGame())
-            return false;
+        return mcts.supportsGame(game);
+    }
 
-        if (!game.isAlternatingMoveGame())
-            return false;
+    private static StrategyChoice<SelectionStrategy> buildSelectionStrategy(final String name)
+    {
+        final String normalized = normalize(name);
 
-        return true;
+        if ("ag0".equals(normalized) || "ag0 selection".equals(normalized))
+            return new StrategyChoice<>(new AG0Selection(), "AG0Selection");
+
+        if ("exit".equals(normalized) || "exit selection".equals(normalized))
+            return new StrategyChoice<>(new ExItSelection(0.5), "ExItSelection");
+
+        if ("mcbrave".equals(normalized))
+            return new StrategyChoice<>(new McBRAVE(), "McBRAVE");
+
+        if ("mcgrave".equals(normalized))
+            return new StrategyChoice<>(new McGRAVE(), "McGRAVE");
+
+        if ("noisy ag0".equals(normalized) || "noisy ag0selection".equals(normalized))
+            return new StrategyChoice<>(new NoisyAG0Selection(), "NoisyAG0Selection");
+
+        if ("progressive bias".equals(normalized))
+            return new StrategyChoice<>(new ProgressiveBias(), "ProgressiveBias");
+
+        if ("progressive history".equals(normalized))
+            return new StrategyChoice<>(new ProgressiveHistory(), "ProgressiveHistory");
+
+        if ("ucb1 grave".equals(normalized) || "ucb1grave".equals(normalized))
+            return new StrategyChoice<>(new UCB1GRAVE(), "UCB1GRAVE");
+
+        if ("ucb1 tuned".equals(normalized) || "ucb1tuned".equals(normalized))
+            return new StrategyChoice<>(new UCB1Tuned(), "UCB1Tuned");
+
+        if ("progressivewidening".equals(normalized) || "progressive widening".equals(normalized))
+            return new StrategyChoice<>(new ProgressiveWidening(), "Progressive Widening");
+
+        if ("implicitminimax".equals(normalized) || "implicit minimax".equals(normalized))
+            return new StrategyChoice<>(new ImplicitMinimaxSelection(), "Implicit Minimax");
+
+        if ("alphabeta".equals(normalized) || "alpha beta".equals(normalized) || "alpha-beta".equals(normalized))
+            return new StrategyChoice<>(new AlphaBetaSelection(), "Alpha-Beta");
+
+        // Fallback
+        return new StrategyChoice<>(new UCB1(), "UCB1");
+    }
+
+    private static StrategyChoice<PlayoutStrategy> buildPlayoutStrategy(final String name)
+    {
+        final String normalized = normalize(name);
+
+        if ("heuristic".equals(normalized) || "heuristic playout".equals(normalized))
+            return new StrategyChoice<>(new HeuristicPlayout(), "HeuristicPlayout");
+
+        if ("heuristic samping".equals(normalized) || "heuristic samping playout".equals(normalized))
+            return new StrategyChoice<>(new HeuristicSampingPlayout(), "HeuristicSampingPlayout");
+
+        if ("mast".equals(normalized))
+            return new StrategyChoice<>(new MAST(), "MAST");
+
+        if ("nst".equals(normalized))
+            return new StrategyChoice<>(new NST(), "NST");
+
+        if ("playouths".equals(normalized) || "hs playout".equals(normalized))
+            return new StrategyChoice<>(new PlayoutHS(), "PlayoutHS");
+
+        if ("lgr".equals(normalized) || "last good reply".equals(normalized))
+            return new StrategyChoice<>(new PlayoutHS(), "Last Good Reply");
+
+        // fallback
+        return new StrategyChoice<>(new RandomPlayout(), "RandomPlayout");
     }
 
 
-    //-------------------------------------------------------------------------
+    private static StrategyChoice<BackpropagationStrategy> buildBackpropStrategy(final String name)
+    {
+        final String normalized = normalize(name);
+
+        if ("heuristic".equals(normalized))
+            return new StrategyChoice<>(new HeuristicBackprop(), "HeuristicBackprop");
+
+        if ("alphago".equals(normalized))
+            return new StrategyChoice<>(new AlphaGoBackprop(), "AlphaGoBackprop");
+
+        if ("qualitative".equals(normalized) || "qualitative bonus".equals(normalized))
+            return new StrategyChoice<>(new QualitativeBonus(), "QualitativeBonus");
+
+        if ("scorebounded".equals(normalized) || "score bounded".equals(normalized))
+            return new StrategyChoice<>(new ScoreBoundedBackprop(), "ScoreBounded");
+
+        if ("implicitminimax".equals(normalized) || "implicit minimax".equals(normalized))
+            return new StrategyChoice<>(new ImplicitMinimaxBackprop(), "ImplicitMinimax");
+
+        //  fall back to Monte Carlo backpropagation
+        return new StrategyChoice<>(new MonteCarloBackprop(), "MonteCarloBackprop");
+    }
+
+    private static FinalMoveSelectionStrategy buildFinalMoveSelection(final String name)
+    {
+        final String normalized = normalize(name);
+
+        if ("max avg".equals(normalized) || "maxavgscore".equals(normalized))
+            return new MaxAvgScore();
+
+        if ("proportional exp".equals(normalized) || "proportionalexpvisitcount".equals(normalized))
+            return new ProportionalExpVisitCount(0.5);
+
+        if ("robust".equals(normalized) || "robustchild".equals(normalized))
+            return new RobustChild();
+
+        return new RobustChild(); // fallback
+    }
+
+
+    private static String normalize(final String value)
+    {
+        if (value == null)
+            return "";
+        return value.trim().toLowerCase(Locale.ROOT);
+    }
 
     /**
-     * Inner class for nodes
-     *
-     * @author Dennis Soemers
+     * Small helper to pair strategies with their human-readable labels.
      */
-    public static class Node
+    private static final class StrategyChoice<T>
     {
-        /** Our parent node */
-        public final Node parent;
+        final T strategy;
+        final String label;
 
-        /** The move that led from parent to this node */
-        public final Move moveFromParent;
-
-        /** This objects contains the game state for this node (this is why we don't support stochastic games) */
-        public final Context context;
-        /** Visit count for this node */
-        public int visitCount = 0;
-
-        /** For every player, sum of utilities / scores backpropagated through this node */
-        public final double[] scoreSums;
-
-        /** Child nodes */
-        public final List<MCTSVariations.Node> children = new ArrayList<MCTSVariations.Node>();
-
-        /** List of moves for which we did not yet create a child node */
-        public final FastArrayList<Move> unexpandedMoves;
-
-        /**
-         * Constructor
-         *
-         * @param parent
-         * @param moveFromParent
-         * @param context
-         */
-        public Node(final MCTSVariations.Node parent, final Move moveFromParent, final Context context)
+        StrategyChoice(final T strategy, final String label)
         {
-            this.parent = parent;
-            this.moveFromParent = moveFromParent;
-            this.context = context;
-            final Game game = context.game();
-            scoreSums = new double[game.players().count() + 1];
-
-            // For simplicity, we just take ALL legal moves.
-            // This means we do not support simultaneous-move games.
-            unexpandedMoves = new FastArrayList<Move>(game.moves(context).moves());
-
-            if (parent != null)
-                parent.children.add(this);
+            this.strategy = strategy;
+            this.label = label;
         }
-
     }
-
-    //-------------------------------------------------------------------------
-
 }
+

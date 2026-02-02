@@ -1,0 +1,13 @@
+game,selection,simulation,backprop,winRate,gamesPlayed,timestamp
+\lud/board/war/leaping/diagonal/Main Dam.lud,default,default,default,0.6000,10,1760545387532
+\lud/board/war/leaping/diagonal/Main Dam.lud,default,default,decay,0.0000,10,1760545491603
+\lud/board/war/leaping/diagonal/Main Dam.lud,default,LGR,default,0.2000,10,1760545696677
+\lud/board/war/leaping/diagonal/Main Dam.lud,default,LGR,decay,0.0000,10,1760545744074
+\lud/board/war/leaping/diagonal/Main Dam.lud,default,MAST,default,0.3000,10,1760545886523
+\lud/board/war/leaping/diagonal/Main Dam.lud,default,MAST,decay,0.0000,10,1760545942067
+\lud/board/war/leaping/diagonal/Main Dam.lud,flat,default,default,0.1000,10,1760546047486
+\lud/board/war/leaping/diagonal/Main Dam.lud,flat,default,decay,0.0000,10,1760546105719
+\lud/board/war/leaping/diagonal/Main Dam.lud,flat,LGR,default,0.0000,10,1760546166271
+\lud/board/war/leaping/diagonal/Main Dam.lud,flat,LGR,decay,0.0000,10,1760546216004
+\lud/board/war/leaping/diagonal/Main Dam.lud,flat,MAST,default,0.0000,10,1760546263411
+\lud/board/war/leaping/diagonal/Main Dam.lud,flat,MAST,decay,0.0000,10,1760546325225
