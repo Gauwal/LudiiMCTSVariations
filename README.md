@@ -47,7 +47,64 @@ This project enables systematic evaluation of MCTS algorithm variations across L
 - **Ludii JAR** - Download from [ludii.games](https://ludii.games/downloads.php)
 - **SLURM** (optional) - For HPC cluster execution
 
+---
 
+## Building from Scratch (without IDE)
+
+### 1. Download Ludii
+
+```bash
+# Download Ludii JAR (adjust version as needed)
+curl -L -o Ludii.jar "https://ludii.games/downloads/Ludii-1.3.13.jar"
+```
+
+### 2. Compile the Project
+
+**Linux/macOS:**
+```bash
+mkdir -p bin
+javac -d bin -cp "Ludii.jar" $(find src -name "*.java")
+```
+
+**Windows (PowerShell):**
+```powershell
+mkdir -Force bin
+$javaFiles = Get-ChildItem -Path src -Recurse -Filter *.java | ForEach-Object { $_.FullName }
+javac -d bin -cp "Ludii.jar" $javaFiles
+```
+
+**Windows (Command Prompt):**
+```cmd
+mkdir bin
+dir /s /b src\*.java > sources.txt
+javac -d bin -cp "Ludii.jar" @sources.txt
+del sources.txt
+```
+
+### 3. Run Commands
+
+**Linux/macOS** (use `:` as classpath separator):
+```bash
+java -cp "Ludii.jar:bin" experiments.catalog.BuildGameCatalog
+```
+
+**Windows** (use `;` as classpath separator):
+```powershell
+java -cp "Ludii.jar;bin" experiments.catalog.BuildGameCatalog
+```
+
+### Which Commands Need Ludii.jar?
+
+| Command | Needs Ludii.jar | Why |
+|---------|-----------------|-----|
+| `BuildGameCatalog` | ✅ Yes | Loads and analyzes games |
+| `GenerateTestPlan` | ✅ Yes | Checks heuristic support |
+| `GenerateSlurmScripts` | ❌ No | Only reads CSVs, writes scripts |
+| `ReportPlannedTestCoverage` | ❌ No | Only reads CSVs |
+| `RunPlannedTest` | ✅ Yes | Runs actual games |
+| `AITest` | ✅ Yes | Runs actual games |
+
+---
 
 ## Project Structure
 
@@ -261,7 +318,7 @@ java -cp "Ludii.jar:bin" experiments.planning.GenerateTestPlan \
 Creates batch scripts for HPC cluster execution.
 
 ```bash
-java -cp "Ludii.jar:bin" experiments.planning.GenerateSlurmScripts \
+java -cp "bin" experiments.planning.GenerateSlurmScripts \
     --plan planned_tests.csv \
     --catalog game_catalog.csv \
     --out-dir slurm_scripts \
@@ -269,6 +326,8 @@ java -cp "Ludii.jar:bin" experiments.planning.GenerateSlurmScripts \
     --ludii-jar /home/user/lib/Ludii.jar \
     --results-dir results
 ```
+
+> **Note:** This command doesn't require Ludii.jar in the classpath since it only reads CSV files and generates shell scripts.
 
 **Options:**
 | Flag | Description |
