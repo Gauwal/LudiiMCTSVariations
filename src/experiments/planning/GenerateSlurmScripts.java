@@ -60,7 +60,7 @@ public final class GenerateSlurmScripts
 				final Resources res = ResourceEstimator.estimate(t, row, parsed);
 				final Path scriptPath = parsed.outDir.resolve("test_" + safeFile(t.testId) + ".sh");
 				writeOneScript(scriptPath, t, res, parsed);
-				submit.write("sbatch \"" + scriptPath.getFileName().toString() + "\"\n");
+				submit.write("sbatch \"" + scriptPath.toAbsolutePath().toString() + "\"\n");
 			}
 		}
 
