@@ -534,11 +534,11 @@ public final class GenerateSlurmScripts
 		{
 			Path plan = Paths.get("planned_tests.csv");
 			Path catalog = Paths.get(GameCatalog.DEFAULT_CSV_NAME);
-			Path outDir = Paths.get("slurm_jobs");
+			Path outDir = Paths.get("slurm_scripts");
 
 			String moduleLoad = "Java";
-			String projectDir = "$HOME/LudiiMCTSVariations";
-			String ludiiJar = "$HOME/Ludii-1.3.14.jar";
+			String projectDir = "/home/users/g/s/gsavary/LudiiMCTSVariations";
+			String ludiiJar = "/home/users/g/s/gsavary/Ludii-1.3.14.jar";
 			String planInProjectDir = "${PROJECT_DIR}/planned_tests.csv";
 			String resultsDir = "${PROJECT_DIR}/out/planned_results";
 			String runnerClass = "experiments.planning.RunPlannedTest";

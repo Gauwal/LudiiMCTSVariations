@@ -153,7 +153,7 @@ public class MCTSVariations extends AI
             return new StrategyChoice<>(new PlayoutHS(), "PlayoutHS");
 
         if ("lgr".equals(normalized) || "last good reply".equals(normalized))
-            return new StrategyChoice<>(new PlayoutHS(), "Last Good Reply");
+            return new StrategyChoice<>(new LGR(), "LGR");
 
         // fallback
         return new StrategyChoice<>(new RandomPlayout(), "RandomPlayout");

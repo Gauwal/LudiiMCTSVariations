@@ -322,8 +322,8 @@ java -cp "bin" experiments.planning.GenerateSlurmScripts \
     --plan planned_tests.csv \
     --catalog game_catalog.csv \
     --out-dir slurm_scripts \
-    --project-dir /home/user/LudiiMCTSVariations \
-    --ludii-jar /home/user/lib/Ludii.jar \
+    --project-dir /home/users/g/s/gsavary/LudiiMCTSVariations \
+    --ludii-jar /home/users/g/s/gsavary/Ludii-1.3.14.jar \
     --results-dir results
 ```
 
