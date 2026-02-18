@@ -96,15 +96,15 @@ public final class GenerateSlurmScripts
 			if (parsed.moduleLoad != null && !parsed.moduleLoad.trim().isEmpty())
 				bw.write("module load " + parsed.moduleLoad + "\n\n");
 
-			bw.write("PROJECT_DIR=\"" + parsed.projectDir + "\"\n");
-			bw.write("LUDII_JAR=\"" + parsed.ludiiJar + "\"\n");
-			bw.write("CLASSPATH=\"${LUDII_JAR}:${PROJECT_DIR}/bin\"\n\n");
+		bw.write("SCRIPT_DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\n");
+		bw.write("PROJECT_DIR=\"" + parsed.projectDir + "\"\n");
+		bw.write("LUDII_JAR=\"" + parsed.ludiiJar + "\"\n");
+		bw.write("CLASSPATH=\"${LUDII_JAR}:${PROJECT_DIR}/bin\"\n\n");
 
-			bw.write("PLAN=\"" + parsed.planInProjectDir + "\"\n");
-			bw.write("OUT_DIR=\"" + parsed.resultsDir + "\"\n");
-			bw.write("mkdir -p \"${OUT_DIR}\"\n\n");
-
-			bw.write("echo \"Running " + safeSlurm(t.testId) + " on $(hostname) at $(date)\"\n");
+		bw.write("PLAN=\"" + parsed.planInProjectDir + "\"\n");
+		bw.write("OUT_DIR=\"${SCRIPT_DIR}/results\"\n");
+		bw.write("mkdir -p \"${OUT_DIR}\"\n\n");
+			bw.write("echo \"Running " + t.testId + " on $(hostname) at $(date)\"\n");
 			bw.write("echo \"Game: " + escapeForEcho(t.gameName) + "\"\n");
 			bw.write("echo \"Variant: " + escapeForEcho(t.variantSelection) + " | " + escapeForEcho(t.variantSimulation) + " | " + escapeForEcho(t.variantBackprop) + " | " + escapeForEcho(t.variantFinalMove) + "\"\n");
 			bw.write("echo \"Meta: moveTime=" + t.moveTimeSeconds + ", gamesPerMatchup=" + t.gamesPerMatchup + ", maxMoves=" + t.maxMoves + "\"\n");
