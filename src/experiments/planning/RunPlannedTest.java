@@ -42,7 +42,7 @@ public final class RunPlannedTest
 		if (test == null)
 			throw new IllegalArgumentException("TestId not found in plan: " + parsed.testId);
 
-		final Game game = GameLoader.loadGameFromName(test.gameName);
+		final Game game = GameLoader.loadGameFromName(test.gameName + ".lud");
 		if (game == null)
 			throw new IllegalStateException("Unable to load game: " + test.gameName);
 
