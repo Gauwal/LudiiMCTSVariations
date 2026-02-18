@@ -85,8 +85,8 @@ public final class GenerateSlurmScripts
 			bw.write("#!/bin/bash\n");
 			bw.write("#\n");
 			bw.write("#SBATCH --job-name=" + parsed.jobPrefix + safeSlurm(t.testId) + "\n");
-			bw.write("#SBATCH --output=" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.out\n");
-			bw.write("#SBATCH --error=" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.err\n");
+			bw.write("#SBATCH --output=" + parsed.resultsDir + "/" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.out\n");
+			bw.write("#SBATCH --error=" + parsed.resultsDir + "/" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.err\n");
 			bw.write("#\n");
 			bw.write("#SBATCH --ntasks=1\n");
 			bw.write("#SBATCH --cpus-per-task=" + res.cpus + "\n");
@@ -102,7 +102,7 @@ public final class GenerateSlurmScripts
 		bw.write("CLASSPATH=\"${LUDII_JAR}:${PROJECT_DIR}/bin\"\n\n");
 
 		bw.write("PLAN=\"" + parsed.planInProjectDir + "\"\n");
-		bw.write("OUT_DIR=\"${SCRIPT_DIR}/results\"\n");
+		bw.write("OUT_DIR=\"" + parsed.resultsDir + "\"\n");
 		bw.write("mkdir -p \"${OUT_DIR}\"\n\n");
 			bw.write("echo \"Running " + t.testId + " on $(hostname) at $(date)\"\n");
 			bw.write("echo \"Game: " + escapeForEcho(t.gameName) + "\"\n");
@@ -202,9 +202,12 @@ public final class GenerateSlurmScripts
 
 		private static String estimateTime(final PlannedTest t, final GameCatalog.Row g, final Args parsed)
 		{
-			// Time is dominated by the move-time budget; we use maxMoves as a safe upper bound.
-			// We add a deterministic overhead term that depends on game properties and whether heuristics are required.
-			final double searchSeconds = (double) t.gamesPerMatchup * (double) t.maxMoves * t.moveTimeSeconds;
+			// WORST-CASE time estimation:
+			// - Each move can take up to moveTimeSeconds (the MCTS thinking budget)
+			// - Both players make moves, so total moves per game = maxMoves * 2
+			// - We assume all games go to maxMoves (worst case, no early termination)
+			final double movesPerGame = t.maxMoves * 2.0; // both players
+			final double searchSeconds = (double) t.gamesPerMatchup * movesPerGame * t.moveTimeSeconds;
 
 			double overheadSeconds = parsed.baseOverheadSeconds;
 			overheadSeconds += parsed.overheadSecondsPerPlayableSite * Math.max(0, g.numPlayableSites);
