@@ -145,10 +145,24 @@ public final class RunPlannedTest
 			agents[p].initAI(game, p);
 
 		Throwable failure = null;
+		int decisionCount = 0;
+
+		// Safety: maximum time for entire game (2x expected worst case)
+		final long maxGameTimeMs = (long) (maxMoves * moveTimeSeconds * 1000 * 2) + 60000L;
+		final long gameStartTime = System.currentTimeMillis();
+
 		while (!context.trial().over() && failure == null)
 		{
-			if (maxMoves > 0 && context.trial().numMoves() >= maxMoves)
+			// Primary limit: number of AI decisions
+			if (maxMoves > 0 && decisionCount >= maxMoves)
 				break;
+
+			// Safety limit: total elapsed time
+			if (System.currentTimeMillis() - gameStartTime > maxGameTimeMs)
+			{
+				System.err.println("Game exceeded time limit after " + decisionCount + " decisions");
+				break;
+			}
 
 			final int mover = context.state().mover();
 			final AI agent = agents[mover];
@@ -163,7 +177,14 @@ public final class RunPlannedTest
 				break;
 			}
 
+			if (move == null)
+			{
+				System.err.println("AI returned null move at decision " + decisionCount);
+				break;
+			}
+
 			game.apply(context, move);
+			decisionCount++;
 		}
 
 		for (int p = 1; p <= 2; ++p)
@@ -181,7 +202,7 @@ public final class RunPlannedTest
 		if (failure != null)
 			return GameOutcome.failure(failure);
 
-		return GameOutcome.success(RankUtils.agentUtilities(context), context.trial().numMoves());
+		return GameOutcome.success(RankUtils.agentUtilities(context), decisionCount);
 	}
 
 	private static void writeSingleResult(final Path out, final PlannedTest test, final MatchStats stats) throws IOException

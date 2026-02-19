@@ -42,6 +42,10 @@ public final class GenerateSlurmScripts
 		final List<PlannedTest> tests = PlannedTest.loadAll(parsed.planPath);
 		Files.createDirectories(parsed.outDir);
 
+		// Create the SLURM logs directory inside outDir (for .out/.err files)
+		final Path slurmLogsPath = parsed.outDir.resolve(parsed.slurmLogsDir).toAbsolutePath();
+		Files.createDirectories(slurmLogsPath);
+
 		final String submitAll = "submit_all.sh";
 		final Path submitAllPath = parsed.outDir.resolve(submitAll);
 		try (BufferedWriter submit = Files.newBufferedWriter(submitAllPath, StandardCharsets.UTF_8))
@@ -59,7 +63,7 @@ public final class GenerateSlurmScripts
 
 				final Resources res = ResourceEstimator.estimate(t, row, parsed);
 				final Path scriptPath = parsed.outDir.resolve("test_" + safeFile(t.testId) + ".sh");
-				writeOneScript(scriptPath, t, res, parsed);
+				writeOneScript(scriptPath, t, res, parsed, slurmLogsPath);
 				submit.write("sbatch \"" + scriptPath.toAbsolutePath().toString() + "\"\n");
 			}
 		}
@@ -78,15 +82,15 @@ public final class GenerateSlurmScripts
 		System.out.println("Submit-all helper: " + submitAllPath.toAbsolutePath());
 	}
 
-	private static void writeOneScript(final Path out, final PlannedTest t, final Resources res, final Args parsed) throws IOException
+	private static void writeOneScript(final Path out, final PlannedTest t, final Resources res, final Args parsed, final Path slurmLogsPath) throws IOException
 	{
 		try (BufferedWriter bw = Files.newBufferedWriter(out, StandardCharsets.UTF_8))
 		{
 			bw.write("#!/bin/bash\n");
 			bw.write("#\n");
 			bw.write("#SBATCH --job-name=" + parsed.jobPrefix + safeSlurm(t.testId) + "\n");
-			bw.write("#SBATCH --output=" + parsed.resultsDir + "/" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.out\n");
-			bw.write("#SBATCH --error=" + parsed.resultsDir + "/" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.err\n");
+			bw.write("#SBATCH --output=" + slurmLogsPath + "/" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.out\n");
+			bw.write("#SBATCH --error=" + slurmLogsPath + "/" + parsed.logPrefix + safeSlurm(t.testId) + "_%j.err\n");
 			bw.write("#\n");
 			bw.write("#SBATCH --ntasks=1\n");
 			bw.write("#SBATCH --cpus-per-task=" + res.cpus + "\n");
@@ -96,14 +100,14 @@ public final class GenerateSlurmScripts
 			if (parsed.moduleLoad != null && !parsed.moduleLoad.trim().isEmpty())
 				bw.write("module load " + parsed.moduleLoad + "\n\n");
 
-		bw.write("SCRIPT_DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\n");
-		bw.write("PROJECT_DIR=\"" + parsed.projectDir + "\"\n");
-		bw.write("LUDII_JAR=\"" + parsed.ludiiJar + "\"\n");
-		bw.write("CLASSPATH=\"${LUDII_JAR}:${PROJECT_DIR}/bin\"\n\n");
+			bw.write("SCRIPT_DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\n");
+			bw.write("PROJECT_DIR=\"" + parsed.projectDir + "\"\n");
+			bw.write("LUDII_JAR=\"" + parsed.ludiiJar + "\"\n");
+			bw.write("CLASSPATH=\"${LUDII_JAR}:${PROJECT_DIR}/bin\"\n\n");
 
-		bw.write("PLAN=\"" + parsed.planInProjectDir + "\"\n");
-		bw.write("OUT_DIR=\"" + parsed.resultsDir + "\"\n");
-		bw.write("mkdir -p \"${OUT_DIR}\"\n\n");
+			bw.write("PLAN=\"" + parsed.planInProjectDir + "\"\n");
+			bw.write("OUT_DIR=\"" + parsed.resultsDir + "\"\n");
+			bw.write("mkdir -p \"${OUT_DIR}\"\n\n");
 			bw.write("echo \"Running " + t.testId + " on $(hostname) at $(date)\"\n");
 			bw.write("echo \"Game: " + escapeForEcho(t.gameName) + "\"\n");
 			bw.write("echo \"Variant: " + escapeForEcho(t.variantSelection) + " | " + escapeForEcho(t.variantSimulation) + " | " + escapeForEcho(t.variantBackprop) + " | " + escapeForEcho(t.variantFinalMove) + "\"\n");
@@ -443,6 +447,7 @@ public final class GenerateSlurmScripts
 		final String ludiiJar;
 		final String planInProjectDir;
 		final String resultsDir;
+		final String slurmLogsDir;
 		final String runnerClass;
 
 		final String jobPrefix;
@@ -472,6 +477,7 @@ public final class GenerateSlurmScripts
 				final String ludiiJar,
 				final String planInProjectDir,
 				final String resultsDir,
+				final String slurmLogsDir,
 				final String runnerClass,
 				final String jobPrefix,
 				final String logPrefix,
@@ -497,6 +503,7 @@ public final class GenerateSlurmScripts
 			this.ludiiJar = ludiiJar;
 			this.planInProjectDir = planInProjectDir;
 			this.resultsDir = resultsDir;
+			this.slurmLogsDir = slurmLogsDir;
 			this.runnerClass = runnerClass;
 			this.jobPrefix = jobPrefix;
 			this.logPrefix = logPrefix;
@@ -544,6 +551,7 @@ public final class GenerateSlurmScripts
 			String ludiiJar = "$HOME/Ludii-1.3.14.jar";
 			String planInProjectDir = "${PROJECT_DIR}/planned_tests.csv";
 			String resultsDir = "${PROJECT_DIR}/out/planned_results";
+			String slurmLogsDir = "results";
 			String runnerClass = "experiments.planning.RunPlannedTest";
 
 			String jobPrefix = "mcts_";
@@ -583,6 +591,8 @@ public final class GenerateSlurmScripts
 					planInProjectDir = args[++i];
 				else if ("--results-dir".equalsIgnoreCase(a) && i + 1 < args.length)
 					resultsDir = args[++i];
+				else if ("--slurm-logs-dir".equalsIgnoreCase(a) && i + 1 < args.length)
+					slurmLogsDir = args[++i];
 				else if ("--runner".equalsIgnoreCase(a) && i + 1 < args.length)
 					runnerClass = args[++i];
 				else if ("--job-prefix".equalsIgnoreCase(a) && i + 1 < args.length)
@@ -606,6 +616,7 @@ public final class GenerateSlurmScripts
 					ludiiJar,
 					planInProjectDir,
 					resultsDir,
+					slurmLogsDir,
 					runnerClass,
 					jobPrefix,
 					logPrefix,
