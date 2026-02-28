@@ -1,0 +1,7 @@
+Running T534 on lm4-w027 at Thu Feb 19 12:52:35 CET 2026
+Game: Overflow
+Variant: UCB1 | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:48
+Completed T534 (Overflow) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=52.1
+Job completed at Thu Feb 19 12:53:32 CET 2026

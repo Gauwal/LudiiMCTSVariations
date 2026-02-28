@@ -1,0 +1,7 @@
+Running T1601 on lm4-w002 at Thu Feb 19 14:09:20 CET 2026
+Game: Teeko
+Variant: Progressive History | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:51
+Completed T1601 (Teeko) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=8.9
+Job completed at Thu Feb 19 14:09:39 CET 2026

@@ -1,0 +1,7 @@
+Running T642 on lm4-w035 at Thu Feb 19 13:23:08 CET 2026
+Game: Bay Khom
+Variant: AG0 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T642 (Bay Khom) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=100.1
+Job completed at Thu Feb 19 13:23:53 CET 2026

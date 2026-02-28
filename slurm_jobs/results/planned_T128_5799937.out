@@ -1,0 +1,7 @@
+Running T128 on lm4-w026 at Thu Feb 19 13:02:35 CET 2026
+Game: Neg Tugal Tuux
+Variant: Progressive Widening | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T128 (Neg Tugal Tuux) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=24.4
+Job completed at Thu Feb 19 13:03:23 CET 2026

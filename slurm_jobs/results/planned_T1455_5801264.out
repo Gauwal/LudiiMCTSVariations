@@ -1,0 +1,7 @@
+Running T1455 on lm4-w027 at Thu Feb 19 14:02:49 CET 2026
+Game: Marelle Triple
+Variant: UCB1 tuned | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T1455 (Marelle Triple) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=86.1
+Job completed at Thu Feb 19 14:05:44 CET 2026

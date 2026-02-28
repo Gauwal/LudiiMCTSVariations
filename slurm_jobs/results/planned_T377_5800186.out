@@ -1,0 +1,7 @@
+Running T377 on lm4-w002 at Thu Feb 19 13:12:06 CET 2026
+Game: Meridians
+Variant: Progressive Bias | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T377 (Meridians) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=105.7
+Job completed at Thu Feb 19 13:13:55 CET 2026

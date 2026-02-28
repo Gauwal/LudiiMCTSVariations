@@ -1,0 +1,7 @@
+Running T815 on lm4-w002 at Thu Feb 19 13:30:41 CET 2026
+Game: Pippinzip (Zipline variant)
+Variant: UCB1 | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T815 (Pippinzip (Zipline variant)) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=110.5
+Job completed at Thu Feb 19 13:34:25 CET 2026

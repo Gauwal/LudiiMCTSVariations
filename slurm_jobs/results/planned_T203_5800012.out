@@ -1,0 +1,7 @@
+Running T203 on lm4-w016 at Thu Feb 19 13:05:05 CET 2026
+Game: Shatranj ar-Rumiya
+Variant: Progressive Bias | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:29
+Completed T203 (Shatranj ar-Rumiya) -> completed=10/10, wins=0, losses=2, draws=8, failures=0, avgMoves=823.5
+Job completed at Thu Feb 19 13:19:31 CET 2026

@@ -1,0 +1,7 @@
+Running T1730 on lm4-w027 at Thu Feb 19 14:15:21 CET 2026
+Game: Double Chess
+Variant: McGRAVE | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:16:08
+Completed T1730 (Double Chess) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=270.3
+Job completed at Thu Feb 19 15:32:11 CET 2026

@@ -1,0 +1,7 @@
+Running T1834 on lm4-w008 at Thu Feb 19 14:20:21 CET 2026
+Game: Shah
+Variant: UCB1 GRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T1834 (Shah) -> completed=10/10, wins=1, losses=1, draws=8, failures=0, avgMoves=989.0
+Job completed at Thu Feb 19 14:53:15 CET 2026

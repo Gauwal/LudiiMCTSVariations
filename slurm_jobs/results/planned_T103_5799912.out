@@ -1,0 +1,7 @@
+Running T103 on lm4-w022 at Thu Feb 19 13:01:35 CET 2026
+Game: Chu Seireigi
+Variant: Alpha-Beta | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=10G, time=01:17:38
+Completed T103 (Chu Seireigi) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=333.4
+Job completed at Thu Feb 19 14:18:28 CET 2026

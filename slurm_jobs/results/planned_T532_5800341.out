@@ -1,0 +1,5 @@
+Running T532 on lm4-w027 at Thu Feb 19 13:18:07 CET 2026
+Game: Kriegspiel (Chess)
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:07

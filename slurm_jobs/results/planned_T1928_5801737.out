@@ -1,0 +1,7 @@
+Running T1928 on lm4-w034 at Thu Feb 19 14:24:51 CET 2026
+Game: Nine Men's Morris
+Variant: UCB1 GRAVE | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T1928 (Nine Men's Morris) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=186.3
+Job completed at Thu Feb 19 14:31:06 CET 2026

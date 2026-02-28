@@ -1,0 +1,7 @@
+Running T171 on lm4-w002 at Thu Feb 19 13:04:05 CET 2026
+Game: Momentum
+Variant: Noisy AG0 | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:53
+Completed T171 (Momentum) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=16.2
+Job completed at Thu Feb 19 13:04:25 CET 2026

@@ -1,0 +1,7 @@
+Running T1927 on lm4-w035 at Thu Feb 19 14:24:51 CET 2026
+Game: Sahmatloudi
+Variant: Alpha-Beta | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:13
+Completed T1927 (Sahmatloudi) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=52.1
+Job completed at Thu Feb 19 14:26:38 CET 2026

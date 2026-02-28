@@ -1,0 +1,7 @@
+Running T1485 on lm4-w025 at Thu Feb 19 14:04:19 CET 2026
+Game: Viking Chess
+Variant: ExIt | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:11
+Completed T1485 (Viking Chess) -> completed=10/10, wins=0, losses=7, draws=3, failures=0, avgMoves=297.2
+Job completed at Thu Feb 19 14:09:25 CET 2026

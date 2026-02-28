@@ -1,0 +1,7 @@
+Running T78 on lm4-w022 at Thu Feb 19 13:00:35 CET 2026
+Game: Mutant Y^3
+Variant: UCB1 tuned | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T78 (Mutant Y^3) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=21.8
+Job completed at Thu Feb 19 13:01:22 CET 2026

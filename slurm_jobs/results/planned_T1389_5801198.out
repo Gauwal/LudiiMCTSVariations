@@ -1,0 +1,7 @@
+Running T1389 on lm4-w027 at Thu Feb 19 13:59:49 CET 2026
+Game: Puhulmutu
+Variant: Alpha-Beta | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T1389 (Puhulmutu) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=176.6
+Job completed at Thu Feb 19 14:02:11 CET 2026

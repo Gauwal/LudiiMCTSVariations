@@ -1,0 +1,7 @@
+Running T1417 on lm4-w026 at Thu Feb 19 12:56:35 CET 2026
+Game: Go
+Variant: UCB1 | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:16:01
+Completed T1417 (Go) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=541.6
+Job completed at Thu Feb 19 13:14:55 CET 2026

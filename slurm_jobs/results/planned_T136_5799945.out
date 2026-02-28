@@ -1,0 +1,7 @@
+Running T136 on lm4-w034 at Thu Feb 19 13:02:35 CET 2026
+Game: Triple Tangle
+Variant: McGRAVE | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:17
+Completed T136 (Triple Tangle) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=263.0
+Job completed at Thu Feb 19 13:11:31 CET 2026

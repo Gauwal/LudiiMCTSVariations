@@ -1,0 +1,7 @@
+Running T1468 on lm4-w039 at Thu Feb 19 14:03:20 CET 2026
+Game: Dra
+Variant: Alpha-Beta | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:49
+Completed T1468 (Dra) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=120.5
+Job completed at Thu Feb 19 14:07:23 CET 2026

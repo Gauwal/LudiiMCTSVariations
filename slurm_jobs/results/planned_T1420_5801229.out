@@ -1,0 +1,7 @@
+Running T1420 on lm4-w003 at Thu Feb 19 14:01:19 CET 2026
+Game: Spought
+Variant: McBRAVE | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T1420 (Spought) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=10.7
+Job completed at Thu Feb 19 14:01:43 CET 2026

@@ -1,0 +1,7 @@
+Running T1603 on lm4-w002 at Thu Feb 19 14:09:19 CET 2026
+Game: Totolospi (War)
+Variant: McBRAVE | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:20
+Completed T1603 (Totolospi (War)) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:44:11 CET 2026

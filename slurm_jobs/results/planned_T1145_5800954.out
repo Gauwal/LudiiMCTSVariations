@@ -1,0 +1,7 @@
+Running T1145 on lm4-w008 at Thu Feb 19 13:45:43 CET 2026
+Game: Rabbit Warrens
+Variant: Implicit Minimax | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:28
+Completed T1145 (Rabbit Warrens) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=135.9
+Job completed at Thu Feb 19 13:53:21 CET 2026

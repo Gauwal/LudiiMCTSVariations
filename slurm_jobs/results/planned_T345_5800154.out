@@ -1,0 +1,7 @@
+Running T345 on lm4-w002 at Thu Feb 19 12:50:35 CET 2026
+Game: Trax
+Variant: McGRAVE | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=01:21:03
+Completed T345 (Trax) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=13.9
+Job completed at Thu Feb 19 12:52:58 CET 2026

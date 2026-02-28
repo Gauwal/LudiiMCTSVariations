@@ -1,0 +1,7 @@
+Running T925 on lm4-w022 at Thu Feb 19 13:35:42 CET 2026
+Game: Xiang Hex
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:15
+Completed T925 (Xiang Hex) -> completed=10/10, wins=3, losses=2, draws=5, failures=0, avgMoves=630.9
+Job completed at Thu Feb 19 14:03:56 CET 2026

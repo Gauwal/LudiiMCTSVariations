@@ -1,0 +1,7 @@
+Running T525 on lm4-w021 at Thu Feb 19 13:18:07 CET 2026
+Game: L'attaque
+Variant: Noisy AG0 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:54
+Completed T525 (L'attaque) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=525.9
+Job completed at Thu Feb 19 13:27:06 CET 2026

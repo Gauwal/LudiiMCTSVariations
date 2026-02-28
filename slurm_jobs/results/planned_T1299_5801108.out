@@ -1,0 +1,7 @@
+Running T1299 on lm4-w022 at Thu Feb 19 13:53:46 CET 2026
+Game: Abrobad
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T1299 (Abrobad) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=14.2
+Job completed at Thu Feb 19 13:54:13 CET 2026

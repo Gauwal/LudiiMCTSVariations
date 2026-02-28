@@ -1,0 +1,7 @@
+Running T1344 on lm4-w022 at Thu Feb 19 13:57:17 CET 2026
+Game: Nzengue (Small)
+Variant: Progressive Bias | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1344 (Nzengue (Small)) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=5.7
+Job completed at Thu Feb 19 13:57:26 CET 2026

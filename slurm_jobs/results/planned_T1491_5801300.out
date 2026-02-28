@@ -1,0 +1,7 @@
+Running T1491 on lm4-w008 at Thu Feb 19 14:04:19 CET 2026
+Game: Meurimueng-rimueng Peuet Ploh
+Variant: McGRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T1491 (Meurimueng-rimueng Peuet Ploh) -> completed=10/10, wins=3, losses=6, draws=1, failures=0, avgMoves=833.6
+Job completed at Thu Feb 19 14:32:29 CET 2026

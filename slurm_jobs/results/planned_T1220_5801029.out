@@ -1,0 +1,7 @@
+Running T1220 on lm4-w027 at Thu Feb 19 13:49:46 CET 2026
+Game: Njombwa
+Variant: McBRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1220 (Njombwa) -> completed=10/10, wins=0, losses=8, draws=2, failures=0, avgMoves=564.1
+Job completed at Thu Feb 19 13:57:49 CET 2026

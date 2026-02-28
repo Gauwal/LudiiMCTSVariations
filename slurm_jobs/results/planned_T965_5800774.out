@@ -1,0 +1,7 @@
+Running T965 on lm4-w002 at Thu Feb 19 13:37:42 CET 2026
+Game: Pretwa
+Variant: UCB1 tuned | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T965 (Pretwa) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=47.6
+Job completed at Thu Feb 19 13:39:19 CET 2026

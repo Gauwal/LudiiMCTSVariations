@@ -1,0 +1,7 @@
+Running T1421 on lm4-w021 at Thu Feb 19 14:01:19 CET 2026
+Game: Gala (Buginese)
+Variant: Noisy AG0 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T1421 (Gala (Buginese)) -> completed=10/10, wins=0, losses=3, draws=7, failures=0, avgMoves=960.6
+Job completed at Thu Feb 19 14:17:27 CET 2026

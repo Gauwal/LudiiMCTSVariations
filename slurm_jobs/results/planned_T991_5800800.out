@@ -1,0 +1,7 @@
+Running T991 on lm4-w039 at Thu Feb 19 13:38:42 CET 2026
+Game: Skirt
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T991 (Skirt) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=164.9
+Job completed at Thu Feb 19 14:25:56 CET 2026

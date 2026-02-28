@@ -1,0 +1,7 @@
+Running T709 on lm4-w016 at Thu Feb 19 13:26:10 CET 2026
+Game: 3D Tic-Tac-Toe
+Variant: Implicit Minimax | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:51
+Completed T709 (3D Tic-Tac-Toe) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=7.8
+Job completed at Thu Feb 19 13:26:27 CET 2026

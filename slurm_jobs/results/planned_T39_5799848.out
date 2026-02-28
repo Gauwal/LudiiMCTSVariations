@@ -1,0 +1,7 @@
+Running T39 on lm4-w016 at Thu Feb 19 12:59:35 CET 2026
+Game: Geister
+Variant: Implicit Minimax | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T39 (Geister) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=86.0
+Job completed at Thu Feb 19 13:01:02 CET 2026

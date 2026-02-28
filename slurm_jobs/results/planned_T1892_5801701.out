@@ -1,0 +1,7 @@
+Running T1892 on lm4-w038 at Thu Feb 19 14:22:51 CET 2026
+Game: Hat Diviyan Keliya
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:34
+Completed T1892 (Hat Diviyan Keliya) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=16.2
+Job completed at Thu Feb 19 14:23:21 CET 2026

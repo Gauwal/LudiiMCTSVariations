@@ -1,0 +1,7 @@
+Running T1432 on lm4-w027 at Thu Feb 19 14:01:49 CET 2026
+Game: Chess (Siberia)
+Variant: Alpha-Beta | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:11
+Completed T1432 (Chess (Siberia)) -> completed=10/10, wins=0, losses=2, draws=8, failures=0, avgMoves=855.3
+Job completed at Thu Feb 19 14:18:26 CET 2026

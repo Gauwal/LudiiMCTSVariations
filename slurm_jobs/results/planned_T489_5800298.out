@@ -1,0 +1,7 @@
+Running T489 on lm4-w022 at Thu Feb 19 13:16:07 CET 2026
+Game: Adi
+Variant: UCB1 tuned | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T489 (Adi) -> completed=10/10, wins=2, losses=0, draws=8, failures=0, avgMoves=834.1
+Job completed at Thu Feb 19 13:27:34 CET 2026

@@ -1,0 +1,7 @@
+Running T660 on lm4-w016 at Thu Feb 19 12:53:05 CET 2026
+Game: Chaturanga (14x14)
+Variant: ExIt | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=8G, time=01:16:03
+Completed T660 (Chaturanga (14x14)) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:12:49 CET 2026

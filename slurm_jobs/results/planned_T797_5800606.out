@@ -1,0 +1,7 @@
+Running T797 on lm4-w027 at Thu Feb 19 13:30:11 CET 2026
+Game: Winkers
+Variant: Progressive History | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:49
+Completed T797 (Winkers) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=28.0
+Job completed at Thu Feb 19 13:31:08 CET 2026

@@ -1,0 +1,7 @@
+Running T817 on lm4-w002 at Thu Feb 19 13:30:41 CET 2026
+Game: Xonin Shatar (Complex)
+Variant: UCB1 GRAVE | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T817 (Xonin Shatar (Complex)) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=210.0
+Job completed at Thu Feb 19 13:37:36 CET 2026

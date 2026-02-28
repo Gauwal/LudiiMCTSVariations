@@ -1,0 +1,7 @@
+Running T1778 on lm4-w026 at Thu Feb 19 14:17:21 CET 2026
+Game: McCooey Chess
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:13
+Completed T1778 (McCooey Chess) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=333.9
+Job completed at Thu Feb 19 14:28:45 CET 2026

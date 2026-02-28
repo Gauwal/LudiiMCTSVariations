@@ -1,0 +1,7 @@
+Running T146 on lm4-w002 at Thu Feb 19 12:48:04 CET 2026
+Game: Bravalath
+Variant: UCB1 GRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=01:19:30
+Completed T146 (Bravalath) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=30.7
+Job completed at Thu Feb 19 12:49:13 CET 2026

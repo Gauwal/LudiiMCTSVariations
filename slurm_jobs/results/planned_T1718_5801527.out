@@ -1,0 +1,7 @@
+Running T1718 on lm4-w002 at Thu Feb 19 14:14:51 CET 2026
+Game: Shi Liu Kan Tsiang Kun
+Variant: UCB1 GRAVE | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:11
+Completed T1718 (Shi Liu Kan Tsiang Kun) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=51.5
+Job completed at Thu Feb 19 14:16:37 CET 2026

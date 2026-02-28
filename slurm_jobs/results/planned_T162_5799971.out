@@ -1,0 +1,7 @@
+Running T162 on lm4-w016 at Thu Feb 19 13:03:35 CET 2026
+Game: Pentago
+Variant: McGRAVE | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:01
+Completed T162 (Pentago) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=29.1
+Job completed at Thu Feb 19 13:04:07 CET 2026

@@ -1,0 +1,7 @@
+Running T458 on lm4-w002 at Thu Feb 19 13:15:07 CET 2026
+Game: Wong
+Variant: Progressive Widening | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:22
+Completed T458 (Wong) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=69.1
+Job completed at Thu Feb 19 13:17:23 CET 2026

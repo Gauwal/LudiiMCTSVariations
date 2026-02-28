@@ -1,0 +1,7 @@
+Running T316 on lm4-w022 at Thu Feb 19 13:09:36 CET 2026
+Game: English Wari (St. Lucia)
+Variant: Progressive Widening | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T316 (English Wari (St. Lucia)) -> completed=10/10, wins=3, losses=5, draws=2, failures=0, avgMoves=276.5
+Job completed at Thu Feb 19 13:13:58 CET 2026

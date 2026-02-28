@@ -1,0 +1,7 @@
+Running T823 on lm4-w031 at Thu Feb 19 13:31:12 CET 2026
+Game: Qirq
+Variant: Progressive Bias | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:34
+Completed T823 (Qirq) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=7.9
+Job completed at Thu Feb 19 13:31:22 CET 2026

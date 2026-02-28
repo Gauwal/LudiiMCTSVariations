@@ -1,0 +1,7 @@
+Running T1028 on lm4-w008 at Thu Feb 19 13:40:12 CET 2026
+Game: Musinaykahwhanmetowaywin
+Variant: ExIt | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T1028 (Musinaykahwhanmetowaywin) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=314.8
+Job completed at Thu Feb 19 13:45:30 CET 2026

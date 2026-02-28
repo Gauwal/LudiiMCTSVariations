@@ -1,0 +1,7 @@
+Running T1013 on lm4-w022 at Thu Feb 19 12:55:05 CET 2026
+Game: Score Four
+Variant: McGRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:07
+Completed T1013 (Score Four) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=9.5
+Job completed at Thu Feb 19 12:55:26 CET 2026

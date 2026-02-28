@@ -1,0 +1,7 @@
+Running T689 on lm4-w008 at Thu Feb 19 13:25:10 CET 2026
+Game: Camelot
+Variant: UCB1 | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:21
+Completed T689 (Camelot) -> completed=10/10, wins=1, losses=1, draws=8, failures=0, avgMoves=915.9
+Job completed at Thu Feb 19 13:52:31 CET 2026

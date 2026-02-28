@@ -1,0 +1,7 @@
+Running T32 on lm4-w002 at Thu Feb 19 12:59:35 CET 2026
+Game: Mutant Y^3
+Variant: Noisy AG0 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:08
+Completed T32 (Mutant Y^3) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=22.5
+Job completed at Thu Feb 19 13:00:01 CET 2026

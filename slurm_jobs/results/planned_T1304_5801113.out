@@ -1,0 +1,7 @@
+Running T1304 on lm4-w008 at Thu Feb 19 13:54:17 CET 2026
+Game: Felli
+Variant: ExIt | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T1304 (Felli) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=23.5
+Job completed at Thu Feb 19 13:54:42 CET 2026

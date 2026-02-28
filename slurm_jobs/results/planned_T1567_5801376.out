@@ -1,0 +1,7 @@
+Running T1567 on lm4-w021 at Thu Feb 19 14:07:50 CET 2026
+Game: Komikan
+Variant: Alpha-Beta | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T1567 (Komikan) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=91.7
+Job completed at Thu Feb 19 14:10:51 CET 2026

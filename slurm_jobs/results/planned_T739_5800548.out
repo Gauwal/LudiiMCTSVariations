@@ -1,0 +1,7 @@
+Running T739 on lm4-w039 at Thu Feb 19 13:27:40 CET 2026
+Game: Merimueng-rimueng-do
+Variant: Implicit Minimax | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T739 (Merimueng-rimueng-do) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=257.6
+Job completed at Thu Feb 19 13:36:13 CET 2026

@@ -1,0 +1,7 @@
+Running T1664 on lm4-w002 at Thu Feb 19 14:12:20 CET 2026
+Game: Pippinzip
+Variant: UCB1 GRAVE | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:30
+Completed T1664 (Pippinzip) -> completed=10/10, wins=10, losses=0, draws=0, failures=0, avgMoves=76.7
+Job completed at Thu Feb 19 14:14:55 CET 2026

@@ -1,0 +1,7 @@
+Running T652 on lm4-w039 at Thu Feb 19 13:23:39 CET 2026
+Game: Tsoro Yemutatu (Triangle)
+Variant: Alpha-Beta | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T652 (Tsoro Yemutatu (Triangle)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=47.1
+Job completed at Thu Feb 19 13:25:16 CET 2026

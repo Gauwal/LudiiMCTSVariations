@@ -1,0 +1,7 @@
+Running T470 on lm4-w002 at Thu Feb 19 13:15:37 CET 2026
+Game: Janggi
+Variant: Progressive History | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:39
+Completed T470 (Janggi) -> completed=10/10, wins=2, losses=4, draws=4, failures=0, avgMoves=128.8
+Job completed at Thu Feb 19 13:20:03 CET 2026

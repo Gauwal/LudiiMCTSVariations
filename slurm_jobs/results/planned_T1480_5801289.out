@@ -1,0 +1,7 @@
+Running T1480 on lm4-w002 at Thu Feb 19 14:03:49 CET 2026
+Game: Madelinette
+Variant: Implicit Minimax | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T1480 (Madelinette) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=15.5
+Job completed at Thu Feb 19 14:04:02 CET 2026

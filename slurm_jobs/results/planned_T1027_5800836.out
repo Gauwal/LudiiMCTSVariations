@@ -1,0 +1,7 @@
+Running T1027 on lm4-w026 at Thu Feb 19 12:55:05 CET 2026
+Game: Rithmomachia
+Variant: McGRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:19
+Completed T1027 (Rithmomachia) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=567.8
+Job completed at Thu Feb 19 14:10:20 CET 2026

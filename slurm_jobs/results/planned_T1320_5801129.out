@@ -1,0 +1,7 @@
+Running T1320 on lm4-w008 at Thu Feb 19 13:55:47 CET 2026
+Game: Chucka
+Variant: UCB1 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T1320 (Chucka) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=94.2
+Job completed at Thu Feb 19 13:58:58 CET 2026

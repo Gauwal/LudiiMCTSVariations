@@ -1,0 +1,7 @@
+Running T1506 on lm4-w031 at Thu Feb 19 14:05:19 CET 2026
+Game: Cumi
+Variant: AG0 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:49
+Completed T1506 (Cumi) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=336.4
+Job completed at Thu Feb 19 14:10:57 CET 2026

@@ -1,0 +1,7 @@
+Running T196 on lm4-w003 at Thu Feb 19 12:49:04 CET 2026
+Game: Selayar Game
+Variant: UCB1 GRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:50
+Completed T196 (Selayar Game) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=737.4
+Job completed at Thu Feb 19 13:13:47 CET 2026

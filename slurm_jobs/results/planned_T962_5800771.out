@@ -1,0 +1,7 @@
+Running T962 on lm4-w025 at Thu Feb 19 13:37:42 CET 2026
+Game: Minishogi
+Variant: Noisy AG0 | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:40
+Completed T962 (Minishogi) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=68.1
+Job completed at Thu Feb 19 13:38:57 CET 2026

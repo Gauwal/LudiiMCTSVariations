@@ -1,0 +1,7 @@
+Running T225 on lm4-w002 at Thu Feb 19 13:06:05 CET 2026
+Game: Workers and Soldiers
+Variant: UCB1 tuned | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:08
+Completed T225 (Workers and Soldiers) -> completed=10/10, wins=3, losses=4, draws=3, failures=0, avgMoves=700.6
+Job completed at Thu Feb 19 13:30:36 CET 2026

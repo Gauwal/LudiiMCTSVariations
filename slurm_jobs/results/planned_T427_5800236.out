@@ -1,0 +1,7 @@
+Running T427 on lm4-w002 at Thu Feb 19 13:14:07 CET 2026
+Game: Spava
+Variant: Noisy AG0 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:40
+Completed T427 (Spava) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=19.2
+Job completed at Thu Feb 19 13:14:28 CET 2026

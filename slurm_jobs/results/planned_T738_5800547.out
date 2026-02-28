@@ -1,0 +1,7 @@
+Running T738 on lm4-w039 at Thu Feb 19 13:27:40 CET 2026
+Game: Xanan Zirge
+Variant: Noisy AG0 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:25
+Completed T738 (Xanan Zirge) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=218.1
+Job completed at Thu Feb 19 13:31:33 CET 2026

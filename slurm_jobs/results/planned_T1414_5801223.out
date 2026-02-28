@@ -1,0 +1,7 @@
+Running T1414 on lm4-w027 at Thu Feb 19 14:00:49 CET 2026
+Game: Queah Game
+Variant: AG0 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:34
+Completed T1414 (Queah Game) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=48.9
+Job completed at Thu Feb 19 14:01:37 CET 2026

@@ -1,0 +1,7 @@
+Running T493 on lm4-w002 at Thu Feb 19 13:16:37 CET 2026
+Game: Mysore Tiger Game (Three Tigers)
+Variant: Progressive Widening | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:01
+Completed T493 (Mysore Tiger Game (Three Tigers)) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=218.6
+Job completed at Thu Feb 19 13:23:53 CET 2026

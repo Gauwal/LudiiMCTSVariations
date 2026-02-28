@@ -1,0 +1,7 @@
+Running T1238 on lm4-w026 at Thu Feb 19 13:50:16 CET 2026
+Game: Pulijudamu
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:37
+Completed T1238 (Pulijudamu) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=220.6
+Job completed at Thu Feb 19 13:53:57 CET 2026

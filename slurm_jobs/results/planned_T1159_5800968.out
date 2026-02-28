@@ -1,0 +1,7 @@
+Running T1159 on lm4-w027 at Thu Feb 19 13:46:44 CET 2026
+Game: Bara Guti (Bihar)
+Variant: AG0 | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1159 (Bara Guti (Bihar)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=61.7
+Job completed at Thu Feb 19 13:47:48 CET 2026

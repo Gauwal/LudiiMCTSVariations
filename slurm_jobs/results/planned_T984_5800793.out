@@ -1,0 +1,7 @@
+Running T984 on lm4-w019 at Thu Feb 19 13:38:42 CET 2026
+Game: Abak
+Variant: AG0 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:09
+Completed T984 (Abak) -> completed=10/10, wins=1, losses=0, draws=9, failures=0, avgMoves=932.8
+Job completed at Thu Feb 19 14:27:59 CET 2026

@@ -1,0 +1,7 @@
+Running T645 on lm4-w039 at Thu Feb 19 13:23:08 CET 2026
+Game: Gasetavl (Gedved)
+Variant: McBRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T645 (Gasetavl (Gedved)) -> completed=10/10, wins=0, losses=2, draws=8, failures=0, avgMoves=835.4
+Job completed at Thu Feb 19 13:46:41 CET 2026

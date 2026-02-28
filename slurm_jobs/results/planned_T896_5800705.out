@@ -1,0 +1,7 @@
+Running T896 on lm4-w003 at Thu Feb 19 13:34:42 CET 2026
+Game: Hordes Realm
+Variant: Progressive Widening | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T896 (Hordes Realm) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=119.8
+Job completed at Thu Feb 19 13:37:56 CET 2026

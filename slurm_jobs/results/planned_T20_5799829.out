@@ -1,0 +1,7 @@
+Running T20 on lm4-w019 at Thu Feb 19 12:46:03 CET 2026
+Game: Netted
+Variant: AG0 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:54
+Completed T20 (Netted) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=9.6
+Job completed at Thu Feb 19 12:46:18 CET 2026

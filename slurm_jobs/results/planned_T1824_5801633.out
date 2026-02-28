@@ -1,0 +1,7 @@
+Running T1824 on lm4-w026 at Thu Feb 19 14:19:51 CET 2026
+Game: Surakarta
+Variant: UCB1 GRAVE | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T1824 (Surakarta) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=155.7
+Job completed at Thu Feb 19 14:22:30 CET 2026

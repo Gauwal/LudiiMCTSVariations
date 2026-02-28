@@ -1,0 +1,7 @@
+Running T1334 on lm4-w008 at Thu Feb 19 13:56:47 CET 2026
+Game: Agon
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:17
+Completed T1334 (Agon) -> completed=10/10, wins=3, losses=6, draws=1, failures=0, avgMoves=387.5
+Job completed at Thu Feb 19 14:10:42 CET 2026

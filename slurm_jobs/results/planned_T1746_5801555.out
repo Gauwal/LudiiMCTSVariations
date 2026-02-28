@@ -1,0 +1,7 @@
+Running T1746 on lm4-w008 at Thu Feb 19 14:15:51 CET 2026
+Game: El Cazador
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T1746 (El Cazador) -> completed=10/10, wins=2, losses=2, draws=6, failures=0, avgMoves=731.8
+Job completed at Thu Feb 19 14:35:34 CET 2026

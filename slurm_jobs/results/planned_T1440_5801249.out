@@ -1,0 +1,7 @@
+Running T1440 on lm4-w019 at Thu Feb 19 14:02:19 CET 2026
+Game: Aqrad
+Variant: UCB1 tuned | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T1440 (Aqrad) -> completed=10/10, wins=3, losses=6, draws=1, failures=0, avgMoves=390.5
+Job completed at Thu Feb 19 14:15:22 CET 2026

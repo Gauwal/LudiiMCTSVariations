@@ -1,0 +1,7 @@
+Running T422 on lm4-w022 at Thu Feb 19 13:13:36 CET 2026
+Game: Paitariya
+Variant: Implicit Minimax | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T422 (Paitariya) -> completed=10/10, wins=7, losses=2, draws=1, failures=0, avgMoves=16.0
+Job completed at Thu Feb 19 13:14:10 CET 2026

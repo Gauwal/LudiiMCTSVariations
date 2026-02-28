@@ -1,0 +1,7 @@
+Running T618 on lm4-w039 at Thu Feb 19 13:22:08 CET 2026
+Game: MiniXiangqi
+Variant: AG0 | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T618 (MiniXiangqi) -> completed=10/10, wins=1, losses=7, draws=2, failures=0, avgMoves=315.4
+Job completed at Thu Feb 19 13:27:38 CET 2026

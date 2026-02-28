@@ -1,0 +1,7 @@
+Running T900 on lm4-w002 at Thu Feb 19 13:34:42 CET 2026
+Game: Hordes Realm
+Variant: Alpha-Beta | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Completed T900 (Hordes Realm) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=52.3
+Job completed at Thu Feb 19 13:36:05 CET 2026

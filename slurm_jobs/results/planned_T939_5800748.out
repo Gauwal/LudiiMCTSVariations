@@ -1,0 +1,7 @@
+Running T939 on lm4-w039 at Thu Feb 19 13:36:42 CET 2026
+Game: Chiana wa Kunja
+Variant: Noisy AG0 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T939 (Chiana wa Kunja) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=169.0
+Job completed at Thu Feb 19 13:36:45 CET 2026

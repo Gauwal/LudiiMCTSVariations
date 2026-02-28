@@ -1,0 +1,7 @@
+Running T795 on lm4-w026 at Thu Feb 19 13:29:40 CET 2026
+Game: Haretavl
+Variant: Implicit Minimax | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T795 (Haretavl) -> completed=10/10, wins=0, losses=5, draws=5, failures=0, avgMoves=585.6
+Job completed at Thu Feb 19 13:39:20 CET 2026

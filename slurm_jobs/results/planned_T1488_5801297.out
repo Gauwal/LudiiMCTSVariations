@@ -1,0 +1,7 @@
+Running T1488 on lm4-w002 at Thu Feb 19 14:04:19 CET 2026
+Game: Enindji
+Variant: Implicit Minimax | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T1488 (Enindji) -> completed=10/10, wins=2, losses=3, draws=5, failures=0, avgMoves=466.2
+Job completed at Thu Feb 19 14:15:55 CET 2026

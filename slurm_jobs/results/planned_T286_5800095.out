@@ -1,0 +1,7 @@
+Running T286 on lm4-w037 at Thu Feb 19 13:08:35 CET 2026
+Game: Nedilmarth
+Variant: Progressive Bias | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:33
+Completed T286 (Nedilmarth) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=13.7
+Job completed at Thu Feb 19 13:08:52 CET 2026

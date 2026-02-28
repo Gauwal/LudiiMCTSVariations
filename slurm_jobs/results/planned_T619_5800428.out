@@ -1,0 +1,7 @@
+Running T619 on lm4-w022 at Thu Feb 19 12:52:35 CET 2026
+Game: Lasca
+Variant: Alpha-Beta | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:08
+Completed T619 (Lasca) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=63.6
+Job completed at Thu Feb 19 12:53:57 CET 2026

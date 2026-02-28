@@ -1,0 +1,7 @@
+Running T1221 on lm4-w039 at Thu Feb 19 13:49:46 CET 2026
+Game: Ashanti Draughts
+Variant: UCB1 tuned | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T1221 (Ashanti Draughts) -> completed=10/10, wins=5, losses=2, draws=3, failures=0, avgMoves=359.3
+Job completed at Thu Feb 19 14:01:47 CET 2026

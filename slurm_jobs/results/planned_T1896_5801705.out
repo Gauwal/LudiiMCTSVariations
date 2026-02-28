@@ -1,0 +1,7 @@
+Running T1896 on lm4-w038 at Thu Feb 19 14:22:51 CET 2026
+Game: Duidoku
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:15
+Completed T1896 (Duidoku) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=64.9
+Job completed at Thu Feb 19 14:25:05 CET 2026

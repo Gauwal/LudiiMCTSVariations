@@ -1,0 +1,7 @@
+Running T1822 on lm4-w002 at Thu Feb 19 14:19:51 CET 2026
+Game: Abak
+Variant: Progressive Bias | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:20
+Completed T1822 (Abak) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=921.7
+Job completed at Thu Feb 19 15:05:56 CET 2026

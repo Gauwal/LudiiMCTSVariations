@@ -1,0 +1,7 @@
+Running T441 on lm4-w008 at Thu Feb 19 12:51:35 CET 2026
+Game: Tai Shogi
+Variant: Implicit Minimax | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=19G, time=01:25:45
+Completed T441 (Tai Shogi) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=351.4
+Job completed at Thu Feb 19 14:08:33 CET 2026

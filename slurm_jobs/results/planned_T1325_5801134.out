@@ -1,0 +1,7 @@
+Running T1325 on lm4-w027 at Thu Feb 19 13:56:17 CET 2026
+Game: Arimaa
+Variant: Progressive Widening | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:32
+Completed T1325 (Arimaa) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=347.9
+Job completed at Thu Feb 19 14:09:02 CET 2026

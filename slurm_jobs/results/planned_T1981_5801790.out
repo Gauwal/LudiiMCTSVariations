@@ -1,0 +1,7 @@
+Running T1981 on lm4-w034 at Thu Feb 19 14:28:21 CET 2026
+Game: Liu Tsi
+Variant: Progressive Widening | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:08
+Completed T1981 (Liu Tsi) -> completed=10/10, wins=3, losses=6, draws=1, failures=0, avgMoves=115.2
+Job completed at Thu Feb 19 14:32:14 CET 2026

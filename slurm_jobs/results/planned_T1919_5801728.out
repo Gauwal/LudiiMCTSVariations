@@ -1,0 +1,7 @@
+Running T1919 on lm4-w034 at Thu Feb 19 14:24:21 CET 2026
+Game: Nao Guti
+Variant: Noisy AG0 | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T1919 (Nao Guti) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=119.9
+Job completed at Thu Feb 19 14:26:30 CET 2026

@@ -1,0 +1,7 @@
+Running T213 on lm4-w008 at Thu Feb 19 12:49:05 CET 2026
+Game: MensaSpiel
+Variant: Alpha-Beta | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:12
+Completed T213 (MensaSpiel) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=34.5
+Job completed at Thu Feb 19 12:50:19 CET 2026

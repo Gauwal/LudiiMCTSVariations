@@ -1,0 +1,7 @@
+Running T1760 on lm4-w002 at Thu Feb 19 14:16:51 CET 2026
+Game: Lamosh
+Variant: Implicit Minimax | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1760 (Lamosh) -> completed=10/10, wins=4, losses=3, draws=3, failures=0, avgMoves=649.0
+Job completed at Thu Feb 19 14:25:55 CET 2026

@@ -1,0 +1,7 @@
+Running T544 on lm4-w035 at Thu Feb 19 13:18:37 CET 2026
+Game: Dragonchess
+Variant: UCB1 tuned | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:36
+Completed T544 (Dragonchess) -> completed=10/10, wins=0, losses=7, draws=3, failures=0, avgMoves=424.2
+Job completed at Thu Feb 19 13:33:24 CET 2026

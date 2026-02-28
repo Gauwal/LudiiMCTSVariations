@@ -1,0 +1,7 @@
+Running T508 on lm4-w026 at Thu Feb 19 13:17:07 CET 2026
+Game: Hyvn aetter Hare
+Variant: Alpha-Beta | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T508 (Hyvn aetter Hare) -> completed=10/10, wins=0, losses=5, draws=5, failures=0, avgMoves=676.4
+Job completed at Thu Feb 19 13:39:58 CET 2026

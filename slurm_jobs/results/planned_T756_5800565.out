@@ -1,0 +1,7 @@
+Running T756 on lm4-w016 at Thu Feb 19 13:28:10 CET 2026
+Game: Davxar Zirge (Type 2)
+Variant: Implicit Minimax | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T756 (Davxar Zirge (Type 2)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=193.8
+Job completed at Thu Feb 19 13:34:40 CET 2026

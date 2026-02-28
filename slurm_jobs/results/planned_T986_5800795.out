@@ -1,0 +1,7 @@
+Running T986 on lm4-w025 at Thu Feb 19 13:38:42 CET 2026
+Game: Dala
+Variant: UCB1 | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T986 (Dala) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=85.4
+Job completed at Thu Feb 19 13:41:34 CET 2026

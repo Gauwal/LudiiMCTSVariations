@@ -1,0 +1,7 @@
+Running T988 on lm4-w027 at Thu Feb 19 13:38:42 CET 2026
+Game: Mefuvha
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:53
+Completed T988 (Mefuvha) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=124.6
+Job completed at Thu Feb 19 13:40:58 CET 2026

@@ -1,0 +1,7 @@
+Running T44 on lm4-w019 at Thu Feb 19 13:00:05 CET 2026
+Game: Hus (Nama)
+Variant: Noisy AG0 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T44 (Hus (Nama)) -> completed=10/10, wins=1, losses=1, draws=8, failures=0, avgMoves=926.5
+Job completed at Thu Feb 19 13:12:39 CET 2026

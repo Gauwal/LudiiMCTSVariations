@@ -1,0 +1,7 @@
+Running T445 on lm4-w002 at Thu Feb 19 13:14:37 CET 2026
+Game: Epelle
+Variant: UCB1 tuned | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:33
+Completed T445 (Epelle) -> completed=10/10, wins=0, losses=2, draws=8, failures=0, avgMoves=803.5
+Job completed at Thu Feb 19 13:41:32 CET 2026

@@ -1,0 +1,7 @@
+Running T150 on lm4-w002 at Thu Feb 19 12:48:04 CET 2026
+Game: Archworm
+Variant: Progressive Bias | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:51
+Completed T150 (Archworm) -> completed=10/10, wins=2, losses=4, draws=4, failures=0, avgMoves=633.8
+Job completed at Thu Feb 19 12:59:32 CET 2026

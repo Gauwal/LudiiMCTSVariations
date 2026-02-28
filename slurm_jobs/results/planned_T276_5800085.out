@@ -1,0 +1,7 @@
+Running T276 on lm4-w008 at Thu Feb 19 12:49:35 CET 2026
+Game: Agilidade
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:32
+Completed T276 (Agilidade) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=8.1
+Job completed at Thu Feb 19 12:49:45 CET 2026

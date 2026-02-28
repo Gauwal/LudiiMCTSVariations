@@ -1,0 +1,7 @@
+Running T1458 on lm4-w027 at Thu Feb 19 14:02:50 CET 2026
+Game: Ikibuguzo (Opening 1)
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1458 (Ikibuguzo (Opening 1)) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=73.8
+Job completed at Thu Feb 19 14:03:25 CET 2026

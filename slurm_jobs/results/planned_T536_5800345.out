@@ -1,0 +1,7 @@
+Running T536 on lm4-w027 at Thu Feb 19 13:18:37 CET 2026
+Game: Adzua (Children)
+Variant: AG0 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T536 (Adzua (Children)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=18.0
+Job completed at Thu Feb 19 13:18:58 CET 2026

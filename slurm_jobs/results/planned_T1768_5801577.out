@@ -1,0 +1,7 @@
+Running T1768 on lm4-w026 at Thu Feb 19 14:16:51 CET 2026
+Game: Shodra
+Variant: Progressive History | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:31
+Completed T1768 (Shodra) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=919.4
+Job completed at Thu Feb 19 14:49:20 CET 2026

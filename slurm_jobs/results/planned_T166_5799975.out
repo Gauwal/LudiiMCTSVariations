@@ -1,0 +1,7 @@
+Running T166 on lm4-w026 at Thu Feb 19 13:03:35 CET 2026
+Game: Esa Hex
+Variant: Progressive History | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:09
+Completed T166 (Esa Hex) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=68.7
+Job completed at Thu Feb 19 13:05:55 CET 2026

@@ -1,0 +1,7 @@
+Running T1958 on lm4-w039 at Thu Feb 19 14:26:51 CET 2026
+Game: Tuk Tak
+Variant: UCB1 GRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T1958 (Tuk Tak) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=217.7
+Job completed at Thu Feb 19 14:34:14 CET 2026

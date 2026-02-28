@@ -1,0 +1,7 @@
+Running T1571 on lm4-w039 at Thu Feb 19 14:07:49 CET 2026
+Game: Shogi
+Variant: UCB1 GRAVE | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:16:11
+Completed T1571 (Shogi) -> completed=10/10, wins=5, losses=4, draws=1, failures=0, avgMoves=431.5
+Job completed at Thu Feb 19 14:40:05 CET 2026

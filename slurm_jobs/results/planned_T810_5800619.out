@@ -1,0 +1,7 @@
+Running T810 on lm4-w037 at Thu Feb 19 13:30:41 CET 2026
+Game: Abalala'e
+Variant: UCB1 tuned | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T810 (Abalala'e) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=198.0
+Job completed at Thu Feb 19 13:33:00 CET 2026

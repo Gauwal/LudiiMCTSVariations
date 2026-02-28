@@ -1,0 +1,7 @@
+Running T1141 on lm4-w016 at Thu Feb 19 13:45:13 CET 2026
+Game: Roll-Ing to Four
+Variant: UCB1 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:02
+Completed T1141 (Roll-Ing to Four) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=32.9
+Job completed at Thu Feb 19 13:46:21 CET 2026

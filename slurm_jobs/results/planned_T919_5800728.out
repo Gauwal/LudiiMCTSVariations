@@ -1,0 +1,7 @@
+Running T919 on lm4-w008 at Thu Feb 19 13:35:42 CET 2026
+Game: Zombego
+Variant: McBRAVE | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T919 (Zombego) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=84.8
+Job completed at Thu Feb 19 13:38:39 CET 2026

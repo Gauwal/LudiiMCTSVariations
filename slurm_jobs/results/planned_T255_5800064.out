@@ -1,0 +1,7 @@
+Running T255 on lm4-w019 at Thu Feb 19 12:49:35 CET 2026
+Game: Complica
+Variant: McGRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:43
+Completed T255 (Complica) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=20.5
+Job completed at Thu Feb 19 12:50:17 CET 2026

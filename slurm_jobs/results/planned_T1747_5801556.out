@@ -1,0 +1,7 @@
+Running T1747 on lm4-w008 at Thu Feb 19 14:15:51 CET 2026
+Game: El Perro
+Variant: Progressive History | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1747 (El Perro) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=277.7
+Job completed at Thu Feb 19 14:25:06 CET 2026

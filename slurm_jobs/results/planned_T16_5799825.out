@@ -1,0 +1,7 @@
+Running T16 on lm4-w003 at Thu Feb 19 12:46:03 CET 2026
+Game: N-Mesh
+Variant: McGRAVE | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:24
+Completed T16 (N-Mesh) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=10.8
+Job completed at Thu Feb 19 12:46:28 CET 2026

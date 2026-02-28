@@ -1,0 +1,7 @@
+Running T46 on lm4-w027 at Thu Feb 19 13:00:05 CET 2026
+Game: En Gehe
+Variant: ExIt | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T46 (En Gehe) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=641.2
+Job completed at Thu Feb 19 13:04:10 CET 2026

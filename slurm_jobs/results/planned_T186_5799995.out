@@ -1,0 +1,7 @@
+Running T186 on lm4-w008 at Thu Feb 19 12:48:34 CET 2026
+Game: Symple
+Variant: Progressive Widening | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:16:15
+Completed T186 (Symple) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=274.0
+Job completed at Thu Feb 19 14:05:26 CET 2026

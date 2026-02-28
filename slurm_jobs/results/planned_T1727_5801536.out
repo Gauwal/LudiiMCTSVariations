@@ -1,0 +1,7 @@
+Running T1727 on lm4-w008 at Thu Feb 19 14:14:51 CET 2026
+Game: Njombwa (Two Counters)
+Variant: UCB1 tuned | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T1727 (Njombwa (Two Counters)) -> completed=10/10, wins=4, losses=4, draws=2, failures=0, avgMoves=450.8
+Job completed at Thu Feb 19 14:25:03 CET 2026

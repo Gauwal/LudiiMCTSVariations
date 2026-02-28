@@ -1,0 +1,7 @@
+Running T164 on lm4-w022 at Thu Feb 19 13:03:35 CET 2026
+Game: Ilpion
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:11
+Completed T164 (Ilpion) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=20.3
+Job completed at Thu Feb 19 13:04:16 CET 2026

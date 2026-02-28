@@ -1,0 +1,7 @@
+Running T983 on lm4-w026 at Thu Feb 19 13:38:12 CET 2026
+Game: Nsolo
+Variant: Progressive Bias | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T983 (Nsolo) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=219.4
+Job completed at Thu Feb 19 13:40:19 CET 2026

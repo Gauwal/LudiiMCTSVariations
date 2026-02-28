@@ -1,0 +1,7 @@
+Running T226 on lm4-w008 at Thu Feb 19 12:49:04 CET 2026
+Game: Connect Four
+Variant: UCB1 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:43
+Completed T226 (Connect Four) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=27.9
+Job completed at Thu Feb 19 12:50:01 CET 2026

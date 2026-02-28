@@ -1,0 +1,7 @@
+Running T1755 on lm4-w008 at Thu Feb 19 14:16:21 CET 2026
+Game: Alquerque de Doze (Portugal)
+Variant: Progressive History | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:39
+Completed T1755 (Alquerque de Doze (Portugal)) -> completed=10/10, wins=3, losses=6, draws=1, failures=0, avgMoves=257.9
+Job completed at Thu Feb 19 14:24:58 CET 2026

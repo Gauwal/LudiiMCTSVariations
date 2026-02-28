@@ -1,0 +1,7 @@
+Running T1748 on lm4-w008 at Thu Feb 19 14:15:51 CET 2026
+Game: Lian Qi (Bohai)
+Variant: UCB1 GRAVE | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1748 (Lian Qi (Bohai)) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=56.1
+Job completed at Thu Feb 19 14:17:40 CET 2026

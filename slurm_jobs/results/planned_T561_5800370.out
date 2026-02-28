@@ -1,0 +1,7 @@
+Running T561 on lm4-w002 at Thu Feb 19 13:19:38 CET 2026
+Game: Upper Hand
+Variant: UCB1 GRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T561 (Upper Hand) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=29.9
+Job completed at Thu Feb 19 13:20:39 CET 2026

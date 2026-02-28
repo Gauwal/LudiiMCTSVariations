@@ -1,0 +1,7 @@
+Running T1324 on lm4-w021 at Thu Feb 19 13:56:17 CET 2026
+Game: Arimaa
+Variant: UCB1 tuned | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:32
+Completed T1324 (Arimaa) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=338.5
+Job completed at Thu Feb 19 14:08:47 CET 2026

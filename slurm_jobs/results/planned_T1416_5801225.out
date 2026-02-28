@@ -1,0 +1,7 @@
+Running T1416 on lm4-w031 at Thu Feb 19 14:00:49 CET 2026
+Game: India
+Variant: Implicit Minimax | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T1416 (India) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=61.9
+Job completed at Thu Feb 19 14:03:24 CET 2026

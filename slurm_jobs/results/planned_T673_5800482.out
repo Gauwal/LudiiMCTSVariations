@@ -1,0 +1,7 @@
+Running T673 on lm4-w031 at Thu Feb 19 13:24:39 CET 2026
+Game: Gygoreg
+Variant: Noisy AG0 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:11
+Completed T673 (Gygoreg) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=144.5
+Job completed at Thu Feb 19 13:27:07 CET 2026

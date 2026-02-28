@@ -1,0 +1,7 @@
+Running T455 on lm4-w016 at Thu Feb 19 12:51:35 CET 2026
+Game: Bagh Batti
+Variant: Progressive Widening | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:58
+Completed T455 (Bagh Batti) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=212.8
+Job completed at Thu Feb 19 12:58:45 CET 2026

@@ -1,0 +1,7 @@
+Running T1045 on lm4-w027 at Thu Feb 19 13:41:13 CET 2026
+Game: Round Merels
+Variant: Noisy AG0 | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1045 (Round Merels) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=7.1
+Job completed at Thu Feb 19 13:41:23 CET 2026

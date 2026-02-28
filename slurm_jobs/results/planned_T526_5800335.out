@@ -1,0 +1,7 @@
+Running T526 on lm4-w027 at Thu Feb 19 13:18:07 CET 2026
+Game: Beirut Chess
+Variant: UCB1 GRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:40
+Completed T526 (Beirut Chess) -> completed=10/10, wins=1, losses=6, draws=3, failures=0, avgMoves=222.4
+Job completed at Thu Feb 19 13:26:23 CET 2026

@@ -1,0 +1,7 @@
+Running T636 on lm4-w019 at Thu Feb 19 13:23:08 CET 2026
+Game: Mbenga Alignment Game
+Variant: ExIt | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T636 (Mbenga Alignment Game) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=5.8
+Job completed at Thu Feb 19 13:23:16 CET 2026

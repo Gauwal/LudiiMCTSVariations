@@ -1,0 +1,7 @@
+Running T1055 on lm4-w016 at Thu Feb 19 13:41:13 CET 2026
+Game: Mangola
+Variant: ExIt | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1055 (Mangola) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=87.5
+Job completed at Thu Feb 19 13:41:38 CET 2026

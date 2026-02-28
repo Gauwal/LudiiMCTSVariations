@@ -1,0 +1,7 @@
+Running T314 on lm4-w016 at Thu Feb 19 13:09:36 CET 2026
+Game: Ploy
+Variant: UCB1 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:31
+Completed T314 (Ploy) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=103.4
+Job completed at Thu Feb 19 13:11:25 CET 2026

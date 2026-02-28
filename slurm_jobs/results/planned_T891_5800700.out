@@ -1,0 +1,7 @@
+Running T891 on lm4-w002 at Thu Feb 19 13:34:12 CET 2026
+Game: Queen's Four
+Variant: AG0 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:32
+Completed T891 (Queen's Four) -> completed=10/10, wins=1, losses=3, draws=6, failures=0, avgMoves=630.1
+Job completed at Thu Feb 19 13:45:35 CET 2026

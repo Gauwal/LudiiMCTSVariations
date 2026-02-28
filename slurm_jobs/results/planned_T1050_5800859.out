@@ -1,0 +1,7 @@
+Running T1050 on lm4-w002 at Thu Feb 19 13:41:13 CET 2026
+Game: Tic-Tac-Toe Misere
+Variant: ExIt | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1050 (Tic-Tac-Toe Misere) -> completed=10/10, wins=2, losses=7, draws=1, failures=0, avgMoves=7.6
+Job completed at Thu Feb 19 13:41:22 CET 2026

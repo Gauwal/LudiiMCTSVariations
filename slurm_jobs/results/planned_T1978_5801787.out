@@ -1,0 +1,7 @@
+Running T1978 on lm4-w038 at Thu Feb 19 14:27:51 CET 2026
+Game: Shatranj al-Jawarhiya
+Variant: UCB1 | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:16
+Completed T1978 (Shatranj al-Jawarhiya) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=227.4
+Job completed at Thu Feb 19 14:35:39 CET 2026

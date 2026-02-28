@@ -1,0 +1,7 @@
+Running T1231 on lm4-w027 at Thu Feb 19 13:50:16 CET 2026
+Game: Qelat (Beni Amir-Mensa)
+Variant: McGRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:42
+Completed T1231 (Qelat (Beni Amir-Mensa)) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=52.0
+Job completed at Thu Feb 19 13:51:47 CET 2026

@@ -1,0 +1,7 @@
+Running T1225 on lm4-w008 at Thu Feb 19 13:49:46 CET 2026
+Game: Kaua Dorki
+Variant: Alpha-Beta | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1225 (Kaua Dorki) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=112.9
+Job completed at Thu Feb 19 13:53:28 CET 2026

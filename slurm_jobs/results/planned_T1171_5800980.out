@@ -1,0 +1,7 @@
+Running T1171 on lm4-w002 at Thu Feb 19 13:47:16 CET 2026
+Game: Go with the Floe
+Variant: Implicit Minimax | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T1171 (Go with the Floe) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=38.0
+Job completed at Thu Feb 19 13:48:24 CET 2026

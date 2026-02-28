@@ -1,0 +1,7 @@
+Running T384 on lm4-w026 at Thu Feb 19 13:12:06 CET 2026
+Game: 4 Squared
+Variant: Progressive History | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T384 (4 Squared) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=75.7
+Job completed at Thu Feb 19 13:14:43 CET 2026

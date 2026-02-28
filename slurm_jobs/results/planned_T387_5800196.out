@@ -1,0 +1,7 @@
+Running T387 on lm4-w002 at Thu Feb 19 12:51:05 CET 2026
+Game: Rithmomachia
+Variant: AG0 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:30
+Completed T387 (Rithmomachia) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:51:59 CET 2026

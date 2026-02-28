@@ -1,0 +1,7 @@
+Running T901 on lm4-w008 at Thu Feb 19 13:34:42 CET 2026
+Game: Beirut Chess
+Variant: Progressive Widening | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:18
+Completed T901 (Beirut Chess) -> completed=10/10, wins=1, losses=2, draws=7, failures=0, avgMoves=353.6
+Job completed at Thu Feb 19 13:47:33 CET 2026

@@ -1,0 +1,7 @@
+Running T463 on lm4-w022 at Thu Feb 19 13:15:07 CET 2026
+Game: Kriegspiel (Chess)
+Variant: AG0 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:29
+Completed T463 (Kriegspiel (Chess)) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=939.1
+Job completed at Thu Feb 19 14:22:07 CET 2026

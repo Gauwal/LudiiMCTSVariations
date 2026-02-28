@@ -1,0 +1,7 @@
+Running T1469 on lm4-w002 at Thu Feb 19 14:03:19 CET 2026
+Game: Feed the Ducks
+Variant: AG0 | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1469 (Feed the Ducks) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=11.8
+Job completed at Thu Feb 19 14:03:34 CET 2026

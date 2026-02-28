@@ -1,0 +1,7 @@
+Running T120 on lm4-w026 at Thu Feb 19 13:02:05 CET 2026
+Game: Mbelele
+Variant: McGRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T120 (Mbelele) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=216.3
+Job completed at Thu Feb 19 13:06:23 CET 2026

@@ -1,0 +1,7 @@
+Running T999 on lm4-w027 at Thu Feb 19 13:39:12 CET 2026
+Game: Bechi
+Variant: Implicit Minimax | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T999 (Bechi) -> completed=10/10, wins=0, losses=8, draws=2, failures=0, avgMoves=453.5
+Job completed at Thu Feb 19 13:49:30 CET 2026

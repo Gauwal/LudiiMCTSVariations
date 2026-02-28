@@ -1,0 +1,7 @@
+Running T1696 on lm4-w002 at Thu Feb 19 14:13:50 CET 2026
+Game: Rampart
+Variant: Progressive Bias | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T1696 (Rampart) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=148.3
+Job completed at Thu Feb 19 14:16:23 CET 2026

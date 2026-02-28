@@ -1,0 +1,7 @@
+Running T1510 on lm4-w016 at Thu Feb 19 14:05:20 CET 2026
+Game: Otep
+Variant: Progressive History | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1510 (Otep) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=165.0
+Job completed at Thu Feb 19 14:07:38 CET 2026

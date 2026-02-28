@@ -1,0 +1,7 @@
+Running T533 on lm4-w016 at Thu Feb 19 12:52:05 CET 2026
+Game: Kos
+Variant: UCB1 tuned | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:20
+Completed T533 (Kos) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=175.6
+Job completed at Thu Feb 19 12:57:59 CET 2026

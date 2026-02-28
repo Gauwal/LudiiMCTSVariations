@@ -1,0 +1,7 @@
+Running T1154 on lm4-w026 at Thu Feb 19 13:46:13 CET 2026
+Game: De Vasa Chess
+Variant: McGRAVE | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:44
+Completed T1154 (De Vasa Chess) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=195.1
+Job completed at Thu Feb 19 13:52:58 CET 2026

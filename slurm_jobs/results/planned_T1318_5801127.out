@@ -1,0 +1,7 @@
+Running T1318 on lm4-w026 at Thu Feb 19 13:55:17 CET 2026
+Game: Hexade
+Variant: Progressive Widening | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T1318 (Hexade) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=71.1
+Job completed at Thu Feb 19 13:56:32 CET 2026

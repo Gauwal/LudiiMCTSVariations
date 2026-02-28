@@ -1,0 +1,7 @@
+Running T1454 on lm4-w025 at Thu Feb 19 14:02:49 CET 2026
+Game: Bouge Shodra
+Variant: ExIt | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T1454 (Bouge Shodra) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=452.6
+Job completed at Thu Feb 19 14:10:25 CET 2026

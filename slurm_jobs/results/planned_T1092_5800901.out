@@ -1,0 +1,7 @@
+Running T1092 on lm4-w021 at Thu Feb 19 13:43:13 CET 2026
+Game: Windflowers
+Variant: AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:49
+Completed T1092 (Windflowers) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=31.6
+Job completed at Thu Feb 19 13:43:47 CET 2026

@@ -1,0 +1,7 @@
+Running T847 on lm4-w026 at Thu Feb 19 12:54:05 CET 2026
+Game: Bagh Bandi
+Variant: Alpha-Beta | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:59
+Completed T847 (Bagh Bandi) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=449.3
+Job completed at Thu Feb 19 13:01:43 CET 2026

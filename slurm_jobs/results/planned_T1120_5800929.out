@@ -1,0 +1,7 @@
+Running T1120 on lm4-w008 at Thu Feb 19 13:44:13 CET 2026
+Game: DuploHex
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:02
+Completed T1120 (DuploHex) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=27.1
+Job completed at Thu Feb 19 13:45:09 CET 2026

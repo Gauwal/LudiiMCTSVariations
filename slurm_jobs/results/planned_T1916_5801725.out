@@ -1,0 +1,7 @@
+Running T1916 on lm4-w038 at Thu Feb 19 14:23:51 CET 2026
+Game: Jeu de Renard
+Variant: McGRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T1916 (Jeu de Renard) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:42:06 CET 2026

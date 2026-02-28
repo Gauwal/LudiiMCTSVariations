@@ -1,0 +1,7 @@
+Running T1912 on lm4-w038 at Thu Feb 19 14:23:51 CET 2026
+Game: Katra
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T1912 (Katra) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:32:35 CET 2026

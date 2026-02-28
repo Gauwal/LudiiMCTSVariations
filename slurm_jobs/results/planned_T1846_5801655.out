@@ -1,0 +1,7 @@
+Running T1846 on lm4-w008 at Thu Feb 19 14:20:51 CET 2026
+Game: Pam Pait
+Variant: McBRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T1846 (Pam Pait) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=216.1
+Job completed at Thu Feb 19 14:28:09 CET 2026

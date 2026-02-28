@@ -1,0 +1,7 @@
+Running T502 on lm4-w021 at Thu Feb 19 13:17:07 CET 2026
+Game: Press Ups
+Variant: Implicit Minimax | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T502 (Press Ups) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=25.2
+Job completed at Thu Feb 19 13:17:56 CET 2026

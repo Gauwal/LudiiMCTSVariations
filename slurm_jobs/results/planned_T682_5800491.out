@@ -1,0 +1,7 @@
+Running T682 on lm4-w025 at Thu Feb 19 13:25:09 CET 2026
+Game: Aiyawatstani
+Variant: UCB1 | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:02
+Completed T682 (Aiyawatstani) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=358.8
+Job completed at Thu Feb 19 13:37:15 CET 2026

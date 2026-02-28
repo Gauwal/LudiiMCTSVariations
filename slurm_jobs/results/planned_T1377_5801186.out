@@ -1,0 +1,7 @@
+Running T1377 on lm4-w008 at Thu Feb 19 13:58:48 CET 2026
+Game: Diris
+Variant: UCB1 GRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T1377 (Diris) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=6.0
+Job completed at Thu Feb 19 13:59:02 CET 2026

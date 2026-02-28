@@ -1,0 +1,666 @@
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Deka
+java.lang.NullPointerException: Cannot invoke "metadata.ai.heuristics.Heuristics.computeValue(other.context.Context, int, float)" because "heuristics" is null
+	at utils.AIUtils.heuristicValueEstimates(AIUtils.java:115)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:631)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

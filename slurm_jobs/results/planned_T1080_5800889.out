@@ -1,0 +1,7 @@
+Running T1080 on lm4-w022 at Thu Feb 19 13:42:13 CET 2026
+Game: Trike
+Variant: Alpha-Beta | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:13
+Completed T1080 (Trike) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=26.9
+Job completed at Thu Feb 19 13:43:06 CET 2026

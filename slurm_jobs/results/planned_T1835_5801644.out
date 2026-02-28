@@ -1,0 +1,7 @@
+Running T1835 on lm4-w008 at Thu Feb 19 14:20:21 CET 2026
+Game: Shah
+Variant: Implicit Minimax | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T1835 (Shah) -> completed=10/10, wins=0, losses=4, draws=6, failures=0, avgMoves=948.9
+Job completed at Thu Feb 19 14:36:53 CET 2026

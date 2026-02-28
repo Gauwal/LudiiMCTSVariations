@@ -1,0 +1,7 @@
+Running T411 on lm4-w002 at Thu Feb 19 12:51:34 CET 2026
+Game: Santorini
+Variant: UCB1 tuned | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:57
+Completed T411 (Santorini) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=62.4
+Job completed at Thu Feb 19 12:53:41 CET 2026

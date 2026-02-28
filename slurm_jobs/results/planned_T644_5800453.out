@@ -1,0 +1,7 @@
+Running T644 on lm4-w002 at Thu Feb 19 12:53:05 CET 2026
+Game: Dots and Boxes
+Variant: Progressive History | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:28
+Completed T644 (Dots and Boxes) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=129.3
+Job completed at Thu Feb 19 12:57:26 CET 2026

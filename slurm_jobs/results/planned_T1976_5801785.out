@@ -1,0 +1,7 @@
+Running T1976 on lm4-w038 at Thu Feb 19 14:27:51 CET 2026
+Game: Chongka'
+Variant: Implicit Minimax | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T1976 (Chongka') -> completed=10/10, wins=2, losses=6, draws=2, failures=0, avgMoves=115.8
+Job completed at Thu Feb 19 14:29:09 CET 2026

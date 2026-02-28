@@ -1,0 +1,7 @@
+Running T1021 on lm4-w027 at Thu Feb 19 13:40:12 CET 2026
+Game: SnipSnip
+Variant: UCB1 GRAVE | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1021 (SnipSnip) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=15.3
+Job completed at Thu Feb 19 13:40:39 CET 2026

@@ -1,0 +1,7 @@
+Running T1312 on lm4-w035 at Thu Feb 19 13:54:47 CET 2026
+Game: Julbahar
+Variant: UCB1 GRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T1312 (Julbahar) -> completed=10/10, wins=1, losses=2, draws=7, failures=0, avgMoves=886.0
+Job completed at Thu Feb 19 14:24:25 CET 2026

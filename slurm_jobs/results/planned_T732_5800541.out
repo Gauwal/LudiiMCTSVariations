@@ -1,0 +1,7 @@
+Running T732 on lm4-w026 at Thu Feb 19 13:27:10 CET 2026
+Game: Terhuchu
+Variant: Progressive History | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T732 (Terhuchu) -> completed=10/10, wins=7, losses=2, draws=1, failures=0, avgMoves=492.6
+Job completed at Thu Feb 19 13:43:51 CET 2026

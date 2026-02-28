@@ -1,0 +1,7 @@
+Running T957 on lm4-w008 at Thu Feb 19 12:54:35 CET 2026
+Game: Bravalath
+Variant: Implicit Minimax | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=01:19:19
+Completed T957 (Bravalath) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=18.6
+Job completed at Thu Feb 19 12:55:19 CET 2026

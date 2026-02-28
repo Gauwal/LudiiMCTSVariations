@@ -1,0 +1,7 @@
+Running T327 on lm4-w002 at Thu Feb 19 13:10:06 CET 2026
+Game: Boukerourou
+Variant: AG0 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T327 (Boukerourou) -> completed=10/10, wins=1, losses=1, draws=8, failures=0, avgMoves=867.0
+Job completed at Thu Feb 19 13:13:45 CET 2026

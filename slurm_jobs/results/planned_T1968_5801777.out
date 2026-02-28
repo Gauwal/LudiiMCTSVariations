@@ -1,0 +1,7 @@
+Running T1968 on lm4-w035 at Thu Feb 19 14:27:21 CET 2026
+Game: Taktik
+Variant: Progressive Bias | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T1968 (Taktik) -> completed=10/10, wins=1, losses=4, draws=5, failures=0, avgMoves=758.2
+Job completed at Thu Feb 19 14:40:29 CET 2026

@@ -1,0 +1,7 @@
+Running T1637 on lm4-w039 at Thu Feb 19 14:10:50 CET 2026
+Game: Mangola
+Variant: UCB1 tuned | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1637 (Mangola) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=118.9
+Job completed at Thu Feb 19 14:11:46 CET 2026

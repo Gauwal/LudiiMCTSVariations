@@ -1,0 +1,7 @@
+Running T1380 on lm4-w027 at Thu Feb 19 13:59:19 CET 2026
+Game: Chu Seireigi
+Variant: UCB1 tuned | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=10G, time=01:17:38
+Completed T1380 (Chu Seireigi) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=323.5
+Job completed at Thu Feb 19 15:14:26 CET 2026

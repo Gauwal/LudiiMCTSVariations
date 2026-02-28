@@ -1,0 +1,7 @@
+Running T1501 on lm4-w034 at Thu Feb 19 12:56:35 CET 2026
+Game: Connect6
+Variant: AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:16:01
+Completed T1501 (Connect6) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=174.5
+Job completed at Thu Feb 19 12:59:33 CET 2026

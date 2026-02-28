@@ -1,0 +1,7 @@
+Running T1292 on lm4-w002 at Thu Feb 19 13:53:46 CET 2026
+Game: Xiangqi
+Variant: Implicit Minimax | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:39
+Completed T1292 (Xiangqi) -> completed=10/10, wins=6, losses=3, draws=1, failures=0, avgMoves=338.1
+Job completed at Thu Feb 19 14:07:58 CET 2026

@@ -1,0 +1,7 @@
+Running T1766 on lm4-w008 at Thu Feb 19 14:16:51 CET 2026
+Game: Janggi
+Variant: AG0 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:17
+Completed T1766 (Janggi) -> completed=10/10, wins=0, losses=6, draws=4, failures=0, avgMoves=106.8
+Job completed at Thu Feb 19 14:18:42 CET 2026

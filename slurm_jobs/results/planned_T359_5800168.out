@@ -1,0 +1,7 @@
+Running T359 on lm4-w016 at Thu Feb 19 13:11:06 CET 2026
+Game: Tavan Tal
+Variant: UCB1 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:01
+Completed T359 (Tavan Tal) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=281.5
+Job completed at Thu Feb 19 13:20:25 CET 2026

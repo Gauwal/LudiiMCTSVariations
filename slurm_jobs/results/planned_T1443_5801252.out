@@ -1,0 +1,7 @@
+Running T1443 on lm4-w026 at Thu Feb 19 12:56:35 CET 2026
+Game: Veloop (Hex)
+Variant: UCB1 tuned | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:48
+Completed T1443 (Veloop (Hex)) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=27.4
+Job completed at Thu Feb 19 12:57:29 CET 2026

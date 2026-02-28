@@ -1,0 +1,7 @@
+Running T770 on lm4-w022 at Thu Feb 19 13:28:40 CET 2026
+Game: Yavalax
+Variant: Alpha-Beta | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T770 (Yavalax) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=81.6
+Job completed at Thu Feb 19 13:30:06 CET 2026

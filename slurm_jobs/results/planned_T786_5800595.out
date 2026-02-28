@@ -1,0 +1,7 @@
+Running T786 on lm4-w025 at Thu Feb 19 13:29:40 CET 2026
+Game: Gygoreg
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:33
+Completed T786 (Gygoreg) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=168.0
+Job completed at Thu Feb 19 13:35:20 CET 2026

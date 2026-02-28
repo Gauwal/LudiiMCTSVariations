@@ -1,0 +1,7 @@
+Running T407 on lm4-w002 at Thu Feb 19 13:13:06 CET 2026
+Game: Fang
+Variant: McBRAVE | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:12
+Completed T407 (Fang) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=530.5
+Job completed at Thu Feb 19 13:30:40 CET 2026

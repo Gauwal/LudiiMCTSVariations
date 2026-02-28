@@ -1,0 +1,7 @@
+Running T1803 on lm4-w008 at Thu Feb 19 14:18:51 CET 2026
+Game: Los Alamos Chess
+Variant: Progressive Bias | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T1803 (Los Alamos Chess) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=47.4
+Job completed at Thu Feb 19 14:19:42 CET 2026

@@ -1,0 +1,7 @@
+Running T447 on lm4-w016 at Thu Feb 19 12:51:35 CET 2026
+Game: Yucebao
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:38
+Completed T447 (Yucebao) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:03:08 CET 2026

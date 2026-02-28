@@ -1,0 +1,7 @@
+Running T1840 on lm4-w034 at Thu Feb 19 14:20:21 CET 2026
+Game: Branching Coral
+Variant: Progressive Bias | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1840 (Branching Coral) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=31.6
+Job completed at Thu Feb 19 14:20:54 CET 2026

@@ -1,0 +1,7 @@
+Running T1709 on lm4-w008 at Thu Feb 19 14:14:20 CET 2026
+Game: Centrifugal Force
+Variant: ExIt | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:21
+Completed T1709 (Centrifugal Force) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=67.9
+Job completed at Thu Feb 19 14:15:43 CET 2026

@@ -1,0 +1,7 @@
+Running T52 on lm4-w025 at Thu Feb 19 12:46:33 CET 2026
+Game: Contagion
+Variant: ExIt | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:28
+Completed T52 (Contagion) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=73.0
+Job completed at Thu Feb 19 12:47:49 CET 2026

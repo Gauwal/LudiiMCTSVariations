@@ -1,0 +1,7 @@
+Running T1441 on lm4-w027 at Thu Feb 19 14:02:20 CET 2026
+Game: Feed the Ducks
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1441 (Feed the Ducks) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=11.5
+Job completed at Thu Feb 19 14:02:45 CET 2026

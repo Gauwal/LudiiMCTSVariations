@@ -1,0 +1,7 @@
+Running T1094 on lm4-w002 at Thu Feb 19 13:43:13 CET 2026
+Game: Tank Tactics
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:42
+Completed T1094 (Tank Tactics) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=17.5
+Job completed at Thu Feb 19 13:43:33 CET 2026

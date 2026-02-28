@@ -1,0 +1,7 @@
+Running T1385 on lm4-w008 at Thu Feb 19 13:59:19 CET 2026
+Game: SupplierSabotage
+Variant: Progressive Widening | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:01
+Completed T1385 (SupplierSabotage) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=82.5
+Job completed at Thu Feb 19 14:09:05 CET 2026

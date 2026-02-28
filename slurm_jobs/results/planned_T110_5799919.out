@@ -1,0 +1,7 @@
+Running T110 on lm4-w027 at Thu Feb 19 13:02:05 CET 2026
+Game: Triple Tangle
+Variant: Progressive History | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T110 (Triple Tangle) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=225.4
+Job completed at Thu Feb 19 13:09:38 CET 2026

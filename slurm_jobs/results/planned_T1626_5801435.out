@@ -1,0 +1,7 @@
+Running T1626 on lm4-w002 at Thu Feb 19 14:10:20 CET 2026
+Game: Root
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T1626 (Root) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=30.8
+Job completed at Thu Feb 19 14:11:22 CET 2026

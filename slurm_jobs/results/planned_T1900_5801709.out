@@ -1,0 +1,7 @@
+Running T1900 on lm4-w038 at Thu Feb 19 14:23:21 CET 2026
+Game: Brusky Chess
+Variant: Progressive Widening | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:33
+Completed T1900 (Brusky Chess) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=154.1
+Job completed at Thu Feb 19 14:28:43 CET 2026

@@ -1,0 +1,7 @@
+Running T1628 on lm4-w008 at Thu Feb 19 14:10:20 CET 2026
+Game: Ludus Rebellionis (Asymmetric)
+Variant: Progressive Bias | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1628 (Ludus Rebellionis (Asymmetric)) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=130.4
+Job completed at Thu Feb 19 14:12:31 CET 2026

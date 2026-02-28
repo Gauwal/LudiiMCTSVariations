@@ -1,0 +1,7 @@
+Running T540 on lm4-w027 at Thu Feb 19 13:18:37 CET 2026
+Game: Vigilance
+Variant: AG0 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:01
+Completed T540 (Vigilance) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=102.9
+Job completed at Thu Feb 19 13:20:30 CET 2026

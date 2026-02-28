@@ -1,0 +1,7 @@
+Running T306 on lm4-w022 at Thu Feb 19 13:09:06 CET 2026
+Game: Neg Tugal Tuux
+Variant: Progressive Bias | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T306 (Neg Tugal Tuux) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=168.0
+Job completed at Thu Feb 19 13:10:44 CET 2026

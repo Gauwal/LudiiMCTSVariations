@@ -1,0 +1,7 @@
+Running T291 on lm4-w039 at Thu Feb 19 13:08:35 CET 2026
+Game: Tchela
+Variant: UCB1 GRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T291 (Tchela) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=105.1
+Job completed at Thu Feb 19 13:11:33 CET 2026

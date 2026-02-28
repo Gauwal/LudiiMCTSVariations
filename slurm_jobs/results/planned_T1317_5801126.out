@@ -1,0 +1,7 @@
+Running T1317 on lm4-w016 at Thu Feb 19 13:55:17 CET 2026
+Game: Louis XVI
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T1317 (Louis XVI) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=294.3
+Job completed at Thu Feb 19 13:59:51 CET 2026

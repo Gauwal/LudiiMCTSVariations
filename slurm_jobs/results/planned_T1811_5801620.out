@@ -1,0 +1,7 @@
+Running T1811 on lm4-w002 at Thu Feb 19 14:19:21 CET 2026
+Game: Bis Gutiya
+Variant: Progressive History | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:51
+Completed T1811 (Bis Gutiya) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=244.1
+Job completed at Thu Feb 19 14:23:32 CET 2026

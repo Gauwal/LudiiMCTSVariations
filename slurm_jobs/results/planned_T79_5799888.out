@@ -1,0 +1,7 @@
+Running T79 on lm4-w026 at Thu Feb 19 13:00:35 CET 2026
+Game: Tsoro (Baia)
+Variant: Alpha-Beta | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T79 (Tsoro (Baia)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=253.3
+Job completed at Thu Feb 19 13:04:37 CET 2026

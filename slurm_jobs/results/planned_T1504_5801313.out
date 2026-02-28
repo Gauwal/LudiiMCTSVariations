@@ -1,0 +1,7 @@
+Running T1504 on lm4-w008 at Thu Feb 19 14:04:49 CET 2026
+Game: Wari
+Variant: ExIt | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T1504 (Wari) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=202.9
+Job completed at Thu Feb 19 14:08:03 CET 2026

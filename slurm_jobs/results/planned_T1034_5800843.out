@@ -1,0 +1,7 @@
+Running T1034 on lm4-w027 at Thu Feb 19 13:40:43 CET 2026
+Game: Bis Gutiya
+Variant: Noisy AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:51
+Completed T1034 (Bis Gutiya) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=254.1
+Job completed at Thu Feb 19 13:45:00 CET 2026

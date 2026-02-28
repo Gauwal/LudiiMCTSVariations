@@ -1,0 +1,7 @@
+Running T1597 on lm4-w002 at Thu Feb 19 14:08:49 CET 2026
+Game: Misoro Tsoro (Additional Capture)
+Variant: UCB1 GRAVE | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1597 (Misoro Tsoro (Additional Capture)) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=45.0
+Job completed at Thu Feb 19 14:09:23 CET 2026

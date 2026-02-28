@@ -1,0 +1,7 @@
+Running T1227 on lm4-w022 at Thu Feb 19 13:49:46 CET 2026
+Game: Buqruru
+Variant: McGRAVE | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T1227 (Buqruru) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=4.2
+Job completed at Thu Feb 19 13:49:52 CET 2026

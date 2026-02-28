@@ -1,0 +1,7 @@
+Running T528 on lm4-w027 at Thu Feb 19 13:18:07 CET 2026
+Game: Nodal Chess
+Variant: Progressive History | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T528 (Nodal Chess) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=59.0
+Job completed at Thu Feb 19 13:20:35 CET 2026

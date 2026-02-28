@@ -1,0 +1,7 @@
+Running T1202 on lm4-w002 at Thu Feb 19 13:48:45 CET 2026
+Game: Order and Chaos
+Variant: Noisy AG0 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:39
+Completed T1202 (Order and Chaos) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=24.6
+Job completed at Thu Feb 19 13:49:12 CET 2026

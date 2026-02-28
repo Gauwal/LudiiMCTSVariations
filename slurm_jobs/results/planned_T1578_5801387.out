@@ -1,0 +1,7 @@
+Running T1578 on lm4-w031 at Thu Feb 19 14:08:20 CET 2026
+Game: Dama (Comoros)
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:11
+Completed T1578 (Dama (Comoros)) -> completed=10/10, wins=6, losses=1, draws=3, failures=0, avgMoves=420.7
+Job completed at Thu Feb 19 14:22:25 CET 2026

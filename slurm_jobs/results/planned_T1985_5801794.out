@@ -1,0 +1,7 @@
+Running T1985 on lm4-w026 at Thu Feb 19 12:58:35 CET 2026
+Game: Diaballik
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:08
+Completed T1985 (Diaballik) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=277.2
+Job completed at Thu Feb 19 13:08:19 CET 2026

@@ -1,0 +1,7 @@
+Running T1682 on lm4-w008 at Thu Feb 19 14:12:50 CET 2026
+Game: Polypods
+Variant: ExIt | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Completed T1682 (Polypods) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=61.8
+Job completed at Thu Feb 19 14:13:56 CET 2026

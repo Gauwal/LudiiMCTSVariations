@@ -1,0 +1,7 @@
+Running T75 on lm4-w022 at Thu Feb 19 13:00:35 CET 2026
+Game: Cylinder Chess
+Variant: Implicit Minimax | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:18
+Completed T75 (Cylinder Chess) -> completed=10/10, wins=5, losses=3, draws=2, failures=0, avgMoves=209.1
+Job completed at Thu Feb 19 13:07:46 CET 2026

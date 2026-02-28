@@ -1,0 +1,7 @@
+Running T633 on lm4-w039 at Thu Feb 19 13:22:38 CET 2026
+Game: DisPath
+Variant: Progressive History | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T633 (DisPath) -> completed=10/10, wins=5, losses=0, draws=5, failures=0, avgMoves=43.2
+Job completed at Thu Feb 19 13:24:04 CET 2026

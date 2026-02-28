@@ -1,0 +1,7 @@
+Running T1184 on lm4-w026 at Thu Feb 19 12:55:35 CET 2026
+Game: Lasca
+Variant: Progressive Widening | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:08
+Completed T1184 (Lasca) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=48.0
+Job completed at Thu Feb 19 12:56:31 CET 2026

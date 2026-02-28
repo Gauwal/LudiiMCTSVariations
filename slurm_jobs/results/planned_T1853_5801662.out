@@ -1,0 +1,7 @@
+Running T1853 on lm4-w026 at Thu Feb 19 14:20:51 CET 2026
+Game: T'uk T'uk
+Variant: UCB1 | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T1853 (T'uk T'uk) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:39:04 CET 2026

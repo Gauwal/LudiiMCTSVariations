@@ -1,0 +1,7 @@
+Running T94 on lm4-w039 at Thu Feb 19 13:01:35 CET 2026
+Game: Len Cua Kin Ngoa
+Variant: McGRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T94 (Len Cua Kin Ngoa) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=33.8
+Job completed at Thu Feb 19 13:02:44 CET 2026

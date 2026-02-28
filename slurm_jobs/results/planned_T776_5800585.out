@@ -1,0 +1,7 @@
+Running T776 on lm4-w027 at Thu Feb 19 13:29:10 CET 2026
+Game: Pippinzip (Zipline variant)
+Variant: Implicit Minimax | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T776 (Pippinzip (Zipline variant)) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=108.6
+Job completed at Thu Feb 19 13:32:50 CET 2026

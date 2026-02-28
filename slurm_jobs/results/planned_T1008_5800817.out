@@ -1,0 +1,7 @@
+Running T1008 on lm4-w019 at Thu Feb 19 13:39:42 CET 2026
+Game: Pasang
+Variant: UCB1 GRAVE | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:18
+Completed T1008 (Pasang) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=115.7
+Job completed at Thu Feb 19 13:41:48 CET 2026

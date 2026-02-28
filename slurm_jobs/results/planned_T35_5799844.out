@@ -1,0 +1,7 @@
+Running T35 on lm4-w002 at Thu Feb 19 12:59:35 CET 2026
+Game: Radran
+Variant: UCB1 GRAVE | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T35 (Radran) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=34.0
+Job completed at Thu Feb 19 13:00:39 CET 2026

@@ -1,0 +1,7 @@
+Running T1353 on lm4-w002 at Thu Feb 19 13:57:47 CET 2026
+Game: Mweso
+Variant: Progressive Widening | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:09
+Completed T1353 (Mweso) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=157.2
+Job completed at Thu Feb 19 14:00:38 CET 2026

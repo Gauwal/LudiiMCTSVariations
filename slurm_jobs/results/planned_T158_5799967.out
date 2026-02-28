@@ -1,0 +1,7 @@
+Running T158 on lm4-w008 at Thu Feb 19 13:03:35 CET 2026
+Game: Sim
+Variant: ExIt | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:34
+Completed T158 (Sim) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=10.3
+Job completed at Thu Feb 19 13:03:47 CET 2026

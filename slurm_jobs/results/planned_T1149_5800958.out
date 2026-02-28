@@ -1,0 +1,7 @@
+Running T1149 on lm4-w035 at Thu Feb 19 13:46:13 CET 2026
+Game: Dogtown Clans
+Variant: Progressive History | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T1149 (Dogtown Clans) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=41.2
+Job completed at Thu Feb 19 13:47:34 CET 2026

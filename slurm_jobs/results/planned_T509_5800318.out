@@ -1,0 +1,7 @@
+Running T509 on lm4-w026 at Thu Feb 19 13:17:07 CET 2026
+Game: Shatranj al-Kabir
+Variant: Progressive History | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:42
+Completed T509 (Shatranj al-Kabir) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=836.1
+Job completed at Thu Feb 19 14:24:19 CET 2026

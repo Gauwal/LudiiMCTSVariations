@@ -1,0 +1,7 @@
+Running T912 on lm4-w016 at Thu Feb 19 13:35:12 CET 2026
+Game: Shah
+Variant: Progressive Bias | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T912 (Shah) -> completed=10/10, wins=0, losses=3, draws=7, failures=0, avgMoves=951.5
+Job completed at Thu Feb 19 13:51:22 CET 2026

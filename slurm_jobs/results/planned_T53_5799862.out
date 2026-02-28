@@ -1,0 +1,7 @@
+Running T53 on lm4-w008 at Thu Feb 19 13:00:05 CET 2026
+Game: LastEdge
+Variant: Progressive Bias | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T53 (LastEdge) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=18.9
+Job completed at Thu Feb 19 13:00:26 CET 2026

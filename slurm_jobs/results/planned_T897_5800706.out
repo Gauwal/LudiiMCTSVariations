@@ -1,0 +1,7 @@
+Running T897 on lm4-w019 at Thu Feb 19 13:34:42 CET 2026
+Game: Bechi
+Variant: Progressive Bias | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T897 (Bechi) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=317.1
+Job completed at Thu Feb 19 13:38:12 CET 2026

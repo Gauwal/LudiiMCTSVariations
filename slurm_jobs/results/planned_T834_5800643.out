@@ -1,0 +1,7 @@
+Running T834 on lm4-w002 at Thu Feb 19 13:31:42 CET 2026
+Game: Roman Small Merels
+Variant: UCB1 | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T834 (Roman Small Merels) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=45.8
+Job completed at Thu Feb 19 13:33:16 CET 2026

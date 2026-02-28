@@ -1,0 +1,7 @@
+Running T1605 on lm4-w002 at Thu Feb 19 14:09:20 CET 2026
+Game: Sprout-R-Out
+Variant: UCB1 tuned | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:09
+Completed T1605 (Sprout-R-Out) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=111.9
+Job completed at Thu Feb 19 14:29:48 CET 2026

@@ -1,0 +1,7 @@
+Running T344 on lm4-w002 at Thu Feb 19 13:10:36 CET 2026
+Game: Havannah
+Variant: Alpha-Beta | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T344 (Havannah) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=67.5
+Job completed at Thu Feb 19 13:12:54 CET 2026

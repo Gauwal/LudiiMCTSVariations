@@ -1,0 +1,7 @@
+Running T374 on lm4-w003 at Thu Feb 19 13:12:06 CET 2026
+Game: Sittuyin
+Variant: ExIt | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T374 (Sittuyin) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=928.6
+Job completed at Thu Feb 19 13:28:20 CET 2026

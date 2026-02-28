@@ -1,0 +1,7 @@
+Running T1975 on lm4-w038 at Thu Feb 19 14:27:21 CET 2026
+Game: Chongka'
+Variant: Noisy AG0 | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T1975 (Chongka') -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=105.1
+Job completed at Thu Feb 19 14:27:59 CET 2026

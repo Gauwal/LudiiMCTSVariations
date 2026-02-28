@@ -1,0 +1,7 @@
+Running T735 on lm4-w027 at Thu Feb 19 13:27:39 CET 2026
+Game: Line and Cross
+Variant: AG0 | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T735 (Line and Cross) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=22.1
+Job completed at Thu Feb 19 13:28:02 CET 2026

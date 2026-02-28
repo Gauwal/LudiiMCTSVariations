@@ -1,0 +1,7 @@
+Running T1667 on lm4-w008 at Thu Feb 19 14:12:20 CET 2026
+Game: Mangola
+Variant: Progressive Bias | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1667 (Mangola) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=107.0
+Job completed at Thu Feb 19 14:12:44 CET 2026

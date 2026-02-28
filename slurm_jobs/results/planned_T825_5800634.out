@@ -1,0 +1,7 @@
+Running T825 on lm4-w022 at Thu Feb 19 12:54:05 CET 2026
+Game: Ex Nihilo
+Variant: Progressive Bias | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:58
+Completed T825 (Ex Nihilo) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=28.1
+Job completed at Thu Feb 19 12:54:43 CET 2026

@@ -1,0 +1,7 @@
+Running T1512 on lm4-w022 at Thu Feb 19 14:05:19 CET 2026
+Game: Pentalath
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T1512 (Pentalath) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=18.9
+Job completed at Thu Feb 19 14:05:41 CET 2026

@@ -1,0 +1,7 @@
+Running T1736 on lm4-w008 at Thu Feb 19 14:15:21 CET 2026
+Game: Defector Y
+Variant: Implicit Minimax | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T1736 (Defector Y) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=46.7
+Job completed at Thu Feb 19 14:16:57 CET 2026

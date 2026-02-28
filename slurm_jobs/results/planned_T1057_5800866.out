@@ -1,0 +1,7 @@
+Running T1057 on lm4-w025 at Thu Feb 19 13:41:43 CET 2026
+Game: Shatranj (14x14)
+Variant: McBRAVE | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:16:05
+Completed T1057 (Shatranj (14x14)) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:03:28 CET 2026

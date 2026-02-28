@@ -1,0 +1,7 @@
+Running T730 on lm4-w022 at Thu Feb 19 13:27:10 CET 2026
+Game: Boukerourou
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:30
+Completed T730 (Boukerourou) -> completed=10/10, wins=3, losses=2, draws=5, failures=0, avgMoves=647.6
+Job completed at Thu Feb 19 13:31:50 CET 2026

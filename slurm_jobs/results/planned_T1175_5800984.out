@@ -1,0 +1,7 @@
+Running T1175 on lm4-w002 at Thu Feb 19 13:47:16 CET 2026
+Game: Mefuvha
+Variant: McGRAVE | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:15
+Completed T1175 (Mefuvha) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=121.3
+Job completed at Thu Feb 19 13:49:37 CET 2026

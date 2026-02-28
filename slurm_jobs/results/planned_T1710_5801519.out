@@ -1,0 +1,7 @@
+Running T1710 on lm4-w008 at Thu Feb 19 14:14:20 CET 2026
+Game: 00'Y'
+Variant: McBRAVE | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T1710 (00'Y') -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=58.8
+Job completed at Thu Feb 19 14:16:20 CET 2026

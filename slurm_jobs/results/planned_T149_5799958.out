@@ -1,0 +1,7 @@
+Running T149 on lm4-w026 at Thu Feb 19 13:03:05 CET 2026
+Game: Forge
+Variant: Alpha-Beta | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:41
+Completed T149 (Forge) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=99.2
+Job completed at Thu Feb 19 13:06:06 CET 2026

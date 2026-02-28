@@ -1,0 +1,7 @@
+Running T583 on lm4-w002 at Thu Feb 19 13:20:38 CET 2026
+Game: CoDi
+Variant: Progressive History | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T583 (CoDi) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=80.0
+Job completed at Thu Feb 19 13:23:21 CET 2026

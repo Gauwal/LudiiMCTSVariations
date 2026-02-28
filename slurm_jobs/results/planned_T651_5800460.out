@@ -1,0 +1,7 @@
+Running T651 on lm4-w039 at Thu Feb 19 13:23:39 CET 2026
+Game: Hexade
+Variant: UCB1 tuned | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T651 (Hexade) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=67.3
+Job completed at Thu Feb 19 13:25:57 CET 2026

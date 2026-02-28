@@ -1,0 +1,7 @@
+Running T944 on lm4-w022 at Thu Feb 19 13:36:42 CET 2026
+Game: Gabata (Aksum)
+Variant: Progressive History | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T944 (Gabata (Aksum)) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:51:07 CET 2026

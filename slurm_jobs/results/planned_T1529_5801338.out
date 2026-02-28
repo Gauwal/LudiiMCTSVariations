@@ -1,0 +1,7 @@
+Running T1529 on lm4-w027 at Thu Feb 19 14:06:19 CET 2026
+Game: Andot
+Variant: McGRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T1529 (Andot) -> completed=10/10, wins=0, losses=8, draws=2, failures=0, avgMoves=57.5
+Job completed at Thu Feb 19 14:08:01 CET 2026

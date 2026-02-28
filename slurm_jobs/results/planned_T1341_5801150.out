@@ -1,0 +1,7 @@
+Running T1341 on lm4-w031 at Thu Feb 19 13:57:17 CET 2026
+Game: Shogi Puzzle
+Variant: Noisy AG0 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:16:11
+Completed T1341 (Shogi Puzzle) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=1.0
+Job completed at Thu Feb 19 13:57:20 CET 2026

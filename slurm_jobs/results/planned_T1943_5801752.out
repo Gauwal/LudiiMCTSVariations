@@ -1,0 +1,7 @@
+Running T1943 on lm4-w038 at Thu Feb 19 14:25:21 CET 2026
+Game: Cross
+Variant: UCB1 tuned | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T1943 (Cross) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=45.1
+Job completed at Thu Feb 19 14:26:53 CET 2026

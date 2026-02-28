@@ -1,0 +1,7 @@
+Running T1076 on lm4-w022 at Thu Feb 19 13:42:13 CET 2026
+Game: Bechi
+Variant: Progressive History | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T1076 (Bechi) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=178.2
+Job completed at Thu Feb 19 13:46:15 CET 2026

@@ -1,0 +1,7 @@
+Running T322 on lm4-w035 at Thu Feb 19 13:10:06 CET 2026
+Game: Dris at-Talata
+Variant: Progressive Widening | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T322 (Dris at-Talata) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=30.5
+Job completed at Thu Feb 19 13:11:09 CET 2026

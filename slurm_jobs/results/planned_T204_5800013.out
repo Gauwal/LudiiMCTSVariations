@@ -1,0 +1,7 @@
+Running T204 on lm4-w022 at Thu Feb 19 13:05:05 CET 2026
+Game: Shisima
+Variant: Implicit Minimax | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T204 (Shisima) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=24.1
+Job completed at Thu Feb 19 13:05:55 CET 2026

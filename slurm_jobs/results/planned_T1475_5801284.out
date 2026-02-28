@@ -1,0 +1,7 @@
+Running T1475 on lm4-w027 at Thu Feb 19 14:03:49 CET 2026
+Game: Shatranj al-Husun
+Variant: ExIt | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:31
+Completed T1475 (Shatranj al-Husun) -> completed=10/10, wins=0, losses=3, draws=7, failures=0, avgMoves=775.3
+Job completed at Thu Feb 19 14:17:25 CET 2026

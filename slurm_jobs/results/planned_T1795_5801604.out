@@ -1,0 +1,7 @@
+Running T1795 on lm4-w016 at Thu Feb 19 12:58:05 CET 2026
+Game: Patok
+Variant: Alpha-Beta | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:16:01
+Completed T1795 (Patok) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=667.4
+Job completed at Thu Feb 19 13:21:04 CET 2026

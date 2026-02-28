@@ -1,0 +1,7 @@
+Running T1832 on lm4-w022 at Thu Feb 19 12:58:05 CET 2026
+Game: Dig Dig
+Variant: Progressive Widening | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:10
+Completed T1832 (Dig Dig) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=196.3
+Job completed at Thu Feb 19 13:04:38 CET 2026

@@ -1,0 +1,7 @@
+Running T1681 on lm4-w008 at Thu Feb 19 14:12:50 CET 2026
+Game: Crand
+Variant: McGRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:15
+Completed T1681 (Crand) -> completed=10/10, wins=0, losses=3, draws=7, failures=0, avgMoves=650.9
+Job completed at Thu Feb 19 14:35:02 CET 2026

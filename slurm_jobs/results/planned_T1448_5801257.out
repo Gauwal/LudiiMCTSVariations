@@ -1,0 +1,7 @@
+Running T1448 on lm4-w002 at Thu Feb 19 14:02:19 CET 2026
+Game: Mysore Tiger Game
+Variant: UCB1 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T1448 (Mysore Tiger Game) -> completed=10/10, wins=0, losses=5, draws=5, failures=0, avgMoves=551.2
+Job completed at Thu Feb 19 14:15:58 CET 2026

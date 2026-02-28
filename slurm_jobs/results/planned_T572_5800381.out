@@ -1,0 +1,7 @@
+Running T572 on lm4-w008 at Thu Feb 19 12:52:35 CET 2026
+Game: Castello
+Variant: Progressive Bias | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:55
+Completed T572 (Castello) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:11:14 CET 2026

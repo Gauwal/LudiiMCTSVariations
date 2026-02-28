@@ -1,0 +1,7 @@
+Running T479 on lm4-w027 at Thu Feb 19 13:16:07 CET 2026
+Game: Talyn Buga
+Variant: UCB1 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:05
+Completed T479 (Talyn Buga) -> completed=10/10, wins=2, losses=3, draws=5, failures=0, avgMoves=960.5
+Job completed at Thu Feb 19 13:48:36 CET 2026

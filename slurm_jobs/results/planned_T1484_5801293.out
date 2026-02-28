@@ -1,0 +1,7 @@
+Running T1484 on lm4-w021 at Thu Feb 19 14:04:19 CET 2026
+Game: Morpharaoh
+Variant: UCB1 GRAVE | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:17
+Completed T1484 (Morpharaoh) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=39.4
+Job completed at Thu Feb 19 14:05:40 CET 2026

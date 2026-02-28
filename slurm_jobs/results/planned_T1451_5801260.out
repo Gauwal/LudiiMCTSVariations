@@ -1,0 +1,7 @@
+Running T1451 on lm4-w016 at Thu Feb 19 14:02:19 CET 2026
+Game: Manu
+Variant: AG0 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:09
+Completed T1451 (Manu) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=461.3
+Job completed at Thu Feb 19 14:10:03 CET 2026

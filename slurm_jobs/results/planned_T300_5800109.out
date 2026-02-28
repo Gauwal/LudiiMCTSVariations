@@ -1,0 +1,7 @@
+Running T300 on lm4-w039 at Thu Feb 19 13:09:06 CET 2026
+Game: Sujjua
+Variant: UCB1 tuned | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T300 (Sujjua) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=16.9
+Job completed at Thu Feb 19 13:09:41 CET 2026

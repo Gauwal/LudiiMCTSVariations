@@ -1,0 +1,7 @@
+Running T1106 on lm4-w008 at Thu Feb 19 13:43:43 CET 2026
+Game: Wolf and Sheep
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T1106 (Wolf and Sheep) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=25.2
+Job completed at Thu Feb 19 13:44:34 CET 2026

@@ -1,0 +1,7 @@
+Running T1235 on lm4-w016 at Thu Feb 19 13:50:16 CET 2026
+Game: Beirut Chess
+Variant: McGRAVE | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:40
+Completed T1235 (Beirut Chess) -> completed=10/10, wins=1, losses=5, draws=4, failures=0, avgMoves=222.4
+Job completed at Thu Feb 19 13:58:20 CET 2026

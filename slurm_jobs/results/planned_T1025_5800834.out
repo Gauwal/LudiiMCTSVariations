@@ -1,0 +1,7 @@
+Running T1025 on lm4-w035 at Thu Feb 19 13:40:12 CET 2026
+Game: Dablot Prejjesne
+Variant: Progressive History | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T1025 (Dablot Prejjesne) -> completed=10/10, wins=4, losses=1, draws=5, failures=0, avgMoves=876.9
+Job completed at Thu Feb 19 14:10:23 CET 2026

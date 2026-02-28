@@ -1,0 +1,7 @@
+Running T613 on lm4-w027 at Thu Feb 19 13:22:08 CET 2026
+Game: Diviyan Keliya
+Variant: AG0 | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T613 (Diviyan Keliya) -> completed=10/10, wins=4, losses=3, draws=3, failures=0, avgMoves=848.9
+Job completed at Thu Feb 19 13:36:21 CET 2026

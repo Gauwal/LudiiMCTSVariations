@@ -1,0 +1,7 @@
+Running T980 on lm4-w022 at Thu Feb 19 13:38:12 CET 2026
+Game: Quarto
+Variant: Progressive History | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T980 (Quarto) -> completed=10/10, wins=2, losses=5, draws=3, failures=0, avgMoves=27.2
+Job completed at Thu Feb 19 13:39:05 CET 2026

@@ -1,0 +1,7 @@
+Running T1201 on lm4-w039 at Thu Feb 19 13:48:46 CET 2026
+Game: Infuse
+Variant: Alpha-Beta | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1201 (Infuse) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=64.3
+Job completed at Thu Feb 19 13:50:58 CET 2026

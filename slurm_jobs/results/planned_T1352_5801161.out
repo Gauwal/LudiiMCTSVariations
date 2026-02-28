@@ -1,0 +1,7 @@
+Running T1352 on lm4-w002 at Thu Feb 19 13:57:47 CET 2026
+Game: Chisolo
+Variant: McBRAVE | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:08
+Completed T1352 (Chisolo) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=184.3
+Job completed at Thu Feb 19 13:59:41 CET 2026

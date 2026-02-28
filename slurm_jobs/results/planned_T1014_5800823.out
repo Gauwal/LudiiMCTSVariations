@@ -1,0 +1,7 @@
+Running T1014 on lm4-w002 at Thu Feb 19 13:39:42 CET 2026
+Game: Cheng Fang Cheng Long
+Variant: Alpha-Beta | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:40
+Completed T1014 (Cheng Fang Cheng Long) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=27.0
+Job completed at Thu Feb 19 13:40:31 CET 2026

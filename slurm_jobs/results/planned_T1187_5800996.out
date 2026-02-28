@@ -1,0 +1,7 @@
+Running T1187 on lm4-w027 at Thu Feb 19 13:48:16 CET 2026
+Game: Rimau-Rimau (One Tiger)
+Variant: Alpha-Beta | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T1187 (Rimau-Rimau (One Tiger)) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=464.8
+Job completed at Thu Feb 19 13:56:04 CET 2026

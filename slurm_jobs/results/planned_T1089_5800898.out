@@ -1,0 +1,7 @@
+Running T1089 on lm4-w022 at Thu Feb 19 13:42:43 CET 2026
+Game: Bam Blang Beh Khla
+Variant: McGRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T1089 (Bam Blang Beh Khla) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=151.8
+Job completed at Thu Feb 19 13:47:20 CET 2026

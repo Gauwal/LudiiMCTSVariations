@@ -1,0 +1,7 @@
+Running T826 on lm4-w039 at Thu Feb 19 13:31:12 CET 2026
+Game: Awithlaknan Mosona
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T826 (Awithlaknan Mosona) -> completed=10/10, wins=4, losses=1, draws=5, failures=0, avgMoves=550.7
+Job completed at Thu Feb 19 13:49:36 CET 2026

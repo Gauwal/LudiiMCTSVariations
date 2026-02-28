@@ -1,0 +1,7 @@
+Running T173 on lm4-w039 at Thu Feb 19 12:48:35 CET 2026
+Game: Trax
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=01:20:52
+Completed T173 (Trax) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=21.5
+Job completed at Thu Feb 19 12:52:56 CET 2026

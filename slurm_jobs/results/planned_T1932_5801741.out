@@ -1,0 +1,7 @@
+Running T1932 on lm4-w038 at Thu Feb 19 14:24:51 CET 2026
+Game: Dimraw
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1932 (Dimraw) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=36.0
+Job completed at Thu Feb 19 14:25:54 CET 2026

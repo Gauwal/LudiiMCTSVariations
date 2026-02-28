@@ -1,0 +1,7 @@
+Running T840 on lm4-w008 at Thu Feb 19 13:31:42 CET 2026
+Game: Egara Guti
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T840 (Egara Guti) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=113.3
+Job completed at Thu Feb 19 13:35:28 CET 2026

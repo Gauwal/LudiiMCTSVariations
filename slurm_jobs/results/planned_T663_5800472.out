@@ -1,0 +1,7 @@
+Running T663 on lm4-w039 at Thu Feb 19 13:24:09 CET 2026
+Game: Goats Wintering
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T663 (Goats Wintering) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=30.0
+Job completed at Thu Feb 19 13:25:09 CET 2026

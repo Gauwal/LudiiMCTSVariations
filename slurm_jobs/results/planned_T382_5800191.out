@@ -1,0 +1,7 @@
+Running T382 on lm4-w026 at Thu Feb 19 13:12:06 CET 2026
+Game: Mbelele
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:37
+Completed T382 (Mbelele) -> completed=10/10, wins=5, losses=4, draws=1, failures=0, avgMoves=246.8
+Job completed at Thu Feb 19 13:17:51 CET 2026

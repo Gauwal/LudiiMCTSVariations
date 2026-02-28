@@ -1,0 +1,7 @@
+Running T904 on lm4-w022 at Thu Feb 19 13:34:42 CET 2026
+Game: Choko
+Variant: UCB1 tuned | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:51
+Completed T904 (Choko) -> completed=10/10, wins=1, losses=6, draws=3, failures=0, avgMoves=621.7
+Job completed at Thu Feb 19 13:55:27 CET 2026

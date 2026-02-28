@@ -1,0 +1,7 @@
+Running T1947 on lm4-w027 at Thu Feb 19 14:25:51 CET 2026
+Game: Lau Kata Kati
+Variant: Implicit Minimax | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1947 (Lau Kata Kati) -> completed=10/10, wins=1, losses=7, draws=2, failures=0, avgMoves=365.1
+Job completed at Thu Feb 19 14:38:02 CET 2026

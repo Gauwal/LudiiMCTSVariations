@@ -1,0 +1,7 @@
+Running T560 on lm4-w002 at Thu Feb 19 13:19:38 CET 2026
+Game: Havannah
+Variant: McGRAVE | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:41
+Completed T560 (Havannah) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=75.3
+Job completed at Thu Feb 19 13:22:12 CET 2026

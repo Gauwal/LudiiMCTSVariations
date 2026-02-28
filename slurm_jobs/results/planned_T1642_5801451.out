@@ -1,0 +1,7 @@
+Running T1642 on lm4-w021 at Thu Feb 19 14:11:20 CET 2026
+Game: Ultimate Tic-Tac-Toe
+Variant: UCB1 tuned | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:17
+Completed T1642 (Ultimate Tic-Tac-Toe) -> completed=10/10, wins=3, losses=5, draws=2, failures=0, avgMoves=49.7
+Job completed at Thu Feb 19 14:13:00 CET 2026

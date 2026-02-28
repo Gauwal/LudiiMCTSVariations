@@ -1,0 +1,7 @@
+Running T1046 on lm4-w027 at Thu Feb 19 13:41:13 CET 2026
+Game: Spava
+Variant: Progressive Bias | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:51
+Completed T1046 (Spava) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=18.0
+Job completed at Thu Feb 19 13:41:34 CET 2026

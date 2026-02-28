@@ -1,0 +1,7 @@
+Running T1507 on lm4-w037 at Thu Feb 19 14:05:20 CET 2026
+Game: Pretwa
+Variant: Noisy AG0 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T1507 (Pretwa) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=27.3
+Job completed at Thu Feb 19 14:05:51 CET 2026

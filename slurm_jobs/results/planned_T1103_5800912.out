@@ -1,0 +1,7 @@
+Running T1103 on lm4-w002 at Thu Feb 19 13:43:43 CET 2026
+Game: Cascades
+Variant: UCB1 tuned | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T1103 (Cascades) -> completed=10/10, wins=9, losses=1, draws=0, failures=0, avgMoves=97.8
+Job completed at Thu Feb 19 13:46:43 CET 2026

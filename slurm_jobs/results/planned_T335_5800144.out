@@ -1,0 +1,7 @@
+Running T335 on lm4-w019 at Thu Feb 19 12:50:35 CET 2026
+Game: Tumbleweed
+Variant: UCB1 GRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:32
+Completed T335 (Tumbleweed) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=302.5
+Job completed at Thu Feb 19 13:05:43 CET 2026

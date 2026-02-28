@@ -1,0 +1,7 @@
+Running T406 on lm4-w002 at Thu Feb 19 13:13:06 CET 2026
+Game: Katro Bevohoka
+Variant: Implicit Minimax | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Completed T406 (Katro Bevohoka) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=127.0
+Job completed at Thu Feb 19 13:14:59 CET 2026

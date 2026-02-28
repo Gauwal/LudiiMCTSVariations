@@ -1,0 +1,7 @@
+Running T1957 on lm4-w035 at Thu Feb 19 14:26:51 CET 2026
+Game: Gamacha (Nobility)
+Variant: Progressive Bias | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1957 (Gamacha (Nobility)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=76.5
+Job completed at Thu Feb 19 14:27:20 CET 2026

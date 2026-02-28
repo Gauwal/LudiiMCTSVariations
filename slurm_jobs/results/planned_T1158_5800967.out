@@ -1,0 +1,7 @@
+Running T1158 on lm4-w026 at Thu Feb 19 13:46:14 CET 2026
+Game: Bara Guti (Bihar)
+Variant: Progressive Bias | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T1158 (Bara Guti (Bihar)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=58.1
+Job completed at Thu Feb 19 13:47:14 CET 2026

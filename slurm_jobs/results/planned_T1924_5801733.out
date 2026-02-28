@@ -1,0 +1,7 @@
+Running T1924 on lm4-w038 at Thu Feb 19 14:24:21 CET 2026
+Game: Shogi Puzzle
+Variant: McBRAVE | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:16:00
+Completed T1924 (Shogi Puzzle) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=1.0
+Job completed at Thu Feb 19 14:24:25 CET 2026

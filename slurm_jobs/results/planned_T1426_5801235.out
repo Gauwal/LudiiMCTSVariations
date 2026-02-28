@@ -1,0 +1,7 @@
+Running T1426 on lm4-w002 at Thu Feb 19 14:01:19 CET 2026
+Game: Tennessee Waltz
+Variant: Progressive History | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T1426 (Tennessee Waltz) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=19.7
+Job completed at Thu Feb 19 14:02:01 CET 2026

@@ -1,0 +1,7 @@
+Running T579 on lm4-w027 at Thu Feb 19 13:20:38 CET 2026
+Game: Pachgarhwa
+Variant: ExIt | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T579 (Pachgarhwa) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=39.7
+Job completed at Thu Feb 19 13:20:48 CET 2026

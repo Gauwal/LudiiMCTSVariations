@@ -1,0 +1,7 @@
+Running T1857 on lm4-w026 at Thu Feb 19 14:21:21 CET 2026
+Game: Tama
+Variant: UCB1 tuned | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T1857 (Tama) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=83.0
+Job completed at Thu Feb 19 14:23:30 CET 2026

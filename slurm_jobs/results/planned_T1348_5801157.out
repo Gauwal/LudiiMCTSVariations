@@ -1,0 +1,7 @@
+Running T1348 on lm4-w031 at Thu Feb 19 13:57:47 CET 2026
+Game: Bison
+Variant: UCB1 | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:12
+Completed T1348 (Bison) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=54.8
+Job completed at Thu Feb 19 13:59:39 CET 2026

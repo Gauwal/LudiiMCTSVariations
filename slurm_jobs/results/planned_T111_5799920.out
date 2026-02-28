@@ -1,0 +1,7 @@
+Running T111 on lm4-w002 at Thu Feb 19 13:02:05 CET 2026
+Game: Tibetan Jiuqi
+Variant: ExIt | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T111 (Tibetan Jiuqi) -> completed=10/10, wins=2, losses=5, draws=3, failures=0, avgMoves=699.4
+Job completed at Thu Feb 19 13:19:32 CET 2026

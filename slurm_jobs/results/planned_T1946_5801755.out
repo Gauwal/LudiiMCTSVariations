@@ -1,0 +1,7 @@
+Running T1946 on lm4-w038 at Thu Feb 19 14:25:21 CET 2026
+Game: Dash Guti
+Variant: ExIt | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1946 (Dash Guti) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=60.3
+Job completed at Thu Feb 19 14:26:23 CET 2026

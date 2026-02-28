@@ -1,0 +1,7 @@
+Running T871 on lm4-w002 at Thu Feb 19 13:33:12 CET 2026
+Game: Symbol S.2
+Variant: Progressive Widening | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T871 (Symbol S.2) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=10.5
+Job completed at Thu Feb 19 13:33:27 CET 2026

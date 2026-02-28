@@ -1,0 +1,7 @@
+Running T1274 on lm4-w027 at Thu Feb 19 13:52:16 CET 2026
+Game: Cashlan Gherra
+Variant: UCB1 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T1274 (Cashlan Gherra) -> completed=10/10, wins=0, losses=3, draws=7, failures=0, avgMoves=740.2
+Job completed at Thu Feb 19 14:17:39 CET 2026

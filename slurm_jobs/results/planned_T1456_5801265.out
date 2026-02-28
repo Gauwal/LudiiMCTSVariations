@@ -1,0 +1,7 @@
+Running T1456 on lm4-w026 at Thu Feb 19 12:56:35 CET 2026
+Game: Diaballik
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:57
+Completed T1456 (Diaballik) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=344.5
+Job completed at Thu Feb 19 13:08:26 CET 2026

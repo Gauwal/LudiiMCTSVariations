@@ -1,0 +1,7 @@
+Running T1035 on lm4-w027 at Thu Feb 19 13:40:43 CET 2026
+Game: Fanorona
+Variant: Progressive Widening | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T1035 (Fanorona) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=174.0
+Job completed at Thu Feb 19 13:46:22 CET 2026

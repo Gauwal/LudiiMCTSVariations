@@ -1,0 +1,7 @@
+Running T1649 on lm4-w002 at Thu Feb 19 14:11:20 CET 2026
+Game: Infuse
+Variant: Progressive History | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1649 (Infuse) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=35.9
+Job completed at Thu Feb 19 14:11:59 CET 2026

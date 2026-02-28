@@ -1,0 +1,7 @@
+Running T849 on lm4-w016 at Thu Feb 19 13:32:12 CET 2026
+Game: Msuwa wa Kunja
+Variant: Progressive Widening | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T849 (Msuwa wa Kunja) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=75.9
+Job completed at Thu Feb 19 13:33:32 CET 2026

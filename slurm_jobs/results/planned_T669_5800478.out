@@ -1,0 +1,7 @@
+Running T669 on lm4-w008 at Thu Feb 19 13:24:09 CET 2026
+Game: Unfair
+Variant: ExIt | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:20
+Completed T669 (Unfair) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=36.6
+Job completed at Thu Feb 19 13:24:52 CET 2026

@@ -1,0 +1,7 @@
+Running T1424 on lm4-w031 at Thu Feb 19 14:01:19 CET 2026
+Game: Chaturanga (Kridakausalya 14x14)
+Variant: ExIt | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:16:05
+Completed T1424 (Chaturanga (Kridakausalya 14x14)) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=727.6
+Job completed at Thu Feb 19 14:14:32 CET 2026

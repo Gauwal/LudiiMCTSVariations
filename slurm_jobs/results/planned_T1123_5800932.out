@@ -1,0 +1,7 @@
+Running T1123 on lm4-w031 at Thu Feb 19 13:44:43 CET 2026
+Game: Stargazers
+Variant: McGRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T1123 (Stargazers) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=34.7
+Job completed at Thu Feb 19 13:46:11 CET 2026

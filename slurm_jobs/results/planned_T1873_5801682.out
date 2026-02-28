@@ -1,0 +1,7 @@
+Running T1873 on lm4-w038 at Thu Feb 19 14:21:51 CET 2026
+Game: Ashanti Alignment Game
+Variant: Alpha-Beta | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:37
+Completed T1873 (Ashanti Alignment Game) -> completed=10/10, wins=0, losses=4, draws=6, failures=0, avgMoves=69.3
+Job completed at Thu Feb 19 14:23:59 CET 2026

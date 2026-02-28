@@ -1,0 +1,7 @@
+Running T1993 on lm4-w034 at Thu Feb 19 14:28:51 CET 2026
+Game: Bison
+Variant: McBRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:12
+Completed T1993 (Bison) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=68.6
+Job completed at Thu Feb 19 14:31:11 CET 2026

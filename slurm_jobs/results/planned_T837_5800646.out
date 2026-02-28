@@ -1,0 +1,7 @@
+Running T837 on lm4-w008 at Thu Feb 19 13:31:42 CET 2026
+Game: Vanguard
+Variant: Noisy AG0 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:19
+Completed T837 (Vanguard) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=28.1
+Job completed at Thu Feb 19 13:32:17 CET 2026

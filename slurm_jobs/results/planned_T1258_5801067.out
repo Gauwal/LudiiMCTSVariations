@@ -1,0 +1,7 @@
+Running T1258 on lm4-w026 at Thu Feb 19 12:56:05 CET 2026
+Game: Conspirateurs
+Variant: Progressive Widening | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:46
+Completed T1258 (Conspirateurs) -> completed=10/10, wins=1, losses=0, draws=9, failures=0, avgMoves=994.3
+Job completed at Thu Feb 19 13:30:50 CET 2026

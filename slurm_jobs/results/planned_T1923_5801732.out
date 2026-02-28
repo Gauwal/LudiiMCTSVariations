@@ -1,0 +1,7 @@
+Running T1923 on lm4-w038 at Thu Feb 19 14:24:21 CET 2026
+Game: Duidoku
+Variant: Progressive Widening | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:37
+Completed T1923 (Duidoku) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=67.0
+Job completed at Thu Feb 19 14:26:40 CET 2026

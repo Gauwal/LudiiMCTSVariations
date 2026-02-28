@@ -1,0 +1,7 @@
+Running T1449 on lm4-w008 at Thu Feb 19 14:02:20 CET 2026
+Game: Jeu du Renard et de la Poule
+Variant: Alpha-Beta | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1449 (Jeu du Renard et de la Poule) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=59.9
+Job completed at Thu Feb 19 14:04:19 CET 2026

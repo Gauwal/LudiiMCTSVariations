@@ -1,0 +1,7 @@
+Running T246 on lm4-w021 at Thu Feb 19 13:07:05 CET 2026
+Game: Rimau-Rimau (Two Tigers)
+Variant: Noisy AG0 | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T246 (Rimau-Rimau (Two Tigers)) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=444.0
+Job completed at Thu Feb 19 13:14:32 CET 2026

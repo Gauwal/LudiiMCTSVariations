@@ -1,0 +1,7 @@
+Running T503 on lm4-w016 at Thu Feb 19 12:52:05 CET 2026
+Game: Dots and Boxes
+Variant: McGRAVE | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:39
+Completed T503 (Dots and Boxes) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=123.8
+Job completed at Thu Feb 19 12:56:15 CET 2026

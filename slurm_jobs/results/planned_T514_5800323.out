@@ -1,0 +1,7 @@
+Running T514 on lm4-w002 at Thu Feb 19 13:17:37 CET 2026
+Game: Nchayo
+Variant: Progressive Widening | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T514 (Nchayo) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=47.1
+Job completed at Thu Feb 19 13:18:32 CET 2026

@@ -1,0 +1,7 @@
+Running T1910 on lm4-w038 at Thu Feb 19 14:23:51 CET 2026
+Game: Ntyenge
+Variant: Alpha-Beta | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T1910 (Ntyenge) -> completed=10/10, wins=2, losses=6, draws=2, failures=0, avgMoves=477.3
+Job completed at Thu Feb 19 14:28:25 CET 2026

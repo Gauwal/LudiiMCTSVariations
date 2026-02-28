@@ -1,0 +1,7 @@
+Running T1776 on lm4-w026 at Thu Feb 19 14:17:21 CET 2026
+Game: Brain Coral
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:08
+Completed T1776 (Brain Coral) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=31.7
+Job completed at Thu Feb 19 14:18:26 CET 2026

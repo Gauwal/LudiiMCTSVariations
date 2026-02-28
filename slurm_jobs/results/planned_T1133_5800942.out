@@ -1,0 +1,7 @@
+Running T1133 on lm4-w027 at Thu Feb 19 13:45:13 CET 2026
+Game: Dragonchess
+Variant: Progressive Widening | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:58
+Completed T1133 (Dragonchess) -> completed=10/10, wins=3, losses=3, draws=4, failures=0, avgMoves=446.2
+Job completed at Thu Feb 19 14:00:38 CET 2026

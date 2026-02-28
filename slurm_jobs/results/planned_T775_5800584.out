@@ -1,0 +1,7 @@
+Running T775 on lm4-w022 at Thu Feb 19 12:53:35 CET 2026
+Game: Bagha Guti
+Variant: Progressive Bias | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:48
+Completed T775 (Bagha Guti) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=354.4
+Job completed at Thu Feb 19 12:59:30 CET 2026

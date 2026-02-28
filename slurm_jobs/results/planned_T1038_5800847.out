@@ -1,0 +1,7 @@
+Running T1038 on lm4-w002 at Thu Feb 19 13:40:43 CET 2026
+Game: Alquerque de Tres
+Variant: Noisy AG0 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T1038 (Alquerque de Tres) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=5.5
+Job completed at Thu Feb 19 13:40:51 CET 2026

@@ -1,0 +1,7 @@
+Running T140 on lm4-w039 at Thu Feb 19 12:48:04 CET 2026
+Game: Sher Bakr
+Variant: Alpha-Beta | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:44
+Completed T140 (Sher Bakr) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=9.2
+Job completed at Thu Feb 19 12:48:16 CET 2026

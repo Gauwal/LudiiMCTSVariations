@@ -1,0 +1,7 @@
+Running T861 on lm4-w016 at Thu Feb 19 13:32:42 CET 2026
+Game: Iyogh
+Variant: Progressive Widening | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T861 (Iyogh) -> completed=10/10, wins=9, losses=1, draws=0, failures=0, avgMoves=373.8
+Job completed at Thu Feb 19 13:46:38 CET 2026

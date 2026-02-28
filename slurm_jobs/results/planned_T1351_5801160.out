@@ -1,0 +1,7 @@
+Running T1351 on lm4-w002 at Thu Feb 19 13:57:47 CET 2026
+Game: Wagner
+Variant: Implicit Minimax | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1351 (Wagner) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=4.0
+Job completed at Thu Feb 19 13:57:57 CET 2026

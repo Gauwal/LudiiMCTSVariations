@@ -1,0 +1,7 @@
+Running T1196 on lm4-w027 at Thu Feb 19 13:48:46 CET 2026
+Game: Goats Wintering
+Variant: UCB1 GRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1196 (Goats Wintering) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=31.7
+Job completed at Thu Feb 19 13:49:49 CET 2026

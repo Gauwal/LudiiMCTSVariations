@@ -1,0 +1,7 @@
+Running T1343 on lm4-w016 at Thu Feb 19 13:57:17 CET 2026
+Game: Abrobad
+Variant: Progressive History | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T1343 (Abrobad) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=13.3
+Job completed at Thu Feb 19 13:57:40 CET 2026

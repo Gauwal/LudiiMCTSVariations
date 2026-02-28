@@ -1,0 +1,7 @@
+Running T1918 on lm4-w034 at Thu Feb 19 14:24:21 CET 2026
+Game: Taktik
+Variant: Progressive History | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T1918 (Taktik) -> completed=10/10, wins=0, losses=2, draws=8, failures=0, avgMoves=933.6
+Job completed at Thu Feb 19 14:56:57 CET 2026

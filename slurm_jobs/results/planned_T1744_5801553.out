@@ -1,0 +1,7 @@
+Running T1744 on lm4-w002 at Thu Feb 19 14:15:51 CET 2026
+Game: Chessence
+Variant: UCB1 GRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:10
+Completed T1744 (Chessence) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=56.2
+Job completed at Thu Feb 19 14:17:45 CET 2026

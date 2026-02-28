@@ -1,0 +1,7 @@
+Running T401 on lm4-w008 at Thu Feb 19 12:51:05 CET 2026
+Game: Tai Shogi
+Variant: Progressive History | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=19G, time=01:25:34
+Completed T401 (Tai Shogi) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=315.3
+Job completed at Thu Feb 19 14:07:58 CET 2026

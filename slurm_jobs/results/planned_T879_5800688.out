@@ -1,0 +1,7 @@
+Running T879 on lm4-w002 at Thu Feb 19 13:33:42 CET 2026
+Game: Lian Qi (Bohai)
+Variant: McGRAVE | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T879 (Lian Qi (Bohai)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=62.7
+Job completed at Thu Feb 19 13:34:51 CET 2026

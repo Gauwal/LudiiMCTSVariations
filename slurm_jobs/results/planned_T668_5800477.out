@@ -1,0 +1,7 @@
+Running T668 on lm4-w008 at Thu Feb 19 13:24:09 CET 2026
+Game: Uxrijn Ever
+Variant: ExIt | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T668 (Uxrijn Ever) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=30.4
+Job completed at Thu Feb 19 13:24:42 CET 2026

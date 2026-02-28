@@ -1,0 +1,7 @@
+Running T1345 on lm4-w022 at Thu Feb 19 13:57:17 CET 2026
+Game: Nzengue (Small)
+Variant: Implicit Minimax | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1345 (Nzengue (Small)) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=8.0
+Job completed at Thu Feb 19 13:57:31 CET 2026

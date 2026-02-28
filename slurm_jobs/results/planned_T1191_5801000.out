@@ -1,0 +1,7 @@
+Running T1191 on lm4-w026 at Thu Feb 19 13:48:15 CET 2026
+Game: Pushing Me XO
+Variant: Implicit Minimax | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:01
+Completed T1191 (Pushing Me XO) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=37.4
+Job completed at Thu Feb 19 13:49:32 CET 2026

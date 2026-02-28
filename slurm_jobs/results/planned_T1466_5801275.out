@@ -1,0 +1,7 @@
+Running T1466 on lm4-w031 at Thu Feb 19 14:03:20 CET 2026
+Game: Shatranj al-Kabir
+Variant: UCB1 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:53
+Completed T1466 (Shatranj al-Kabir) -> completed=10/10, wins=1, losses=0, draws=9, failures=0, avgMoves=898.5
+Job completed at Thu Feb 19 15:13:47 CET 2026

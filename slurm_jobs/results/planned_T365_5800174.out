@@ -1,0 +1,7 @@
+Running T365 on lm4-w008 at Thu Feb 19 12:50:35 CET 2026
+Game: Poprad Game
+Variant: Progressive History | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:57
+Completed T365 (Poprad Game) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:37:40 CET 2026

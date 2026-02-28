@@ -1,0 +1,7 @@
+Running T1499 on lm4-w002 at Thu Feb 19 14:04:50 CET 2026
+Game: Kharbaga
+Variant: McBRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T1499 (Kharbaga) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=103.7
+Job completed at Thu Feb 19 14:08:17 CET 2026

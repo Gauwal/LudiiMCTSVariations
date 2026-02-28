@@ -1,0 +1,7 @@
+Running T1161 on lm4-w002 at Thu Feb 19 13:46:44 CET 2026
+Game: Two-Colour
+Variant: Noisy AG0 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T1161 (Two-Colour) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=21.8
+Job completed at Thu Feb 19 13:47:08 CET 2026

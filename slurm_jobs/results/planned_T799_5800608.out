@@ -1,0 +1,7 @@
+Running T799 on lm4-w039 at Thu Feb 19 13:30:11 CET 2026
+Game: Kapana Bona
+Variant: Progressive Bias | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:31
+Completed T799 (Kapana Bona) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=10.0
+Job completed at Thu Feb 19 13:30:22 CET 2026

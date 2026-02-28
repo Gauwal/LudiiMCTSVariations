@@ -1,0 +1,7 @@
+Running T741 on lm4-w022 at Thu Feb 19 13:27:40 CET 2026
+Game: Fivalath
+Variant: Progressive Bias | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T741 (Fivalath) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=28.2
+Job completed at Thu Feb 19 13:28:11 CET 2026

@@ -1,0 +1,7 @@
+Running T857 on lm4-w008 at Thu Feb 19 13:32:42 CET 2026
+Game: Mughal Pathan
+Variant: Progressive History | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T857 (Mughal Pathan) -> completed=10/10, wins=3, losses=4, draws=3, failures=0, avgMoves=763.2
+Job completed at Thu Feb 19 13:58:24 CET 2026

@@ -1,0 +1,7 @@
+Running T1525 on lm4-w008 at Thu Feb 19 14:05:49 CET 2026
+Game: Dabuda
+Variant: UCB1 | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1525 (Dabuda) -> completed=10/10, wins=4, losses=5, draws=1, failures=0, avgMoves=134.6
+Job completed at Thu Feb 19 14:07:24 CET 2026

@@ -1,0 +1,7 @@
+Running T129 on lm4-w002 at Thu Feb 19 12:47:34 CET 2026
+Game: Dai Seireigi
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=12G, time=01:19:31
+Completed T129 (Dai Seireigi) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=245.5
+Job completed at Thu Feb 19 14:04:33 CET 2026

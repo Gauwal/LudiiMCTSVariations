@@ -1,0 +1,7 @@
+Running T153 on lm4-w034 at Thu Feb 19 13:03:05 CET 2026
+Game: Chiana wa Kunja
+Variant: UCB1 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:17
+Completed T153 (Chiana wa Kunja) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=169.0
+Job completed at Thu Feb 19 13:03:07 CET 2026

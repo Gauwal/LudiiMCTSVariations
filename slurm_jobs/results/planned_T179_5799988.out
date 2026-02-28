@@ -1,0 +1,7 @@
+Running T179 on lm4-w002 at Thu Feb 19 12:48:34 CET 2026
+Game: Short Assize
+Variant: McBRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:18
+Completed T179 (Short Assize) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=370.5
+Job completed at Thu Feb 19 13:01:25 CET 2026

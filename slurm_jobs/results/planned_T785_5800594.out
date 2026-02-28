@@ -1,0 +1,7 @@
+Running T785 on lm4-w022 at Thu Feb 19 13:29:10 CET 2026
+Game: Hops-a-Daisy Generalized
+Variant: AG0 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T785 (Hops-a-Daisy Generalized) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=57.5
+Job completed at Thu Feb 19 13:30:04 CET 2026

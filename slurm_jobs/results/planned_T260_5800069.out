@@ -1,0 +1,7 @@
+Running T260 on lm4-w039 at Thu Feb 19 13:07:35 CET 2026
+Game: Julbahar
+Variant: ExIt | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:41
+Completed T260 (Julbahar) -> completed=10/10, wins=0, losses=4, draws=6, failures=0, avgMoves=803.4
+Job completed at Thu Feb 19 13:20:57 CET 2026

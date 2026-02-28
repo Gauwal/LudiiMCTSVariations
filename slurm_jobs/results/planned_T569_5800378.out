@@ -1,0 +1,7 @@
+Running T569 on lm4-w031 at Thu Feb 19 13:20:08 CET 2026
+Game: Xanan Zirge
+Variant: UCB1 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T569 (Xanan Zirge) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=235.7
+Job completed at Thu Feb 19 13:24:19 CET 2026

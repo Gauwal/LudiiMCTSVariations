@@ -1,0 +1,7 @@
+Running T1122 on lm4-w022 at Thu Feb 19 13:44:13 CET 2026
+Game: ConHex
+Variant: Alpha-Beta | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T1122 (ConHex) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=24.4
+Job completed at Thu Feb 19 13:44:41 CET 2026

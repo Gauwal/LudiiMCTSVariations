@@ -1,0 +1,7 @@
+Running T615 on lm4-w022 at Thu Feb 19 12:52:35 CET 2026
+Game: Plotto
+Variant: UCB1 tuned | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=01:19:25
+Completed T615 (Plotto) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=6.0
+Job completed at Thu Feb 19 12:52:53 CET 2026

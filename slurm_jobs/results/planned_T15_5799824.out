@@ -1,0 +1,7 @@
+Running T15 on lm4-w002 at Thu Feb 19 12:45:33 CET 2026
+Game: Ringo
+Variant: Implicit Minimax | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=01:20:45
+Completed T15 (Ringo) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=25.3
+Job completed at Thu Feb 19 12:46:34 CET 2026

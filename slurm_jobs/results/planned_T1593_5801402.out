@@ -1,0 +1,7 @@
+Running T1593 on lm4-w026 at Thu Feb 19 12:57:35 CET 2026
+Game: Dai Seireigi
+Variant: AG0 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=12G, time=01:19:20
+Completed T1593 (Dai Seireigi) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=451.5
+Job completed at Thu Feb 19 14:14:30 CET 2026

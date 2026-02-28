@@ -1,0 +1,7 @@
+Running T1532 on lm4-w037 at Thu Feb 19 14:06:20 CET 2026
+Game: Oust
+Variant: AG0 | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:21
+Completed T1532 (Oust) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=105.0
+Job completed at Thu Feb 19 14:08:33 CET 2026

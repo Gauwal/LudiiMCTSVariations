@@ -1,0 +1,7 @@
+Running T74 on lm4-w019 at Thu Feb 19 12:47:03 CET 2026
+Game: Overflow
+Variant: UCB1 GRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:48
+Completed T74 (Overflow) -> completed=10/10, wins=7, losses=3, draws=0, failures=0, avgMoves=66.2
+Job completed at Thu Feb 19 12:49:20 CET 2026

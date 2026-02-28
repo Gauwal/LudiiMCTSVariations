@@ -1,0 +1,7 @@
+Running T1505 on lm4-w008 at Thu Feb 19 14:04:49 CET 2026
+Game: Shataranja
+Variant: Noisy AG0 | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:39
+Completed T1505 (Shataranja) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=334.8
+Job completed at Thu Feb 19 14:10:39 CET 2026

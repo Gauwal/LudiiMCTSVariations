@@ -1,0 +1,7 @@
+Running T1837 on lm4-w034 at Thu Feb 19 14:20:21 CET 2026
+Game: Kotu Ellima
+Variant: Alpha-Beta | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T1837 (Kotu Ellima) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=485.8
+Job completed at Thu Feb 19 14:36:42 CET 2026

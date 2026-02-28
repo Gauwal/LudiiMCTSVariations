@@ -1,0 +1,7 @@
+Running T1758 on lm4-w026 at Thu Feb 19 14:16:21 CET 2026
+Game: La'b Akila
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T1758 (La'b Akila) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=216.3
+Job completed at Thu Feb 19 14:18:40 CET 2026

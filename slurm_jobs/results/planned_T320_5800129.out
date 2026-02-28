@@ -1,0 +1,7 @@
+Running T320 on lm4-w026 at Thu Feb 19 13:09:36 CET 2026
+Game: Notakto
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T320 (Notakto) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=111.7
+Job completed at Thu Feb 19 13:13:20 CET 2026

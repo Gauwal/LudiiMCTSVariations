@@ -1,0 +1,7 @@
+Running T1207 on lm4-w021 at Thu Feb 19 13:49:16 CET 2026
+Game: Moruba
+Variant: McBRAVE | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:09
+Completed T1207 (Moruba) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=186.9
+Job completed at Thu Feb 19 13:55:21 CET 2026

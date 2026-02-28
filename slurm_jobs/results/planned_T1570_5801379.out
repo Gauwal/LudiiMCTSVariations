@@ -1,0 +1,7 @@
+Running T1570 on lm4-w008 at Thu Feb 19 12:57:35 CET 2026
+Game: Tenjiku Shogi
+Variant: Progressive Bias | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=11G, time=01:18:58
+Completed T1570 (Tenjiku Shogi) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=396.1
+Job completed at Thu Feb 19 13:04:51 CET 2026

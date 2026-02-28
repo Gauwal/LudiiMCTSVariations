@@ -1,0 +1,7 @@
+Running T671 on lm4-w019 at Thu Feb 19 13:24:39 CET 2026
+Game: Yeung Luk Sz' Kon Tseung Kwan
+Variant: Progressive Widening | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T671 (Yeung Luk Sz' Kon Tseung Kwan) -> completed=10/10, wins=0, losses=4, draws=6, failures=0, avgMoves=805.8
+Job completed at Thu Feb 19 13:38:14 CET 2026

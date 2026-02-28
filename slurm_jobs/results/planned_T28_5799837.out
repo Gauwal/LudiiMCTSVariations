@@ -1,0 +1,7 @@
+Running T28 on lm4-w027 at Thu Feb 19 12:59:35 CET 2026
+Game: CrossGeo
+Variant: UCB1 tuned | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T28 (CrossGeo) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=25.9
+Job completed at Thu Feb 19 13:00:26 CET 2026

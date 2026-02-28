@@ -1,0 +1,7 @@
+Running T1872 on lm4-w038 at Thu Feb 19 14:21:51 CET 2026
+Game: Dimraw
+Variant: Progressive History | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:36
+Completed T1872 (Dimraw) -> completed=10/10, wins=0, losses=5, draws=5, failures=0, avgMoves=34.6
+Job completed at Thu Feb 19 14:22:30 CET 2026

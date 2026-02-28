@@ -1,0 +1,7 @@
+Running T1429 on lm4-w016 at Thu Feb 19 14:01:19 CET 2026
+Game: Stratomic
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:30
+Completed T1429 (Stratomic) -> completed=10/10, wins=5, losses=3, draws=2, failures=0, avgMoves=351.8
+Job completed at Thu Feb 19 14:13:23 CET 2026

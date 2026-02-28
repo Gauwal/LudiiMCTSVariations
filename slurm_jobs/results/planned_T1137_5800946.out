@@ -1,0 +1,7 @@
+Running T1137 on lm4-w002 at Thu Feb 19 13:45:13 CET 2026
+Game: Stargazers
+Variant: UCB1 GRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T1137 (Stargazers) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=35.5
+Job completed at Thu Feb 19 13:46:44 CET 2026

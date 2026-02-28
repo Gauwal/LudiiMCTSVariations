@@ -1,0 +1,7 @@
+Running T21 on lm4-w002 at Thu Feb 19 12:59:05 CET 2026
+Game: Cylinder Chess
+Variant: Progressive Bias | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:29
+Completed T21 (Cylinder Chess) -> completed=10/10, wins=0, losses=6, draws=4, failures=0, avgMoves=287.6
+Job completed at Thu Feb 19 13:04:03 CET 2026

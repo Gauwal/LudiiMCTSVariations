@@ -1,0 +1,7 @@
+Running T215 on lm4-w026 at Thu Feb 19 13:05:35 CET 2026
+Game: 1D Chess
+Variant: Implicit Minimax | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T215 (1D Chess) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=13.6
+Job completed at Thu Feb 19 13:06:02 CET 2026

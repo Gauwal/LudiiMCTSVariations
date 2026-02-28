@@ -1,0 +1,7 @@
+Running T771 on lm4-w026 at Thu Feb 19 13:28:40 CET 2026
+Game: Demala Diviyan Keliya
+Variant: UCB1 tuned | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:50
+Completed T771 (Demala Diviyan Keliya) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=114.8
+Job completed at Thu Feb 19 13:32:32 CET 2026

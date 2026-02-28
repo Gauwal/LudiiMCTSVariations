@@ -1,0 +1,7 @@
+Running T287 on lm4-w039 at Thu Feb 19 13:08:36 CET 2026
+Game: Isolo
+Variant: Progressive Bias | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T287 (Isolo) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=129.2
+Job completed at Thu Feb 19 13:09:45 CET 2026

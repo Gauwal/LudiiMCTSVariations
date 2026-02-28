@@ -1,0 +1,7 @@
+Running T1670 on lm4-w008 at Thu Feb 19 14:12:20 CET 2026
+Game: Dum Blas
+Variant: Noisy AG0 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:08
+Completed T1670 (Dum Blas) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=79.2
+Job completed at Thu Feb 19 14:13:16 CET 2026

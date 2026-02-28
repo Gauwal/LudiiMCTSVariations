@@ -1,0 +1,7 @@
+Running T1144 on lm4-w002 at Thu Feb 19 13:45:43 CET 2026
+Game: Cascades
+Variant: Progressive History | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T1144 (Cascades) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=96.4
+Job completed at Thu Feb 19 13:48:40 CET 2026

@@ -1,0 +1,7 @@
+Running T17 on lm4-w003 at Thu Feb 19 12:46:03 CET 2026
+Game: Ringo
+Variant: Alpha-Beta | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=01:20:56
+Completed T17 (Ringo) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=28.1
+Job completed at Thu Feb 19 12:46:42 CET 2026

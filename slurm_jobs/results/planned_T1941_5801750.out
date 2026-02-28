@@ -1,0 +1,7 @@
+Running T1941 on lm4-w034 at Thu Feb 19 14:25:21 CET 2026
+Game: Arimaa
+Variant: McBRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:21
+Completed T1941 (Arimaa) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=331.5
+Job completed at Thu Feb 19 14:36:56 CET 2026

@@ -1,0 +1,7 @@
+Running T731 on lm4-w022 at Thu Feb 19 13:27:10 CET 2026
+Game: 4 Squared
+Variant: Alpha-Beta | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:15
+Completed T731 (4 Squared) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=75.9
+Job completed at Thu Feb 19 13:29:47 CET 2026

@@ -1,0 +1,7 @@
+Running T809 on lm4-w021 at Thu Feb 19 13:30:41 CET 2026
+Game: Pippinzip
+Variant: McGRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:30
+Completed T809 (Pippinzip) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=95.5
+Job completed at Thu Feb 19 13:33:54 CET 2026

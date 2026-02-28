@@ -1,0 +1,7 @@
+Running T210 on lm4-w002 at Thu Feb 19 13:05:35 CET 2026
+Game: 1D Chess
+Variant: UCB1 GRAVE | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T210 (1D Chess) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=5.7
+Job completed at Thu Feb 19 13:05:43 CET 2026

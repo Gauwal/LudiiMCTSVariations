@@ -1,0 +1,7 @@
+Running T1617 on lm4-w008 at Thu Feb 19 14:09:50 CET 2026
+Game: Bao Ki Arabu (Zanzibar 1)
+Variant: ExIt | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:41
+Completed T1617 (Bao Ki Arabu (Zanzibar 1)) -> completed=10/10, wins=0, losses=9, draws=1, failures=0, avgMoves=217.1
+Job completed at Thu Feb 19 14:10:42 CET 2026

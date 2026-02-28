@@ -1,0 +1,7 @@
+Running T62 on lm4-w027 at Thu Feb 19 12:46:33 CET 2026
+Game: CustAndantino
+Variant: Progressive Bias | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=01:19:08
+Completed T62 (CustAndantino) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=29.1
+Job completed at Thu Feb 19 12:47:10 CET 2026

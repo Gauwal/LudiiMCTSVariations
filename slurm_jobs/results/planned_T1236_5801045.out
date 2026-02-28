@@ -1,0 +1,7 @@
+Running T1236 on lm4-w022 at Thu Feb 19 13:50:16 CET 2026
+Game: Toono
+Variant: Implicit Minimax | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T1236 (Toono) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=17.2
+Job completed at Thu Feb 19 13:50:52 CET 2026

@@ -1,0 +1,7 @@
+Running T1342 on lm4-w008 at Thu Feb 19 13:57:17 CET 2026
+Game: Walking Dots
+Variant: Implicit Minimax | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T1342 (Walking Dots) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=51.2
+Job completed at Thu Feb 19 13:58:11 CET 2026

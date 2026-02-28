@@ -1,0 +1,7 @@
+Running T478 on lm4-w021 at Thu Feb 19 13:16:07 CET 2026
+Game: Diamond
+Variant: ExIt | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:25
+Completed T478 (Diamond) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=28.9
+Job completed at Thu Feb 19 13:16:39 CET 2026

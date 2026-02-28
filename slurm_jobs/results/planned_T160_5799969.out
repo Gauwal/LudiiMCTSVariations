@@ -1,0 +1,7 @@
+Running T160 on lm4-w008 at Thu Feb 19 13:03:35 CET 2026
+Game: En Gehe
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:55
+Completed T160 (En Gehe) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=559.3
+Job completed at Thu Feb 19 13:10:34 CET 2026

@@ -1,0 +1,7 @@
+Running T73 on lm4-w002 at Thu Feb 19 12:47:03 CET 2026
+Game: Taikyoku Shogi
+Variant: ExIt | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=38G, time=01:41:14
+Completed T73 (Taikyoku Shogi) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:45:21 CET 2026

@@ -1,0 +1,7 @@
+Running T1326 on lm4-w027 at Thu Feb 19 13:56:17 CET 2026
+Game: Konane
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:04
+Completed T1326 (Konane) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=85.9
+Job completed at Thu Feb 19 13:59:07 CET 2026

@@ -1,0 +1,7 @@
+Running T1375 on lm4-w002 at Thu Feb 19 13:58:48 CET 2026
+Game: Splastwo
+Variant: UCB1 tuned | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T1375 (Splastwo) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=46.4
+Job completed at Thu Feb 19 13:59:25 CET 2026

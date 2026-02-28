@@ -1,0 +1,7 @@
+Running T720 on lm4-w016 at Thu Feb 19 13:26:40 CET 2026
+Game: Redstone
+Variant: Alpha-Beta | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:32
+Completed T720 (Redstone) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=302.2
+Job completed at Thu Feb 19 13:39:22 CET 2026

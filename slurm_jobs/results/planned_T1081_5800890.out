@@ -1,0 +1,7 @@
+Running T1081 on lm4-w003 at Thu Feb 19 13:42:43 CET 2026
+Game: Tic Tactics
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:54
+Completed T1081 (Tic Tactics) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=10.8
+Job completed at Thu Feb 19 13:43:07 CET 2026

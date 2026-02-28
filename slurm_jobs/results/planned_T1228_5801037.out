@@ -1,0 +1,7 @@
+Running T1228 on lm4-w019 at Thu Feb 19 13:50:16 CET 2026
+Game: Sonka
+Variant: Progressive History | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:42
+Completed T1228 (Sonka) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:02:36 CET 2026

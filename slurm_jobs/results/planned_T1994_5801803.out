@@ -1,0 +1,7 @@
+Running T1994 on lm4-w038 at Thu Feb 19 14:28:51 CET 2026
+Game: Owela (Benguela)
+Variant: Noisy AG0 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T1994 (Owela (Benguela)) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=72.9
+Job completed at Thu Feb 19 14:29:28 CET 2026

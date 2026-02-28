@@ -1,0 +1,7 @@
+Running T1984 on lm4-w038 at Thu Feb 19 14:28:21 CET 2026
+Game: Groups
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Completed T1984 (Groups) -> completed=10/10, wins=3, losses=3, draws=4, failures=0, avgMoves=509.4
+Job completed at Thu Feb 19 14:46:01 CET 2026

@@ -1,0 +1,7 @@
+Running T1823 on lm4-w008 at Thu Feb 19 14:19:51 CET 2026
+Game: Koti Keliya
+Variant: UCB1 | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T1823 (Koti Keliya) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=48.8
+Job completed at Thu Feb 19 14:20:42 CET 2026

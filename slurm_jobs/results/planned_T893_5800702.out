@@ -1,0 +1,7 @@
+Running T893 on lm4-w008 at Thu Feb 19 13:34:12 CET 2026
+Game: Coyote
+Variant: Implicit Minimax | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T893 (Coyote) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=50.7
+Job completed at Thu Feb 19 13:35:04 CET 2026

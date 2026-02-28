@@ -1,0 +1,7 @@
+Running T1083 on lm4-w039 at Thu Feb 19 13:42:43 CET 2026
+Game: Minishogi
+Variant: McBRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:40
+Completed T1083 (Minishogi) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=84.1
+Job completed at Thu Feb 19 13:45:42 CET 2026

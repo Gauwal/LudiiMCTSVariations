@@ -1,0 +1,7 @@
+Running T33 on lm4-w019 at Thu Feb 19 12:46:03 CET 2026
+Game: Taikyoku Shogi
+Variant: AG0 | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=38G, time=01:41:14
+Completed T33 (Taikyoku Shogi) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=995.3
+Job completed at Thu Feb 19 13:48:07 CET 2026

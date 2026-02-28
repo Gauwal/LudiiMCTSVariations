@@ -1,0 +1,7 @@
+Running T253 on lm4-w016 at Thu Feb 19 13:07:05 CET 2026
+Game: Chiana wa Bwalo
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:53
+Completed T253 (Chiana wa Bwalo) -> completed=10/10, wins=3, losses=5, draws=2, failures=0, avgMoves=360.2
+Job completed at Thu Feb 19 13:18:24 CET 2026

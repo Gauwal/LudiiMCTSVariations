@@ -1,0 +1,7 @@
+Running T26 on lm4-w016 at Thu Feb 19 12:59:05 CET 2026
+Game: Fibonacci Nim
+Variant: Noisy AG0 | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:40
+Completed T26 (Fibonacci Nim) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=61.7
+Job completed at Thu Feb 19 12:59:41 CET 2026

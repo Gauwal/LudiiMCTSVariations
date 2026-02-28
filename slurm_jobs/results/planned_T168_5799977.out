@@ -1,0 +1,7 @@
+Running T168 on lm4-w002 at Thu Feb 19 13:04:05 CET 2026
+Game: Sim
+Variant: Implicit Minimax | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T168 (Sim) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=12.9
+Job completed at Thu Feb 19 13:04:33 CET 2026

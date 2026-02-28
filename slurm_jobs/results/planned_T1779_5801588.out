@@ -1,0 +1,7 @@
+Running T1779 on lm4-w026 at Thu Feb 19 14:17:21 CET 2026
+Game: Glinski Chess
+Variant: Alpha-Beta | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:35
+Completed T1779 (Glinski Chess) -> completed=10/10, wins=0, losses=4, draws=6, failures=0, avgMoves=503.1
+Job completed at Thu Feb 19 14:34:32 CET 2026

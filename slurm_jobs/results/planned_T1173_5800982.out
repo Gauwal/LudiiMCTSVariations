@@ -1,0 +1,7 @@
+Running T1173 on lm4-w002 at Thu Feb 19 13:47:16 CET 2026
+Game: Round Merels
+Variant: UCB1 tuned | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1173 (Round Merels) -> completed=10/10, wins=0, losses=7, draws=3, failures=0, avgMoves=482.2
+Job completed at Thu Feb 19 14:03:26 CET 2026

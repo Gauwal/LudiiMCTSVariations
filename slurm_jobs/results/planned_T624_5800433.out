@@ -1,0 +1,7 @@
+Running T624 on lm4-w008 at Thu Feb 19 13:22:08 CET 2026
+Game: Vanguard
+Variant: Implicit Minimax | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T624 (Vanguard) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=26.1
+Job completed at Thu Feb 19 13:23:07 CET 2026

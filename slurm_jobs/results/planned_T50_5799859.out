@@ -1,0 +1,7 @@
+Running T50 on lm4-w002 at Thu Feb 19 13:00:05 CET 2026
+Game: Cylinder Chess
+Variant: Progressive History | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T50 (Cylinder Chess) -> completed=10/10, wins=2, losses=5, draws=3, failures=0, avgMoves=207.7
+Job completed at Thu Feb 19 13:07:12 CET 2026

@@ -1,0 +1,7 @@
+Running T1401 on lm4-w031 at Thu Feb 19 14:00:19 CET 2026
+Game: Pon Chochotl
+Variant: ExIt | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1401 (Pon Chochotl) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=48.8
+Job completed at Thu Feb 19 14:01:10 CET 2026

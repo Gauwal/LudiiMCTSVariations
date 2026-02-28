@@ -1,0 +1,7 @@
+Running T938 on lm4-w031 at Thu Feb 19 13:36:42 CET 2026
+Game: Currierspiel
+Variant: ExIt | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=01:15:38
+Completed T938 (Currierspiel) -> completed=10/10, wins=0, losses=1, draws=9, failures=0, avgMoves=919.0
+Job completed at Thu Feb 19 13:52:52 CET 2026

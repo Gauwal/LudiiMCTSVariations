@@ -1,0 +1,7 @@
+Running T930 on lm4-w002 at Thu Feb 19 13:36:12 CET 2026
+Game: Xiang Hex
+Variant: Progressive Bias | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:37
+Completed T930 (Xiang Hex) -> completed=10/10, wins=1, losses=1, draws=8, failures=0, avgMoves=820.6
+Job completed at Thu Feb 19 13:54:50 CET 2026

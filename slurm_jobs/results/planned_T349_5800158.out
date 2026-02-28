@@ -1,0 +1,7 @@
+Running T349 on lm4-w008 at Thu Feb 19 13:10:36 CET 2026
+Game: Mysore Tiger Game
+Variant: Implicit Minimax | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:43
+Completed T349 (Mysore Tiger Game) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=7.4
+Job completed at Thu Feb 19 13:10:45 CET 2026

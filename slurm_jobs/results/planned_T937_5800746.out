@@ -1,0 +1,7 @@
+Running T937 on lm4-w027 at Thu Feb 19 13:36:42 CET 2026
+Game: Tapata
+Variant: UCB1 tuned | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:45
+Completed T937 (Tapata) -> completed=10/10, wins=8, losses=2, draws=0, failures=0, avgMoves=76.8
+Job completed at Thu Feb 19 13:38:25 CET 2026

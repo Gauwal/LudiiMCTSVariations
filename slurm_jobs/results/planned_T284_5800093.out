@@ -1,0 +1,7 @@
+Running T284 on lm4-w002 at Thu Feb 19 12:50:04 CET 2026
+Game: Che Lo
+Variant: Implicit Minimax | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:33
+Completed T284 (Che Lo) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=1.0
+Job completed at Thu Feb 19 12:50:08 CET 2026

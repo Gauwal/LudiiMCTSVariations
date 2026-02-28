@@ -1,0 +1,7 @@
+Running T1210 on lm4-w035 at Thu Feb 19 13:49:16 CET 2026
+Game: Makonn
+Variant: UCB1 tuned | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:48
+Completed T1210 (Makonn) -> completed=10/10, wins=4, losses=4, draws=2, failures=0, avgMoves=552.1
+Job completed at Thu Feb 19 14:06:28 CET 2026

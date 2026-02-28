@@ -1,0 +1,7 @@
+Running T1153 on lm4-w026 at Thu Feb 19 13:46:14 CET 2026
+Game: Koti Keliya
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T1153 (Koti Keliya) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=26.6
+Job completed at Thu Feb 19 13:47:09 CET 2026

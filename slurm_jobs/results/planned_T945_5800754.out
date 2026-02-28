@@ -1,0 +1,7 @@
+Running T945 on lm4-w022 at Thu Feb 19 13:36:42 CET 2026
+Game: Louis XVI
+Variant: McGRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:23
+Completed T945 (Louis XVI) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=191.0
+Job completed at Thu Feb 19 13:40:52 CET 2026

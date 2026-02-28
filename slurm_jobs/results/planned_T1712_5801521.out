@@ -1,0 +1,7 @@
+Running T1712 on lm4-w008 at Thu Feb 19 14:14:20 CET 2026
+Game: Rumi Shatranj
+Variant: Progressive Bias | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:20
+Completed T1712 (Rumi Shatranj) -> completed=10/10, wins=0, losses=3, draws=7, failures=0, avgMoves=741.6
+Job completed at Thu Feb 19 14:27:38 CET 2026

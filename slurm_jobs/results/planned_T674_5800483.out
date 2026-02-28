@@ -1,0 +1,7 @@
+Running T674 on lm4-w002 at Thu Feb 19 13:24:39 CET 2026
+Game: Quela
+Variant: McGRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:00
+Completed T674 (Quela) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:59:20 CET 2026

@@ -1,0 +1,7 @@
+Running T1891 on lm4-w038 at Thu Feb 19 14:22:51 CET 2026
+Game: Two-Colour
+Variant: UCB1 tuned | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:47
+Completed T1891 (Two-Colour) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=28.3
+Job completed at Thu Feb 19 14:23:47 CET 2026

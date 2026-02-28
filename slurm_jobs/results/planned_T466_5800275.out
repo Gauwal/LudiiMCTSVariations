@@ -1,0 +1,7 @@
+Running T466 on lm4-w039 at Thu Feb 19 13:15:37 CET 2026
+Game: Quarto
+Variant: AG0 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T466 (Quarto) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=17.4
+Job completed at Thu Feb 19 13:15:59 CET 2026

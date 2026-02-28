@@ -1,0 +1,7 @@
+Running T127 on lm4-w002 at Thu Feb 19 12:47:33 CET 2026
+Game: Bagh Guti
+Variant: UCB1 tuned | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:14:47
+Completed T127 (Bagh Guti) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=207.7
+Job completed at Thu Feb 19 12:54:31 CET 2026

@@ -1,0 +1,7 @@
+Running T131 on lm4-w034 at Thu Feb 19 13:02:35 CET 2026
+Game: Kensington
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:12
+Completed T131 (Kensington) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 13:37:39 CET 2026

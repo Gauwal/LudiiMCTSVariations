@@ -1,0 +1,7 @@
+Running T851 on lm4-w016 at Thu Feb 19 13:32:12 CET 2026
+Game: Njombwa (Two Counters)
+Variant: UCB1 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:58
+Completed T851 (Njombwa (Two Counters)) -> completed=10/10, wins=4, losses=5, draws=1, failures=0, avgMoves=339.3
+Job completed at Thu Feb 19 13:36:09 CET 2026

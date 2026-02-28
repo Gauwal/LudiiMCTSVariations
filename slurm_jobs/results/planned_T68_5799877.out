@@ -1,0 +1,7 @@
+Running T68 on lm4-w027 at Thu Feb 19 12:46:33 CET 2026
+Game: Ringo
+Variant: McBRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=01:21:18
+Completed T68 (Ringo) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=43.7
+Job completed at Thu Feb 19 12:48:15 CET 2026

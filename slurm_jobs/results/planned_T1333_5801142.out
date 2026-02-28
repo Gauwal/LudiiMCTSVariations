@@ -1,0 +1,7 @@
+Running T1333 on lm4-w002 at Thu Feb 19 13:56:47 CET 2026
+Game: Lau Kata Kati
+Variant: UCB1 | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T1333 (Lau Kata Kati) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=56.7
+Job completed at Thu Feb 19 13:57:46 CET 2026

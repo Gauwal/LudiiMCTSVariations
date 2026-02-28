@@ -1,0 +1,7 @@
+Running T1970 on lm4-w038 at Thu Feb 19 14:27:21 CET 2026
+Game: Rascals
+Variant: Alpha-Beta | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:02
+Completed T1970 (Rascals) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=94.1
+Job completed at Thu Feb 19 14:30:33 CET 2026

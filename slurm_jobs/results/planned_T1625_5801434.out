@@ -1,0 +1,7 @@
+Running T1625 on lm4-w002 at Thu Feb 19 14:10:19 CET 2026
+Game: Bao Ki Arabu (Zanzibar 2)
+Variant: Progressive Widening | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:14
+Completed T1625 (Bao Ki Arabu (Zanzibar 2)) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=129.4
+Job completed at Thu Feb 19 14:12:24 CET 2026

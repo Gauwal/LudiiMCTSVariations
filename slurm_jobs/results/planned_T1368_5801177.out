@@ -1,0 +1,7 @@
+Running T1368 on lm4-w008 at Thu Feb 19 13:58:18 CET 2026
+Game: T'mbl
+Variant: Alpha-Beta | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:44
+Completed T1368 (T'mbl) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=9.1
+Job completed at Thu Feb 19 13:58:30 CET 2026

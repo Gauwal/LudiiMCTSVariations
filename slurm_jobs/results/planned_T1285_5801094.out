@@ -1,0 +1,7 @@
+Running T1285 on lm4-w008 at Thu Feb 19 13:53:16 CET 2026
+Game: Forge
+Variant: Progressive History | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:03
+Completed T1285 (Forge) -> completed=10/10, wins=4, losses=6, draws=0, failures=0, avgMoves=106.3
+Job completed at Thu Feb 19 13:56:31 CET 2026

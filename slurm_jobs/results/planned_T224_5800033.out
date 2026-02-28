@@ -1,0 +1,7 @@
+Running T224 on lm4-w002 at Thu Feb 19 13:06:06 CET 2026
+Game: Vertiges
+Variant: UCB1 GRAVE | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:27
+Completed T224 (Vertiges) -> completed=10/10, wins=0, losses=6, draws=4, failures=0, avgMoves=597.1
+Job completed at Thu Feb 19 13:28:58 CET 2026

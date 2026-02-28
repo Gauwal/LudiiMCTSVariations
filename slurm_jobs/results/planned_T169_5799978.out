@@ -1,0 +1,7 @@
+Running T169 on lm4-w002 at Thu Feb 19 13:04:05 CET 2026
+Game: Celticator
+Variant: UCB1 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:23
+Completed T169 (Celticator) -> completed=10/10, wins=6, losses=4, draws=0, failures=0, avgMoves=36.7
+Job completed at Thu Feb 19 13:05:43 CET 2026

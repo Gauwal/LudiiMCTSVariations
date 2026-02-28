@@ -1,0 +1,7 @@
+Running T1557 on lm4-w025 at Thu Feb 19 14:07:20 CET 2026
+Game: Glinski Chess
+Variant: UCB1 GRAVE | MAST | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:35
+Completed T1557 (Glinski Chess) -> completed=10/10, wins=0, losses=5, draws=5, failures=0, avgMoves=363.8
+Job completed at Thu Feb 19 14:13:53 CET 2026

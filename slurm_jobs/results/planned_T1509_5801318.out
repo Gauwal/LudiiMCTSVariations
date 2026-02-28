@@ -1,0 +1,7 @@
+Running T1509 on lm4-w008 at Thu Feb 19 14:05:19 CET 2026
+Game: Buudal
+Variant: Progressive Bias | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:49
+Completed T1509 (Buudal) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=35.3
+Job completed at Thu Feb 19 14:05:56 CET 2026

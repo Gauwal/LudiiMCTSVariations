@@ -1,0 +1,11 @@
+Running T992 on lm4-w002 at Thu Feb 19 13:38:42 CET 2026
+Game: Throngs
+Variant: Implicit Minimax | NST | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Not a token: ""
+Check for empty clause "()".
+Not a token: ""
+Check for empty clause "()".
+Completed T992 (Throngs) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=82.0
+Job completed at Thu Feb 19 13:42:46 CET 2026

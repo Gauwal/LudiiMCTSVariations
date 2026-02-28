@@ -1,0 +1,7 @@
+Running T798 on lm4-w031 at Thu Feb 19 13:30:11 CET 2026
+Game: Jeu Militaire
+Variant: Progressive Widening | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T798 (Jeu Militaire) -> completed=10/10, wins=1, losses=6, draws=3, failures=0, avgMoves=388.1
+Job completed at Thu Feb 19 13:40:04 CET 2026

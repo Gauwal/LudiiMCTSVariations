@@ -1,0 +1,7 @@
+Running T862 on lm4-w016 at Thu Feb 19 13:32:42 CET 2026
+Game: Mwambulula
+Variant: Progressive Bias | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:52
+Completed T862 (Mwambulula) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=434.0
+Job completed at Thu Feb 19 13:38:05 CET 2026

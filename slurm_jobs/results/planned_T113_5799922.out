@@ -1,0 +1,7 @@
+Running T113 on lm4-w016 at Thu Feb 19 13:02:05 CET 2026
+Game: Nchuwa
+Variant: Progressive Bias | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Completed T113 (Nchuwa) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=72.3
+Job completed at Thu Feb 19 13:02:47 CET 2026

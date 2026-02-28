@@ -1,0 +1,7 @@
+Running T1366 on lm4-w002 at Thu Feb 19 13:58:18 CET 2026
+Game: Gamacha
+Variant: Alpha-Beta | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:56
+Completed T1366 (Gamacha) -> completed=10/10, wins=1, losses=9, draws=0, failures=0, avgMoves=72.7
+Job completed at Thu Feb 19 13:59:44 CET 2026

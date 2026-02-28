@@ -1,0 +1,7 @@
+Running T506 on lm4-w022 at Thu Feb 19 13:17:07 CET 2026
+Game: Thales
+Variant: Alpha-Beta | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:07
+Completed T506 (Thales) -> completed=10/10, wins=2, losses=7, draws=1, failures=0, avgMoves=349.2
+Job completed at Thu Feb 19 13:23:54 CET 2026

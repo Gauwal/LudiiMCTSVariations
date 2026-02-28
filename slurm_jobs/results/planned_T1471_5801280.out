@@ -1,0 +1,7 @@
+Running T1471 on lm4-w008 at Thu Feb 19 14:03:19 CET 2026
+Game: Selus
+Variant: UCB1 GRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:15:06
+Completed T1471 (Selus) -> completed=10/10, wins=0, losses=0, draws=10, failures=0, avgMoves=1000.0
+Job completed at Thu Feb 19 14:12:06 CET 2026

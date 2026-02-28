@@ -1,0 +1,7 @@
+Running T632 on lm4-w039 at Thu Feb 19 13:22:38 CET 2026
+Game: Bug
+Variant: UCB1 | NST | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:57
+Completed T632 (Bug) -> completed=10/10, wins=2, losses=8, draws=0, failures=0, avgMoves=29.1
+Job completed at Thu Feb 19 13:23:26 CET 2026

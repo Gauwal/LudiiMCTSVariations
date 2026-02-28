@@ -1,0 +1,7 @@
+Running T610 on lm4-w002 at Thu Feb 19 13:21:38 CET 2026
+Game: Tennessee Waltz
+Variant: McGRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:59
+Completed T610 (Tennessee Waltz) -> completed=10/10, wins=0, losses=10, draws=0, failures=0, avgMoves=18.7
+Job completed at Thu Feb 19 13:22:18 CET 2026

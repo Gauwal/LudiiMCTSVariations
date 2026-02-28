@@ -1,0 +1,7 @@
+Running T667 on lm4-w002 at Thu Feb 19 13:24:09 CET 2026
+Game: A Simple Game
+Variant: Implicit Minimax | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:46
+Completed T667 (A Simple Game) -> completed=10/10, wins=1, losses=8, draws=1, failures=0, avgMoves=107.7
+Job completed at Thu Feb 19 13:27:48 CET 2026

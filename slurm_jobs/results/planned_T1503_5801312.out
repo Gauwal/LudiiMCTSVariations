@@ -1,0 +1,7 @@
+Running T1503 on lm4-w008 at Thu Feb 19 14:04:49 CET 2026
+Game: Sparro
+Variant: Progressive History | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=01:14:40
+Completed T1503 (Sparro) -> completed=10/10, wins=3, losses=7, draws=0, failures=0, avgMoves=24.0
+Job completed at Thu Feb 19 14:05:36 CET 2026

@@ -1,0 +1,7 @@
+Running T98 on lm4-w002 at Thu Feb 19 12:47:33 CET 2026
+Game: Merimueng-rimueng
+Variant: Progressive Widening | NST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=01:15:21
+Completed T98 (Merimueng-rimueng) -> completed=10/10, wins=5, losses=5, draws=0, failures=0, avgMoves=557.6
+Job completed at Thu Feb 19 13:06:19 CET 2026
