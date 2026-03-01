@@ -2,7 +2,12 @@ package experiments.planning;
 
 import experiments.catalog.GameCatalog;
 import game.Game;
+import mcts.MCTSVariations;
+import other.AI;
 import other.GameLoader;
+import other.context.Context;
+import other.move.Move;
+import other.trial.Trial;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -85,6 +90,19 @@ public final class GenerateTestPlan
 			"HS Playout",
 			"PlayoutHS",
 			"LGR"
+	));
+
+	private static final Set<String> HEURISTIC_REQUIRED_BACKPROP = new HashSet<>(Arrays.asList(
+			"Heuristic",
+			"AlphaGo",
+			"Qualitative"
+	));
+
+	private static final Set<String> POLICY_REQUIRED_SELECTION = new HashSet<>(Arrays.asList(
+			"AG0",
+			"Noisy AG0",
+			"ExIt",
+			"Progressive Bias"
 	));
 
 	// -------------------- DEFAULT BASELINE --------------------
@@ -236,6 +254,7 @@ public final class GenerateTestPlan
 		private final ExistingTests existing;
 		private final FeatureSpace featureSpace;
 		private final Map<String, Boolean> heuristicCache = new HashMap<>();
+		private final Map<String, Boolean> compatibilityCache = new HashMap<>();
 
 		Planner(final long seed, final ExistingTests existing, final FeatureSpace featureSpace)
 		{
@@ -288,7 +307,7 @@ public final class GenerateTestPlan
 					{
 						if (!coverage.allowedByGlobalFeasibility(component, method))
 							continue;
-						final boolean requiresH = (component == Component.SIMULATION) && HEURISTIC_REQUIRED_SIM.contains(method);
+						final boolean requiresH = methodRequiresHeuristics(component, method);
 
 						final CoverageByDiversity.MethodState state = coverage.state(component, method);
 						for (int gi = 0; gi < gameNames.size(); gi++)
@@ -299,6 +318,9 @@ public final class GenerateTestPlan
 								continue;
 
 							final String game = gameNames.get(gi);
+							if (!isMethodCompatible(game, component, method, gameHasHeuristics[gi], moveTimeSeconds))
+								continue;
+
 							final double diversityGain = state.currentGain(gi);
 							if (diversityGain <= 0.0)
 								continue;
@@ -398,6 +420,13 @@ public final class GenerateTestPlan
 					final PickedMethod back = coverage.pickBestMethodForGame(Component.BACKPROP, gi, h);
 					final PickedMethod fin = coverage.pickBestMethodForGame(Component.FINAL_MOVE, gi, h);
 					if (sel == null || sim == null || back == null || fin == null)
+						continue;
+
+					if (!isMethodCompatible(game, Component.SELECTION, sel.method, h, moveTimeSeconds))
+						continue;
+					if (!isMethodCompatible(game, Component.SIMULATION, sim.method, h, moveTimeSeconds))
+						continue;
+					if (!isMethodCompatible(game, Component.BACKPROP, back.method, h, moveTimeSeconds))
 						continue;
 
 					final double diversityGain = sel.gain + sim.gain + back.gain + fin.gain;
@@ -504,6 +533,35 @@ public final class GenerateTestPlan
 			heuristicCache.put(gameName, result);
 			return result;
 		}
+
+		private boolean isMethodCompatible(
+				final String gameName,
+				final Component component,
+				final String method,
+				final boolean gameHasHeuristics,
+				final double moveTimeSeconds)
+		{
+			if (methodRequiresHeuristics(component, method) && !gameHasHeuristics)
+				return false;
+
+			if (!methodRequiresPolicyProbe(component, method))
+				return true;
+
+			final Config variant = makeVariant(BASELINE, component, method);
+			final String key = normalize(gameName) + "|"
+					+ normalize(variant.selection) + "|"
+					+ normalize(variant.simulation) + "|"
+					+ normalize(variant.backprop) + "|"
+					+ normalize(variant.finalMove);
+
+			final Boolean cached = compatibilityCache.get(key);
+			if (cached != null)
+				return cached;
+
+			final boolean supported = CompatibilitySupport.supportsConfig(gameName, variant, moveTimeSeconds);
+			compatibilityCache.put(key, supported);
+			return supported;
+		}
 	}
 
 	// -------------------- COVERAGE (DIVERSITY-BASED, GREEDY) --------------------
@@ -568,7 +626,7 @@ public final class GenerateTestPlan
 		private final FeatureSpace featureSpace;
 		private final List<String> gameNames;
 		private final Map<String, Integer> gameIndex;
-		private final boolean allowHeuristicRequiredSimulation;
+		private final boolean allowHeuristicRequiredMethods;
 		private final Map<String, MethodState> states = new HashMap<>();
 
 		CoverageByDiversity(
@@ -581,7 +639,7 @@ public final class GenerateTestPlan
 			this.featureSpace = featureSpace;
 			this.gameNames = gameNames;
 			this.gameIndex = gameIndex;
-			this.allowHeuristicRequiredSimulation = allowHeuristicRequiredSimulation;
+			this.allowHeuristicRequiredMethods = allowHeuristicRequiredSimulation;
 
 			for (final Component c : Arrays.asList(Component.SELECTION, Component.SIMULATION, Component.BACKPROP, Component.FINAL_MOVE))
 			{
@@ -614,9 +672,8 @@ public final class GenerateTestPlan
 
 		boolean allowedByGlobalFeasibility(final Component component, final String method)
 		{
-			return !(component == Component.SIMULATION
-					&& !allowHeuristicRequiredSimulation
-					&& HEURISTIC_REQUIRED_SIM.contains(method));
+			return !(methodRequiresHeuristics(component, method)
+					&& !allowHeuristicRequiredMethods);
 		}
 
 		MethodState state(final Component component, final String method)
@@ -639,7 +696,7 @@ public final class GenerateTestPlan
 				if (!allowedByGlobalFeasibility(component, method))
 					continue;
 
-				if (component == Component.SIMULATION && HEURISTIC_REQUIRED_SIM.contains(method) && !gameHasHeuristics)
+				if (methodRequiresHeuristics(component, method) && !gameHasHeuristics)
 					continue;
 
 				final MethodState st = state(component, method);
@@ -778,7 +835,22 @@ public final class GenerateTestPlan
 
 	private static boolean requiresHeuristics(final Config config)
 	{
-		return HEURISTIC_REQUIRED_SIM.contains(config.simulation);
+		return HEURISTIC_REQUIRED_SIM.contains(config.simulation)
+				|| HEURISTIC_REQUIRED_BACKPROP.contains(config.backprop);
+	}
+
+	private static boolean methodRequiresHeuristics(final Component component, final String method)
+	{
+		if (component == Component.SIMULATION)
+			return HEURISTIC_REQUIRED_SIM.contains(method);
+		if (component == Component.BACKPROP)
+			return HEURISTIC_REQUIRED_BACKPROP.contains(method);
+		return false;
+	}
+
+	private static boolean methodRequiresPolicyProbe(final Component component, final String method)
+	{
+		return component == Component.SELECTION && POLICY_REQUIRED_SELECTION.contains(method);
 	}
 
 	// -------------------- FEATURE SPACE (GAME DIVERSITY) --------------------
@@ -996,6 +1068,53 @@ public final class GenerateTestPlan
 			catch (final Throwable t)
 			{
 				return null;
+			}
+		}
+	}
+
+	static final class CompatibilitySupport
+	{
+		static boolean supportsConfig(final String gameName, final Config config, final double moveTimeSeconds)
+		{
+			final Game game;
+			try
+			{
+				game = GameLoader.loadGameFromName(gameName);
+			}
+			catch (final Throwable t)
+			{
+				return false;
+			}
+
+			if (game == null || game.players().count() != 2)
+				return false;
+
+			final Trial trial = new Trial(game);
+			final Context context = new Context(game, trial);
+			game.start(context);
+
+			final AI ai = new MCTSVariations(config.selection, config.simulation, config.backprop, config.finalMove);
+			try
+			{
+				ai.initAI(game, 1);
+				final double probeTime = Math.max(0.01, Math.min(moveTimeSeconds, 0.05));
+				final Move move = ai.selectAction(game, new Context(context), probeTime, -1, -1);
+				return move != null;
+			}
+			catch (final Throwable t)
+			{
+				return false;
+			}
+			finally
+			{
+				try
+				{
+					ai.closeAI();
+				}
+				catch (final Throwable ignored)
+				{
+					// ignore
+				}
 			}
 		}
 	}
