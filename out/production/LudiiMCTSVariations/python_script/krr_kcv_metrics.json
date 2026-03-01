@@ -1,0 +1,12 @@
+{
+  "best_params": {
+    "krr__alpha": 1.0,
+    "krr__degree": 2,
+    "krr__gamma": 0.01,
+    "krr__kernel": "polynomial"
+  },
+  "mse": 0.05740545323621776,
+  "mae": 0.19391654678675738,
+  "r2": 0.20219728991157715,
+  "n_test": 114
+}
