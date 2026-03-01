@@ -287,16 +287,19 @@ public final class GenerateTestPlan
 			boolean anyHeuristicGame = false;
 			for (int i = 0; i < gameNames.size(); i++)
 			{
+				System.err.printf("\r[Precompute] Heuristic scan: %d/%d ...", i + 1, gameNames.size());
+				System.err.flush();
 				final boolean h = hasHeuristics(gameNames.get(i));
 				gameHasHeuristics[i] = h;
 				anyHeuristicGame |= h;
 			}
+			System.err.println();
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
 
-			// Guard exists to prevent infinite loops when the space is exhausted by duplicates/constraints.
+			// Guard exists to prevent infinite loops when the space is truly exhausted.
 			int guard = 0;
-			while (out.size() < numTests && guard++ < numTests * 50)
+			while (out.size() < numTests && guard++ < numTests * 100)
 			{
 				Candidate best = null;
 				double bestGain = Double.NEGATIVE_INFINITY;
@@ -341,8 +344,42 @@ public final class GenerateTestPlan
 					}
 				}
 
+				// If the diversity-first scan found nothing, all game+method pairs have been selected
+				// at least once. Run a relaxed pass that ignores isSelected so we keep filling the
+				// plan until every valid test key is genuinely exhausted.
 				if (best == null)
-					break;
+				{
+					for (final Component component : Arrays.asList(Component.SELECTION, Component.SIMULATION, Component.BACKPROP, Component.FINAL_MOVE))
+					{
+						for (final String method : CoverageByDiversity.domainFor(component))
+						{
+							if (!coverage.allowedByGlobalFeasibility(component, method))
+								continue;
+							final boolean requiresH = methodRequiresHeuristics(component, method);
+							for (int gi = 0; gi < gameNames.size(); gi++)
+							{
+								if (requiresH && !gameHasHeuristics[gi])
+									continue;
+								final String gn = gameNames.get(gi);
+								if (!isMethodCompatible(gn, component, method, gameHasHeuristics[gi], moveTimeSeconds))
+									continue;
+								final String key = testKeyOneFactor(gn, component, method);
+								if (existing.testKeys.contains(key))
+									continue;
+								final int globalCount = globalGameCounts.getOrDefault(gn, 0);
+								final double gain = -globalCount; // prefer less-used games
+								if (gain > bestGain)
+								{
+									bestGain = gain;
+									best = new Candidate(component, method, gi, gain);
+								}
+							}
+						}
+					}
+				}
+
+				if (best == null)
+					break; // Truly exhausted: every valid test key already exists.
 
 				final String game = gameNames.get(best.gameIndex);
 				final Config variant = makeVariant(BASELINE, best.component, best.method);
@@ -367,11 +404,13 @@ public final class GenerateTestPlan
 					continue;
 
 				out.add(spec);
+				printProgress(out.size(), numTests, "ONE-FACTOR");
 				existing.recordPlanned(spec);
 				coverage.record(best.component, best.method, best.gameIndex);
 				globalGameCounts.merge(game, 1, Integer::sum);
 			}
 
+			System.err.println(); // end progress bar line
 			return out;
 		}
 
@@ -396,10 +435,13 @@ public final class GenerateTestPlan
 			boolean anyHeuristicGame = false;
 			for (int i = 0; i < gameNames.size(); i++)
 			{
+				System.err.printf("\r[Precompute] Heuristic scan: %d/%d ...", i + 1, gameNames.size());
+				System.err.flush();
 				final boolean h = hasHeuristics(gameNames.get(i));
 				gameHasHeuristics[i] = h;
 				anyHeuristicGame |= h;
 			}
+			System.err.println();
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
 			final MethodPairingState pairingState = new MethodPairingState();
@@ -445,8 +487,55 @@ public final class GenerateTestPlan
 					best = new FullCandidate(gi, sel, sim, back, fin, gain);
 				}
 
+				// If the diversity-first scan found nothing, all games have been selected at least
+				// once for each component.  Run a brute-force relaxed pass that tries every
+				// (game × sel × sim × back × fin) combo and picks the best unused one.
 				if (best == null)
-					break;
+				{
+					for (int gi = 0; gi < gameNames.size(); gi++)
+					{
+						final String gn = gameNames.get(gi);
+						final boolean h = gameHasHeuristics[gi];
+						for (final String selMethod : CoverageByDiversity.domainFor(Component.SELECTION))
+						{
+							if (!coverage.allowedByGlobalFeasibility(Component.SELECTION, selMethod)) continue;
+							if (!isMethodCompatible(gn, Component.SELECTION, selMethod, h, moveTimeSeconds)) continue;
+							for (final String simMethod : CoverageByDiversity.domainFor(Component.SIMULATION))
+							{
+								if (methodRequiresHeuristics(Component.SIMULATION, simMethod) && !h) continue;
+								if (!isMethodCompatible(gn, Component.SIMULATION, simMethod, h, moveTimeSeconds)) continue;
+								for (final String backMethod : CoverageByDiversity.domainFor(Component.BACKPROP))
+								{
+									if (methodRequiresHeuristics(Component.BACKPROP, backMethod) && !h) continue;
+									if (!isMethodCompatible(gn, Component.BACKPROP, backMethod, h, moveTimeSeconds)) continue;
+									for (final String finMethod : CoverageByDiversity.domainFor(Component.FINAL_MOVE))
+									{
+										final Config cv = new Config(selMethod, simMethod, backMethod, finMethod);
+										if (requiresHeuristics(cv) && !h) continue;
+										final String key = testKeyFullCombo(gn, selMethod, simMethod, backMethod, finMethod);
+										if (existing.testKeys.contains(key)) continue;
+										final int globalCount = globalGameCounts.getOrDefault(gn, 0);
+										final double pairingPenalty = pairingState.pairingPenalty(cv);
+										final double gain = -0.05 * globalCount - 0.1 * pairingPenalty;
+										if (gain > bestGain)
+										{
+											bestGain = gain;
+											best = new FullCandidate(gi,
+													new PickedMethod(selMethod, 0.0),
+													new PickedMethod(simMethod, 0.0),
+													new PickedMethod(backMethod, 0.0),
+													new PickedMethod(finMethod, 0.0),
+													gain);
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+
+				if (best == null)
+					break; // Truly exhausted: every valid test key already exists.
 
 				final String game = gameNames.get(best.gameIndex);
 				final Config variant = new Config(best.sel.method, best.sim.method, best.back.method, best.fin.method);
@@ -471,6 +560,7 @@ public final class GenerateTestPlan
 					continue;
 
 				out.add(spec);
+				printProgress(out.size(), numTests, "FULL-COMBO");
 				existing.recordPlanned(spec);
 				coverage.record(Component.SELECTION, best.sel.method, best.gameIndex);
 				coverage.record(Component.SIMULATION, best.sim.method, best.gameIndex);
@@ -480,6 +570,7 @@ public final class GenerateTestPlan
 				globalGameCounts.merge(game, 1, Integer::sum);
 			}
 
+			System.err.println(); // end progress bar line
 			return out;
 		}
 
@@ -689,6 +780,11 @@ public final class GenerateTestPlan
 
 		PickedMethod pickBestMethodForGame(final Component component, final int gameIdx, final boolean gameHasHeuristics)
 		{
+			return pickBestMethodForGame(component, gameIdx, gameHasHeuristics, false);
+		}
+
+		PickedMethod pickBestMethodForGame(final Component component, final int gameIdx, final boolean gameHasHeuristics, final boolean relaxed)
+		{
 			double best = Double.NEGATIVE_INFINITY;
 			String bestMethod = null;
 			for (final String method : domainFor(component))
@@ -700,7 +796,7 @@ public final class GenerateTestPlan
 					continue;
 
 				final MethodState st = state(component, method);
-				if (st.isSelected(gameIdx))
+				if (!relaxed && st.isSelected(gameIdx))
 					continue;
 
 				final double gain = st.currentGain(gameIdx);
@@ -1278,6 +1374,19 @@ public final class GenerateTestPlan
 	}
 
 	// -------------------- OUTPUT --------------------
+
+	private static void printProgress(final int done, final int total, final String phase)
+	{
+		final int width = 50;
+		final int filled = total == 0 ? 0 : Math.min(width, (int) ((double) done / total * width));
+		final StringBuilder bar = new StringBuilder("\r[");
+		for (int i = 0; i < width; i++)
+			bar.append(i < filled ? '=' : ' ');
+		bar.append("] ").append(done).append('/').append(total);
+		bar.append("  (").append(phase).append(')');
+		System.err.print(bar.toString());
+		System.err.flush();
+	}
 
 	private static void writePlanCsv(final List<TestSpec> tests, final Path out) throws IOException
 	{
