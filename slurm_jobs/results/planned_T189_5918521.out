@@ -1,0 +1,7 @@
+Running T189 on lm4-w007 at Sun Mar  1 22:35:16 CET 2026
+Game: Njombwa (Two Counters)
+Variant: Alpha-Beta | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:27
+Completed T189 (Njombwa (Two Counters)) -> completed=30/30, wins=1, losses=24, draws=5, failures=0, avgMoves=409.2
+Job completed at Sun Mar  1 23:11:18 CET 2026

@@ -1,0 +1,7 @@
+Running T271 on lm4-w030 at Mon Mar  2 01:38:32 CET 2026
+Game: Kalah
+Variant: Implicit Minimax | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T271 (Kalah) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=39.3
+Job completed at Mon Mar  2 01:47:28 CET 2026

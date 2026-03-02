@@ -1,0 +1,7 @@
+Running T767 on lm4-w006 at Mon Mar  2 02:54:09 CET 2026
+Game: Sumi Naga Game (War)
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T767 (Sumi Naga Game (War)) -> completed=30/30, wins=1, losses=8, draws=21, failures=0, avgMoves=731.0
+Job completed at Mon Mar  2 05:57:27 CET 2026

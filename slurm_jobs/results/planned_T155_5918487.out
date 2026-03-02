@@ -1,0 +1,7 @@
+Running T155 on lm4-w007 at Sun Mar  1 22:30:17 CET 2026
+Game: Hawalis
+Variant: McBRAVE | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:41
+Completed T155 (Hawalis) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=158.0
+Job completed at Sun Mar  1 23:04:48 CET 2026

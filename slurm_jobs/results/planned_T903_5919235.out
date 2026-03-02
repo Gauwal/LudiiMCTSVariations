@@ -1,0 +1,7 @@
+Running T903 on lm4-w005 at Sun Mar  1 22:00:15 CET 2026
+Game: Tai Shogi
+Variant: Progressive History | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=19G, time=09:22:03
+Completed T903 (Tai Shogi) -> completed=30/30, wins=1, losses=0, draws=29, failures=0, avgMoves=753.6
+Job completed at Mon Mar  2 06:46:49 CET 2026

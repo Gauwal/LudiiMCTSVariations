@@ -1,0 +1,7 @@
+Running T928 on lm4-w005 at Sun Mar  1 22:00:45 CET 2026
+Game: MensaSpiel
+Variant: UCB1 tuned | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:41
+Completed T928 (MensaSpiel) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=35.0
+Job completed at Sun Mar  1 22:09:04 CET 2026

@@ -1,0 +1,7 @@
+Running T116 on lm4-w005 at Sun Mar  1 22:26:46 CET 2026
+Game: Celticator
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:41
+Completed T116 (Celticator) -> completed=30/30, wins=10, losses=20, draws=0, failures=0, avgMoves=69.0
+Job completed at Sun Mar  1 22:43:38 CET 2026

@@ -1,0 +1,7 @@
+Running T41 on lm4-w032 at Sun Mar  1 22:07:45 CET 2026
+Game: Hyvn aetter Hare
+Variant: Progressive History | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:29
+Completed T41 (Hyvn aetter Hare) -> completed=30/30, wins=4, losses=15, draws=11, failures=0, avgMoves=635.3
+Job completed at Mon Mar  2 00:46:25 CET 2026

@@ -1,0 +1,7 @@
+Running T253 on lm4-w038 at Mon Mar  2 00:55:29 CET 2026
+Game: French Wari
+Variant: UCB1 tuned | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:13
+Completed T253 (French Wari) -> completed=30/30, wins=6, losses=22, draws=2, failures=0, avgMoves=57.9
+Job completed at Mon Mar  2 01:00:40 CET 2026

@@ -1,0 +1,7 @@
+Running T350 on lm4-w030 at Mon Mar  2 02:05:05 CET 2026
+Game: Co Chan Cho
+Variant: Implicit Minimax | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T350 (Co Chan Cho) -> completed=30/30, wins=0, losses=15, draws=15, failures=0, avgMoves=503.8
+Job completed at Mon Mar  2 03:08:17 CET 2026

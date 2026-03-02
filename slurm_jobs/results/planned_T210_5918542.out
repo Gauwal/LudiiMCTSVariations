@@ -1,0 +1,7 @@
+Running T210 on lm4-w014 at Sun Mar  1 23:10:18 CET 2026
+Game: Okwe (Achalla)
+Variant: Progressive Widening | Random | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T210 (Okwe (Achalla)) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=35.1
+Job completed at Sun Mar  1 23:17:13 CET 2026

@@ -1,0 +1,7 @@
+Running T849 on lm4-w018 at Mon Mar  2 02:58:09 CET 2026
+Game: Atomic Chess
+Variant: Progressive History | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:47
+Completed T849 (Atomic Chess) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=21.1
+Job completed at Mon Mar  2 03:03:37 CET 2026

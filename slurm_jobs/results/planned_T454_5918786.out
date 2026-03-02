@@ -1,0 +1,7 @@
+Running T454 on lm4-w038 at Mon Mar  2 02:24:07 CET 2026
+Game: Hermit
+Variant: Progressive Widening | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:49
+Completed T454 (Hermit) -> completed=30/30, wins=23, losses=7, draws=0, failures=0, avgMoves=44.8
+Job completed at Mon Mar  2 02:34:04 CET 2026

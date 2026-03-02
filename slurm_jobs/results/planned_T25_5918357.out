@@ -1,0 +1,7 @@
+Running T25 on lm4-w005 at Sun Mar  1 22:05:15 CET 2026
+Game: Diviyan Keliya
+Variant: Implicit Minimax | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:33
+Completed T25 (Diviyan Keliya) -> completed=30/30, wins=11, losses=13, draws=6, failures=0, avgMoves=736.5
+Job completed at Mon Mar  2 01:09:33 CET 2026

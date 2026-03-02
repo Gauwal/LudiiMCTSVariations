@@ -1,0 +1,7 @@
+Running T411 on lm4-w022 at Sun Mar  1 21:49:43 CET 2026
+Game: Crossway
+Variant: UCB1 tuned | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:41
+Completed T411 (Crossway) -> completed=30/30, wins=8, losses=22, draws=0, failures=0, avgMoves=236.4
+Job completed at Sun Mar  1 22:49:04 CET 2026

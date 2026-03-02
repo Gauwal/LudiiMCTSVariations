@@ -1,0 +1,7 @@
+Running T264 on lm4-w030 at Mon Mar  2 01:25:02 CET 2026
+Game: Hufesay
+Variant: Progressive Widening | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:24
+Completed T264 (Hufesay) -> completed=30/30, wins=0, losses=1, draws=29, failures=0, avgMoves=972.6
+Job completed at Mon Mar  2 02:40:41 CET 2026

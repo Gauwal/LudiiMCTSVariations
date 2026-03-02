@@ -1,0 +1,7 @@
+Running T18 on lm4-w022 at Sun Mar  1 21:30:43 CET 2026
+Game: Bagha Guti
+Variant: McBRAVE | NST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:39
+Completed T18 (Bagha Guti) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=417.0
+Job completed at Sun Mar  1 23:15:07 CET 2026

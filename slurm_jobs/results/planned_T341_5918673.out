@@ -1,0 +1,7 @@
+Running T341 on lm4-w006 at Mon Mar  2 02:03:34 CET 2026
+Game: Yovodi
+Variant: McGRAVE | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T341 (Yovodi) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=62.9
+Job completed at Mon Mar  2 02:09:10 CET 2026

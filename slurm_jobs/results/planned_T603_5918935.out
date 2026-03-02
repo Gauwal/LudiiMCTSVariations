@@ -1,0 +1,7 @@
+Running T603 on lm4-w001 at Mon Mar  2 02:45:09 CET 2026
+Game: Wali
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:42
+Completed T603 (Wali) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=99.9
+Job completed at Mon Mar  2 03:09:35 CET 2026

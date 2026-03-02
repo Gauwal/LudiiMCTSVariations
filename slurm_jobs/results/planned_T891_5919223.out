@@ -1,0 +1,7 @@
+Running T891 on lm4-w022 at Mon Mar  2 03:00:09 CET 2026
+Game: Ultimate Chess
+Variant: Alpha-Beta | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:02
+Completed T891 (Ultimate Chess) -> completed=30/30, wins=0, losses=4, draws=26, failures=0, avgMoves=448.7
+Job completed at Mon Mar  2 04:51:08 CET 2026

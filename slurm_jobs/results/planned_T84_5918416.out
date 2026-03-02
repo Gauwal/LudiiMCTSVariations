@@ -1,0 +1,7 @@
+Running T84 on lm4-w005 at Sun Mar  1 22:18:46 CET 2026
+Game: Uxrijn Ever
+Variant: Alpha-Beta | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:28
+Completed T84 (Uxrijn Ever) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=22.1
+Job completed at Sun Mar  1 22:24:11 CET 2026

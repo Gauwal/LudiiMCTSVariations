@@ -1,0 +1,7 @@
+Running T502 on lm4-w038 at Mon Mar  2 02:31:38 CET 2026
+Game: Driesticken
+Variant: McBRAVE | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T502 (Driesticken) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=8.6
+Job completed at Mon Mar  2 02:33:50 CET 2026

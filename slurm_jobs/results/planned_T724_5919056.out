@@ -1,0 +1,7 @@
+Running T724 on lm4-w037 at Mon Mar  2 02:51:09 CET 2026
+Game: Alquerque
+Variant: Progressive Widening | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T724 (Alquerque) -> completed=30/30, wins=6, losses=2, draws=22, failures=0, avgMoves=816.7
+Job completed at Mon Mar  2 06:15:56 CET 2026

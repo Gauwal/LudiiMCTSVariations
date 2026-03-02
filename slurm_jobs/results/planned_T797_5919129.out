@@ -1,0 +1,7 @@
+Running T797 on lm4-w025 at Mon Mar  2 02:55:09 CET 2026
+Game: Tablo
+Variant: Progressive History | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:33
+Completed T797 (Tablo) -> completed=30/30, wins=9, losses=7, draws=14, failures=0, avgMoves=667.6
+Job completed at Mon Mar  2 05:41:38 CET 2026

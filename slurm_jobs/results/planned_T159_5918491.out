@@ -1,0 +1,7 @@
+Running T159 on lm4-w007 at Sun Mar  1 22:30:46 CET 2026
+Game: Ikibuguzo (Opening 2)
+Variant: Alpha-Beta | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:16
+Completed T159 (Ikibuguzo (Opening 2)) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=72.0
+Job completed at Sun Mar  1 22:34:22 CET 2026

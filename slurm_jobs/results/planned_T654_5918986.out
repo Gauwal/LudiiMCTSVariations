@@ -1,0 +1,7 @@
+Running T654 on lm4-w017 at Mon Mar  2 02:47:09 CET 2026
+Game: Reversi
+Variant: UCB1 tuned | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T654 (Reversi) -> completed=30/30, wins=14, losses=14, draws=2, failures=0, avgMoves=62.5
+Job completed at Mon Mar  2 03:01:43 CET 2026

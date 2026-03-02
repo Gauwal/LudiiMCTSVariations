@@ -1,0 +1,7 @@
+Running T865 on lm4-w019 at Mon Mar  2 02:58:39 CET 2026
+Game: Kriegspiel (Chess)
+Variant: Implicit Minimax | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=09:11:58
+Completed T865 (Kriegspiel (Chess)) -> completed=30/30, wins=0, losses=1, draws=29, failures=0, avgMoves=831.3
+Job completed at Mon Mar  2 11:23:21 CET 2026

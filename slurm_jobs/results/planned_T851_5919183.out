@@ -1,0 +1,7 @@
+Running T851 on lm4-w009 at Mon Mar  2 02:58:09 CET 2026
+Game: Brusky Chess
+Variant: Progressive History | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:02
+Completed T851 (Brusky Chess) -> completed=30/30, wins=13, losses=15, draws=2, failures=0, avgMoves=99.8
+Job completed at Mon Mar  2 03:23:33 CET 2026

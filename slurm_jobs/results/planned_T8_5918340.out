@@ -1,0 +1,7 @@
+Running T8 on lm4-w022 at Sun Mar  1 21:27:42 CET 2026
+Game: Sowing
+Variant: UCB1 tuned | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:22
+Completed T8 (Sowing) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=13.8
+Job completed at Sun Mar  1 21:30:24 CET 2026

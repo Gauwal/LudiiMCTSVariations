@@ -1,0 +1,7 @@
+Running T104 on lm4-w009 at Sun Mar  1 22:25:47 CET 2026
+Game: Grasshopper
+Variant: Implicit Minimax | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T104 (Grasshopper) -> completed=30/30, wins=18, losses=4, draws=8, failures=0, avgMoves=848.1
+Job completed at Mon Mar  2 02:01:04 CET 2026

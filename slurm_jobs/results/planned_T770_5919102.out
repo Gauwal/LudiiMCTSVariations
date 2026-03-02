@@ -1,0 +1,11 @@
+Running T770 on lm4-w024 at Mon Mar  2 02:54:09 CET 2026
+Game: Throngs
+Variant: Progressive History | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Not a token: ""
+Check for empty clause "()".
+Not a token: ""
+Check for empty clause "()".
+Completed T770 (Throngs) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=101.1
+Job completed at Mon Mar  2 03:26:19 CET 2026

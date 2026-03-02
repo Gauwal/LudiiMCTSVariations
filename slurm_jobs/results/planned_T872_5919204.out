@@ -1,0 +1,7 @@
+Running T872 on lm4-w009 at Mon Mar  2 02:59:09 CET 2026
+Game: Medieval Chess
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:58
+Completed T872 (Medieval Chess) -> completed=30/30, wins=14, losses=16, draws=0, failures=0, avgMoves=222.7
+Job completed at Mon Mar  2 03:55:03 CET 2026

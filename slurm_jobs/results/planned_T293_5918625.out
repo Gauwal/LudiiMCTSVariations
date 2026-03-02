@@ -1,0 +1,7 @@
+Running T293 on lm4-w040 at Mon Mar  2 01:44:33 CET 2026
+Game: Luuth
+Variant: Progressive Widening | NST | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T293 (Luuth) -> completed=30/30, wins=0, losses=12, draws=18, failures=0, avgMoves=675.9
+Job completed at Mon Mar  2 04:27:32 CET 2026

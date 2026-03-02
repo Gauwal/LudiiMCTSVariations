@@ -1,0 +1,7 @@
+Running T478 on lm4-w024 at Sun Mar  1 21:53:13 CET 2026
+Game: Agilidade
+Variant: McBRAVE | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:34
+Completed T478 (Agilidade) -> completed=30/30, wins=0, losses=28, draws=2, failures=0, avgMoves=8.6
+Job completed at Sun Mar  1 21:55:23 CET 2026

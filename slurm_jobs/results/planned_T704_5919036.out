@@ -1,0 +1,7 @@
+Running T704 on lm4-w021 at Mon Mar  2 02:50:09 CET 2026
+Game: Damspel
+Variant: Alpha-Beta | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:40
+Completed T704 (Damspel) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=66.2
+Job completed at Mon Mar  2 03:06:23 CET 2026

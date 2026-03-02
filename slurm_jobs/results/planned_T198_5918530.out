@@ -1,0 +1,7 @@
+Running T198 on lm4-w017 at Sun Mar  1 22:37:46 CET 2026
+Game: Ryakati
+Variant: Progressive History | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:27
+Completed T198 (Ryakati) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
+Job completed at Sun Mar  1 23:49:58 CET 2026

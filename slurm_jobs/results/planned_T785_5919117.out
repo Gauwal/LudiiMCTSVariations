@@ -1,0 +1,7 @@
+Running T785 on lm4-w020 at Mon Mar  2 02:54:39 CET 2026
+Game: Kanguruh
+Variant: Alpha-Beta | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T785 (Kanguruh) -> completed=30/30, wins=3, losses=26, draws=1, failures=0, avgMoves=167.7
+Job completed at Mon Mar  2 03:36:14 CET 2026

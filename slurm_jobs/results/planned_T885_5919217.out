@@ -1,0 +1,7 @@
+Running T885 on lm4-w005 at Sun Mar  1 22:00:15 CET 2026
+Game: Short Assize
+Variant: Progressive Widening | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:58
+Completed T885 (Short Assize) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=343.1
+Job completed at Sun Mar  1 23:27:30 CET 2026

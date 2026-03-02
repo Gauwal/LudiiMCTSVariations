@@ -1,0 +1,7 @@
+Running T759 on lm4-w026 at Mon Mar  2 02:53:39 CET 2026
+Game: Pasang
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T759 (Pasang) -> completed=30/30, wins=8, losses=20, draws=2, failures=0, avgMoves=115.6
+Job completed at Mon Mar  2 03:22:32 CET 2026

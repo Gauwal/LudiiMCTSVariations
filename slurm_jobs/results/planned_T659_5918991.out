@@ -1,0 +1,7 @@
+Running T659 on lm4-w019 at Mon Mar  2 02:47:39 CET 2026
+Game: SupplierSabotage
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:41
+Completed T659 (SupplierSabotage) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=48.6
+Job completed at Mon Mar  2 03:08:33 CET 2026

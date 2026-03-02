@@ -1,0 +1,7 @@
+Running T101 on lm4-w009 at Sun Mar  1 22:25:46 CET 2026
+Game: Cascades
+Variant: McGRAVE | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:54
+Completed T101 (Cascades) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=97.0
+Job completed at Sun Mar  1 22:47:34 CET 2026

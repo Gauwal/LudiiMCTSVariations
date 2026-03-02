@@ -1,0 +1,7 @@
+Running T334 on lm4-w007 at Mon Mar  2 02:00:05 CET 2026
+Game: Walak-Pussa
+Variant: Progressive History | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T334 (Walak-Pussa) -> completed=30/30, wins=5, losses=15, draws=10, failures=0, avgMoves=580.9
+Job completed at Mon Mar  2 02:45:40 CET 2026

@@ -1,0 +1,7 @@
+Running T909 on lm4-w007 at Mon Mar  2 03:01:10 CET 2026
+Game: Loop Xiangqi
+Variant: McGRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=09:12:38
+Completed T909 (Loop Xiangqi) -> completed=30/30, wins=12, losses=17, draws=1, failures=0, avgMoves=344.5
+Job completed at Mon Mar  2 05:04:02 CET 2026

@@ -1,0 +1,7 @@
+Running T793 on lm4-w009 at Mon Mar  2 02:55:09 CET 2026
+Game: Omnidirectional Draughts
+Variant: UCB1 tuned | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:40
+Completed T793 (Omnidirectional Draughts) -> completed=30/30, wins=20, losses=8, draws=2, failures=0, avgMoves=168.1
+Job completed at Mon Mar  2 03:39:08 CET 2026

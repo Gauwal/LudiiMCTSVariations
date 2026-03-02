@@ -1,0 +1,7 @@
+Running T636 on lm4-w038 at Mon Mar  2 02:46:39 CET 2026
+Game: HexTrike
+Variant: McBRAVE | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:50
+Completed T636 (HexTrike) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=36.1
+Job completed at Mon Mar  2 02:55:29 CET 2026

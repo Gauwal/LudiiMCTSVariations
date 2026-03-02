@@ -1,0 +1,7 @@
+Running T246 on lm4-w030 at Mon Mar  2 00:51:59 CET 2026
+Game: English Wari (St. Lucia)
+Variant: UCB1 | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:12
+Completed T246 (English Wari (St. Lucia)) -> completed=30/30, wins=5, losses=21, draws=4, failures=0, avgMoves=110.1
+Job completed at Mon Mar  2 01:09:28 CET 2026

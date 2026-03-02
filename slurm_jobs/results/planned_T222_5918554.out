@@ -1,0 +1,7 @@
+Running T222 on lm4-w007 at Sun Mar  1 23:20:21 CET 2026
+Game: Ako Okwe
+Variant: UCB1 tuned | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:22
+Completed T222 (Ako Okwe) -> completed=30/30, wins=11, losses=14, draws=5, failures=0, avgMoves=243.8
+Job completed at Mon Mar  2 00:21:11 CET 2026

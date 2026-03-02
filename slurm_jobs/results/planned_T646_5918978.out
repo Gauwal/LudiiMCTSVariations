@@ -1,0 +1,7 @@
+Running T646 on lm4-w021 at Sun Mar  1 21:57:15 CET 2026
+Game: Patok
+Variant: Alpha-Beta | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:30
+Completed T646 (Patok) -> completed=30/30, wins=7, losses=22, draws=1, failures=0, avgMoves=740.1
+Job completed at Mon Mar  2 01:04:03 CET 2026

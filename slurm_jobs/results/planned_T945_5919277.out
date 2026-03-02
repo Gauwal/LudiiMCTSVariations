@@ -1,0 +1,7 @@
+Running T945 on lm4-w005 at Sun Mar  1 22:00:45 CET 2026
+Game: Lielow
+Variant: Alpha-Beta | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:44
+Completed T945 (Lielow) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=13.1
+Job completed at Sun Mar  1 22:04:06 CET 2026

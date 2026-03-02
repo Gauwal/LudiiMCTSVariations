@@ -1,0 +1,7 @@
+Running T103 on lm4-w009 at Sun Mar  1 22:25:47 CET 2026
+Game: Gadis
+Variant: Implicit Minimax | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:24
+Completed T103 (Gadis) -> completed=30/30, wins=5, losses=13, draws=12, failures=0, avgMoves=99.4
+Job completed at Sun Mar  1 22:48:02 CET 2026

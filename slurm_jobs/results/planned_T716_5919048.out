@@ -1,0 +1,7 @@
+Running T716 on lm4-w017 at Mon Mar  2 02:50:39 CET 2026
+Game: Maleys
+Variant: Progressive History | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:48
+Completed T716 (Maleys) -> completed=30/30, wins=10, losses=12, draws=8, failures=0, avgMoves=585.2
+Job completed at Mon Mar  2 05:21:43 CET 2026

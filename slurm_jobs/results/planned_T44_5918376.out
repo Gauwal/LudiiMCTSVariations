@@ -1,0 +1,7 @@
+Running T44 on lm4-w001 at Sun Mar  1 22:08:45 CET 2026
+Game: Jeu de Renard (Two Foxes)
+Variant: UCB1 GRAVE | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T44 (Jeu de Renard (Two Foxes)) -> completed=30/30, wins=1, losses=4, draws=25, failures=0, avgMoves=840.2
+Job completed at Mon Mar  2 00:00:04 CET 2026

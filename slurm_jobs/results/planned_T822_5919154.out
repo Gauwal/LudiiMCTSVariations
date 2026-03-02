@@ -1,0 +1,7 @@
+Running T822 on lm4-w006 at Mon Mar  2 02:56:39 CET 2026
+Game: Persian Chess with a Queen
+Variant: Progressive History | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:47
+Completed T822 (Persian Chess with a Queen) -> completed=30/30, wins=7, losses=13, draws=10, failures=0, avgMoves=405.4
+Job completed at Mon Mar  2 04:40:07 CET 2026

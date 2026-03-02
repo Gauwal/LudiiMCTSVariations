@@ -1,0 +1,7 @@
+Running T895 on lm4-w017 at Mon Mar  2 03:00:39 CET 2026
+Game: Chu Seireigi
+Variant: UCB1 | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=10G, time=09:14:18
+Completed T895 (Chu Seireigi) -> completed=30/30, wins=9, losses=11, draws=10, failures=0, avgMoves=515.0
+Job completed at Mon Mar  2 09:58:55 CET 2026

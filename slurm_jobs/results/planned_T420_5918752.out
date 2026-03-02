@@ -1,0 +1,7 @@
+Running T420 on lm4-w017 at Mon Mar  2 02:20:07 CET 2026
+Game: Havannah
+Variant: McBRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:10
+Completed T420 (Havannah) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=60.3
+Job completed at Mon Mar  2 02:35:16 CET 2026

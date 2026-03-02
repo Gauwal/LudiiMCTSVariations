@@ -1,0 +1,7 @@
+Running T779 on lm4-w023 at Mon Mar  2 02:54:39 CET 2026
+Game: Dama (Comoros)
+Variant: Progressive Widening | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:51
+Completed T779 (Dama (Comoros)) -> completed=30/30, wins=10, losses=9, draws=11, failures=0, avgMoves=471.9
+Job completed at Mon Mar  2 04:53:15 CET 2026

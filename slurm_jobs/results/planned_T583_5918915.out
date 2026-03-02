@@ -1,0 +1,7 @@
+Running T583 on lm4-w007 at Mon Mar  2 02:43:39 CET 2026
+Game: Teeko
+Variant: McBRAVE | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:42
+Completed T583 (Teeko) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=7.6
+Job completed at Mon Mar  2 02:45:36 CET 2026

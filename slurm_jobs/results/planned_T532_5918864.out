@@ -1,0 +1,7 @@
+Running T532 on lm4-w008 at Mon Mar  2 02:35:39 CET 2026
+Game: Mulabalaba
+Variant: McBRAVE | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:39
+Completed T532 (Mulabalaba) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=85.7
+Job completed at Mon Mar  2 02:56:37 CET 2026

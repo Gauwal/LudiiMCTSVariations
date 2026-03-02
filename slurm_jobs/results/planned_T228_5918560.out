@@ -1,0 +1,7 @@
+Running T228 on lm4-w007 at Sun Mar  1 23:20:21 CET 2026
+Game: Awari
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:13
+Completed T228 (Awari) -> completed=30/30, wins=10, losses=10, draws=10, failures=0, avgMoves=105.1
+Job completed at Sun Mar  1 23:44:56 CET 2026

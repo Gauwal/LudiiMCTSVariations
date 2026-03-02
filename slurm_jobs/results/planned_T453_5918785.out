@@ -1,0 +1,7 @@
+Running T453 on lm4-w028 at Mon Mar  2 02:24:07 CET 2026
+Game: Gygoreg
+Variant: Progressive Widening | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:02
+Completed T453 (Gygoreg) -> completed=30/30, wins=10, losses=20, draws=0, failures=0, avgMoves=206.2
+Job completed at Mon Mar  2 03:15:57 CET 2026

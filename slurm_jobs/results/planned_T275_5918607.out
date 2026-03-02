@@ -1,0 +1,7 @@
+Running T275 on lm4-w030 at Mon Mar  2 01:39:32 CET 2026
+Game: Katrayo
+Variant: UCB1 | NST | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:22
+Completed T275 (Katrayo) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=41.4
+Job completed at Mon Mar  2 01:42:13 CET 2026

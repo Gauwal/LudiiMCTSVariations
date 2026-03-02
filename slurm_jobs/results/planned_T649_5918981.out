@@ -1,0 +1,7 @@
+Running T649 on lm4-w021 at Sun Mar  1 21:57:15 CET 2026
+Game: Pyrga
+Variant: Implicit Minimax | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:58
+Completed T649 (Pyrga) -> completed=30/30, wins=1, losses=28, draws=1, failures=0, avgMoves=20.2
+Job completed at Sun Mar  1 22:01:31 CET 2026

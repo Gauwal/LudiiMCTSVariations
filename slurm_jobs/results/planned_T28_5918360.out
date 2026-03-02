@@ -1,0 +1,7 @@
+Running T28 on lm4-w024 at Sun Mar  1 22:05:45 CET 2026
+Game: El Zorro
+Variant: Alpha-Beta | Random | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:18
+Completed T28 (El Zorro) -> completed=30/30, wins=0, losses=3, draws=27, failures=0, avgMoves=921.1
+Job completed at Mon Mar  2 00:44:05 CET 2026

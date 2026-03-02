@@ -1,0 +1,7 @@
+Running T201 on lm4-w017 at Sun Mar  1 22:38:46 CET 2026
+Game: Tchela
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:39
+Completed T201 (Tchela) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=96.2
+Job completed at Sun Mar  1 22:58:13 CET 2026

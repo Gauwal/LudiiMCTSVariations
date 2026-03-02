@@ -1,0 +1,7 @@
+Running T410 on lm4-w032 at Mon Mar  2 02:18:07 CET 2026
+Game: Cross
+Variant: UCB1 | NST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:35
+Completed T410 (Cross) -> completed=30/30, wins=22, losses=8, draws=0, failures=0, avgMoves=45.2
+Job completed at Mon Mar  2 02:29:27 CET 2026

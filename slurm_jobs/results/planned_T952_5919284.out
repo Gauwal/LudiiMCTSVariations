@@ -1,0 +1,7 @@
+Running T952 on lm4-w009 at Mon Mar  2 03:02:39 CET 2026
+Game: Workers and Soldiers
+Variant: UCB1 tuned | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:48
+Completed T952 (Workers and Soldiers) -> completed=30/30, wins=3, losses=14, draws=13, failures=0, avgMoves=731.6
+Job completed at Mon Mar  2 06:10:13 CET 2026

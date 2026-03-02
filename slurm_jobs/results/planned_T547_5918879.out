@@ -1,0 +1,7 @@
+Running T547 on lm4-w005 at Sun Mar  1 21:54:43 CET 2026
+Game: Pente
+Variant: UCB1 tuned | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:41
+Completed T547 (Pente) -> completed=30/30, wins=9, losses=21, draws=0, failures=0, avgMoves=96.5
+Job completed at Sun Mar  1 22:18:48 CET 2026

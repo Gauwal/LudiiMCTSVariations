@@ -1,0 +1,7 @@
+Running T883 on lm4-w037 at Mon Mar  2 02:59:39 CET 2026
+Game: Shakhmaty
+Variant: McBRAVE | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:09
+Completed T883 (Shakhmaty) -> completed=30/30, wins=1, losses=13, draws=16, failures=0, avgMoves=612.7
+Job completed at Mon Mar  2 05:38:31 CET 2026

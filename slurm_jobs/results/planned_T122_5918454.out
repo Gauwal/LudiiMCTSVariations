@@ -1,0 +1,7 @@
+Running T122 on lm4-w006 at Sun Mar  1 22:28:16 CET 2026
+Game: Geister
+Variant: Progressive History | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:35
+Completed T122 (Geister) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=114.5
+Job completed at Sun Mar  1 22:56:29 CET 2026

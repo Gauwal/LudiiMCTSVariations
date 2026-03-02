@@ -1,0 +1,7 @@
+Running T875 on lm4-w025 at Mon Mar  2 02:59:09 CET 2026
+Game: Official Football Chess
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:09
+Completed T875 (Official Football Chess) -> completed=30/30, wins=12, losses=13, draws=5, failures=0, avgMoves=111.4
+Job completed at Mon Mar  2 03:27:08 CET 2026

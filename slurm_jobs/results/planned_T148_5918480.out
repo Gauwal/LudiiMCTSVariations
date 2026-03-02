@@ -1,0 +1,7 @@
+Running T148 on lm4-w007 at Sun Mar  1 22:29:46 CET 2026
+Game: Bao Kiswahili (East Africa)
+Variant: Progressive History | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:27
+Completed T148 (Bao Kiswahili (East Africa)) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=4.0
+Job completed at Sun Mar  1 22:30:36 CET 2026

@@ -1,0 +1,7 @@
+Running T482 on lm4-w032 at Mon Mar  2 02:29:37 CET 2026
+Game: Altan Xaraacaj
+Variant: Progressive Widening | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:46
+Completed T482 (Altan Xaraacaj) -> completed=30/30, wins=6, losses=24, draws=0, failures=0, avgMoves=76.5
+Job completed at Mon Mar  2 02:48:07 CET 2026

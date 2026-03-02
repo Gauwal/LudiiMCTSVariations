@@ -1,0 +1,7 @@
+Running T32 on lm4-w021 at Sun Mar  1 22:06:15 CET 2026
+Game: Gasetavl (Gedved)
+Variant: UCB1 | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:32
+Completed T32 (Gasetavl (Gedved)) -> completed=30/30, wins=3, losses=0, draws=27, failures=0, avgMoves=939.0
+Job completed at Mon Mar  2 01:12:46 CET 2026

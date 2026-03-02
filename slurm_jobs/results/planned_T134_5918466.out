@@ -1,0 +1,7 @@
+Running T134 on lm4-w019 at Sun Mar  1 21:44:13 CET 2026
+Game: Santorini
+Variant: Implicit Minimax | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:37
+Completed T134 (Santorini) -> completed=30/30, wins=8, losses=22, draws=0, failures=0, avgMoves=48.3
+Job completed at Sun Mar  1 21:56:14 CET 2026

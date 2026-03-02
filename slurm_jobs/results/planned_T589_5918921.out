@@ -1,0 +1,7 @@
+Running T589 on lm4-w005 at Mon Mar  2 02:44:09 CET 2026
+Game: Traffic Lights
+Variant: Progressive Widening | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T589 (Traffic Lights) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=25.8
+Job completed at Mon Mar  2 02:50:43 CET 2026

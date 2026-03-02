@@ -1,0 +1,7 @@
+Running T197 on lm4-w006 at Sun Mar  1 22:37:16 CET 2026
+Game: Quiela
+Variant: UCB1 GRAVE | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:37
+Completed T197 (Quiela) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
+Job completed at Mon Mar  2 02:54:04 CET 2026

@@ -1,0 +1,7 @@
+Running T146 on lm4-w007 at Sun Mar  1 22:29:46 CET 2026
+Game: Bao Ki Arabu (Zanzibar 2)
+Variant: UCB1 tuned | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:32
+Completed T146 (Bao Ki Arabu (Zanzibar 2)) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=105.8
+Job completed at Sun Mar  1 22:41:42 CET 2026

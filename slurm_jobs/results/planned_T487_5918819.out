@@ -1,0 +1,7 @@
+Running T487 on lm4-w024 at Sun Mar  1 21:53:13 CET 2026
+Game: Bravalath
+Variant: Implicit Minimax | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=09:15:59
+Completed T487 (Bravalath) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=23.2
+Job completed at Sun Mar  1 21:59:08 CET 2026

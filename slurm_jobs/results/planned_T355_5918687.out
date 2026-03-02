@@ -1,0 +1,7 @@
+Running T355 on lm4-w020 at Mon Mar  2 02:07:35 CET 2026
+Game: Domineering
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:19
+Completed T355 (Domineering) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=15.4
+Job completed at Mon Mar  2 02:11:13 CET 2026

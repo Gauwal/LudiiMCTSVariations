@@ -1,0 +1,7 @@
+Running T14 on lm4-w005 at Sun Mar  1 22:02:45 CET 2026
+Game: Asalto
+Variant: Progressive History | MAST | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:29
+Completed T14 (Asalto) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=16.2
+Job completed at Sun Mar  1 22:06:48 CET 2026

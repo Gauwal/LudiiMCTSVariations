@@ -1,0 +1,7 @@
+Running T437 on lm4-w032 at Sun Mar  1 21:52:43 CET 2026
+Game: Trax
+Variant: UCB1 | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=09:17:32
+Completed T437 (Trax) -> completed=30/30, wins=13, losses=14, draws=3, failures=0, avgMoves=18.4
+Job completed at Sun Mar  1 22:07:33 CET 2026

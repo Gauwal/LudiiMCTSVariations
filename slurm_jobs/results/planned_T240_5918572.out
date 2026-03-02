@@ -1,0 +1,7 @@
+Running T240 on lm4-w020 at Mon Mar  2 00:37:28 CET 2026
+Game: Daramuti
+Variant: Alpha-Beta | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T240 (Daramuti) -> completed=30/30, wins=1, losses=27, draws=2, failures=0, avgMoves=325.6
+Job completed at Mon Mar  2 01:06:44 CET 2026

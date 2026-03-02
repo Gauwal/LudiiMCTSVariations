@@ -1,0 +1,7 @@
+Running T489 on lm4-w024 at Sun Mar  1 21:53:13 CET 2026
+Game: Callanish
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:29
+Completed T489 (Callanish) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=51.2
+Job completed at Sun Mar  1 22:05:16 CET 2026

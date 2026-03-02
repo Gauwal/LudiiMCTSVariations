@@ -1,0 +1,7 @@
+Running T761 on lm4-w005 at Mon Mar  2 02:53:39 CET 2026
+Game: Permainan-Tabal
+Variant: UCB1 | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:34
+Completed T761 (Permainan-Tabal) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=144.1
+Job completed at Mon Mar  2 03:24:30 CET 2026

@@ -1,0 +1,7 @@
+Running T523 on lm4-w038 at Mon Mar  2 02:34:08 CET 2026
+Game: Liu Tsi
+Variant: UCB1 tuned | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:26
+Completed T523 (Liu Tsi) -> completed=30/30, wins=14, losses=15, draws=1, failures=0, avgMoves=40.9
+Job completed at Mon Mar  2 02:44:30 CET 2026

@@ -1,0 +1,7 @@
+Running T798 on lm4-w018 at Mon Mar  2 02:55:39 CET 2026
+Game: Tama
+Variant: McBRAVE | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:40
+Completed T798 (Tama) -> completed=30/30, wins=0, losses=27, draws=3, failures=0, avgMoves=390.2
+Job completed at Mon Mar  2 04:27:12 CET 2026

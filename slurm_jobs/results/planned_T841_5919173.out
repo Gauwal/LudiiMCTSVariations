@@ -1,0 +1,7 @@
+Running T841 on lm4-w038 at Mon Mar  2 02:57:39 CET 2026
+Game: Shodra
+Variant: UCB1 | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:00
+Completed T841 (Shodra) -> completed=30/30, wins=2, losses=1, draws=27, failures=0, avgMoves=921.1
+Job completed at Mon Mar  2 06:53:46 CET 2026

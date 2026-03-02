@@ -1,0 +1,7 @@
+Running T811 on lm4-w005 at Mon Mar  2 02:56:09 CET 2026
+Game: Chaturanga (al-Adli)
+Variant: Implicit Minimax | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:58
+Completed T811 (Chaturanga (al-Adli)) -> completed=30/30, wins=2, losses=7, draws=21, failures=0, avgMoves=757.7
+Job completed at Mon Mar  2 06:08:43 CET 2026

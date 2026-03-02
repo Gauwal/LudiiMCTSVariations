@@ -1,0 +1,7 @@
+Running T494 on lm4-w001 at Sun Mar  1 21:54:44 CET 2026
+Game: Connect6
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:41
+Completed T494 (Connect6) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=118.0
+Job completed at Sun Mar  1 22:24:21 CET 2026

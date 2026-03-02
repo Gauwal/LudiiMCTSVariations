@@ -1,0 +1,7 @@
+Running T833 on lm4-w023 at Mon Mar  2 02:57:09 CET 2026
+Game: Shatranj (Turkey)
+Variant: Progressive Widening | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:09
+Completed T833 (Shatranj (Turkey)) -> completed=30/30, wins=2, losses=15, draws=13, failures=0, avgMoves=617.5
+Job completed at Mon Mar  2 05:35:20 CET 2026

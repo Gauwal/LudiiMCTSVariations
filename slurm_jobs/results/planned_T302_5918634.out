@@ -1,0 +1,7 @@
+Running T302 on lm4-w022 at Mon Mar  2 01:48:33 CET 2026
+Game: Mewelad
+Variant: UCB1 tuned | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:24
+Completed T302 (Mewelad) -> completed=30/30, wins=7, losses=10, draws=13, failures=0, avgMoves=835.1
+Job completed at Mon Mar  2 03:15:43 CET 2026

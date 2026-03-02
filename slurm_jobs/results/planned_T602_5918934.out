@@ -1,0 +1,7 @@
+Running T602 on lm4-w036 at Mon Mar  2 02:45:09 CET 2026
+Game: Vertiges
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:45
+Completed T602 (Vertiges) -> completed=30/30, wins=10, losses=13, draws=7, failures=0, avgMoves=570.1
+Job completed at Mon Mar  2 05:12:18 CET 2026

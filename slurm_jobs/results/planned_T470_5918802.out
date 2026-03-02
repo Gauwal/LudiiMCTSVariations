@@ -1,0 +1,7 @@
+Running T470 on lm4-w024 at Sun Mar  1 21:53:14 CET 2026
+Game: Symple
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:55
+Completed T470 (Symple) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=361.0
+Job completed at Mon Mar  2 03:23:01 CET 2026

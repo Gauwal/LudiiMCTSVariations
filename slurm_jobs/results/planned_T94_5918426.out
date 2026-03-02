@@ -1,0 +1,7 @@
+Running T94 on lm4-w005 at Sun Mar  1 22:23:16 CET 2026
+Game: Mughrabieh
+Variant: Progressive History | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:21
+Completed T94 (Mughrabieh) -> completed=30/30, wins=2, losses=1, draws=27, failures=0, avgMoves=978.6
+Job completed at Mon Mar  2 02:00:20 CET 2026

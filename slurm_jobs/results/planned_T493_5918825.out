@@ -1,0 +1,7 @@
+Running T493 on lm4-w001 at Sun Mar  1 21:54:44 CET 2026
+Game: Connect Four
+Variant: UCB1 tuned | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:23
+Completed T493 (Connect Four) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=26.1
+Job completed at Sun Mar  1 22:01:19 CET 2026

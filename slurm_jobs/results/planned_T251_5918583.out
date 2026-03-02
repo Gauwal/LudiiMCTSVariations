@@ -1,0 +1,7 @@
+Running T251 on lm4-w038 at Mon Mar  2 00:55:29 CET 2026
+Game: Foji
+Variant: UCB1 GRAVE | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:35
+Completed T251 (Foji) -> completed=30/30, wins=1, losses=26, draws=3, failures=0, avgMoves=169.1
+Job completed at Mon Mar  2 01:06:03 CET 2026

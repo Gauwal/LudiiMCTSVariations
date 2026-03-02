@@ -1,0 +1,7 @@
+Running T308 on lm4-w020 at Mon Mar  2 01:49:33 CET 2026
+Game: Omangunta Peeta
+Variant: UCB1 GRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:36
+Completed T308 (Omangunta Peeta) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
+Job completed at Mon Mar  2 03:41:06 CET 2026

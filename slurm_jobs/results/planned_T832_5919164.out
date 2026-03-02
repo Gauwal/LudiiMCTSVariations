@@ -1,0 +1,7 @@
+Running T832 on lm4-w023 at Mon Mar  2 02:57:09 CET 2026
+Game: Shatranj (Iraq)
+Variant: Progressive Widening | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:09
+Completed T832 (Shatranj (Iraq)) -> completed=30/30, wins=9, losses=21, draws=0, failures=0, avgMoves=85.8
+Job completed at Mon Mar  2 03:19:03 CET 2026

@@ -1,0 +1,7 @@
+Running T245 on lm4-w030 at Mon Mar  2 00:51:59 CET 2026
+Game: En Gehe
+Variant: Alpha-Beta | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:35
+Completed T245 (En Gehe) -> completed=30/30, wins=6, losses=23, draws=1, failures=0, avgMoves=509.8
+Job completed at Mon Mar  2 01:41:21 CET 2026

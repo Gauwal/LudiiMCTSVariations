@@ -1,0 +1,7 @@
+Running T352 on lm4-w030 at Mon Mar  2 02:05:34 CET 2026
+Game: Cram
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:19
+Completed T352 (Cram) -> completed=30/30, wins=13, losses=17, draws=0, failures=0, avgMoves=16.2
+Job completed at Mon Mar  2 02:09:30 CET 2026

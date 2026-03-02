@@ -1,0 +1,7 @@
+Running T843 on lm4-w040 at Mon Mar  2 02:57:39 CET 2026
+Game: Tepong
+Variant: UCB1 tuned | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:47
+Completed T843 (Tepong) -> completed=30/30, wins=12, losses=10, draws=8, failures=0, avgMoves=350.2
+Job completed at Mon Mar  2 04:27:13 CET 2026

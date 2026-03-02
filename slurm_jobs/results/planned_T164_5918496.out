@@ -1,0 +1,7 @@
+Running T164 on lm4-w007 at Sun Mar  1 22:31:16 CET 2026
+Game: Kisolo (Lali)
+Variant: Alpha-Beta | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:16
+Completed T164 (Kisolo (Lali)) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
+Job completed at Sun Mar  1 22:33:03 CET 2026

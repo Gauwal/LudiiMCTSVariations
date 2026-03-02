@@ -1,0 +1,7 @@
+Running T622 on lm4-w026 at Sun Mar  1 21:55:14 CET 2026
+Game: Atari Go
+Variant: Implicit Minimax | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:41
+Completed T622 (Atari Go) -> completed=30/30, wins=19, losses=11, draws=0, failures=0, avgMoves=111.5
+Job completed at Sun Mar  1 22:23:15 CET 2026

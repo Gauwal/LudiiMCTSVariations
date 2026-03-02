@@ -1,0 +1,7 @@
+Running T643 on lm4-w022 at Mon Mar  2 02:47:09 CET 2026
+Game: Mity
+Variant: Progressive Widening | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:46
+Completed T643 (Mity) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=51.8
+Job completed at Mon Mar  2 02:59:59 CET 2026

@@ -1,0 +1,7 @@
+Running T223 on lm4-w007 at Sun Mar  1 23:20:21 CET 2026
+Game: Altiev
+Variant: UCB1 GRAVE | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T223 (Altiev) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=77.7
+Job completed at Sun Mar  1 23:28:35 CET 2026

@@ -1,0 +1,7 @@
+Running T630 on lm4-w040 at Sun Mar  1 21:55:14 CET 2026
+Game: Dorvolz
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=8G, time=09:13:38
+Completed T630 (Dorvolz) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=291.0
+Job completed at Sun Mar  1 23:06:46 CET 2026

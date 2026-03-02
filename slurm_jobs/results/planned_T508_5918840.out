@@ -1,0 +1,7 @@
+Running T508 on lm4-w006 at Mon Mar  2 02:32:38 CET 2026
+Game: Fart (7x7)
+Variant: Progressive Widening | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:44
+Completed T508 (Fart (7x7)) -> completed=30/30, wins=6, losses=23, draws=1, failures=0, avgMoves=301.6
+Job completed at Mon Mar  2 03:21:25 CET 2026

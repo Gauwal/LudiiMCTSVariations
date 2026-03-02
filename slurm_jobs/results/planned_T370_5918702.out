@@ -1,0 +1,7 @@
+Running T370 on lm4-w030 at Mon Mar  2 02:09:35 CET 2026
+Game: Jostle
+Variant: Implicit Minimax | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:44
+Completed T370 (Jostle) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=31.9
+Job completed at Mon Mar  2 02:17:23 CET 2026

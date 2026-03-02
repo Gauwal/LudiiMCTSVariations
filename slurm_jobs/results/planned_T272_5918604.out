@@ -1,0 +1,7 @@
+Running T272 on lm4-w036 at Mon Mar  2 01:39:02 CET 2026
+Game: Kanji Guti
+Variant: Alpha-Beta | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:25
+Completed T272 (Kanji Guti) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=211.2
+Job completed at Mon Mar  2 01:50:40 CET 2026

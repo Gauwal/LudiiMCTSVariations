@@ -1,0 +1,7 @@
+Running T633 on lm4-w023 at Sun Mar  1 21:55:44 CET 2026
+Game: Go
+Variant: Progressive History | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:30
+Completed T633 (Go) -> completed=30/30, wins=10, losses=20, draws=0, failures=0, avgMoves=446.6
+Job completed at Sun Mar  1 23:47:59 CET 2026

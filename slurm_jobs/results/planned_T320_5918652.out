@@ -1,0 +1,7 @@
+Running T320 on lm4-w030 at Mon Mar  2 01:52:04 CET 2026
+Game: Sungka
+Variant: Implicit Minimax | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:23
+Completed T320 (Sungka) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
+Job completed at Mon Mar  2 03:34:15 CET 2026

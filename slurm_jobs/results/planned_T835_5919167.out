@@ -1,0 +1,7 @@
+Running T835 on lm4-w023 at Mon Mar  2 02:57:09 CET 2026
+Game: Shatranj al-Husun
+Variant: Alpha-Beta | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:00
+Completed T835 (Shatranj al-Husun) -> completed=30/30, wins=5, losses=10, draws=15, failures=0, avgMoves=622.2
+Job completed at Mon Mar  2 05:35:47 CET 2026

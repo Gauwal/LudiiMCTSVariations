@@ -1,0 +1,7 @@
+Running T948 on lm4-w005 at Sun Mar  1 22:00:45 CET 2026
+Game: Rithmomachia
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:48
+Completed T948 (Rithmomachia) -> completed=30/30, wins=1, losses=2, draws=27, failures=0, avgMoves=990.0
+Job completed at Mon Mar  2 05:02:50 CET 2026

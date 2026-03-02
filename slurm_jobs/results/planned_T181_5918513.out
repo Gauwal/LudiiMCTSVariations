@@ -1,0 +1,7 @@
+Running T181 on lm4-w009 at Sun Mar  1 22:33:16 CET 2026
+Game: Mweiso
+Variant: McBRAVE | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T181 (Mweiso) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=65.7
+Job completed at Sun Mar  1 22:36:21 CET 2026

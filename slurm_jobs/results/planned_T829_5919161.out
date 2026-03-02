@@ -1,0 +1,7 @@
+Running T829 on lm4-w009 at Mon Mar  2 02:57:09 CET 2026
+Game: Shatranj (12x12)
+Variant: McBRAVE | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=09:12:35
+Completed T829 (Shatranj (12x12)) -> completed=30/30, wins=0, losses=21, draws=9, failures=0, avgMoves=536.2
+Job completed at Mon Mar  2 05:16:10 CET 2026

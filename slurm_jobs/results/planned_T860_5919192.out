@@ -1,0 +1,7 @@
+Running T860 on lm4-w030 at Mon Mar  2 02:58:39 CET 2026
+Game: Glinski Chess
+Variant: Progressive Widening | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:15
+Completed T860 (Glinski Chess) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=234.4
+Job completed at Mon Mar  2 03:58:21 CET 2026

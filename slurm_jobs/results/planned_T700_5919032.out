@@ -1,0 +1,7 @@
+Running T700 on lm4-w009 at Mon Mar  2 02:49:39 CET 2026
+Game: Dama (Italy)
+Variant: Alpha-Beta | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:29
+Completed T700 (Dama (Italy)) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=84.1
+Job completed at Mon Mar  2 03:06:49 CET 2026

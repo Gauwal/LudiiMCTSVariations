@@ -1,0 +1,7 @@
+Running T444 on lm4-w036 at Mon Mar  2 02:22:37 CET 2026
+Game: Abrobad
+Variant: Progressive History | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:14
+Completed T444 (Abrobad) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=13.9
+Job completed at Mon Mar  2 02:25:37 CET 2026

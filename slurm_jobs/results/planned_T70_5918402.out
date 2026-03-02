@@ -1,0 +1,7 @@
+Running T70 on lm4-w005 at Sun Mar  1 22:14:15 CET 2026
+Game: Pon Chochotl
+Variant: McGRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T70 (Pon Chochotl) -> completed=30/30, wins=10, losses=20, draws=0, failures=0, avgMoves=42.8
+Job completed at Sun Mar  1 22:24:57 CET 2026

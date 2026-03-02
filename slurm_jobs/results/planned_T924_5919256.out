@@ -1,0 +1,7 @@
+Running T924 on lm4-w020 at Mon Mar  2 03:01:39 CET 2026
+Game: Fission
+Variant: UCB1 tuned | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:25
+Completed T924 (Fission) -> completed=30/30, wins=5, losses=9, draws=16, failures=0, avgMoves=194.7
+Job completed at Mon Mar  2 03:50:47 CET 2026

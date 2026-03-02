@@ -1,0 +1,7 @@
+Running T283 on lm4-w030 at Mon Mar  2 01:43:03 CET 2026
+Game: La'b Akila
+Variant: Progressive History | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:25
+Completed T283 (La'b Akila) -> completed=30/30, wins=5, losses=23, draws=2, failures=0, avgMoves=180.6
+Job completed at Mon Mar  2 02:00:50 CET 2026

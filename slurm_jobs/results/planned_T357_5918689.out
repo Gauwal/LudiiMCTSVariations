@@ -1,0 +1,7 @@
+Running T357 on lm4-w024 at Mon Mar  2 02:08:05 CET 2026
+Game: Duidoku
+Variant: UCB1 GRAVE | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:06
+Completed T357 (Duidoku) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=65.1
+Job completed at Mon Mar  2 02:24:20 CET 2026

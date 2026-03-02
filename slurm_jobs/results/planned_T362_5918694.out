@@ -1,0 +1,7 @@
+Running T362 on lm4-w030 at Mon Mar  2 02:09:05 CET 2026
+Game: Game of Dwarfs
+Variant: UCB1 tuned | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:24
+Completed T362 (Game of Dwarfs) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=76.7
+Job completed at Mon Mar  2 02:24:24 CET 2026

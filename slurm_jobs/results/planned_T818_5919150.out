@@ -1,0 +1,7 @@
+Running T818 on lm4-w009 at Mon Mar  2 02:56:39 CET 2026
+Game: Main Chator
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:58
+Completed T818 (Main Chator) -> completed=30/30, wins=11, losses=12, draws=7, failures=0, avgMoves=360.6
+Job completed at Mon Mar  2 04:29:25 CET 2026

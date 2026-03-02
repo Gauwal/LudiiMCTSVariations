@@ -1,0 +1,7 @@
+Running T519 on lm4-w005 at Sun Mar  1 21:54:44 CET 2026
+Game: Keryo-Pente
+Variant: UCB1 tuned | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:30
+Completed T519 (Keryo-Pente) -> completed=30/30, wins=16, losses=14, draws=0, failures=0, avgMoves=92.6
+Job completed at Sun Mar  1 22:17:44 CET 2026

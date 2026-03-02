@@ -1,0 +1,7 @@
+Running T27 on lm4-w005 at Sun Mar  1 22:05:45 CET 2026
+Game: El Perro
+Variant: Implicit Minimax | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:27
+Completed T27 (El Perro) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=326.5
+Job completed at Sun Mar  1 23:27:38 CET 2026

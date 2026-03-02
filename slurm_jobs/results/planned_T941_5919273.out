@@ -1,0 +1,7 @@
+Running T941 on lm4-w038 at Mon Mar  2 03:02:39 CET 2026
+Game: Capture the Queen
+Variant: Progressive Widening | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:47
+Completed T941 (Capture the Queen) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=6.7
+Job completed at Mon Mar  2 03:04:23 CET 2026

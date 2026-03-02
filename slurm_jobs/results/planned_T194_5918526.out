@@ -1,0 +1,7 @@
+Running T194 on lm4-w009 at Sun Mar  1 22:36:46 CET 2026
+Game: Owela (Benguela)
+Variant: UCB1 tuned | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T194 (Owela (Benguela)) -> completed=30/30, wins=9, losses=15, draws=6, failures=0, avgMoves=73.5
+Job completed at Sun Mar  1 22:44:54 CET 2026

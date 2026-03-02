@@ -1,0 +1,7 @@
+Running T908 on lm4-w005 at Mon Mar  2 03:01:09 CET 2026
+Game: Janggi
+Variant: McGRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:12:08
+Completed T908 (Janggi) -> completed=30/30, wins=0, losses=22, draws=8, failures=0, avgMoves=119.5
+Job completed at Mon Mar  2 03:31:12 CET 2026

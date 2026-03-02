@@ -1,0 +1,7 @@
+Running T923 on lm4-w008 at Mon Mar  2 03:01:39 CET 2026
+Game: Fang
+Variant: UCB1 | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:41
+Completed T923 (Fang) -> completed=30/30, wins=2, losses=15, draws=13, failures=0, avgMoves=768.5
+Job completed at Mon Mar  2 06:13:18 CET 2026

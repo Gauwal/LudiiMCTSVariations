@@ -1,0 +1,7 @@
+Running T597 on lm4-w038 at Mon Mar  2 02:44:39 CET 2026
+Game: Tuk Tak
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:13
+Completed T597 (Tuk Tak) -> completed=30/30, wins=2, losses=1, draws=27, failures=0, avgMoves=900.8
+Job completed at Mon Mar  2 06:33:29 CET 2026

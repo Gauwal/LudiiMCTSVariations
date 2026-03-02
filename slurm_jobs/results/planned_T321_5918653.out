@@ -1,0 +1,7 @@
+Running T321 on lm4-w030 at Mon Mar  2 01:54:34 CET 2026
+Game: Tap Urdy
+Variant: Alpha-Beta | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:24
+Completed T321 (Tap Urdy) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=101.0
+Job completed at Mon Mar  2 02:12:16 CET 2026

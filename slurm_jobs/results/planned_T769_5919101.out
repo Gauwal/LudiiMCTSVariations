@@ -1,0 +1,7 @@
+Running T769 on lm4-w024 at Mon Mar  2 02:54:09 CET 2026
+Game: Terhuchu
+Variant: Progressive History | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:38
+Completed T769 (Terhuchu) -> completed=30/30, wins=23, losses=5, draws=2, failures=0, avgMoves=306.5
+Job completed at Mon Mar  2 04:11:09 CET 2026

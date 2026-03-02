@@ -1,0 +1,7 @@
+Running T549 on lm4-w026 at Sun Mar  1 21:55:13 CET 2026
+Game: Plotto
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=09:16:16
+Completed T549 (Plotto) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=6.0
+Job completed at Sun Mar  1 21:56:50 CET 2026

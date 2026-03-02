@@ -1,0 +1,7 @@
+Running T791 on lm4-w007 at Mon Mar  2 02:55:09 CET 2026
+Game: Mraha wa Bwe
+Variant: UCB1 GRAVE | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=09:11:28
+Completed T791 (Mraha wa Bwe) -> completed=30/30, wins=8, losses=18, draws=4, failures=0, avgMoves=276.9
+Job completed at Mon Mar  2 04:04:05 CET 2026

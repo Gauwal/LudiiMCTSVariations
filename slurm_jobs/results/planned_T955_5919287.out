@@ -1,0 +1,7 @@
+Running T955 on lm4-w005 at Sun Mar  1 22:00:45 CET 2026
+Game: Allemande
+Variant: UCB1 tuned | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:12:18
+Completed T955 (Allemande) -> completed=30/30, wins=20, losses=10, draws=0, failures=0, avgMoves=16.8
+Job completed at Sun Mar  1 22:04:59 CET 2026

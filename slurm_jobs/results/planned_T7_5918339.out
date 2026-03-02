@@ -1,0 +1,7 @@
+Running T7 on lm4-w022 at Sun Mar  1 21:27:43 CET 2026
+Game: Sowing
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:11
+Completed T7 (Sowing) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=12.8
+Job completed at Sun Mar  1 21:30:19 CET 2026

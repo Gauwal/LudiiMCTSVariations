@@ -1,0 +1,7 @@
+Running T15 on lm4-w020 at Sun Mar  1 21:30:13 CET 2026
+Game: Bagh Bandi
+Variant: Progressive History | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=09:11:39
+Completed T15 (Bagh Bandi) -> completed=30/30, wins=7, losses=22, draws=1, failures=0, avgMoves=485.0
+Job completed at Sun Mar  1 23:32:13 CET 2026
