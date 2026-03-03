@@ -1,0 +1,14 @@
+{
+  "label": "notimeout",
+  "best_params": {
+    "krr__alpha": 1.0,
+    "krr__degree": 2,
+    "krr__gamma": 0.01,
+    "krr__kernel": "rbf"
+  },
+  "n_train": 845,
+  "n_test": 94,
+  "mse": 0.03876774674692953,
+  "mae": 0.1536550110377604,
+  "r2": 0.10363252535243805
+}

@@ -28,6 +28,8 @@
   "game_maxCount",
   "game_maxLocalStates",
   "game_stateSpaceLog",
+  "moveTime",
+  "maxMoves",
   "variant_select=Alpha-Beta",
   "variant_select=Implicit Minimax",
   "variant_select=McBRAVE",
