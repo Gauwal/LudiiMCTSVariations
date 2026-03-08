@@ -12,12 +12,17 @@ drawrate simultaneously), the score is derived as
 
 Exposed API
 -----------
-predict_score(game_name, variant, label='all') -> float
-    Predicts the score for a single (game, variant) pair.
+predict_score(game_name, select, simulation, backprop, finalmove, label) -> float
+    Predicts the score for a (game, variant) pair looked up by game name.
 
-predict_best_variant(game_name, label='all', top_k=5) -> dict
-    Exhaustively evaluates all variant combinations seen during training
-    and returns the top-k ranked by predicted score.
+predict_best_variant(game_name, label, top_k) -> dict
+    Exhaustively evaluates all variant combinations for a game.
+
+predict_score_from_features(game_features, select, simulation, backprop, finalmove, label) -> float
+    Same as predict_score but accepts a dict of game features instead of a name.
+
+predict_best_variant_from_features(game_features, label, top_k) -> dict
+    Same as predict_best_variant but accepts a dict of game features.
 """
 
 import itertools
@@ -99,19 +104,12 @@ def _build_feature_vector(
 ) -> np.ndarray:
     """Build a single-row feature vector aligned to the training feature order.
 
-    Follows the same layout produced by build_feature_matrix() in
-    train_winrate.py:
-      - game property features first (with 'game_' prefix stripped to look up
-        in game_properties.csv, which stores columns without that prefix)
-      - one-hot variant indicator features next
-
-    NaN is used for missing game values so that pipelines with a SimpleImputer
-    step handle them correctly (and HistGBM pipelines handle them natively).
+    ``game_row`` can be a pd.Series from game_properties.csv or a dict-like
+    object mapping column names (without the 'game\\_' prefix) to values.
     """
     x_vals: List[float] = []
     for feat in feature_names:
         if feat.startswith('game_'):
-            # Strip the 'game_' prefix: game_properties.csv columns have no prefix
             col = feat[len('game_'):]
             try:
                 val = game_row.get(col, np.nan)
@@ -124,6 +122,18 @@ def _build_feature_vector(
         else:
             x_vals.append(np.nan)
     return np.array(x_vals, dtype=float)
+
+
+def _game_features_to_series(game_features: Dict[str, float]) -> pd.Series:
+    """Convert a user-supplied game-features dict to a Series usable by _build_feature_vector.
+
+    Keys may be supplied with or without the 'game\\_' prefix — both are accepted.
+    """
+    cleaned: Dict[str, float] = {}
+    for k, v in game_features.items():
+        key = k[len('game_'):] if k.startswith('game_') else k
+        cleaned[key] = v
+    return pd.Series(cleaned)
 
 
 # ---------------------------------------------------------------------------
@@ -143,17 +153,7 @@ def _is_multi_output(label: str) -> bool:
 def _predict_score_from_pipeline(pipeline, x: np.ndarray, multi_output: bool) -> np.ndarray:
     """Run prediction through the pipeline and return score values.
 
-    Parameters
-    ----------
-    pipeline : fitted sklearn pipeline
-    x : array of shape (n_samples, n_features)
-    multi_output : bool
-        If True, the pipeline predicts (winrate, drawrate) and score is
-        derived as ``winrate + 0.5 * drawrate``.
-
-    Returns
-    -------
-    np.ndarray of shape (n_samples,) with score values clipped to [0, 1].
+    Returns np.ndarray of shape (n_samples,) with score values clipped to [0, 1].
     """
     raw = pipeline.predict(x)
     if multi_output and raw.ndim == 2 and raw.shape[1] >= 2:
@@ -165,36 +165,8 @@ def _predict_score_from_pipeline(pipeline, x: np.ndarray, multi_output: bool) ->
     return scores
 
 
-# ---------------------------------------------------------------------------
-# Public API
-# ---------------------------------------------------------------------------
-
-def predict_score(
-    game_name: str,
-    variant: str,
-    label: str = 'all',
-    move_time: float = 0.5,
-    max_moves: int = 1000,
-) -> float:
-    """Return the predicted score for a (game, variant) pair.
-
-    Parameters
-    ----------
-    game_name : str
-        Game name as it appears in game_properties.csv (partial match supported).
-    variant : str
-        Variant string with pipe-separated components, e.g.
-        'UCB1 | MAST | MonteCarlo | Robust'.
-    label : str
-        Which trained model to use: 'all' (default) or 'notimeout'.
-    move_time, max_moves : float / int
-        Kept for backward compatibility; not used as model features.
-
-    Returns
-    -------
-    float
-        Predicted score clipped to [0, 1].
-    """
+def _load_model_artefacts(label: str):
+    """Load and return (pipeline, feature_names, multi_output) for the given label."""
     paths = _model_paths(label)
     if not os.path.isfile(paths['model']) or not os.path.isfile(paths['features']):
         raise FileNotFoundError(
@@ -204,80 +176,172 @@ def predict_score(
     pipeline = joblib.load(paths['model'])
     with open(paths['features'], 'r', encoding='utf-8') as fh:
         feature_names: List[str] = json.load(fh)
-
     multi_output = _is_multi_output(label)
+    return pipeline, feature_names, multi_output
 
+
+def _load_catalogue(label: str) -> Dict[str, List[str]]:
+    """Load and return the variant catalogue for the given label."""
+    paths = _model_paths(label)
+    if not os.path.isfile(paths['catalogue']):
+        raise FileNotFoundError(
+            f"Variant catalogue for label='{label}' not found. "
+            "Run `python train_winrate.py` first."
+        )
+    with open(paths['catalogue'], 'r', encoding='utf-8') as fh:
+        return json.load(fh)
+
+
+def _variant_dict(select: str, simulation: str, backprop: str, finalmove: str) -> Dict[str, str]:
+    """Build a variant-by-component dict from the four component strings."""
+    return {
+        'variant_select':     select,
+        'variant_simulation': simulation,
+        'variant_backprop':   backprop,
+        'variant_finalmove':  finalmove,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Public API — game name based
+# ---------------------------------------------------------------------------
+
+def predict_score(
+    game_name: str,
+    select: str,
+    simulation: str,
+    backprop: str,
+    finalmove: str,
+    label: str = 'all',
+) -> float:
+    """Return the predicted score for a (game, variant) pair.
+
+    Parameters
+    ----------
+    game_name : str
+        Game name as it appears in game_properties.csv (partial match supported).
+    select, simulation, backprop, finalmove : str
+        The four MCTS variant components, e.g. 'UCB1', 'MAST', 'MonteCarlo', 'Robust'.
+    label : str
+        Which trained model to use: 'all' (default) or 'notimeout'.
+
+    Returns
+    -------
+    float   Predicted score clipped to [0, 1].
+    """
+    pipeline, feature_names, multi_output = _load_model_artefacts(label)
     games_df = _load_game_properties()
     game_row = _get_game_row(game_name, games_df)
-
-    v_parts = [p.strip() for p in variant.split('|')]
-    while len(v_parts) < 4:
-        v_parts.append('')
-    variant_by_comp = dict(zip(VARIANT_COMP_COLS, v_parts))
-
-    x = _build_feature_vector(game_row, variant_by_comp, feature_names).reshape(1, -1)
+    vbc = _variant_dict(select, simulation, backprop, finalmove)
+    x = _build_feature_vector(game_row, vbc, feature_names).reshape(1, -1)
     return float(_predict_score_from_pipeline(pipeline, x, multi_output)[0])
-
-
-# Backward-compatible alias
-predict_winrate = predict_score
 
 
 def predict_best_variant(
     game_name: str,
     label: str = 'all',
     top_k: int = 5,
-    move_time: float = 0.5,
-    max_moves: int = 1000,
 ) -> Dict:
-    """Find the best MCTS variant configuration for a given game by exhaustive search.
-
-    Loads the best trained model and the variant catalogue saved during training.
-    Generates *all* combinations of (select × simulation × backprop × finalmove)
-    from the catalogue, predicts scores in a single vectorised batch, and
-    returns the top-k combinations ranked by predicted score (descending).
-
-    Parameters
-    ----------
-    game_name : str
-        Game name as it appears in game_properties.csv.
-    label : str
-        Which trained model to use: 'all' (default) or 'notimeout'.
-    top_k : int
-        Number of top combinations to include in the returned list (default 5).
-    move_time, max_moves : float / int
-        Kept for API consistency; not used as model features.
+    """Find the best MCTS variant for a game by exhaustive search over the catalogue.
 
     Returns
     -------
-    dict with keys
-        'game'         : resolved game name
-        'label'        : dataset label used
-        'best_variant' : highest-ranked variant string, e.g. 'UCB1 | MAST | MonteCarlo | Robust'
-        'best_score'   : predicted score for the best variant
-        'top_k'        : list of (variant_str, predicted_score) tuples, best first
-        'n_evaluated'  : total number of combinations evaluated
+    dict with keys 'game', 'label', 'best_variant' (dict with 4 components),
+    'best_score', 'top_k' (list of dicts), 'n_evaluated'.
     """
-    paths = _model_paths(label)
-    missing = [k for k in ('model', 'features', 'catalogue') if not os.path.isfile(paths[k])]
-    if missing:
-        raise FileNotFoundError(
-            f"Missing artefacts for label='{label}': {missing}. "
-            "Run `python train_winrate.py` first."
-        )
-
-    pipeline = joblib.load(paths['model'])
-    with open(paths['features'],  'r', encoding='utf-8') as fh:
-        feature_names: List[str] = json.load(fh)
-    with open(paths['catalogue'], 'r', encoding='utf-8') as fh:
-        catalogue: Dict[str, List[str]] = json.load(fh)
-
-    multi_output = _is_multi_output(label)
-
+    pipeline, feature_names, multi_output = _load_model_artefacts(label)
+    catalogue = _load_catalogue(label)
     games_df = _load_game_properties()
     game_row = _get_game_row(game_name, games_df)
     resolved_name = str(game_row.get('game', game_name))
 
+    return _exhaustive_search(
+        game_row, resolved_name, pipeline, feature_names, multi_output,
+        catalogue, label, top_k,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Public API — game features based (no game name lookup)
+# ---------------------------------------------------------------------------
+
+def predict_score_from_features(
+    game_features: Dict[str, float],
+    select: str,
+    simulation: str,
+    backprop: str,
+    finalmove: str,
+    label: str = 'all',
+) -> float:
+    """Predict score from raw game feature values (no game name lookup).
+
+    Parameters
+    ----------
+    game_features : dict
+        Mapping of game property names to numeric values.  Keys can use
+        either raw names ('numCells') or prefixed names ('game_numCells').
+        Missing features will be treated as NaN.
+    select, simulation, backprop, finalmove : str
+        The four MCTS variant components.
+    label : str
+        Which trained model to use.
+
+    Returns
+    -------
+    float   Predicted score clipped to [0, 1].
+    """
+    pipeline, feature_names, multi_output = _load_model_artefacts(label)
+    game_row = _game_features_to_series(game_features)
+    vbc = _variant_dict(select, simulation, backprop, finalmove)
+    x = _build_feature_vector(game_row, vbc, feature_names).reshape(1, -1)
+    return float(_predict_score_from_pipeline(pipeline, x, multi_output)[0])
+
+
+def predict_best_variant_from_features(
+    game_features: Dict[str, float],
+    label: str = 'all',
+    top_k: int = 5,
+) -> Dict:
+    """Find the best MCTS variant for a set of game features by exhaustive search.
+
+    Parameters
+    ----------
+    game_features : dict
+        Mapping of game property names to numeric values (see predict_score_from_features).
+    label : str
+        Which trained model to use.
+    top_k : int
+        Number of top combinations to return.
+
+    Returns
+    -------
+    dict with keys 'game', 'label', 'best_variant', 'best_score', 'top_k', 'n_evaluated'.
+    """
+    pipeline, feature_names, multi_output = _load_model_artefacts(label)
+    catalogue = _load_catalogue(label)
+    game_row = _game_features_to_series(game_features)
+
+    return _exhaustive_search(
+        game_row, '(custom features)', pipeline, feature_names, multi_output,
+        catalogue, label, top_k,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Shared exhaustive search
+# ---------------------------------------------------------------------------
+
+def _exhaustive_search(
+    game_row,
+    game_display_name: str,
+    pipeline,
+    feature_names: List[str],
+    multi_output: bool,
+    catalogue: Dict[str, List[str]],
+    label: str,
+    top_k: int,
+) -> Dict:
+    """Score every variant combo and return the top-k."""
     selects     = catalogue.get('variant_select',     [])
     simulations = catalogue.get('variant_simulation', [])
     backprops   = catalogue.get('variant_backprop',   [])
@@ -288,37 +352,38 @@ def predict_best_variant(
     )
     rows: List[np.ndarray] = []
     for sel, sim, bp, fm in all_combos:
-        vbc = {
-            'variant_select':     sel,
-            'variant_simulation': sim,
-            'variant_backprop':   bp,
-            'variant_finalmove':  fm,
-        }
+        vbc = _variant_dict(sel, sim, bp, fm)
         rows.append(_build_feature_vector(game_row, vbc, feature_names))
 
     X_all = np.vstack(rows)
     preds = _predict_score_from_pipeline(pipeline, X_all, multi_output)
 
-    # Sort descending by predicted score
     order = np.argsort(preds)[::-1]
-    ranked = [
-        (f'{all_combos[i][0]} | {all_combos[i][1]} | {all_combos[i][2]} | {all_combos[i][3]}',
-         float(preds[i]))
-        for i in order
-    ]
+    ranked = []
+    for i in order[:top_k]:
+        sel, sim, bp, fm = all_combos[i]
+        ranked.append({
+            'select': sel, 'simulation': sim,
+            'backprop': bp, 'finalmove': fm,
+            'score': float(preds[i]),
+        })
 
+    best = all_combos[order[0]]
     return {
-        'game':         resolved_name,
+        'game':         game_display_name,
         'label':        label,
-        'best_variant': ranked[0][0],
-        'best_score':   ranked[0][1],
-        'top_k':        ranked[:top_k],
+        'best_variant': {
+            'select': best[0], 'simulation': best[1],
+            'backprop': best[2], 'finalmove': best[3],
+        },
+        'best_score':   float(preds[order[0]]),
+        'top_k':        ranked,
         'n_evaluated':  len(all_combos),
     }
 
 
 # ---------------------------------------------------------------------------
-# Entry point — prints a summary of trained models
+# Entry point
 # ---------------------------------------------------------------------------
 
 def main():
