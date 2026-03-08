@@ -1,12 +1,25 @@
 """Parse SLURM .out and .err files and build model-ready datasets.
 
-Outputs two CSVs in src/python_script/:
-  dataset_all.csv        – all successfully completed jobs
-  dataset_notimeout.csv  – same but with games that hit maxMoves excluded
+Timeout detection
+-----------------
+Each line matching "Game exceeded time limit" in a job's .err file counts
+as one timed-out game within that job's 30-game matchup.  Timed-out games
+were recorded as draws by the runner but are **not real draws**, so they are
+excluded from all metrics:
 
-Each row contains only:
-  variant_select, variant_simulation, variant_backprop, variant_finalmove
-  winrate, moveTime, maxMoves
+  effective_total  = total - n_timeouts
+  effective_draws  = draws - n_timeouts    (timeout games inflate draw count)
+  winrate          = wins / effective_total
+  drawrate         = effective_draws / effective_total
+  score            = (wins + 0.5 * effective_draws) / effective_total
+
+Outputs two CSVs in src/python_script/:
+  dataset_all.csv        – all jobs with at least one non-timeout game
+  dataset_notimeout.csv  – only jobs with zero timeouts
+
+Each row contains:
+  variant_select, variant_simulation, variant_backprop, variant_finalmove,
+  winrate, drawrate, score, n_timeouts, moveTime, maxMoves,
   game_* features (from game_properties.csv)
 """
 import os
@@ -31,6 +44,7 @@ COMPLETED_RE = re.compile(
 GAME_RE = re.compile(r'^Game:\s*(.+)$', re.IGNORECASE)
 VARIANT_RE = re.compile(r'^Variant:\s*(.+)$', re.IGNORECASE)
 META_RE = re.compile(r'moveTime=([0-9.]+)|gamesPerMatchup=(\d+)|maxMoves=(\d+)')
+TIMEOUT_RE = re.compile(r'Game exceeded time limit', re.IGNORECASE)
 
 
 def _normalize(s: str) -> str:
@@ -40,6 +54,7 @@ def _normalize(s: str) -> str:
 
 
 def _parse_out_file(path: str) -> Dict[str, Any]:
+    """Parse a single .out file and extract game name, variant, result counts, and meta."""
     data: Dict[str, Any] = {
         'game': None, 'variant': None,
         'wins': None, 'completed': None, 'total_expected': None,
@@ -61,7 +76,6 @@ def _parse_out_file(path: str) -> Dict[str, Any]:
                 continue
             m = COMPLETED_RE.search(line)
             if m:
-                # groups: 1=completed, 2=total_expected, 3=wins, 4=losses, 5=draws, 6=failures, 7=avgMoves
                 data['completed'] = int(m.group(1))
                 data['total_expected'] = int(m.group(2))
                 data['wins'] = int(m.group(3))
@@ -78,7 +92,25 @@ def _parse_out_file(path: str) -> Dict[str, Any]:
     return data
 
 
+def _count_timeouts_in_err(path: str) -> int:
+    """Count 'Game exceeded time limit' lines in an .err file."""
+    if not os.path.isfile(path):
+        return 0
+    try:
+        if os.path.getsize(path) == 0:
+            return 0
+    except OSError:
+        return 0
+    count = 0
+    with open(path, 'r', encoding='utf-8', errors='ignore') as fh:
+        for line in fh:
+            if TIMEOUT_RE.search(line):
+                count += 1
+    return count
+
+
 def _find_game(norm: str, norm_to_game: Dict[str, str]) -> Optional[str]:
+    """Find the canonical game name from a normalised query string."""
     if norm in norm_to_game:
         return norm_to_game[norm]
     for n, g in norm_to_game.items():
@@ -88,7 +120,12 @@ def _find_game(norm: str, norm_to_game: Dict[str, str]) -> Optional[str]:
 
 
 def build_datasets(results_dir: str, game_props_path: str):
-    """Parse all SLURM results and return (df_all, df_notimeout)."""
+    """Parse all SLURM results and return (df_all, df_notimeout).
+
+    Timeout detection uses .err files: each 'Game exceeded time limit' line
+    is one timed-out game.  Those games are excluded from win/draw/loss rates
+    and from the score metric.
+    """
     games_df = pd.read_csv(game_props_path)
     game_feature_cols = [c for c in games_df.columns if c != 'game']
     games_df['_norm'] = games_df['game'].apply(_normalize)
@@ -102,24 +139,23 @@ def build_datasets(results_dir: str, game_props_path: str):
             bases.setdefault(base, {})[ext] = fname
 
     rows: List[Dict[str, Any]] = []
-    skipped_err = skipped_parse = skipped_game = 0
+    timeout_report: List[Dict[str, Any]] = []
+    skipped_parse = skipped_game = skipped_all_timeout = 0
+    total_timeout_games = 0
 
     for base, parts in sorted(bases.items()):
-        # skip jobs with non-empty .err
-        err_file = parts.get('err')
-        if err_file:
-            err_path = os.path.join(results_dir, err_file)
-            try:
-                if os.path.getsize(err_path) > 0:
-                    skipped_err += 1
-                    continue
-            except OSError:
-                pass
-
         out_file = parts.get('out')
         if not out_file:
             continue
         out_path = os.path.join(results_dir, out_file)
+
+        # Count timeouts from .err file
+        err_file = parts.get('err')
+        n_timeouts = 0
+        if err_file:
+            n_timeouts = _count_timeouts_in_err(
+                os.path.join(results_dir, err_file)
+            )
 
         parsed = _parse_out_file(out_path)
         if (not parsed['game'] or parsed.get('wins') is None or
@@ -132,6 +168,37 @@ def build_datasets(results_dir: str, game_props_path: str):
             skipped_game += 1
             continue
 
+        total_expected = parsed.get('total_expected') or parsed.get('completed') or 0
+        wins = parsed.get('wins') or 0
+        losses = parsed.get('losses') or 0
+        draws = parsed.get('draws') or 0
+
+        # Clamp n_timeouts: can't exceed draws (timeouts are recorded as draws)
+        n_timeouts = min(n_timeouts, draws)
+        total_timeout_games += n_timeouts
+
+        # Record timeout report
+        if n_timeouts > 0:
+            timeout_report.append({
+                'job': base,
+                'game': parsed['game'],
+                'variant': parsed.get('variant', ''),
+                'n_timeouts': n_timeouts,
+                'total': total_expected,
+                'wins': wins, 'losses': losses, 'draws': draws,
+            })
+
+        # Compute timeout-adjusted metrics
+        effective_total = total_expected - n_timeouts
+        if effective_total <= 0:
+            skipped_all_timeout += 1
+            continue
+        effective_draws = draws - n_timeouts
+
+        winrate = wins / float(effective_total)
+        drawrate = effective_draws / float(effective_total)
+        score = (wins + 0.5 * effective_draws) / float(effective_total)
+
         props = games_df[games_df['game'] == mapped_game].iloc[0]
 
         v = parsed.get('variant') or ''
@@ -140,35 +207,17 @@ def build_datasets(results_dir: str, game_props_path: str):
             v_parts.append('')
         sel, sim, back, final = v_parts[:4]
 
-        # compute winrate for the 'all' dataset: wins / total_expected
-        total_expected = parsed.get('total_expected')
-        completed = parsed.get('completed')
-        failures = parsed.get('failures') or 0
-        wins = parsed.get('wins') or 0
-        if total_expected and total_expected > 0:
-            winrate_all = wins / float(total_expected)
-        else:
-            # fallback to completed if total_expected missing
-            winrate_all = wins / float(completed) if completed and completed > 0 else np.nan
-        avg_moves = parsed.get('avgMoves')
-        move_time = parsed.get('moveTime')
-        max_moves = parsed.get('maxMoves')
-
         row: Dict[str, Any] = {
             'variant_select': sel,
             'variant_simulation': sim,
             'variant_backprop': back,
             'variant_finalmove': final,
-            # store the 'all' winrate by default; the no-timeout dataset will recompute
-            'winrate': winrate_all,
-            'moveTime': move_time,
-            'maxMoves': max_moves,
-            'avgMoves': avg_moves,   # kept internally for timeout filtering; dropped from final CSVs
-            # keep parsed counts for later recomputation of no-timeout winrate
-            'parsed_wins': wins,
-            'parsed_completed': completed,
-            'parsed_total_expected': total_expected,
-            'parsed_failures': failures,
+            'winrate': winrate,
+            'drawrate': drawrate,
+            'score': score,
+            'n_timeouts': n_timeouts,
+            'moveTime': parsed.get('moveTime'),
+            'maxMoves': parsed.get('maxMoves'),
         }
         for col in game_feature_cols:
             row[f'game_{col}'] = props[col]
@@ -177,52 +226,33 @@ def build_datasets(results_dir: str, game_props_path: str):
 
     df_all = pd.DataFrame(rows)
 
-    # determine timeout rows: avgMoves >= maxMoves
-    timeout_mask = pd.Series([False] * len(df_all))
-    if 'avgMoves' in df_all.columns and 'maxMoves' in df_all.columns:
-        timeout_mask = df_all['avgMoves'] >= df_all['maxMoves'].fillna(float('inf'))
+    # Notimeout dataset: only jobs with zero timeouts
+    df_notimeout = df_all[df_all['n_timeouts'] == 0].copy()
 
-    export_cols = [c for c in df_all.columns if c != 'avgMoves']
-    df_export_all = df_all[export_cols].copy()
+    # ---- Summary ----
+    print(f"Total jobs parsed  : {len(df_all) + skipped_parse + skipped_game + skipped_all_timeout}")
+    print(f"  Skipped (parse)  : {skipped_parse}")
+    print(f"  Skipped (game)   : {skipped_game}")
+    print(f"  Skipped (all TO) : {skipped_all_timeout}  (all games timed out)")
+    print(f"  All dataset      : {len(df_all)} rows")
+    print(f"  No-timeout set   : {len(df_notimeout)} rows")
+    print(f"  Jobs with TO     : {len(timeout_report)}")
+    print(f"  Total TO games   : {total_timeout_games}")
 
-    # Build no-timeout dataset: exclude timeouts and recompute winrate ignoring failures/timeouts
-    df_nt = df_all[~timeout_mask].copy()
-    # recompute winrate excluding failures (timeouts) using parsed totals
-    if 'parsed_wins' in df_nt.columns and 'parsed_total_expected' in df_nt.columns and 'parsed_failures' in df_nt.columns:
-        def _recalc_winrate(row):
-            tot = row.get('parsed_total_expected')
-            fail = row.get('parsed_failures') or 0
-            w = row.get('parsed_wins') or 0
-            denom = (tot if (tot is not None and tot > 0) else row.get('parsed_completed'))
-            if denom is None or denom <= 0:
-                return np.nan
-            non_t = denom - fail
-            if non_t <= 0:
-                return np.nan
-            return float(w) / float(non_t)
+    # ---- Timeout report ----
+    if timeout_report:
+        print(f"\n{'=' * 70}")
+        print("  TIMEOUT REPORT")
+        print(f"{'=' * 70}")
+        print(f"  {'Game':<25s} {'Variant':<40s} {'TO':>3s} {'W':>3s} {'L':>3s} {'D':>3s} {'Tot':>3s}")
+        print(f"  {'-'*25} {'-'*40} {'-'*3} {'-'*3} {'-'*3} {'-'*3} {'-'*3}")
+        for r in sorted(timeout_report, key=lambda x: -x['n_timeouts']):
+            print(f"  {r['game']:<25s} {r['variant']:<40s} "
+                  f"{r['n_timeouts']:3d} {r['wins']:3d} {r['losses']:3d} "
+                  f"{r['draws']:3d} {r['total']:3d}")
+        print(f"{'=' * 70}")
 
-        df_nt['winrate'] = df_nt.apply(_recalc_winrate, axis=1)
-        # drop rows where all games were timeouts (winrate became NaN)
-        df_nt = df_nt[df_nt['winrate'].notna()]
-    else:
-        # if parsed totals not present, fallback: use same as all
-        df_nt['winrate'] = df_nt['winrate']
-
-    # drop internal avgMoves/parsed-only columns before export
-    drop_cols = [c for c in ['avgMoves', 'parsed_wins', 'parsed_completed', 'parsed_total_expected', 'parsed_failures'] if c in df_export_all.columns]
-    df_export_all = df_export_all.drop(columns=drop_cols, errors='ignore')
-    # ensure notimeout export uses same exported columns (without parsed-only cols)
-    df_notimeout = df_nt[export_cols].drop(columns=[c for c in drop_cols if c in export_cols], errors='ignore')
-
-    print(f"Total rows parsed : {len(df_all)}")
-    print(f"  Skipped (err)   : {skipped_err}")
-    print(f"  Skipped (parse) : {skipped_parse}")
-    print(f"  Skipped (game)  : {skipped_game}")
-    print(f"  Timeout games   : {timeout_mask.sum()}")
-    print(f"  All dataset     : {len(df_export_all)} rows")
-    print(f"  No-timeout set  : {len(df_notimeout)} rows")
-
-    return df_export_all, df_notimeout
+    return df_all, df_notimeout
 
 
 def main():

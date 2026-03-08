@@ -1,16 +1,23 @@
-"""Inference helpers for the trained win-rate prediction models.
+"""Inference helpers for the trained MCTS variant prediction models.
 
 Run `python train_winrate.py` to (re)train and tune all models.
 
+The primary prediction target is **score** defined as
+``(wins + 0.5 * effective_draws) / effective_total``, where timeout games
+are excluded from both draws and the total.
+
+If the best saved model is a multi-output model (predicting winrate and
+drawrate simultaneously), the score is derived as
+``predicted_winrate + 0.5 * predicted_drawrate``.
+
 Exposed API
 -----------
-predict_winrate(game_name, variant, label='all') -> float
-    Predicts the win rate for a single (game, variant) pair using the
-    best trained model for the given dataset label.
+predict_score(game_name, variant, label='all') -> float
+    Predicts the score for a single (game, variant) pair.
 
 predict_best_variant(game_name, label='all', top_k=5) -> dict
     Exhaustively evaluates all variant combinations seen during training
-    and returns the top-k ranked by predicted win rate.
+    and returns the top-k ranked by predicted score.
 """
 
 import itertools
@@ -123,14 +130,53 @@ def _build_feature_vector(
 # Public API
 # ---------------------------------------------------------------------------
 
-def predict_winrate(
+def _is_multi_output(label: str) -> bool:
+    """Return True if the best model for the given label is a multi-output model."""
+    paths = _model_paths(label)
+    if os.path.isfile(paths['info']):
+        with open(paths['info'], 'r', encoding='utf-8') as fh:
+            info = json.load(fh)
+        return info.get('multi_output', False)
+    return False
+
+
+def _predict_score_from_pipeline(pipeline, x: np.ndarray, multi_output: bool) -> np.ndarray:
+    """Run prediction through the pipeline and return score values.
+
+    Parameters
+    ----------
+    pipeline : fitted sklearn pipeline
+    x : array of shape (n_samples, n_features)
+    multi_output : bool
+        If True, the pipeline predicts (winrate, drawrate) and score is
+        derived as ``winrate + 0.5 * drawrate``.
+
+    Returns
+    -------
+    np.ndarray of shape (n_samples,) with score values clipped to [0, 1].
+    """
+    raw = pipeline.predict(x)
+    if multi_output and raw.ndim == 2 and raw.shape[1] >= 2:
+        wr = np.clip(raw[:, 0], 0.0, 1.0)
+        dr = np.clip(raw[:, 1], 0.0, 1.0)
+        scores = np.clip(wr + 0.5 * dr, 0.0, 1.0)
+    else:
+        scores = np.clip(raw.ravel(), 0.0, 1.0)
+    return scores
+
+
+# ---------------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------------
+
+def predict_score(
     game_name: str,
     variant: str,
     label: str = 'all',
     move_time: float = 0.5,
     max_moves: int = 1000,
 ) -> float:
-    """Return the predicted win rate for a (game, variant) pair.
+    """Return the predicted score for a (game, variant) pair.
 
     Parameters
     ----------
@@ -142,13 +188,12 @@ def predict_winrate(
     label : str
         Which trained model to use: 'all' (default) or 'notimeout'.
     move_time, max_moves : float / int
-        Kept for backward compatibility; these are no longer used as model
-        features (they were constant across the dataset and provided no signal).
+        Kept for backward compatibility; not used as model features.
 
     Returns
     -------
     float
-        Predicted win rate clipped to [0, 1].
+        Predicted score clipped to [0, 1].
     """
     paths = _model_paths(label)
     if not os.path.isfile(paths['model']) or not os.path.isfile(paths['features']):
@@ -160,6 +205,8 @@ def predict_winrate(
     with open(paths['features'], 'r', encoding='utf-8') as fh:
         feature_names: List[str] = json.load(fh)
 
+    multi_output = _is_multi_output(label)
+
     games_df = _load_game_properties()
     game_row = _get_game_row(game_name, games_df)
 
@@ -169,8 +216,11 @@ def predict_winrate(
     variant_by_comp = dict(zip(VARIANT_COMP_COLS, v_parts))
 
     x = _build_feature_vector(game_row, variant_by_comp, feature_names).reshape(1, -1)
-    pred = pipeline.predict(x)[0]
-    return float(np.clip(pred, 0.0, 1.0))
+    return float(_predict_score_from_pipeline(pipeline, x, multi_output)[0])
+
+
+# Backward-compatible alias
+predict_winrate = predict_score
 
 
 def predict_best_variant(
@@ -184,8 +234,8 @@ def predict_best_variant(
 
     Loads the best trained model and the variant catalogue saved during training.
     Generates *all* combinations of (select × simulation × backprop × finalmove)
-    from the catalogue, predicts win rates in a single vectorised batch, and
-    returns the top-k combinations ranked by predicted win rate (descending).
+    from the catalogue, predicts scores in a single vectorised batch, and
+    returns the top-k combinations ranked by predicted score (descending).
 
     Parameters
     ----------
@@ -204,8 +254,8 @@ def predict_best_variant(
         'game'         : resolved game name
         'label'        : dataset label used
         'best_variant' : highest-ranked variant string, e.g. 'UCB1 | MAST | MonteCarlo | Robust'
-        'best_winrate' : predicted win rate for the best variant
-        'top_k'        : list of (variant_str, predicted_winrate) tuples, best first
+        'best_score'   : predicted score for the best variant
+        'top_k'        : list of (variant_str, predicted_score) tuples, best first
         'n_evaluated'  : total number of combinations evaluated
     """
     paths = _model_paths(label)
@@ -213,7 +263,7 @@ def predict_best_variant(
     if missing:
         raise FileNotFoundError(
             f"Missing artefacts for label='{label}': {missing}. "
-            "Run `python train_krr_winrate.py` first."
+            "Run `python train_winrate.py` first."
         )
 
     pipeline = joblib.load(paths['model'])
@@ -221,6 +271,8 @@ def predict_best_variant(
         feature_names: List[str] = json.load(fh)
     with open(paths['catalogue'], 'r', encoding='utf-8') as fh:
         catalogue: Dict[str, List[str]] = json.load(fh)
+
+    multi_output = _is_multi_output(label)
 
     games_df = _load_game_properties()
     game_row = _get_game_row(game_name, games_df)
@@ -231,9 +283,6 @@ def predict_best_variant(
     backprops   = catalogue.get('variant_backprop',   [])
     finalmoves  = catalogue.get('variant_finalmove',  [])
 
-    # Build the complete feature matrix for all combinations in one vectorised pass.
-    # This is efficient for all model types (KRR benefits especially from batch
-    # prediction since it avoids repeated kernel evaluations against training points).
     all_combos: List[Tuple[str, str, str, str]] = list(
         itertools.product(selects, simulations, backprops, finalmoves)
     )
@@ -247,10 +296,10 @@ def predict_best_variant(
         }
         rows.append(_build_feature_vector(game_row, vbc, feature_names))
 
-    X_all = np.vstack(rows)                          # shape (n_combos, n_features)
-    preds = np.clip(pipeline.predict(X_all), 0.0, 1.0)
+    X_all = np.vstack(rows)
+    preds = _predict_score_from_pipeline(pipeline, X_all, multi_output)
 
-    # Sort descending by predicted win rate
+    # Sort descending by predicted score
     order = np.argsort(preds)[::-1]
     ranked = [
         (f'{all_combos[i][0]} | {all_combos[i][1]} | {all_combos[i][2]} | {all_combos[i][3]}',
@@ -262,7 +311,7 @@ def predict_best_variant(
         'game':         resolved_name,
         'label':        label,
         'best_variant': ranked[0][0],
-        'best_winrate': ranked[0][1],
+        'best_score':   ranked[0][1],
         'top_k':        ranked[:top_k],
         'n_evaluated':  len(all_combos),
     }
@@ -279,12 +328,14 @@ def main():
         if os.path.isfile(p['info']):
             with open(p['info'], 'r', encoding='utf-8') as fh:
                 info = json.load(fh)
+            mo_tag = ' (multi-output)' if info.get('multi_output') else ''
             print(f"\nDataset [{label}]:")
-            print(f"  Best model : {info.get('best_model_name')}  "
-                  f"MSE={info.get('best_mse'):.5f}")
+            print(f"  Best model : {info.get('best_model_name')}{mo_tag}  "
+                  f"Score MSE={info.get('best_mse'):.5f}")
             print("  All models :")
             for name, m in info.get('all_models', {}).items():
-                print(f"    {name:<25} MSE={m['mse']:.5f}  R²={m['r2']:.5f}")
+                tag = ' MO' if m.get('multi_output') else ''
+                print(f"    {name:<25} Score MSE={m['mse']:.5f}  R²={m['r2']:.5f}{tag}")
         elif os.path.isfile(p['model']):
             print(f"\nDataset [{label}]: model found but no info JSON (re-run training).")
         else:
