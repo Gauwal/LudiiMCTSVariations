@@ -1,8 +1,8 @@
-"""Parse SLURM .out and .err files and build KRR-ready datasets.
+"""Parse SLURM .out and .err files and build model-ready datasets.
 
 Outputs two CSVs in src/python_script/:
-  krr_dataset_all.csv        – all successfully completed jobs
-  krr_dataset_notimeout.csv  – same but with games that hit maxMoves excluded
+  dataset_all.csv        – all successfully completed jobs
+  dataset_notimeout.csv  – same but with games that hit maxMoves excluded
 
 Each row contains only:
   variant_select, variant_simulation, variant_backprop, variant_finalmove
@@ -21,8 +21,8 @@ REPO_ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 RESULTS_DIR = os.path.join(REPO_ROOT, 'slurm_jobs', 'results')
 GAME_PROPS = os.path.join(REPO_ROOT, 'game_properties.csv')
 
-DATASET_ALL_OUT = os.path.join(HERE, 'krr_dataset_all.csv')
-DATASET_NOTIMEOUT_OUT = os.path.join(HERE, 'krr_dataset_notimeout.csv')
+DATASET_ALL_OUT = os.path.join(HERE, 'dataset_all.csv')
+DATASET_NOTIMEOUT_OUT = os.path.join(HERE, 'dataset_notimeout.csv')
 
 COMPLETED_RE = re.compile(
     r'completed=(\d+)/(\d+),\s*wins=(\d+),\s*losses=(\d+),\s*draws=(\d+),\s*'

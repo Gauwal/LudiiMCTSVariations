@@ -1,0 +1,55 @@
+{
+  "label": "notimeout",
+  "best_model_name": "Ridge",
+  "best_mse": 0.03780876654000613,
+  "all_models": {
+    "KernelRidge": {
+      "mse": 0.03876774674692955,
+      "mae": 0.15365501103776064,
+      "r2": 0.1036325253524375,
+      "best_params": {
+        "model__alpha": 1.0,
+        "model__gamma": 0.01,
+        "model__kernel": "rbf"
+      },
+      "n_train": 845,
+      "n_test": 94
+    },
+    "Ridge": {
+      "mse": 0.03780876654000613,
+      "mae": 0.1520350394363864,
+      "r2": 0.1258055619214259,
+      "best_params": {
+        "model__alpha": 100.0
+      },
+      "n_train": 845,
+      "n_test": 94
+    },
+    "HistGradientBoosting": {
+      "mse": 0.03904504825328669,
+      "mae": 0.15030898960104724,
+      "r2": 0.09722090559563556,
+      "best_params": {
+        "model__l2_regularization": 1.0,
+        "model__learning_rate": 0.05,
+        "model__max_depth": 3,
+        "model__max_iter": 200
+      },
+      "n_train": 845,
+      "n_test": 94
+    },
+    "RandomForest": {
+      "mse": 0.04063472872072531,
+      "mae": 0.15819498814678676,
+      "r2": 0.0604651489251149,
+      "best_params": {
+        "model__max_depth": 10,
+        "model__max_features": 0.5,
+        "model__min_samples_leaf": 5,
+        "model__n_estimators": 100
+      },
+      "n_train": 845,
+      "n_test": 94
+    }
+  }
+}

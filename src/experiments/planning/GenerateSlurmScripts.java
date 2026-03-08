@@ -207,11 +207,13 @@ public final class GenerateSlurmScripts
 		private static String estimateTime(final PlannedTest t, final GameCatalog.Row g, final Args parsed)
 		{
 			// WORST-CASE time estimation:
-			// - Each move can take up to moveTimeSeconds (the MCTS thinking budget)
-			// - Both players make moves, so total moves per game = maxMoves * 2
-			// - We assume all games go to maxMoves (worst case, no early termination)
-			final double movesPerGame = t.maxMoves * 2.0; // both players
-			final double searchSeconds = (double) t.gamesPerMatchup * movesPerGame * t.moveTimeSeconds;
+			// - maxMoves is the total decision count for the game (both players combined),
+			//   not per-player, so we do NOT multiply by 2.
+			// - Actual per-decision cost is typically perDecisionOverheadFactor times the
+			//   MCTS budget due to state-copy (new Context) and game.apply overhead.
+			// - We assume all games go to maxMoves (worst case, no early termination).
+			final double searchSeconds = (double) t.gamesPerMatchup * t.maxMoves
+					* t.moveTimeSeconds * parsed.perDecisionOverheadFactor;
 
 			double overheadSeconds = parsed.baseOverheadSeconds;
 			overheadSeconds += parsed.overheadSecondsPerPlayableSite * Math.max(0, g.numPlayableSites);
@@ -467,6 +469,8 @@ public final class GenerateSlurmScripts
 		final double overheadSecondsPerComponent;
 		final double heuristicsOverheadSeconds;
 		final double timeSafetyMultiplier;
+		/** Multiplier on raw MCTS budget per decision to account for state-copy and game.apply overhead. */
+		final double perDecisionOverheadFactor;
 
 		private Args(
 				final Path planPath,
@@ -493,7 +497,8 @@ public final class GenerateSlurmScripts
 				final double overheadSecondsPerPlayableSite,
 				final double overheadSecondsPerComponent,
 				final double heuristicsOverheadSeconds,
-				final double timeSafetyMultiplier)
+				final double timeSafetyMultiplier,
+				final double perDecisionOverheadFactor)
 		{
 			this.planPath = planPath;
 			this.catalogPath = catalogPath;
@@ -520,6 +525,7 @@ public final class GenerateSlurmScripts
 			this.overheadSecondsPerComponent = overheadSecondsPerComponent;
 			this.heuristicsOverheadSeconds = heuristicsOverheadSeconds;
 			this.timeSafetyMultiplier = timeSafetyMultiplier;
+			this.perDecisionOverheadFactor = perDecisionOverheadFactor;
 		}
 
 		double methodOverheadSeconds(final PlannedTest t)
@@ -571,6 +577,9 @@ public final class GenerateSlurmScripts
 			double overheadSecondsPerComponent = 2.0;
 			double heuristicsOverheadSeconds = 30.0;
 			double timeSafetyMultiplier = 1.10;
+			// 5.0 matches the safety limit used in RunPlannedTest (maxMoves * moveTimeSeconds * 5).
+			// Increase for games with very large state spaces.
+			double perDecisionOverheadFactor = 5.0;
 
 			for (int i = 0; i < args.length; i++)
 			{
@@ -605,6 +614,8 @@ public final class GenerateSlurmScripts
 					baseMemMb = Integer.parseInt(args[++i]);
 				else if ("--time-safety".equalsIgnoreCase(a) && i + 1 < args.length)
 					timeSafetyMultiplier = Double.parseDouble(args[++i]);
+				else if ("--overhead-factor".equalsIgnoreCase(a) && i + 1 < args.length)
+					perDecisionOverheadFactor = Double.parseDouble(args[++i]);
 			}
 
 			return new Args(
@@ -632,7 +643,8 @@ public final class GenerateSlurmScripts
 					overheadSecondsPerPlayableSite,
 					overheadSecondsPerComponent,
 					heuristicsOverheadSeconds,
-					timeSafetyMultiplier
+					timeSafetyMultiplier,
+					perDecisionOverheadFactor
 			);
 		}
 

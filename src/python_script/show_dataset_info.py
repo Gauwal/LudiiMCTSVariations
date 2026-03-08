@@ -3,14 +3,14 @@ import json
 import pandas as pd
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-KRR = os.path.join(os.path.dirname(__file__), 'krr_dataset.csv')
+DATASET = os.path.join(os.path.dirname(__file__), 'dataset.csv')
 CANDIDATES = [os.path.join(os.path.dirname(__file__), 'parsed_slurm_results.csv'), os.path.join(ROOT, 'parsed_slurm_results.csv')]
 
-print('KRR dataset path:', KRR)
-if not os.path.isfile(KRR):
-    raise SystemExit('krr_dataset.csv not found')
+print('Dataset path:', DATASET)
+if not os.path.isfile(DATASET):
+    raise SystemExit('dataset.csv not found')
 
-df = pd.read_csv(KRR)
+df = pd.read_csv(DATASET)
 print('usable_dataset_rows:', len(df))
 
 # sample: first row as JSON

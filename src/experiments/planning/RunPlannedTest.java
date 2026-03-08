@@ -147,8 +147,11 @@ public final class RunPlannedTest
 		Throwable failure = null;
 		int decisionCount = 0;
 
-		// Safety: maximum time for entire game (2x expected worst case)
-		final long maxGameTimeMs = (long) (maxMoves * moveTimeSeconds * 1000 * 2) + 60000L;
+		// Safety: maximum time for entire game.
+		// Actual per-decision cost is typically 3-5x the MCTS budget for complex games due to
+		// state-copy overhead (new Context) and game.apply costs. Use 5x so the limit only
+		// fires for genuinely hung games, not normally-slow ones.
+		final long maxGameTimeMs = (long) (maxMoves * moveTimeSeconds * 1000 * 5) + 120000L;
 		final long gameStartTime = System.currentTimeMillis();
 
 		while (!context.trial().over() && failure == null)
@@ -161,6 +164,12 @@ public final class RunPlannedTest
 			if (System.currentTimeMillis() - gameStartTime > maxGameTimeMs)
 			{
 				System.err.println("Game exceeded time limit after " + decisionCount + " decisions");
+				// If the trial is not over, utilities from a non-terminal state are
+				// meaningless (typically zero for all players, producing spurious draws).
+				// Mark as failure so the game is excluded from win/loss/draw statistics.
+				if (!context.trial().over())
+					failure = new RuntimeException(
+							"Safety time limit exceeded after " + decisionCount + " decisions (game not over)");
 				break;
 			}
 
