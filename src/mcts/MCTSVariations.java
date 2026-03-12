@@ -141,8 +141,8 @@ public class MCTSVariations extends AI
         if ("heuristic".equals(normalized) || "heuristic playout".equals(normalized))
             return new StrategyChoice<>(new HeuristicPlayout(), "HeuristicPlayout");
 
-        if ("heuristic samping".equals(normalized) || "heuristic samping playout".equals(normalized))
-            return new StrategyChoice<>(new HeuristicSampingPlayout(), "HeuristicSampingPlayout");
+        if ("heuristic sampling".equals(normalized) || "heuristic sampling playout".equals(normalized))
+            return new StrategyChoice<>(new HeuristicSampingPlayout(), "HeuristicSamplingPlayout");
 
         if ("mast".equals(normalized))
             return new StrategyChoice<>(new MAST(), "MAST");

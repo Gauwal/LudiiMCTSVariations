@@ -219,7 +219,7 @@ public final class RunPlannedTest
 		Files.createDirectories(out.toAbsolutePath().getParent());
 		try (BufferedWriter bw = Files.newBufferedWriter(out, StandardCharsets.UTF_8))
 		{
-			bw.write("testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,requiresHeuristics,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError");
+			bw.write("testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError");
 			bw.newLine();
 			bw.write(String.format(
 					Locale.ROOT,
@@ -238,7 +238,7 @@ public final class RunPlannedTest
 					test.moveTimeSeconds,
 					test.gamesPerMatchup,
 					test.maxMoves,
-					test.requiresHeuristics,
+					test.usesHeuristic,
 					stats.variantWins,
 					stats.baselineWins,
 					stats.draws,
@@ -343,7 +343,7 @@ public final class RunPlannedTest
 		final double moveTimeSeconds;
 		final int gamesPerMatchup;
 		final int maxMoves;
-		final int requiresHeuristics;
+		final int usesHeuristic;
 
 		PlannedTest(
 				final String testId,
@@ -360,7 +360,7 @@ public final class RunPlannedTest
 				final double moveTimeSeconds,
 				final int gamesPerMatchup,
 				final int maxMoves,
-				final int requiresHeuristics)
+				final int usesHeuristic)
 		{
 			this.testId = testId;
 			this.gameName = gameName;
@@ -376,7 +376,7 @@ public final class RunPlannedTest
 			this.moveTimeSeconds = moveTimeSeconds;
 			this.gamesPerMatchup = gamesPerMatchup;
 			this.maxMoves = maxMoves;
-			this.requiresHeuristics = requiresHeuristics;
+			this.usesHeuristic = usesHeuristic;
 		}
 
 		static PlannedTest loadById(final Path plan, final String testId) throws IOException
@@ -414,7 +414,7 @@ public final class RunPlannedTest
 							Csv.getDouble(fields, idx, "moveTimeSeconds", 0.1),
 							Csv.getInt(fields, idx, "gamesPerMatchup", 2),
 							Csv.getInt(fields, idx, "maxMoves", 500),
-							Csv.getInt(fields, idx, "requiresHeuristics", 0)
+							Csv.getInt(fields, idx, "usesHeuristic", 0)
 					);
 				}
 			}

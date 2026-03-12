@@ -23,6 +23,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -58,7 +59,7 @@ public final class GenerateTestPlan
 			"MAST",
 			"NST",
 			"Heuristic",
-			"Heuristic Samping",
+			"Heuristic Sampling",
 			"HS Playout",
 			"PlayoutHS",
 			"LGR"
@@ -84,9 +85,14 @@ public final class GenerateTestPlan
 	 *
 	 * Note: This is intentionally conservative and can be extended.
 	 */
+	private static final Set<String> HEURISTIC_REQUIRED_SELECTION = new HashSet<>(Arrays.asList(
+			"Alpha-Beta",
+			"Implicit Minimax"
+	));
+
 	private static final Set<String> HEURISTIC_REQUIRED_SIM = new HashSet<>(Arrays.asList(
 			"Heuristic",
-			"Heuristic Samping",
+			"Heuristic Sampling",
 			"HS Playout",
 			"PlayoutHS",
 			"LGR"
@@ -95,15 +101,10 @@ public final class GenerateTestPlan
 	private static final Set<String> HEURISTIC_REQUIRED_BACKPROP = new HashSet<>(Arrays.asList(
 			"Heuristic",
 			"AlphaGo",
-			"Qualitative"
+			"Qualitative",
+			"Implicit Minimax"
 	));
 
-	private static final Set<String> POLICY_REQUIRED_SELECTION = new HashSet<>(Arrays.asList(
-			"AG0",
-			"Noisy AG0",
-			"ExIt",
-			"Progressive Bias"
-	));
 
 	// -------------------- DEFAULT BASELINE --------------------
 
@@ -169,6 +170,111 @@ public final class GenerateTestPlan
 
 		writePlanCsv(planned, parsed.outPath);
 		System.out.println("Wrote " + planned.size() + " tests to: " + parsed.outPath.toAbsolutePath());
+		printCoverageStats(planned, catalog);
+	}
+
+	// -------------------- COVERAGE STATISTICS --------------------
+
+	private static void printCoverageStats(final List<TestSpec> planned, final GameCatalog.Table catalog)
+	{
+		final Map<String, GameCatalog.Row> rowByGame = new HashMap<>();
+		catalog.stream().forEach(r -> rowByGame.put(r.gameName, r));
+
+		System.out.println();
+		System.out.println("========================================");
+		System.out.println("         COVERAGE STATISTICS");
+		System.out.println("========================================");
+
+		// Per-component, per-method: count tests and distinct games
+		for (final Component component : Arrays.asList(Component.SELECTION, Component.SIMULATION, Component.BACKPROP, Component.FINAL_MOVE))
+		{
+			System.out.println();
+			System.out.println("--- " + component.name() + " ---");
+			for (final String method : domainFor(component))
+			{
+				final Set<String> games = new LinkedHashSet<>();
+				for (final TestSpec t : planned)
+				{
+					if (!variantMethodFor(t, component).equals(method))
+						continue;
+					games.add(t.gameName);
+				}
+				final boolean needsH = methodRequiresHeuristics(component, method);
+				System.out.printf("  %-30s : %3d tests on %3d games%s%n",
+						method,
+						games.size(),
+						new HashSet<>(games).size(),
+						needsH ? "  [needs heuristic]" : "");
+			}
+		}
+
+		// Distinct games tested
+		final Set<String> testedGames = planned.stream().map(t -> t.gameName).collect(Collectors.toCollection(LinkedHashSet::new));
+
+		// Boolean game-property coverage
+		System.out.println();
+		System.out.println("--- GAME PROPERTIES (across " + testedGames.size() + " distinct tested games) ---");
+		final String[] boolProps = {
+				"hasHeuristics", "isStochastic", "hasHiddenInfo", "isAlternating",
+				"isStacking", "requiresTeams", "hasTrack", "hasCard", "hasHandDice",
+				"isVertexGame", "isEdgeGame", "isCellGame", "isDeductionPuzzle"
+		};
+		for (final String prop : boolProps)
+		{
+			int count = 0;
+			for (final String g : testedGames)
+			{
+				final GameCatalog.Row r = rowByGame.get(g);
+				if (r != null && getIntProperty(r, prop) == 1)
+					count++;
+			}
+			System.out.printf("  %-20s = 1 : %3d / %3d games%n", prop, count, testedGames.size());
+		}
+	}
+
+	private static String variantMethodFor(final TestSpec t, final Component component)
+	{
+		switch (component)
+		{
+			case SELECTION:  return t.variant.selection;
+			case SIMULATION: return t.variant.simulation;
+			case BACKPROP:   return t.variant.backprop;
+			case FINAL_MOVE: return t.variant.finalMove;
+			default:         return "";
+		}
+	}
+
+	private static int getIntProperty(final GameCatalog.Row r, final String prop)
+	{
+		switch (prop)
+		{
+			case "hasHeuristics":  return r.hasHeuristics;
+			case "isStochastic":   return r.isStochastic;
+			case "hasHiddenInfo":  return r.hasHiddenInfo;
+			case "isAlternating":  return r.isAlternating;
+			case "isStacking":     return r.isStacking;
+			case "requiresTeams":  return r.requiresTeams;
+			case "hasTrack":       return r.hasTrack;
+			case "hasCard":        return r.hasCard;
+			case "hasHandDice":    return r.hasHandDice;
+			case "isVertexGame":   return r.isVertexGame;
+			case "isEdgeGame":     return r.isEdgeGame;
+			case "isCellGame":     return r.isCellGame;
+			case "isDeductionPuzzle": return r.isDeductionPuzzle;
+			default:               return 0;
+		}
+	}
+
+	private static List<String> domainFor(final Component component)
+	{
+		switch (component)
+		{
+			case SELECTION:  return Arrays.asList(SELECTION_POLICIES);
+			case SIMULATION: return Arrays.asList(SIMULATION_POLICIES);
+			case BACKPROP:   return Arrays.asList(BACKPROP_POLICIES);
+			case FINAL_MOVE: return Arrays.asList(FINAL_MOVE_POLICIES);
+			default:         return Collections.emptyList();
+		}
 	}
 
 	// -------------------- PLANNING --------------------
@@ -216,7 +322,7 @@ public final class GenerateTestPlan
 		final int gamesPerMatchup;
 		final double moveTimeSeconds;
 		final int maxMoves;
-		final int requiresHeuristics;
+		final int usesHeuristic;
 
 		TestSpec(
 				final String testId,
@@ -227,7 +333,7 @@ public final class GenerateTestPlan
 				final int gamesPerMatchup,
 				final double moveTimeSeconds,
 				final int maxMoves,
-				final int requiresHeuristics)
+				final int usesHeuristic)
 		{
 			this.testId = testId;
 			this.gameName = gameName;
@@ -237,7 +343,7 @@ public final class GenerateTestPlan
 			this.gamesPerMatchup = gamesPerMatchup;
 			this.moveTimeSeconds = moveTimeSeconds;
 			this.maxMoves = maxMoves;
-			this.requiresHeuristics = requiresHeuristics;
+			this.usesHeuristic = usesHeuristic;
 		}
 
 		String key()
@@ -254,7 +360,6 @@ public final class GenerateTestPlan
 		private final ExistingTests existing;
 		private final FeatureSpace featureSpace;
 		private final Map<String, Boolean> heuristicCache = new HashMap<>();
-		private final Map<String, Boolean> compatibilityCache = new HashMap<>();
 
 		Planner(final long seed, final ExistingTests existing, final FeatureSpace featureSpace)
 		{
@@ -288,18 +393,15 @@ public final class GenerateTestPlan
 			for (int i = 0; i < gameNames.size(); i++)
 				gameIndex.put(gameNames.get(i), i);
 
-			// Precompute heuristic capability per candidate (expensive reflection + game load).
+			// Read heuristic capability directly from the pre-computed catalog (fast + reliable).
 			final boolean[] gameHasHeuristics = new boolean[gameNames.size()];
 			boolean anyHeuristicGame = false;
-			for (int i = 0; i < gameNames.size(); i++)
+			for (int i = 0; i < candidates.size(); i++)
 			{
-				System.err.printf("\r[Precompute] Heuristic scan: %d/%d ...", i + 1, gameNames.size());
-				System.err.flush();
-				final boolean h = hasHeuristics(gameNames.get(i));
+				final boolean h = candidates.get(i).hasHeuristics == 1;
 				gameHasHeuristics[i] = h;
 				anyHeuristicGame |= h;
 			}
-			System.err.println();
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
 
@@ -389,8 +491,8 @@ public final class GenerateTestPlan
 
 				final String game = gameNames.get(best.gameIndex);
 				final Config variant = makeVariant(BASELINE, best.component, best.method);
-				final int requiresHeuristics = requiresHeuristics(variant) ? 1 : 0;
-				if (requiresHeuristics == 1 && !gameHasHeuristics[best.gameIndex])
+				final int usesHeuristic = requiresHeuristics(variant) ? 1 : 0;
+				if (usesHeuristic == 1 && !gameHasHeuristics[best.gameIndex])
 					continue;
 
 				// Pick the least-used move time to spread tests across time budgets.
@@ -405,7 +507,7 @@ public final class GenerateTestPlan
 						gamesPerMatchup,
 						chosenMoveTime,
 						maxMoves,
-						requiresHeuristics
+						usesHeuristic
 				);
 
 				final String key = spec.key();
@@ -446,17 +548,15 @@ public final class GenerateTestPlan
 			for (int i = 0; i < gameNames.size(); i++)
 				gameIndex.put(gameNames.get(i), i);
 
+			// Read heuristic capability directly from the pre-computed catalog (fast + reliable).
 			final boolean[] gameHasHeuristics = new boolean[gameNames.size()];
 			boolean anyHeuristicGame = false;
-			for (int i = 0; i < gameNames.size(); i++)
+			for (int i = 0; i < candidates.size(); i++)
 			{
-				System.err.printf("\r[Precompute] Heuristic scan: %d/%d ...", i + 1, gameNames.size());
-				System.err.flush();
-				final boolean h = hasHeuristics(gameNames.get(i));
+				final boolean h = candidates.get(i).hasHeuristics == 1;
 				gameHasHeuristics[i] = h;
 				anyHeuristicGame |= h;
 			}
-			System.err.println();
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
 			final MethodPairingState pairingState = new MethodPairingState();
@@ -554,8 +654,8 @@ public final class GenerateTestPlan
 
 				final String game = gameNames.get(best.gameIndex);
 				final Config variant = new Config(best.sel.method, best.sim.method, best.back.method, best.fin.method);
-				final int requiresHeuristics = requiresHeuristics(variant) ? 1 : 0;
-				if (requiresHeuristics == 1 && !gameHasHeuristics[best.gameIndex])
+				final int usesHeuristic = requiresHeuristics(variant) ? 1 : 0;
+				if (usesHeuristic == 1 && !gameHasHeuristics[best.gameIndex])
 					continue;
 
 				final double chosenMoveTime = leastUsedMoveTime(moveTimes, moveTimeCounts);
@@ -569,7 +669,7 @@ public final class GenerateTestPlan
 						gamesPerMatchup,
 						chosenMoveTime,
 						maxMoves,
-						requiresHeuristics
+						usesHeuristic
 				);
 
 				final String key = spec.key();
@@ -650,26 +750,10 @@ public final class GenerateTestPlan
 				final boolean gameHasHeuristics,
 				final double moveTimeSeconds)
 		{
+			// Only gate: heuristic methods are skipped on games with no heuristics.
 			if (methodRequiresHeuristics(component, method) && !gameHasHeuristics)
 				return false;
-
-			if (!methodRequiresPolicyProbe(component, method))
-				return true;
-
-			final Config variant = makeVariant(BASELINE, component, method);
-			final String key = normalize(gameName) + "|"
-					+ normalize(variant.selection) + "|"
-					+ normalize(variant.simulation) + "|"
-					+ normalize(variant.backprop) + "|"
-					+ normalize(variant.finalMove);
-
-			final Boolean cached = compatibilityCache.get(key);
-			if (cached != null)
-				return cached;
-
-			final boolean supported = CompatibilitySupport.supportsConfig(gameName, variant, moveTimeSeconds);
-			compatibilityCache.put(key, supported);
-			return supported;
+			return true;
 		}
 	}
 
@@ -781,8 +865,9 @@ public final class GenerateTestPlan
 
 		boolean allowedByGlobalFeasibility(final Component component, final String method)
 		{
-			return !(methodRequiresHeuristics(component, method)
-					&& !allowHeuristicRequiredMethods);
+			// All methods are always globally allowed.
+			// Per-game heuristic checks are enforced at game-selection time (gameHasHeuristics[gi]).
+			return true;
 		}
 
 		MethodState state(final Component component, final String method)
@@ -949,12 +1034,15 @@ public final class GenerateTestPlan
 
 	private static boolean requiresHeuristics(final Config config)
 	{
-		return HEURISTIC_REQUIRED_SIM.contains(config.simulation)
+		return HEURISTIC_REQUIRED_SELECTION.contains(config.selection)
+				|| HEURISTIC_REQUIRED_SIM.contains(config.simulation)
 				|| HEURISTIC_REQUIRED_BACKPROP.contains(config.backprop);
 	}
 
 	private static boolean methodRequiresHeuristics(final Component component, final String method)
 	{
+		if (component == Component.SELECTION)
+			return HEURISTIC_REQUIRED_SELECTION.contains(method);
 		if (component == Component.SIMULATION)
 			return HEURISTIC_REQUIRED_SIM.contains(method);
 		if (component == Component.BACKPROP)
@@ -962,10 +1050,6 @@ public final class GenerateTestPlan
 		return false;
 	}
 
-	private static boolean methodRequiresPolicyProbe(final Component component, final String method)
-	{
-		return component == Component.SELECTION && POLICY_REQUIRED_SELECTION.contains(method);
-	}
 
 	// -------------------- FEATURE SPACE (GAME DIVERSITY) --------------------
 
@@ -1186,53 +1270,6 @@ public final class GenerateTestPlan
 		}
 	}
 
-	static final class CompatibilitySupport
-	{
-		static boolean supportsConfig(final String gameName, final Config config, final double moveTimeSeconds)
-		{
-			final Game game;
-			try
-			{
-				game = GameLoader.loadGameFromName(gameName);
-			}
-			catch (final Throwable t)
-			{
-				return false;
-			}
-
-			if (game == null || game.players().count() != 2)
-				return false;
-
-			final Trial trial = new Trial(game);
-			final Context context = new Context(game, trial);
-			game.start(context);
-
-			final AI ai = new MCTSVariations(config.selection, config.simulation, config.backprop, config.finalMove);
-			try
-			{
-				ai.initAI(game, 1);
-				final double probeTime = Math.max(0.01, Math.min(moveTimeSeconds, 0.05));
-				final Move move = ai.selectAction(game, new Context(context), probeTime, -1, -1);
-				return move != null;
-			}
-			catch (final Throwable t)
-			{
-				return false;
-			}
-			finally
-			{
-				try
-				{
-					ai.closeAI();
-				}
-				catch (final Throwable ignored)
-				{
-					// ignore
-				}
-			}
-		}
-	}
-
 	// -------------------- EXISTING TESTS INPUT --------------------
 
 	static final class ExistingTests
@@ -1423,7 +1460,7 @@ public final class GenerateTestPlan
 				"moveTimeSeconds",
 				"gamesPerMatchup",
 				"maxMoves",
-				"requiresHeuristics"
+				"usesHeuristic"
 		);
 
 		try (BufferedWriter bw = Files.newBufferedWriter(out, StandardCharsets.UTF_8))
@@ -1448,7 +1485,7 @@ public final class GenerateTestPlan
 					Double.toString(t.moveTimeSeconds),
 					Integer.toString(t.gamesPerMatchup),
 					Integer.toString(t.maxMoves),
-					Integer.toString(t.requiresHeuristics)
+					Integer.toString(t.usesHeuristic)
 				);
 				bw.write(Csv.toLine(row));
 				bw.newLine();
