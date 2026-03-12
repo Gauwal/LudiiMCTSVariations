@@ -206,27 +206,8 @@ public final class GenerateSlurmScripts
 
 		private static String estimateTime(final PlannedTest t, final GameCatalog.Row g, final Args parsed)
 		{
-			// WORST-CASE time estimation:
-			// - maxMoves is the total decision count for the game (both players combined),
-			//   not per-player, so we do NOT multiply by 2.
-			// - Actual per-decision cost is typically perDecisionOverheadFactor times the
-			//   MCTS budget due to state-copy (new Context) and game.apply overhead.
-			// - We assume all games go to maxMoves (worst case, no early termination).
-			final double searchSeconds = (double) t.gamesPerMatchup * t.maxMoves
-					* t.moveTimeSeconds * parsed.perDecisionOverheadFactor;
-
-			double overheadSeconds = parsed.baseOverheadSeconds;
-			overheadSeconds += parsed.overheadSecondsPerPlayableSite * Math.max(0, g.numPlayableSites);
-			overheadSeconds += parsed.overheadSecondsPerComponent * Math.max(0, g.numComponents);
-			if (t.requiresHeuristics == 1)
-				overheadSeconds += parsed.heuristicsOverheadSeconds;
-
-			// Method-dependent deterministic overhead (small, but makes the function depend on methods as requested).
-			overheadSeconds += parsed.methodOverheadSeconds(t);
-
-			final double total = (searchSeconds + overheadSeconds) * parsed.timeSafetyMultiplier;
-			final int seconds = (int) Math.ceil(total);
-			return toSlurmTime(seconds);
+			// Force SLURM walltime to 16 hours for all generated job scripts.
+			return "16:00:00";
 		}
 
 		private static String toSlurmTime(final int totalSeconds)
