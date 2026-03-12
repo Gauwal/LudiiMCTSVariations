@@ -1,0 +1,28 @@
+{
+  "variant_select": [
+    "Alpha-Beta",
+    "Implicit Minimax",
+    "McBRAVE",
+    "McGRAVE",
+    "Progressive History",
+    "Progressive Widening",
+    "UCB1",
+    "UCB1 GRAVE",
+    "UCB1 tuned"
+  ],
+  "variant_simulation": [
+    "MAST",
+    "NST",
+    "Random"
+  ],
+  "variant_backprop": [
+    "Implicit Minimax",
+    "MonteCarlo",
+    "Score Bounded"
+  ],
+  "variant_finalmove": [
+    "MaxAvgScore",
+    "Proportional Exp",
+    "Robust"
+  ]
+}
