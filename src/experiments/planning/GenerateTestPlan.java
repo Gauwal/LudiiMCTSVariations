@@ -151,7 +151,7 @@ public final class GenerateTestPlan
 						candidates,
 						parsed.numTests,
 						parsed.gamesPerMatchup,
-						parsed.moveTimeSeconds,
+						parsed.moveTimes,
 						parsed.maxMoves
 				);
 				break;
@@ -161,7 +161,7 @@ public final class GenerateTestPlan
 						candidates,
 						parsed.numTests,
 						parsed.gamesPerMatchup,
-						parsed.moveTimeSeconds,
+						parsed.moveTimes,
 						parsed.maxMoves
 				);
 				break;
@@ -267,9 +267,15 @@ public final class GenerateTestPlan
 				final List<GameCatalog.Row> candidates,
 				final int numTests,
 				final int gamesPerMatchup,
-				final double moveTimeSeconds,
+				final double[] moveTimes,
 				final int maxMoves)
 		{
+			final double minMoveTime = Arrays.stream(moveTimes).min().orElse(0.1);
+			// Track how often each move time has been used so we spread tests evenly.
+			final Map<Double, Integer> moveTimeCounts = new HashMap<>();
+			for (final double mt : moveTimes)
+				moveTimeCounts.put(mt, 0);
+
 			// New definition of coverage (per your request):
 			// A method is "covered" when it has tests on games spanning many different properties.
 			// We therefore greedily add the single test (method + game) with the best *marginal diversity gain*
@@ -321,7 +327,7 @@ public final class GenerateTestPlan
 								continue;
 
 							final String game = gameNames.get(gi);
-							if (!isMethodCompatible(game, component, method, gameHasHeuristics[gi], moveTimeSeconds))
+							if (!isMethodCompatible(game, component, method, gameHasHeuristics[gi], minMoveTime))
 								continue;
 
 							final double diversityGain = state.currentGain(gi);
@@ -361,7 +367,7 @@ public final class GenerateTestPlan
 								if (requiresH && !gameHasHeuristics[gi])
 									continue;
 								final String gn = gameNames.get(gi);
-								if (!isMethodCompatible(gn, component, method, gameHasHeuristics[gi], moveTimeSeconds))
+								if (!isMethodCompatible(gn, component, method, gameHasHeuristics[gi], minMoveTime))
 									continue;
 								final String key = testKeyOneFactor(gn, component, method);
 								if (existing.testKeys.contains(key))
@@ -387,6 +393,9 @@ public final class GenerateTestPlan
 				if (requiresHeuristics == 1 && !gameHasHeuristics[best.gameIndex])
 					continue;
 
+				// Pick the least-used move time to spread tests across time budgets.
+				final double chosenMoveTime = leastUsedMoveTime(moveTimes, moveTimeCounts);
+
 				final TestSpec spec = new TestSpec(
 						"T" + (out.size() + 1),
 						game,
@@ -394,7 +403,7 @@ public final class GenerateTestPlan
 						BASELINE,
 						variant,
 						gamesPerMatchup,
-						moveTimeSeconds,
+						chosenMoveTime,
 						maxMoves,
 						requiresHeuristics
 				);
@@ -408,6 +417,7 @@ public final class GenerateTestPlan
 				existing.recordPlanned(spec);
 				coverage.record(best.component, best.method, best.gameIndex);
 				globalGameCounts.merge(game, 1, Integer::sum);
+				moveTimeCounts.merge(chosenMoveTime, 1, Integer::sum);
 			}
 
 			System.err.println(); // end progress bar line
@@ -418,9 +428,14 @@ public final class GenerateTestPlan
 				final List<GameCatalog.Row> candidates,
 				final int numTests,
 				final int gamesPerMatchup,
-				final double moveTimeSeconds,
+				final double[] moveTimes,
 				final int maxMoves)
 		{
+			final double minMoveTime = Arrays.stream(moveTimes).min().orElse(0.1);
+			final Map<Double, Integer> moveTimeCounts = new HashMap<>();
+			for (final double mt : moveTimes)
+				moveTimeCounts.put(mt, 0);
+
 			// Simplified "full combo" under the same coverage definition:
 			// choose the single game + 4-method variant that maximizes total marginal diversity gain.
 			final List<TestSpec> out = new ArrayList<>();
@@ -464,11 +479,11 @@ public final class GenerateTestPlan
 					if (sel == null || sim == null || back == null || fin == null)
 						continue;
 
-					if (!isMethodCompatible(game, Component.SELECTION, sel.method, h, moveTimeSeconds))
+					if (!isMethodCompatible(game, Component.SELECTION, sel.method, h, minMoveTime))
 						continue;
-					if (!isMethodCompatible(game, Component.SIMULATION, sim.method, h, moveTimeSeconds))
+					if (!isMethodCompatible(game, Component.SIMULATION, sim.method, h, minMoveTime))
 						continue;
-					if (!isMethodCompatible(game, Component.BACKPROP, back.method, h, moveTimeSeconds))
+					if (!isMethodCompatible(game, Component.BACKPROP, back.method, h, minMoveTime))
 						continue;
 
 					final double diversityGain = sel.gain + sim.gain + back.gain + fin.gain;
@@ -499,15 +514,15 @@ public final class GenerateTestPlan
 						for (final String selMethod : CoverageByDiversity.domainFor(Component.SELECTION))
 						{
 							if (!coverage.allowedByGlobalFeasibility(Component.SELECTION, selMethod)) continue;
-							if (!isMethodCompatible(gn, Component.SELECTION, selMethod, h, moveTimeSeconds)) continue;
+							if (!isMethodCompatible(gn, Component.SELECTION, selMethod, h, minMoveTime)) continue;
 							for (final String simMethod : CoverageByDiversity.domainFor(Component.SIMULATION))
 							{
 								if (methodRequiresHeuristics(Component.SIMULATION, simMethod) && !h) continue;
-								if (!isMethodCompatible(gn, Component.SIMULATION, simMethod, h, moveTimeSeconds)) continue;
+								if (!isMethodCompatible(gn, Component.SIMULATION, simMethod, h, minMoveTime)) continue;
 								for (final String backMethod : CoverageByDiversity.domainFor(Component.BACKPROP))
 								{
 									if (methodRequiresHeuristics(Component.BACKPROP, backMethod) && !h) continue;
-									if (!isMethodCompatible(gn, Component.BACKPROP, backMethod, h, moveTimeSeconds)) continue;
+									if (!isMethodCompatible(gn, Component.BACKPROP, backMethod, h, minMoveTime)) continue;
 									for (final String finMethod : CoverageByDiversity.domainFor(Component.FINAL_MOVE))
 									{
 										final Config cv = new Config(selMethod, simMethod, backMethod, finMethod);
@@ -543,6 +558,8 @@ public final class GenerateTestPlan
 				if (requiresHeuristics == 1 && !gameHasHeuristics[best.gameIndex])
 					continue;
 
+				final double chosenMoveTime = leastUsedMoveTime(moveTimes, moveTimeCounts);
+
 				final TestSpec spec = new TestSpec(
 						"T" + (out.size() + 1),
 						game,
@@ -550,7 +567,7 @@ public final class GenerateTestPlan
 						BASELINE,
 						variant,
 						gamesPerMatchup,
-						moveTimeSeconds,
+						chosenMoveTime,
 						maxMoves,
 						requiresHeuristics
 				);
@@ -568,6 +585,7 @@ public final class GenerateTestPlan
 				coverage.record(Component.FINAL_MOVE, best.fin.method, best.gameIndex);
 				pairingState.record(variant);
 				globalGameCounts.merge(game, 1, Integer::sum);
+				moveTimeCounts.merge(chosenMoveTime, 1, Integer::sum);
 			}
 
 			System.err.println(); // end progress bar line
@@ -1444,7 +1462,7 @@ public final class GenerateTestPlan
 	{
 		final int numTests;
 		final int gamesPerMatchup;
-		final double moveTimeSeconds;
+		final double[] moveTimes;
 		final int maxMoves;
 		final boolean requireTwoPlayer;
 		final Design design;
@@ -1456,7 +1474,7 @@ public final class GenerateTestPlan
 		private Args(
 				final int numTests,
 				final int gamesPerMatchup,
-				final double moveTimeSeconds,
+				final double[] moveTimes,
 				final int maxMoves,
 				final boolean requireTwoPlayer,
 				final Design design,
@@ -1467,7 +1485,7 @@ public final class GenerateTestPlan
 		{
 			this.numTests = numTests;
 			this.gamesPerMatchup = gamesPerMatchup;
-			this.moveTimeSeconds = moveTimeSeconds;
+			this.moveTimes = moveTimes;
 			this.maxMoves = maxMoves;
 			this.requireTwoPlayer = requireTwoPlayer;
 			this.design = design;
@@ -1481,7 +1499,7 @@ public final class GenerateTestPlan
 		{
 			int numTests = 200;
 			int gamesPerMatchup = 10;
-			double moveTimeSeconds = 0.1;
+			double[] moveTimes = null; // set after parsing
 			int maxMoves = 500;
 			boolean requireTwoPlayer = true;
 			Design design = Design.ONE_FACTOR;
@@ -1500,7 +1518,9 @@ public final class GenerateTestPlan
 				else if ("--games-per-matchup".equalsIgnoreCase(a) && i + 1 < args.length)
 					gamesPerMatchup = Integer.parseInt(args[++i]);
 				else if ("--move-time".equalsIgnoreCase(a) && i + 1 < args.length)
-					moveTimeSeconds = Double.parseDouble(args[++i]);
+					moveTimes = new double[] { Double.parseDouble(args[++i]) };
+				else if ("--move-times".equalsIgnoreCase(a) && i + 1 < args.length)
+					moveTimes = parseMoveTimes(args[++i]);
 				else if ("--max-moves".equalsIgnoreCase(a) && i + 1 < args.length)
 					maxMoves = Integer.parseInt(args[++i]);
 				else if ("--out".equalsIgnoreCase(a) && i + 1 < args.length)
@@ -1523,19 +1543,23 @@ public final class GenerateTestPlan
 				}
 			}
 
+			if (moveTimes == null)
+				moveTimes = new double[] { 0.1 };
+
 			if (numTests <= 0)
 				throw new IllegalArgumentException("--num-tests must be > 0");
 			if (gamesPerMatchup <= 0)
 				throw new IllegalArgumentException("--games-per-matchup must be > 0");
-			if (moveTimeSeconds <= 0)
-				throw new IllegalArgumentException("--move-time must be > 0");
+			for (final double mt : moveTimes)
+				if (mt <= 0)
+					throw new IllegalArgumentException("All move times must be > 0");
 			if (maxMoves <= 0)
 				throw new IllegalArgumentException("--max-moves must be > 0");
 
 			return new Args(
 					numTests,
 					gamesPerMatchup,
-					moveTimeSeconds,
+					moveTimes,
 					maxMoves,
 					requireTwoPlayer,
 					design,
@@ -1545,6 +1569,35 @@ public final class GenerateTestPlan
 					seed
 			);
 		}
+
+		private static double[] parseMoveTimes(final String csv)
+		{
+			final String[] parts = csv.split(",");
+			final double[] result = new double[parts.length];
+			for (int i = 0; i < parts.length; i++)
+				result[i] = Double.parseDouble(parts[i].trim());
+			return result;
+		}
+	}
+
+	/**
+	 * Returns the move time from the array that has been used the fewest times so far.
+	 * Ties broken by array order (first occurrence wins).
+	 */
+	private static double leastUsedMoveTime(final double[] moveTimes, final Map<Double, Integer> counts)
+	{
+		double best = moveTimes[0];
+		int bestCount = counts.getOrDefault(best, 0);
+		for (int i = 1; i < moveTimes.length; i++)
+		{
+			final int c = counts.getOrDefault(moveTimes[i], 0);
+			if (c < bestCount)
+			{
+				bestCount = c;
+				best = moveTimes[i];
+			}
+		}
+		return best;
 	}
 
 	// -------------------- CSV HELPERS --------------------
