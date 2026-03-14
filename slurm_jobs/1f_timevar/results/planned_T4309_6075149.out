@@ -1,0 +1,6 @@
+Running T4309 on lm4-w013 at Fri Mar 13 07:09:59 CET 2026
+Game: Dabuda
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:10:00 CET 2026

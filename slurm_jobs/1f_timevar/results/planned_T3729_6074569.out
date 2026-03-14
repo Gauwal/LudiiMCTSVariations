@@ -1,0 +1,6 @@
+Running T3729 on lm4-w006 at Fri Mar 13 06:19:55 CET 2026
+Game: Egara Guti
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 06:19:56 CET 2026

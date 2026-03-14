@@ -1,0 +1,7 @@
+Running T532 on lm4-w019 at Fri Mar 13 02:35:50 CET 2026
+Game: Hex Amazons
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T532 (Mulabalaba) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=91.9
+Job completed at Fri Mar 13 02:58:20 CET 2026

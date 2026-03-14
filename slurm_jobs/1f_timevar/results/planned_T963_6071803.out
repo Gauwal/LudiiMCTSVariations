@@ -1,0 +1,7 @@
+Running T963 on lm4-w003 at Fri Mar 13 03:59:34 CET 2026
+Game: Akidada
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T963 (Dogtown Clans) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=39.9
+Job completed at Fri Mar 13 04:09:06 CET 2026

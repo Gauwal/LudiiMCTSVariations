@@ -1,0 +1,6 @@
+Running T4159 on lm4-w008 at Fri Mar 13 07:02:29 CET 2026
+Game: Chomp
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:02:30 CET 2026

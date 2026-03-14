@@ -1,0 +1,7 @@
+Running T869 on lm4-w007 at Fri Mar 13 03:30:00 CET 2026
+Game: Nim
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T869 (Los Alamos Chess) -> completed=30/30, wins=13, losses=16, draws=1, failures=0, avgMoves=53.1
+Job completed at Fri Mar 13 03:43:15 CET 2026

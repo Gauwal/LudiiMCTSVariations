@@ -1,0 +1,6 @@
+Running T7451 on lm4-w003 at Fri Mar 13 01:14:57 CET 2026
+Game: Halma
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 01:14:58 CET 2026

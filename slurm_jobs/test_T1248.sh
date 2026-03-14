@@ -7,7 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=7G
-#SBATCH --time=01:15:20
+#SBATCH --time=152:48:18
 
 module load Java
 
@@ -21,10 +21,10 @@ OUT_DIR="${PROJECT_DIR}/out/planned_results"
 mkdir -p "${OUT_DIR}"
 
 echo "Running T1248 on $(hostname) at $(date)"
-echo "Game: Totolospi (War)"
-echo "Variant: Progressive Widening | NST | Implicit Minimax | Proportional Exp"
-echo "Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000"
-echo "Estimated: cpus=4, mem=7G, time=01:15:20"
+echo "Game: Slimetrail"
+echo "Variant: UCB1 | Random | MonteCarlo | Robust"
+echo "Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=4, mem=7G, time=152:48:18"
 
 srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T1248" --out "${OUT_DIR}/T1248.csv"
 

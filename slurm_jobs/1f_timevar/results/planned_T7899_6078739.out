@@ -1,0 +1,6 @@
+Running T7899 on lm4-w004 at Fri Mar 13 10:02:48 CET 2026
+Game: Pippinzip (Zipline variant)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:02:49 CET 2026

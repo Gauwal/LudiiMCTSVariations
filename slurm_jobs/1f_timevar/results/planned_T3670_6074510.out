@@ -1,0 +1,6 @@
+Running T3670 on lm4-w027 at Fri Mar 13 06:17:25 CET 2026
+Game: Diamond
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 06:17:27 CET 2026

@@ -1,0 +1,7 @@
+Running T84 on lm4-w033 at Thu Mar 12 15:45:05 CET 2026
+Game: Connect Four
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T84 (Uxrijn Ever) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=20.8
+Job completed at Thu Mar 12 15:50:10 CET 2026

@@ -1,0 +1,6 @@
+Running T3195 on lm4-w008 at Fri Mar 13 05:53:21 CET 2026
+Game: Bipod
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 05:53:22 CET 2026

@@ -1,0 +1,7 @@
+Running T798 on lm4-w027 at Fri Mar 13 00:03:45 CET 2026
+Game: Tenjiku Shogi
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=11G, time=16:00:00
+Completed T798 (Tama) -> completed=30/30, wins=0, losses=26, draws=4, failures=0, avgMoves=367.7
+Job completed at Fri Mar 13 01:29:28 CET 2026

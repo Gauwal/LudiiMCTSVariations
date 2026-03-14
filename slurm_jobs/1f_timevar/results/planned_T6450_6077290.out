@@ -1,0 +1,6 @@
+Running T6450 on lm4-w008 at Fri Mar 13 08:51:37 CET 2026
+Game: Damdaman
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 08:51:39 CET 2026

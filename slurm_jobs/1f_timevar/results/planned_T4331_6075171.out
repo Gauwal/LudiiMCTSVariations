@@ -1,0 +1,6 @@
+Running T4331 on lm4-w007 at Fri Mar 13 07:10:59 CET 2026
+Game: Rimau-Rimau (Two Tigers)
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:11:01 CET 2026

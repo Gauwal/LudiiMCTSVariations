@@ -1,0 +1,7 @@
+Running T428 on lm4-w007 at Fri Mar 13 02:20:48 CET 2026
+Game: Gol Ekuish
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T428 (Resolve) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=49.5
+Job completed at Fri Mar 13 02:33:12 CET 2026

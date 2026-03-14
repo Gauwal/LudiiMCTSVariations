@@ -1,0 +1,6 @@
+Running T4798 on lm4-w004 at Fri Mar 13 07:35:01 CET 2026
+Game: RootZone
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:35:02 CET 2026

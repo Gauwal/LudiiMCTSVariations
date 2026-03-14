@@ -1,0 +1,7 @@
+Running T552 on lm4-w025 at Fri Mar 13 02:40:21 CET 2026
+Game: Bizingo
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T552 (Queen's Four) -> completed=30/30, wins=13, losses=6, draws=11, failures=0, avgMoves=640.6
+Job completed at Fri Mar 13 05:26:15 CET 2026

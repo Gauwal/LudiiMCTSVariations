@@ -1,0 +1,6 @@
+Running T1091 on lm4-w003 at Fri Mar 13 04:10:35 CET 2026
+Game: Tavli
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 04:10:36 CET 2026

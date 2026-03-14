@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+#SBATCH --job-name=mcts_T6623
+#SBATCH --output=/home/users/g/s/gsavary/LudiiMCTSVariations/slurm_jobs/results/planned_T6623_%j.out
+#SBATCH --error=/home/users/g/s/gsavary/LudiiMCTSVariations/slurm_jobs/results/planned_T6623_%j.err
+#
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=9G
+#SBATCH --time=76:29:19
+
+module load Java
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROJECT_DIR="$HOME/LudiiMCTSVariations"
+LUDII_JAR="$HOME/Ludii-1.3.14.jar"
+CLASSPATH="${LUDII_JAR}:${PROJECT_DIR}/bin"
+
+PLAN="${PROJECT_DIR}/planned_tests.csv"
+OUT_DIR="${PROJECT_DIR}/out/planned_results"
+mkdir -p "${OUT_DIR}"
+
+echo "Running T6623 on $(hostname) at $(date)"
+echo "Game: Bravalath"
+echo "Variant: UCB1 | Random | AlphaGo | Robust"
+echo "Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=5, mem=9G, time=76:29:19"
+
+srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T6623" --out "${OUT_DIR}/T6623.csv"
+
+echo "Job completed at $(date)"

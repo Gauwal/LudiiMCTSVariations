@@ -1,0 +1,7 @@
+Running T411 on lm4-w013 at Fri Mar 13 02:17:17 CET 2026
+Game: DisPath
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T411 (Crossway) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=245.8
+Job completed at Fri Mar 13 03:19:01 CET 2026

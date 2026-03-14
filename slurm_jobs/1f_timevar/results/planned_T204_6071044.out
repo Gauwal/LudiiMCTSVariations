@@ -1,0 +1,7 @@
+Running T204 on lm4-w027 at Fri Mar 13 01:50:04 CET 2026
+Game: Tchela
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T204 (Tsoro (Baia)) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=186.0
+Job completed at Fri Mar 13 02:13:37 CET 2026

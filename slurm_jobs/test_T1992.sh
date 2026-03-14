@@ -6,8 +6,8 @@
 #
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=7G
-#SBATCH --time=01:15:01
+#SBATCH --mem=8G
+#SBATCH --time=152:48:32
 
 module load Java
 
@@ -21,10 +21,10 @@ OUT_DIR="${PROJECT_DIR}/out/planned_results"
 mkdir -p "${OUT_DIR}"
 
 echo "Running T1992 on $(hostname) at $(date)"
-echo "Game: Bison"
-echo "Variant: ExIt | Random | Heuristic | Robust"
-echo "Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000"
-echo "Estimated: cpus=4, mem=7G, time=01:15:01"
+echo "Game: Mastermind"
+echo "Variant: Progressive Bias | Random | MonteCarlo | Robust"
+echo "Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=4, mem=8G, time=152:48:32"
 
 srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T1992" --out "${OUT_DIR}/T1992.csv"
 

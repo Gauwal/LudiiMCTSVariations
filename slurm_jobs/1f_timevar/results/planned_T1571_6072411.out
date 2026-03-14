@@ -1,0 +1,6 @@
+Running T1571 on lm4-w024 at Fri Mar 13 04:34:12 CET 2026
+Game: Make Muster
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 04:34:13 CET 2026

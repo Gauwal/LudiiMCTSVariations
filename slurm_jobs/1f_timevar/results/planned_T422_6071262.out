@@ -1,0 +1,7 @@
+Running T422 on lm4-w019 at Fri Mar 13 02:19:17 CET 2026
+Game: Talyn Buga
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T422 (Madrod) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=46.1
+Job completed at Fri Mar 13 02:27:55 CET 2026

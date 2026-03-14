@@ -1,0 +1,7 @@
+Running T730 on lm4-w027 at Thu Mar 12 23:34:09 CET 2026
+Game: O An Quan
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T730 (Challis Ghutia (Titagarh)) -> completed=30/30, wins=4, losses=10, draws=16, failures=0, avgMoves=919.5
+Job completed at Fri Mar 13 03:26:00 CET 2026

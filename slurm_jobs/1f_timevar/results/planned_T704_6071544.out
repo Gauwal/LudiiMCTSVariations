@@ -1,0 +1,7 @@
+Running T704 on lm4-w027 at Thu Mar 12 23:28:08 CET 2026
+Game: Sher Bakar
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T704 (Damspel) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=63.4
+Job completed at Thu Mar 12 23:43:39 CET 2026

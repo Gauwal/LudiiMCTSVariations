@@ -1,0 +1,7 @@
+Running T765 on lm4-w017 at Fri Mar 13 03:09:25 CET 2026
+Game: Moxie
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T765 (Satoel) -> completed=30/30, wins=1, losses=12, draws=17, failures=0, avgMoves=958.2
+Job completed at Fri Mar 13 07:11:52 CET 2026

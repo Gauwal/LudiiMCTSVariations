@@ -1,0 +1,7 @@
+Running T870 on lm4-w027 at Fri Mar 13 00:28:19 CET 2026
+Game: Trax
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T870 (Maharajah Chess) -> completed=30/30, wins=14, losses=13, draws=3, failures=0, avgMoves=169.9
+Job completed at Fri Mar 13 01:11:29 CET 2026

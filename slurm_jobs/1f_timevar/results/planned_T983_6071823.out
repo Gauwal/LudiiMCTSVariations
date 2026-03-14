@@ -1,0 +1,7 @@
+Running T983 on lm4-w019 at Fri Mar 13 04:03:04 CET 2026
+Game: Nim
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T983 (Mutant Y^3) -> completed=30/30, wins=20, losses=10, draws=0, failures=0, avgMoves=22.4
+Job completed at Fri Mar 13 04:08:44 CET 2026

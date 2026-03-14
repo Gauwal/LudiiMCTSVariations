@@ -1,0 +1,7 @@
+Running T527 on lm4-w027 at Fri Mar 13 02:34:50 CET 2026
+Game: Mutant Y^3
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T527 (Millieu) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=59.5
+Job completed at Fri Mar 13 02:49:23 CET 2026

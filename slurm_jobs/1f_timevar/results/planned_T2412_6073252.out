@@ -1,0 +1,6 @@
+Running T2412 on lm4-w008 at Fri Mar 13 05:15:17 CET 2026
+Game: Double-Run Stone
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 05:15:18 CET 2026

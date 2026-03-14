@@ -1,0 +1,7 @@
+Running T643 on lm4-w025 at Thu Mar 12 23:18:06 CET 2026
+Game: Bagh Batti
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T643 (Mity) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=51.4
+Job completed at Thu Mar 12 23:30:48 CET 2026

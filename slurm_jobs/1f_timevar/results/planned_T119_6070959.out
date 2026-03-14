@@ -1,0 +1,7 @@
+Running T119 on lm4-w003 at Fri Mar 13 01:33:31 CET 2026
+Game: Len Cua Kin Ngoa
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T119 (Fianco) -> completed=30/30, wins=6, losses=24, draws=0, failures=0, avgMoves=99.5
+Job completed at Fri Mar 13 01:55:30 CET 2026

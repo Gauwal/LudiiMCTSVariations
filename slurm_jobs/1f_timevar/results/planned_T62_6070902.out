@@ -1,0 +1,7 @@
+Running T62 on lm4-w019 at Thu Mar 12 15:41:34 CET 2026
+Game: Plotto
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T62 (Musinaykahwhanmetowaywin) -> completed=30/30, wins=15, losses=14, draws=1, failures=0, avgMoves=462.6
+Job completed at Thu Mar 12 17:37:06 CET 2026

@@ -6,8 +6,8 @@
 #
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
-#SBATCH --mem=7G
-#SBATCH --time=09:11:33
+#SBATCH --mem=10G
+#SBATCH --time=15:24:05
 
 module load Java
 
@@ -21,10 +21,10 @@ OUT_DIR="${PROJECT_DIR}/out/planned_results"
 mkdir -p "${OUT_DIR}"
 
 echo "Running T9 on $(hostname) at $(date)"
-echo "Game: Sowing"
-echo "Variant: UCB1 GRAVE | NST | Implicit Minimax | Proportional Exp"
-echo "Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000"
-echo "Estimated: cpus=5, mem=7G, time=09:11:33"
+echo "Game: Ringo"
+echo "Variant: Noisy AG0 | Random | MonteCarlo | Robust"
+echo "Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=5, mem=10G, time=15:24:05"
 
 srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T9" --out "${OUT_DIR}/T9.csv"
 

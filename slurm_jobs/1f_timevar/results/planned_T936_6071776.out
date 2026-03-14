@@ -1,0 +1,7 @@
+Running T936 on lm4-w029 at Fri Mar 13 03:51:33 CET 2026
+Game: Altiev
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T936 (Tibetan Jiuqi) -> completed=30/30, wins=6, losses=16, draws=8, failures=0, avgMoves=771.4
+Job completed at Fri Mar 13 07:56:38 CET 2026

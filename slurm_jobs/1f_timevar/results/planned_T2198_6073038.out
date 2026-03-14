@@ -1,0 +1,6 @@
+Running T2198 on lm4-w008 at Fri Mar 13 05:04:46 CET 2026
+Game: Lotus
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 05:04:47 CET 2026

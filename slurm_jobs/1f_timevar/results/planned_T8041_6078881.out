@@ -1,0 +1,6 @@
+Running T8041 on lm4-w010 at Fri Mar 13 10:09:19 CET 2026
+Game: Hus (Damara)
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:09:20 CET 2026

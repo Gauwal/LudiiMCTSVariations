@@ -1,0 +1,6 @@
+Running T9179 on lm4-w006 at Fri Mar 13 11:00:52 CET 2026
+Game: 3 6 9
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 11:00:53 CET 2026

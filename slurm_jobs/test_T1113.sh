@@ -5,9 +5,9 @@
 #SBATCH --error=/home/users/g/s/gsavary/LudiiMCTSVariations/slurm_jobs/results/planned_T1113_%j.err
 #
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=7G
-#SBATCH --time=01:14:56
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=9G
+#SBATCH --time=15:22:39
 
 module load Java
 
@@ -21,10 +21,10 @@ OUT_DIR="${PROJECT_DIR}/out/planned_results"
 mkdir -p "${OUT_DIR}"
 
 echo "Running T1113 on $(hostname) at $(date)"
-echo "Game: Tapata"
-echo "Variant: UCB1 | MAST | Heuristic | MaxAvgScore"
-echo "Meta: moveTime=0.2, gamesPerMatchup=10, maxMoves=1000"
-echo "Estimated: cpus=4, mem=7G, time=01:14:56"
+echo "Game: CustAndantino"
+echo "Variant: McBRAVE | Random | MonteCarlo | Robust"
+echo "Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=5, mem=9G, time=15:22:39"
 
 srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T1113" --out "${OUT_DIR}/T1113.csv"
 

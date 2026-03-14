@@ -1,0 +1,7 @@
+Running T97 on lm4-w009 at Fri Mar 13 01:31:31 CET 2026
+Game: Mastermind
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T97 (Aralzaa) -> completed=30/30, wins=0, losses=15, draws=15, failures=0, avgMoves=515.0
+Job completed at Fri Mar 13 03:15:19 CET 2026

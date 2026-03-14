@@ -1,0 +1,7 @@
+Running T295 on lm4-w015 at Thu Mar 12 19:01:50 CET 2026
+Game: Gobblet Gobblers
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T295 (Mangala (Bedouin)) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=36.7
+Job completed at Thu Mar 12 19:08:55 CET 2026

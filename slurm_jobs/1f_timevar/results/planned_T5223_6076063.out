@@ -1,0 +1,6 @@
+Running T5223 on lm4-w008 at Fri Mar 13 07:56:02 CET 2026
+Game: Shi Liu Kan Tsiang Kun
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:56:04 CET 2026

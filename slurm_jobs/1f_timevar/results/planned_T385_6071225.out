@@ -1,0 +1,7 @@
+Running T385 on lm4-w007 at Thu Mar 12 22:01:49 CET 2026
+Game: Patok
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T385 (Roots) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=65.8
+Job completed at Thu Mar 12 22:17:52 CET 2026

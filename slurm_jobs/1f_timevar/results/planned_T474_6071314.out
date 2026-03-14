@@ -1,0 +1,7 @@
+Running T474 on lm4-w025 at Thu Mar 12 22:52:30 CET 2026
+Game: Sowing
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T474 (3 6 9) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=81.0
+Job completed at Thu Mar 12 23:12:34 CET 2026

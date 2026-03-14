@@ -1,0 +1,6 @@
+Running T9203 on lm4-w001 at Fri Mar 13 11:02:22 CET 2026
+Game: Fractal
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 11:02:23 CET 2026

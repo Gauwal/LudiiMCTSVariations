@@ -1,0 +1,6 @@
+Running T1443 on lm4-w017 at Fri Mar 13 00:41:53 CET 2026
+Game: Bravalath
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Job completed at Fri Mar 13 00:41:54 CET 2026

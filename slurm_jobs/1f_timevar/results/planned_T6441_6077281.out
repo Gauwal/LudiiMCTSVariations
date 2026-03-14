@@ -1,0 +1,6 @@
+Running T6441 on lm4-w008 at Fri Mar 13 08:51:07 CET 2026
+Game: Kiuthi
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 08:51:09 CET 2026

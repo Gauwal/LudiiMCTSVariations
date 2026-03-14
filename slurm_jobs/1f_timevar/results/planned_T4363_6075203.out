@@ -1,0 +1,6 @@
+Running T4363 on lm4-w007 at Fri Mar 13 00:59:55 CET 2026
+Game: Contagion
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 00:59:55 CET 2026

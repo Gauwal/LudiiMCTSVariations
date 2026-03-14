@@ -1,0 +1,7 @@
+Running T642 on lm4-w029 at Fri Mar 13 02:50:22 CET 2026
+Game: Wagner
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T642 (Mig Mang) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=325.4
+Job completed at Fri Mar 13 04:11:32 CET 2026

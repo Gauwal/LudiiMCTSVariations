@@ -5,9 +5,9 @@
 #SBATCH --error=/home/users/g/s/gsavary/LudiiMCTSVariations/slurm_jobs/results/planned_T903_%j.err
 #
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=5
-#SBATCH --mem=19G
-#SBATCH --time=09:22:03
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=7G
+#SBATCH --time=76:25:24
 
 module load Java
 
@@ -21,10 +21,10 @@ OUT_DIR="${PROJECT_DIR}/out/planned_results"
 mkdir -p "${OUT_DIR}"
 
 echo "Running T903 on $(hostname) at $(date)"
-echo "Game: Tai Shogi"
-echo "Variant: Progressive History | Random | MonteCarlo | Proportional Exp"
-echo "Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000"
-echo "Estimated: cpus=5, mem=19G, time=09:22:03"
+echo "Game: Kyoto Shogi"
+echo "Variant: UCB1 | Random | AlphaGo | Robust"
+echo "Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=4, mem=7G, time=76:25:24"
 
 srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T903" --out "${OUT_DIR}/T903.csv"
 

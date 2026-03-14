@@ -1,0 +1,7 @@
+Running T665 on lm4-w027 at Thu Mar 12 23:21:06 CET 2026
+Game: Trax
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T665 (Walking Dots) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=54.7
+Job completed at Thu Mar 12 23:33:53 CET 2026

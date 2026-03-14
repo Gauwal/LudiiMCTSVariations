@@ -1,0 +1,6 @@
+Running T9371 on lm4-w027 at Fri Mar 13 11:11:23 CET 2026
+Game: Mysore Tiger Game
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 11:11:24 CET 2026

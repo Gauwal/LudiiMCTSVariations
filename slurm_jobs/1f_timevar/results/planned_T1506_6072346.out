@@ -1,0 +1,6 @@
+Running T1506 on lm4-w002 at Fri Mar 13 04:31:08 CET 2026
+Game: Sonka
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 04:31:09 CET 2026

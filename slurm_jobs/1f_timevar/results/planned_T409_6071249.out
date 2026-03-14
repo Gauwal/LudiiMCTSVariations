@@ -1,0 +1,7 @@
+Running T409 on lm4-w027 at Fri Mar 13 02:16:47 CET 2026
+Game: Kara
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T409 (ConHex) -> completed=30/30, wins=14, losses=16, draws=0, failures=0, avgMoves=30.2
+Job completed at Fri Mar 13 02:24:24 CET 2026

@@ -1,0 +1,6 @@
+Running T1875 on lm4-w008 at Thu Mar 12 15:28:01 CET 2026
+Game: Taikyoku Shogi
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=38G, time=16:00:00
+Job completed at Thu Mar 12 15:28:02 CET 2026

@@ -1,0 +1,6 @@
+Running T4058 on lm4-w008 at Fri Mar 13 06:57:28 CET 2026
+Game: Make Muster
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 06:57:29 CET 2026

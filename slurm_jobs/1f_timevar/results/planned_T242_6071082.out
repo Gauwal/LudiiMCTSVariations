@@ -1,0 +1,7 @@
+Running T242 on lm4-w005 at Thu Mar 12 16:21:43 CET 2026
+Game: Trax
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T242 (Deka) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=24.1
+Job completed at Thu Mar 12 16:25:07 CET 2026

@@ -1,0 +1,7 @@
+Running T267 on lm4-w019 at Fri Mar 13 02:00:06 CET 2026
+Game: Do Guti
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T267 (Intotoi) -> completed=30/30, wins=8, losses=22, draws=0, failures=0, avgMoves=56.9
+Job completed at Fri Mar 13 02:10:50 CET 2026

@@ -1,0 +1,6 @@
+Running T9366 on lm4-w008 at Fri Mar 13 11:10:53 CET 2026
+Game: Glinski Chess
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 11:10:54 CET 2026

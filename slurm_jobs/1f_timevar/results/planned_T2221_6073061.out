@@ -1,0 +1,6 @@
+Running T2221 on lm4-w008 at Fri Mar 13 05:05:46 CET 2026
+Game: Ko-app-paw-na
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 05:05:47 CET 2026

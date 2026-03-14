@@ -1,0 +1,6 @@
+Running T3792 on lm4-w007 at Fri Mar 13 00:56:54 CET 2026
+Game: Tenjiku Shogi
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=11G, time=16:00:00
+Job completed at Fri Mar 13 00:56:55 CET 2026

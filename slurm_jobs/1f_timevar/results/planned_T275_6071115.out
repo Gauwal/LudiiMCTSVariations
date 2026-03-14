@@ -1,0 +1,7 @@
+Running T275 on lm4-w025 at Fri Mar 13 02:01:06 CET 2026
+Game: Kapana Bona
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T275 (Katrayo) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=42.9
+Job completed at Fri Mar 13 02:03:47 CET 2026

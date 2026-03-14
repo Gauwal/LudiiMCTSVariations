@@ -1,0 +1,6 @@
+Running T1499 on lm4-w003 at Fri Mar 13 04:30:38 CET 2026
+Game: Fibonacci Nim
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 04:30:39 CET 2026

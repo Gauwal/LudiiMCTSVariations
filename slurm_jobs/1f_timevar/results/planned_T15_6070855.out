@@ -1,0 +1,7 @@
+Running T15 on lm4-w003 at Fri Mar 13 01:16:57 CET 2026
+Game: Crossline
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T15 (Bagh Bandi) -> completed=30/30, wins=14, losses=15, draws=1, failures=0, avgMoves=552.8
+Job completed at Fri Mar 13 03:35:47 CET 2026

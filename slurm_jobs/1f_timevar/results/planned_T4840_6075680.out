@@ -1,0 +1,6 @@
+Running T4840 on lm4-w003 at Fri Mar 13 01:02:25 CET 2026
+Game: Keryo-Pente
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 01:02:26 CET 2026

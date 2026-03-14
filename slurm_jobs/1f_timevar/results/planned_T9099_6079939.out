@@ -1,0 +1,6 @@
+Running T9099 on lm4-w008 at Fri Mar 13 10:57:22 CET 2026
+Game: Davxar Zirge (Type 2)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:57:24 CET 2026

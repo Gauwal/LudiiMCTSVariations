@@ -1,0 +1,7 @@
+Running T496 on lm4-w009 at Thu Mar 12 22:54:00 CET 2026
+Game: Tumbleweed
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T496 (Dai Hasami Shogi) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=92.5
+Job completed at Thu Mar 12 23:18:03 CET 2026

@@ -1,0 +1,6 @@
+Running T7395 on lm4-w003 at Fri Mar 13 09:35:15 CET 2026
+Game: Ludus Rebellionis 2
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 09:35:17 CET 2026

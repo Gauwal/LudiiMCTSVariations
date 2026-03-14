@@ -6,8 +6,8 @@
 #
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=8G
-#SBATCH --time=09:12:51
+#SBATCH --mem=7G
+#SBATCH --time=38:13:20
 
 module load Java
 
@@ -21,10 +21,10 @@ OUT_DIR="${PROJECT_DIR}/out/planned_results"
 mkdir -p "${OUT_DIR}"
 
 echo "Running T902 on $(hostname) at $(date)"
-echo "Game: Shogi"
-echo "Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore"
-echo "Meta: moveTime=0.5, gamesPerMatchup=30, maxMoves=1000"
-echo "Estimated: cpus=4, mem=8G, time=09:12:51"
+echo "Game: Meurimueng-rimueng Peuet Ploh"
+echo "Variant: UCB1 GRAVE | Random | MonteCarlo | Robust"
+echo "Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000"
+echo "Estimated: cpus=4, mem=7G, time=38:13:20"
 
 srun java -cp "${CLASSPATH}" experiments.planning.RunPlannedTest --plan "${PLAN}" --test-id "T902" --out "${OUT_DIR}/T902.csv"
 

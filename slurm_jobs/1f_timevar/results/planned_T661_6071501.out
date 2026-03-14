@@ -1,0 +1,7 @@
+Running T661 on lm4-w001 at Fri Mar 13 02:53:53 CET 2026
+Game: Deka
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T661 (Trike) -> completed=30/30, wins=6, losses=24, draws=0, failures=0, avgMoves=59.7
+Job completed at Fri Mar 13 03:07:59 CET 2026

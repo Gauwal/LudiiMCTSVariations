@@ -1,0 +1,6 @@
+Running T3096 on lm4-w008 at Fri Mar 13 05:48:51 CET 2026
+Game: Shatranj (14x14)
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Job completed at Fri Mar 13 05:48:52 CET 2026

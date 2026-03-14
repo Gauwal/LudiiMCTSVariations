@@ -1,0 +1,7 @@
+Running T87 on lm4-w003 at Fri Mar 13 01:28:29 CET 2026
+Game: Mastermind
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T87 (Yaguarete Kora) -> completed=30/30, wins=14, losses=16, draws=0, failures=0, avgMoves=162.3
+Job completed at Fri Mar 13 02:08:55 CET 2026

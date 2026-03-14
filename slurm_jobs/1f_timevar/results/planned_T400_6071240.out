@@ -1,0 +1,7 @@
+Running T400 on lm4-w019 at Thu Mar 12 22:15:52 CET 2026
+Game: Netted
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T400 (Wong) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=74.9
+Job completed at Thu Mar 12 22:34:05 CET 2026

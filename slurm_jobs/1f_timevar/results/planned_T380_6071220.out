@@ -1,0 +1,7 @@
+Running T380 on lm4-w007 at Thu Mar 12 22:00:18 CET 2026
+Game: Keryo-Pente
+Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T380 (Pathway) -> completed=30/30, wins=6, losses=24, draws=0, failures=0, avgMoves=29.2
+Job completed at Thu Mar 12 22:07:18 CET 2026

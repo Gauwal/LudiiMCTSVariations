@@ -1,0 +1,7 @@
+Running T843 on lm4-w025 at Fri Mar 13 03:21:29 CET 2026
+Game: Rumi Shatranj
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T843 (Tepong) -> completed=30/30, wins=9, losses=12, draws=9, failures=0, avgMoves=367.8
+Job completed at Fri Mar 13 04:55:07 CET 2026

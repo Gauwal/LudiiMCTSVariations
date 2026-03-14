@@ -1,0 +1,7 @@
+Running T885 on lm4-w003 at Fri Mar 13 00:30:50 CET 2026
+Game: Ringo
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T885 (Short Assize) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=321.7
+Job completed at Fri Mar 13 01:52:38 CET 2026

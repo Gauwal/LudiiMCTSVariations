@@ -1,0 +1,7 @@
+Running T623 on lm4-w013 at Thu Mar 12 23:14:35 CET 2026
+Game: Score Four
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T623 (Ataxx) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=78.0
+Job completed at Thu Mar 12 23:34:01 CET 2026

@@ -1,0 +1,6 @@
+Running T8587 on lm4-w003 at Fri Mar 13 10:33:51 CET 2026
+Game: HexGo
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:33:53 CET 2026

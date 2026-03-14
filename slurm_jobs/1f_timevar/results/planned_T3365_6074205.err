@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.IllegalArgumentException: TestId not found in plan: T3365
+	at experiments.planning.RunPlannedTest.main(RunPlannedTest.java:43)
+srun: error: lm4-w002: task 0: Exited with exit code 1

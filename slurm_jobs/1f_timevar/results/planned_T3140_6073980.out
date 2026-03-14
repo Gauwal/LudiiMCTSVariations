@@ -1,0 +1,6 @@
+Running T3140 on lm4-w009 at Fri Mar 13 00:52:54 CET 2026
+Game: Sam K'i
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 00:52:54 CET 2026

@@ -1,0 +1,6 @@
+Running T8672 on lm4-w003 at Fri Mar 13 10:37:51 CET 2026
+Game: Jeu du Renard et de la Poule
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:37:53 CET 2026

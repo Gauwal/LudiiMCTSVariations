@@ -1,0 +1,7 @@
+Running T36 on lm4-w019 at Thu Mar 12 15:32:32 CET 2026
+Game: Sowing
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T36 (Haretavl) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=184.2
+Job completed at Thu Mar 12 16:17:34 CET 2026

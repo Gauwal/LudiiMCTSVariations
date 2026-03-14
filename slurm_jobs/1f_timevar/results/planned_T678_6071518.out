@@ -1,0 +1,7 @@
+Running T678 on lm4-w025 at Thu Mar 12 23:22:37 CET 2026
+Game: Lian Qi (A-Type)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T678 (Hnefatafl) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=303.9
+Job completed at Fri Mar 13 00:39:12 CET 2026

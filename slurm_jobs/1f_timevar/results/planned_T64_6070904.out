@@ -1,0 +1,7 @@
+Running T64 on lm4-w033 at Thu Mar 12 15:42:34 CET 2026
+Game: Complica
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T64 (Mysore Tiger Game (Two Tigers)) -> completed=30/30, wins=12, losses=13, draws=5, failures=0, avgMoves=787.7
+Job completed at Thu Mar 12 19:00:00 CET 2026

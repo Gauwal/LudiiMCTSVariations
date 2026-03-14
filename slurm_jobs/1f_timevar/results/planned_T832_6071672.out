@@ -1,0 +1,7 @@
+Running T832 on lm4-w017 at Fri Mar 13 00:10:46 CET 2026
+Game: Kriegsspiel
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=11G, time=16:00:00
+Completed T832 (Shatranj (Iraq)) -> completed=30/30, wins=8, losses=20, draws=2, failures=0, avgMoves=152.0
+Job completed at Fri Mar 13 00:49:34 CET 2026

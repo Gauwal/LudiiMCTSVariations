@@ -1,0 +1,7 @@
+Running T716 on lm4-w025 at Fri Mar 13 03:00:54 CET 2026
+Game: Crossline
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T716 (Maleys) -> completed=30/30, wins=11, losses=15, draws=4, failures=0, avgMoves=552.7
+Job completed at Fri Mar 13 05:26:44 CET 2026

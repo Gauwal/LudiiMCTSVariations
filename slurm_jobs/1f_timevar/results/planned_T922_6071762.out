@@ -1,0 +1,7 @@
+Running T922 on lm4-w003 at Fri Mar 13 03:46:32 CET 2026
+Game: Choko
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T922 (Diagonals (2002)) -> completed=30/30, wins=1, losses=25, draws=4, failures=0, avgMoves=59.2
+Job completed at Fri Mar 13 03:59:10 CET 2026

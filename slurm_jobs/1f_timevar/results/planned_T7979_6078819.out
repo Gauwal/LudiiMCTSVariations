@@ -1,0 +1,6 @@
+Running T7979 on lm4-w002 at Fri Mar 13 10:06:19 CET 2026
+Game: Do Guti
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:06:20 CET 2026

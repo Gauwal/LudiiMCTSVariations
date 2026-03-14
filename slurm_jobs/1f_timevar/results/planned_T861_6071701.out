@@ -1,0 +1,7 @@
+Running T861 on lm4-w017 at Fri Mar 13 03:27:30 CET 2026
+Game: Bam Blang Beh Khla
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T861 (Grande Acedrex) -> completed=30/30, wins=8, losses=7, draws=15, failures=0, avgMoves=644.3
+Job completed at Fri Mar 13 06:16:26 CET 2026

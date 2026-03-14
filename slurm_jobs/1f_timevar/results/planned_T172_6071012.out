@@ -1,0 +1,7 @@
+Running T172 on lm4-w013 at Fri Mar 13 01:46:03 CET 2026
+Game: Triple Tangle
+Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T172 (Misoro Tsoro (Additional Capture)) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=57.7
+Job completed at Fri Mar 13 01:55:31 CET 2026

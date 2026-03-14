@@ -1,0 +1,6 @@
+Running T8160 on lm4-w007 at Fri Mar 13 10:14:20 CET 2026
+Game: Domineering
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 10:14:23 CET 2026

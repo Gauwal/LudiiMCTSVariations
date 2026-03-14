@@ -1,0 +1,7 @@
+Running T212 on lm4-w007 at Fri Mar 13 01:51:04 CET 2026
+Game: Shah
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T212 (Abalala'e) -> completed=30/30, wins=11, losses=18, draws=1, failures=0, avgMoves=200.2
+Job completed at Fri Mar 13 02:06:59 CET 2026

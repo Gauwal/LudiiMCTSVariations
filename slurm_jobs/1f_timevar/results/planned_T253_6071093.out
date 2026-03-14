@@ -1,0 +1,7 @@
+Running T253 on lm4-w017 at Thu Mar 12 16:26:45 CET 2026
+Game: Bagh Batti
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T253 (French Wari) -> completed=30/30, wins=7, losses=20, draws=3, failures=0, avgMoves=53.7
+Job completed at Thu Mar 12 16:31:49 CET 2026

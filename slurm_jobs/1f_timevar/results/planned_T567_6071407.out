@@ -1,0 +1,7 @@
+Running T567 on lm4-w017 at Thu Mar 12 15:22:30 CET 2026
+Game: Taikyoku Shogi
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=38G, time=16:00:00
+Completed T567 (Six-Penny Madell) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=88.1
+Job completed at Thu Mar 12 15:43:29 CET 2026

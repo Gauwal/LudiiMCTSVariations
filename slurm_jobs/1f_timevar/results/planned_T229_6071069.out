@@ -1,0 +1,7 @@
+Running T229 on lm4-w009 at Thu Mar 12 16:18:12 CET 2026
+Game: Che Lo
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T229 (Azigo) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
+Job completed at Thu Mar 12 20:33:29 CET 2026

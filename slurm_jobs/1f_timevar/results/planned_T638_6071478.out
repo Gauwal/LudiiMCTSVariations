@@ -1,0 +1,7 @@
+Running T638 on lm4-w013 at Fri Mar 13 02:50:22 CET 2026
+Game: Shatranj ar-Rumiya
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T638 (Lava) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=134.6
+Job completed at Fri Mar 13 03:24:03 CET 2026

@@ -1,0 +1,7 @@
+Running T61 on lm4-w019 at Thu Mar 12 15:41:04 CET 2026
+Game: CustAndantino
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T61 (Merimueng-rimueng) -> completed=30/30, wins=0, losses=15, draws=15, failures=0, avgMoves=767.7
+Job completed at Thu Mar 12 18:54:07 CET 2026

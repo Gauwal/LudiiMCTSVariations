@@ -1,0 +1,7 @@
+Running T710 on lm4-w017 at Fri Mar 13 03:00:24 CET 2026
+Game: Dodgem
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T710 (Guerrilla Checkers) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=63.5
+Job completed at Fri Mar 13 03:13:59 CET 2026

@@ -1,0 +1,7 @@
+Running T523 on lm4-w007 at Fri Mar 13 02:34:50 CET 2026
+Game: Atom
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T523 (Liu Tsi) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=8.0
+Job completed at Fri Mar 13 02:36:52 CET 2026

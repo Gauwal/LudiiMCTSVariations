@@ -1,0 +1,6 @@
+Running T5095 on lm4-w024 at Fri Mar 13 07:49:32 CET 2026
+Game: Greater Loss
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:49:33 CET 2026

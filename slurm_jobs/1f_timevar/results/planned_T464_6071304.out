@@ -1,0 +1,7 @@
+Running T464 on lm4-w025 at Thu Mar 12 22:49:29 CET 2026
+Game: Lifeline
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T464 (Product) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=61.0
+Job completed at Thu Mar 12 23:04:32 CET 2026

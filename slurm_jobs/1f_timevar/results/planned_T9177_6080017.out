@@ -1,0 +1,6 @@
+Running T9177 on lm4-w003 at Fri Mar 13 11:00:52 CET 2026
+Game: Permainan-Tabal
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 11:00:55 CET 2026

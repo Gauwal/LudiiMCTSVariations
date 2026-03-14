@@ -1,0 +1,6 @@
+Running T5786 on lm4-w007 at Fri Mar 13 08:21:34 CET 2026
+Game: Isolation
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 08:21:35 CET 2026

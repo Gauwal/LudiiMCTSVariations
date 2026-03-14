@@ -1,0 +1,7 @@
+Running T203 on lm4-w007 at Fri Mar 13 01:49:34 CET 2026
+Game: 1D Chess
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T203 (Tsoro (Additional Capture)) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=26.2
+Job completed at Fri Mar 13 01:53:19 CET 2026

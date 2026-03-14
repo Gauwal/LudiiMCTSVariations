@@ -1,0 +1,7 @@
+Running T699 on lm4-w027 at Fri Mar 13 02:58:54 CET 2026
+Game: Workers and Soldiers
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T699 (Dam) -> completed=30/30, wins=11, losses=14, draws=5, failures=0, avgMoves=797.7
+Job completed at Fri Mar 13 06:19:05 CET 2026

@@ -1,0 +1,7 @@
+Running T121 on lm4-w009 at Fri Mar 13 01:34:01 CET 2026
+Game: Nim
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T121 (Gauntlet) -> completed=30/30, wins=8, losses=22, draws=0, failures=0, avgMoves=32.1
+Job completed at Fri Mar 13 01:39:55 CET 2026

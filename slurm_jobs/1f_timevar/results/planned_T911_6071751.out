@@ -1,0 +1,7 @@
+Running T911 on lm4-w037 at Fri Mar 13 03:40:31 CET 2026
+Game: Seven-Fang
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T911 (MiniXiangqi) -> completed=30/30, wins=3, losses=25, draws=2, failures=0, avgMoves=145.9
+Job completed at Fri Mar 13 04:17:19 CET 2026

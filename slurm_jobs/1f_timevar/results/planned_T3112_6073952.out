@@ -1,0 +1,6 @@
+Running T3112 on lm4-w004 at Fri Mar 13 05:49:51 CET 2026
+Game: Spartan Chess
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 05:49:52 CET 2026

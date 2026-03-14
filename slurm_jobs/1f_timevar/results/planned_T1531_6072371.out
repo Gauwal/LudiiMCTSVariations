@@ -1,0 +1,6 @@
+Running T1531 on lm4-w017 at Fri Mar 13 00:42:22 CET 2026
+Game: Connect6
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 00:42:23 CET 2026

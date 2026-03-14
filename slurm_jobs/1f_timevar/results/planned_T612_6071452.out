@@ -1,0 +1,7 @@
+Running T612 on lm4-w027 at Thu Mar 12 23:12:34 CET 2026
+Game: Plotto
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T612 (Yavalax) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=68.5
+Job completed at Thu Mar 12 23:29:46 CET 2026

@@ -1,0 +1,7 @@
+Running T252 on lm4-w009 at Thu Mar 12 16:26:45 CET 2026
+Game: Ringo
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T252 (Fondji) -> completed=30/30, wins=2, losses=26, draws=2, failures=0, avgMoves=245.8
+Job completed at Thu Mar 12 17:01:17 CET 2026

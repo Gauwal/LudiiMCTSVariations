@@ -1,0 +1,6 @@
+Running T2847 on lm4-w008 at Fri Mar 13 05:36:50 CET 2026
+Game: Tugul Shodra
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 05:36:51 CET 2026

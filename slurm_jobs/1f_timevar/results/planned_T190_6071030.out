@@ -1,0 +1,7 @@
+Running T190 on lm4-w025 at Thu Mar 12 16:01:38 CET 2026
+Game: Bide
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T190 (Njombwa) -> completed=30/30, wins=5, losses=23, draws=2, failures=0, avgMoves=362.1
+Job completed at Thu Mar 12 16:37:58 CET 2026

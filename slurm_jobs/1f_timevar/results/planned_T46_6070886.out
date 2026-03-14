@@ -1,0 +1,7 @@
+Running T46 on lm4-w003 at Thu Mar 12 15:34:32 CET 2026
+Game: Sowing
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T46 (Jeu du Renard et de la Poule) -> completed=30/30, wins=13, losses=17, draws=0, failures=0, avgMoves=73.5
+Job completed at Thu Mar 12 15:52:38 CET 2026

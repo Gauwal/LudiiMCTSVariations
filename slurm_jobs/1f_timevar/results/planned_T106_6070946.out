@@ -1,0 +1,7 @@
+Running T106 on lm4-w017 at Thu Mar 12 15:47:35 CET 2026
+Game: Crossway
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T106 (O-Pat-Kono) -> completed=30/30, wins=3, losses=2, draws=25, failures=0, avgMoves=925.2
+Job completed at Thu Mar 12 19:41:57 CET 2026

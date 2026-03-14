@@ -1,0 +1,6 @@
+Running T4284 on lm4-w003 at Fri Mar 13 07:08:59 CET 2026
+Game: Shatranj (Iraq)
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 07:09:01 CET 2026

@@ -1,0 +1,7 @@
+Running T366 on lm4-w007 at Thu Mar 12 21:51:17 CET 2026
+Game: Contagion
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T366 (Hex Amazons) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=174.1
+Job completed at Thu Mar 12 22:34:02 CET 2026

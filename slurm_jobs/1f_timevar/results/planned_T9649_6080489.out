@@ -1,0 +1,6 @@
+Running T9649 on lm4-w025 at Fri Mar 13 11:23:54 CET 2026
+Game: Alquerque de Doze (Portugal)
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Fri Mar 13 11:23:55 CET 2026

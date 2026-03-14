@@ -1,0 +1,7 @@
+Running T416 on lm4-w025 at Thu Mar 12 22:25:24 CET 2026
+Game: Tenjiku Shogi
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
+Estimated: cpus=5, mem=11G, time=16:00:00
+Completed T416 (Fractal) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=50.1
+Job completed at Thu Mar 12 22:38:00 CET 2026
