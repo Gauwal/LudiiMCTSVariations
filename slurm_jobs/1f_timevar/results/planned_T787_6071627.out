@@ -1,7 +1,0 @@
-Running T787 on lm4-w019 at Fri Mar 13 03:12:27 CET 2026
-Game: OddEvenTree
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T787 (Koruboddo) -> completed=30/30, wins=12, losses=7, draws=11, failures=0, avgMoves=602.7
-Job completed at Fri Mar 13 05:43:12 CET 2026

@@ -1,7 +1,0 @@
-Running T916 on lm4-w027 at Fri Mar 13 03:41:31 CET 2026
-Game: Neg Tugal Tuux
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T916 (Apocalypse) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=26.0
-Job completed at Fri Mar 13 03:46:55 CET 2026

@@ -1,7 +1,0 @@
-Running T793 on lm4-w003 at Thu Mar 12 23:58:44 CET 2026
-Game: MensaSpiel
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T793 (Omnidirectional Draughts) -> completed=30/30, wins=19, losses=10, draws=1, failures=0, avgMoves=139.1
-Job completed at Fri Mar 13 00:33:10 CET 2026

@@ -1,6 +1,0 @@
-Running T7969 on lm4-w003 at Fri Mar 13 10:05:49 CET 2026
-Game: Esa Hex
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 10:05:51 CET 2026

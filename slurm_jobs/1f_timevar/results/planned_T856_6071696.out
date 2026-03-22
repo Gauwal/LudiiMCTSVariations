@@ -1,7 +1,0 @@
-Running T856 on lm4-w013 at Fri Mar 13 03:24:29 CET 2026
-Game: Workers and Soldiers
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T856 (De Vasa Chess) -> completed=30/30, wins=1, losses=23, draws=6, failures=0, avgMoves=223.6
-Job completed at Fri Mar 13 04:21:15 CET 2026

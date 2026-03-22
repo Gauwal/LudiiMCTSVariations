@@ -1,7 +1,0 @@
-Running T213 on lm4-w003 at Fri Mar 13 01:51:34 CET 2026
-Game: Los Alamos Chess
-Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T213 (Gabata (Adowa)) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
-Job completed at Fri Mar 13 03:38:50 CET 2026

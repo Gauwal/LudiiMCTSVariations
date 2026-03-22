@@ -1,7 +1,0 @@
-Running T970 on lm4-w024 at Fri Mar 13 04:00:34 CET 2026
-Game: Fractal
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T970 (Flowers) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=11.7
-Job completed at Fri Mar 13 04:03:32 CET 2026

@@ -294,7 +294,7 @@ java -cp "Ludii.jar:bin" experiments.planning.GenerateTestPlan \
     --num-tests 1000 \
     --games-per-matchup 10 \
     --move-time 0.1 \
-    --design ONE_FACTOR
+    --design onefactor
 ```
 
 **Options:**
@@ -304,14 +304,33 @@ java -cp "Ludii.jar:bin" experiments.planning.GenerateTestPlan \
 | `--out <path>` | Output test plan CSV |
 | `--num-tests <n>` | Number of tests to generate |
 | `--games-per-matchup <n>` | Games per variant-vs-baseline matchup |
-| `--move-time <seconds>` | Time per move |
-| `--max-moves <n>` | Maximum moves per game (0 = no limit) |
-| `--design <type>` | `ONEFACTOR` (vary one component) or `FULLCOMBO` (all combinations) |
+| `--move-time <seconds>` | Single time budget per move |
+| `--move-times <csv>` | Multiple move-time budgets, comma separated (for time variation), e.g. `0.2,0.5,1.0,2.0` |
+| `--max-moves <n>` | Maximum moves per game (must be > 0) |
+| `--design <type>` | `onefactor` (default) or `fullcombo` (also accepts `full`) |
 | `--seed <n>` | Random seed for reproducibility |
+| `--allow-non-two-player` | Include non-2-player games (default is 2-player only) |
+| `--strict-support-check` | Run expensive planner-time `supportsGame()` filtering for baseline and variant configs |
+
+`--strict-support-check` is optional and can slow planning significantly on large plans. Runtime execution still validates support before matches start.
 
 **Design Types:**
 - **ONEFACTOR**: Tests each policy variation while keeping others at baseline (UCB1/Random/MonteCarlo/Robust)
 - **FULLCOMBO**: Tests all possible combinations (equivalent if elements are independant (which they are))
+
+**Example: full-combo with time variation**
+
+```bash
+java -cp "Ludii.jar:bin" experiments.planning.GenerateTestPlan \
+    --catalog game_catalog.csv \
+    --out planned_tests_1f_timevar.csv \
+    --num-tests 10000 \
+    --games-per-matchup 50 \
+    --move-times 0.2,0.5,1.0,2.0 \
+    --max-moves 1000 \
+    --design fullcombo \
+    --seed 42
+```
 
 ### Step 3: Generate SLURM Scripts
 
@@ -319,12 +338,14 @@ Creates batch scripts for HPC cluster execution.
 
 ```bash
 java -cp "bin" experiments.planning.GenerateSlurmScripts \
-    --plan planned_tests.csv \
+    --plan planned_tests_1f_timevar.csv \
     --catalog game_catalog.csv \
-    --out-dir slurm_scripts \
+    --out-dir slurm_jobs/1f_timevar \
     --project-dir /home/user/LudiiMCTSVariations \
     --ludii-jar /home/user/lib/Ludii.jar \
-    --results-dir results
+    --results-dir ${PROJECT_DIR}/out/planned_results \
+    --slurm-logs-dir results \
+    --module Java
 ```
 
 > **Note:** This command doesn't require Ludii.jar in the classpath since it only reads CSV files and generates shell scripts.
@@ -338,12 +359,15 @@ java -cp "bin" experiments.planning.GenerateSlurmScripts \
 | `--project-dir <path>` | Project directory on cluster |
 | `--ludii-jar <path>` | Path to Ludii JAR on cluster |
 | `--results-dir <dir>` | Where to write results |
+| `--slurm-logs-dir <dir>` | Directory (inside out-dir) for SLURM `.out/.err` logs |
 | `--job-prefix <str>` | SLURM job name prefix |
-| `--module-load <str>` | Module to load (e.g., `java/17`) |
+| `--module <str>` | Module to load (default: `Java`) |
 
 **Output:**
 - Individual test scripts: `test_<testId>.sh`
 - Master submit script: `submit_all.sh`
+
+**Important:** the generated script runtime plan path is derived from `--plan` filename. There is no separate plan-path flag.
 
 ### Step 4: Run Planned Tests
 
@@ -351,9 +375,9 @@ Execute a single test from the plan (used by SLURM scripts):
 
 ```bash
 java -cp "Ludii.jar:bin" experiments.planning.RunPlannedTest \
-    --plan planned_tests.csv \
-    --test-id "TEST_001" \
-    --out results/TEST_001.csv
+    --plan planned_tests_1f_timevar.csv \
+    --test-id "T1" \
+    --out results/T1.csv
 ```
 
 Or run locally without SLURM:

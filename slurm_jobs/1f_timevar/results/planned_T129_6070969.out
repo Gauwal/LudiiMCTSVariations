@@ -1,7 +1,0 @@
-Running T129 on lm4-w027 at Fri Mar 13 01:36:01 CET 2026
-Game: Windir
-Variant: UCB1 | Heuristic | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T129 (Murus Gallicus) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=78.3
-Job completed at Fri Mar 13 01:55:36 CET 2026

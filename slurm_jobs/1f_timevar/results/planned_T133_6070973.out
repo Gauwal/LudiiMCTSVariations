@@ -1,7 +1,0 @@
-Running T133 on lm4-w003 at Thu Mar 12 15:53:06 CET 2026
-Game: Che Lo
-Variant: McBRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T133 (Reach Chess) -> completed=30/30, wins=27, losses=3, draws=0, failures=0, avgMoves=17.7
-Job completed at Thu Mar 12 15:57:34 CET 2026

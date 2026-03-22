@@ -1,6 +1,0 @@
-Running T7846 on lm4-w024 at Fri Mar 13 10:00:18 CET 2026
-Game: 00'Y'
-Variant: UCB1 | Random | MonteCarlo | Proportional Exp
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 10:00:19 CET 2026

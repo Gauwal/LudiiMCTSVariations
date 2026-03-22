@@ -1,6 +1,0 @@
-Running T6798 on lm4-w003 at Fri Mar 13 09:07:39 CET 2026
-Game: O-Pat-Kono
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 09:07:40 CET 2026

@@ -1,7 +1,0 @@
-Running T607 on lm4-w007 at Fri Mar 13 02:45:52 CET 2026
-Game: Alquerque de Tres
-Variant: McBRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T607 (Xanan Zirge) -> completed=30/30, wins=5, losses=19, draws=6, failures=0, avgMoves=482.2
-Job completed at Fri Mar 13 04:07:09 CET 2026

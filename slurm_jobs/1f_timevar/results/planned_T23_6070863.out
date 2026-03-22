@@ -1,7 +1,0 @@
-Running T23 on lm4-w005 at Thu Mar 12 15:30:32 CET 2026
-Game: CustAndantino
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Completed T23 (Coyote) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=40.3
-Job completed at Thu Mar 12 15:40:31 CET 2026

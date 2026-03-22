@@ -1,7 +1,0 @@
-Running T222 on lm4-w017 at Fri Mar 13 01:52:04 CET 2026
-Game: Jeson Zam
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T222 (Ako Okwe) -> completed=30/30, wins=8, losses=14, draws=8, failures=0, avgMoves=333.5
-Job completed at Fri Mar 13 03:15:23 CET 2026

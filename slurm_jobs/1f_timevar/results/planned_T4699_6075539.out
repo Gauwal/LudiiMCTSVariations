@@ -1,6 +1,0 @@
-Running T4699 on lm4-w007 at Fri Mar 13 07:30:01 CET 2026
-Game: Game of Solomon
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 07:30:03 CET 2026

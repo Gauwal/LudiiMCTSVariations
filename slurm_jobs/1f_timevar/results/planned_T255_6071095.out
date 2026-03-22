@@ -1,7 +1,0 @@
-Running T255 on lm4-w017 at Fri Mar 13 01:58:05 CET 2026
-Game: Atom
-Variant: UCB1 | Random | MonteCarlo | Proportional Exp
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T255 (Gabata (Ansaba)) -> completed=30/30, wins=5, losses=21, draws=4, failures=0, avgMoves=558.5
-Job completed at Fri Mar 13 02:52:44 CET 2026

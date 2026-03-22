@@ -1,7 +1,0 @@
-Running T58 on lm4-w019 at Fri Mar 13 01:22:58 CET 2026
-Game: Nchuwa
-Variant: UCB1 | Heuristic | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T58 (Manu) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=410.9
-Job completed at Fri Mar 13 03:05:38 CET 2026

@@ -1,7 +1,0 @@
-Running T986 on lm4-w007 at Fri Mar 13 00:37:51 CET 2026
-Game: Contagion
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T986 (OffShore) -> completed=30/30, wins=16, losses=14, draws=0, failures=0, avgMoves=29.4
-Job completed at Fri Mar 13 00:44:58 CET 2026

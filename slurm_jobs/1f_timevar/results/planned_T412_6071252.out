@@ -1,7 +1,0 @@
-Running T412 on lm4-w017 at Fri Mar 13 02:17:18 CET 2026
-Game: Msuwa
-Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T412 (Defector Y) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=49.3
-Job completed at Fri Mar 13 02:29:40 CET 2026

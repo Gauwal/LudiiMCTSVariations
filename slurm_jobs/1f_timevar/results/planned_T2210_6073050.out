@@ -1,6 +1,0 @@
-Running T2210 on lm4-w008 at Fri Mar 13 05:05:16 CET 2026
-Game: Solitario
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 05:05:17 CET 2026

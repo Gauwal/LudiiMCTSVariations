@@ -1,6 +1,0 @@
-Running T6579 on lm4-w003 at Fri Mar 13 08:58:08 CET 2026
-Game: Tablut
-Variant: UCB1 | Random | Qualitative | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 08:58:10 CET 2026

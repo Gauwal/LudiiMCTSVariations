@@ -1,7 +1,0 @@
-Running T762 on lm4-w019 at Fri Mar 13 03:08:55 CET 2026
-Game: I
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T762 (Pretwa) -> completed=30/30, wins=16, losses=9, draws=5, failures=0, avgMoves=251.3
-Job completed at Fri Mar 13 04:11:58 CET 2026

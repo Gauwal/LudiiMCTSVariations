@@ -1,6 +1,0 @@
-Running T4502 on lm4-w004 at Fri Mar 13 07:20:00 CET 2026
-Game: Yeung Luk Sz' Kon Tseung Kwan
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 07:20:01 CET 2026

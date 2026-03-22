@@ -1,7 +1,0 @@
-Running T127 on lm4-w009 at Fri Mar 13 01:34:31 CET 2026
-Game: Ciri Amber
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T127 (Knightthrough) -> completed=30/30, wins=25, losses=5, draws=0, failures=0, avgMoves=30.3
-Job completed at Fri Mar 13 01:42:08 CET 2026

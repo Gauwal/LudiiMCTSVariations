@@ -1,6 +1,0 @@
-Running T8665 on lm4-w003 at Fri Mar 13 10:37:21 CET 2026
-Game: Andot
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 10:37:23 CET 2026

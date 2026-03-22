@@ -1,6 +1,0 @@
-Running T2817 on lm4-w008 at Fri Mar 13 05:35:20 CET 2026
-Game: Squava
-Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 05:35:21 CET 2026

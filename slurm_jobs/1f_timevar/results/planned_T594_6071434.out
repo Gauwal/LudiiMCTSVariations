@@ -1,7 +1,0 @@
-Running T594 on lm4-w009 at Fri Mar 13 02:44:21 CET 2026
-Game: Toguz Kumalak
-Variant: UCB1 | LGR | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T594 (Tsoro Yemutatu (Triangle)) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=7.0
-Job completed at Fri Mar 13 02:46:08 CET 2026

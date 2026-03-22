@@ -1,7 +1,0 @@
-Running T276 on lm4-w001 at Thu Mar 12 19:01:50 CET 2026
-Game: Bagh Batti
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T276 (Kay) -> completed=30/30, wins=11, losses=5, draws=14, failures=0, avgMoves=266.2
-Job completed at Thu Mar 12 19:47:44 CET 2026

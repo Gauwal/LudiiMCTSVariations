@@ -1,7 +1,0 @@
-Running T470 on lm4-w003 at Fri Mar 13 02:27:49 CET 2026
-Game: Dris at-Talata
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T470 (Symple) -> completed=30/30, wins=14, losses=16, draws=0, failures=0, avgMoves=361.0
-Job completed at Fri Mar 13 08:06:11 CET 2026

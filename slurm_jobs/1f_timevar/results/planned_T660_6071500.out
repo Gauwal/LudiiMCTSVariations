@@ -1,7 +1,0 @@
-Running T660 on lm4-w027 at Fri Mar 13 02:53:23 CET 2026
-Game: Pula
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T660 (SupplyChains) -> completed=30/30, wins=16, losses=12, draws=2, failures=0, avgMoves=36.8
-Job completed at Fri Mar 13 03:02:50 CET 2026

@@ -1,7 +1,0 @@
-Running T126 on lm4-w023 at Thu Mar 12 15:52:06 CET 2026
-Game: Lasca
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T126 (King's Valley) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=19.1
-Job completed at Thu Mar 12 15:56:55 CET 2026

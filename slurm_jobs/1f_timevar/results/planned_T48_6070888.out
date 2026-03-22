@@ -1,7 +1,0 @@
-Running T48 on lm4-w003 at Fri Mar 13 01:22:28 CET 2026
-Game: Line and Cross
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T48 (Kaooa) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=16.6
-Job completed at Fri Mar 13 01:26:18 CET 2026

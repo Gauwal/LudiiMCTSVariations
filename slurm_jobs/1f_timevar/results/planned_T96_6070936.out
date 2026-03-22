@@ -1,7 +1,0 @@
-Running T96 on lm4-w009 at Fri Mar 13 01:31:31 CET 2026
-Game: Redstone
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T96 (Agon) -> completed=30/30, wins=9, losses=20, draws=1, failures=0, avgMoves=356.7
-Job completed at Fri Mar 13 03:03:36 CET 2026

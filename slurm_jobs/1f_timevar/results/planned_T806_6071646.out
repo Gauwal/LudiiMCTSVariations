@@ -1,7 +1,0 @@
-Running T806 on lm4-w025 at Fri Mar 13 00:07:16 CET 2026
-Game: Keryo-Pente
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T806 (Chatur) -> completed=30/30, wins=4, losses=21, draws=5, failures=0, avgMoves=311.8
-Job completed at Fri Mar 13 01:26:06 CET 2026

@@ -1,7 +1,0 @@
-Running T452 on lm4-w025 at Fri Mar 13 02:24:48 CET 2026
-Game: Katsela
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T452 (Groups) -> completed=30/30, wins=5, losses=12, draws=13, failures=0, avgMoves=709.6
-Job completed at Fri Mar 13 05:25:37 CET 2026

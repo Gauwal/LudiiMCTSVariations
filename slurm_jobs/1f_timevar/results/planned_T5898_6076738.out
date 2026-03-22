@@ -1,6 +1,0 @@
-Running T5898 on lm4-w007 at Fri Mar 13 08:27:06 CET 2026
-Game: Unnamed Dutch Draughts Game
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 08:27:07 CET 2026

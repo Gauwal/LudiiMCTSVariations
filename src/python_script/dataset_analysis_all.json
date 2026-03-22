@@ -1,0 +1,113 @@
+{
+  "label": "all",
+  "basics": {
+    "n_rows": 997,
+    "n_samples_with_timeout": 8,
+    "total_timeouts": 151
+  },
+  "winrate_drawrate": {
+    "winrate_mean": 0.20653932106711495,
+    "winrate_std": 0.22440444422696676,
+    "winrate_min": 0.0,
+    "winrate_max": 1.0,
+    "winrate_median": 0.1333333333333333,
+    "winrate_q25": 0.0,
+    "winrate_q75": 0.3666666666666666,
+    "drawrate_mean": 0.17259342128950952,
+    "drawrate_std": 0.3141294160463879,
+    "drawrate_min": 0.0,
+    "drawrate_max": 1.0,
+    "drawrate_median": 0.0,
+    "drawrate_q25": 0.0,
+    "drawrate_q75": 0.2
+  },
+  "score": {
+    "mean": 0.2928360317118697,
+    "std": 0.22853129990090768,
+    "min": 0.0,
+    "max": 1.0,
+    "median": 0.3,
+    "q25": 0.0666666666666666,
+    "q75": 0.5
+  },
+  "variant_components": {
+    "variant_select": {
+      "Implicit Minimax": 112,
+      "Progressive Widening": 111,
+      "McGRAVE": 111,
+      "Alpha-Beta": 111,
+      "Progressive History": 111,
+      "McBRAVE": 111,
+      "UCB1": 110,
+      "UCB1 tuned": 110,
+      "UCB1 GRAVE": 110
+    },
+    "variant_simulation": {
+      "NST": 333,
+      "MAST": 332,
+      "Random": 332
+    },
+    "variant_backprop": {
+      "MonteCarlo": 333,
+      "Score Bounded": 332,
+      "Implicit Minimax": 332
+    },
+    "variant_finalmove": {
+      "Robust": 333,
+      "MaxAvgScore": 332,
+      "Proportional Exp": 332
+    }
+  },
+  "game_features": {
+    "n_game_feature_cols": 29,
+    "game_feature_cols": [
+      "game_numPlayers",
+      "game_numCells",
+      "game_numVertices",
+      "game_numEdges",
+      "game_numComponents",
+      "game_numPhases",
+      "game_numRows",
+      "game_numColumns",
+      "game_numCorners",
+      "game_numPlayableSites",
+      "game_avgNumDirections",
+      "game_avgNumOrthogonal",
+      "game_avgNumDiagonal",
+      "game_isStacking",
+      "game_isStochastic",
+      "game_hasHiddenInfo",
+      "game_requiresTeams",
+      "game_hasTrack",
+      "game_hasCard",
+      "game_hasHandDice",
+      "game_isVertexGame",
+      "game_isEdgeGame",
+      "game_isCellGame",
+      "game_isDeductionPuzzle",
+      "game_isSimultaneous",
+      "game_isAlternating",
+      "game_maxCount",
+      "game_maxLocalStates",
+      "game_stateSpaceLog"
+    ]
+  },
+  "moveTime": {
+    "mean": 0.5,
+    "std": 0.0,
+    "min": 0.5,
+    "max": 0.5,
+    "median": 0.5,
+    "unique_values": [
+      0.5
+    ],
+    "correlation_with_winrate": NaN
+  },
+  "missing_data": {
+    "game_isSimultaneous": 997,
+    "game_isAlternating": 997,
+    "game_maxCount": 997,
+    "game_maxLocalStates": 997,
+    "game_stateSpaceLog": 997
+  }
+}

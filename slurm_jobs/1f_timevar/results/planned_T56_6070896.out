@@ -1,7 +1,0 @@
-Running T56 on lm4-w005 at Thu Mar 12 15:40:34 CET 2026
-Game: O An Quan
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T56 (Ludus Coriovalli) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=119.7
-Job completed at Thu Mar 12 16:07:03 CET 2026

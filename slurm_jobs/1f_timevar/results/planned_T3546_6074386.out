@@ -1,6 +1,0 @@
-Running T3546 on lm4-w006 at Fri Mar 13 06:10:54 CET 2026
-Game: Queen's Four
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 06:10:54 CET 2026

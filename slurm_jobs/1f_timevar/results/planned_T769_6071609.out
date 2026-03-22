@@ -1,7 +1,0 @@
-Running T769 on lm4-w033 at Fri Mar 13 03:09:25 CET 2026
-Game: Residuel
-Variant: UCB1 | Random | Implicit Minimax | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T769 (Terhuchu) -> completed=30/30, wins=24, losses=5, draws=1, failures=0, avgMoves=339.8
-Job completed at Fri Mar 13 04:34:46 CET 2026

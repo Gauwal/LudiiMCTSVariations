@@ -36,6 +36,7 @@ GAME_PROPS = os.path.join(REPO_ROOT, 'game_properties.csv')
 
 DATASET_ALL_OUT = os.path.join(HERE, 'dataset_all.csv')
 DATASET_NOTIMEOUT_OUT = os.path.join(HERE, 'dataset_notimeout.csv')
+DATASET_RAW_OUT = os.path.join(HERE, 'dataset_raw.csv')
 
 COMPLETED_RE = re.compile(
     r'completed=(\d+)/(\d+),\s*wins=(\d+),\s*losses=(\d+),\s*draws=(\d+),\s*'
@@ -54,7 +55,11 @@ def _normalize(s: str) -> str:
 
 
 def _parse_out_file(path: str) -> Dict[str, Any]:
-    """Parse a single .out file and extract game name, variant, result counts, and meta."""
+    """Parse a single .out file and extract game name, variant, result counts, and meta.
+
+    Robust against wrapped lines in SLURM output by using full-text regexes
+    instead of strict line-local parsing for result counters.
+    """
     data: Dict[str, Any] = {
         'game': None, 'variant': None,
         'wins': None, 'completed': None, 'total_expected': None,
@@ -62,34 +67,138 @@ def _parse_out_file(path: str) -> Dict[str, Any]:
         'moveTime': None, 'maxMoves': None,
     }
     with open(path, 'r', encoding='utf-8', errors='ignore') as fh:
-        for line in fh:
-            line = line.strip()
-            if not line:
-                continue
-            m = GAME_RE.match(line)
-            if m:
-                data['game'] = m.group(1).strip()
-                continue
-            m = VARIANT_RE.match(line)
-            if m:
-                data['variant'] = m.group(1).strip()
-                continue
-            m = COMPLETED_RE.search(line)
-            if m:
-                data['completed'] = int(m.group(1))
-                data['total_expected'] = int(m.group(2))
-                data['wins'] = int(m.group(3))
-                data['losses'] = int(m.group(4))
-                data['draws'] = int(m.group(5))
-                data['failures'] = int(m.group(6))
-                data['avgMoves'] = float(m.group(7))
-                continue
-            for m in META_RE.finditer(line):
-                if m.group(1) is not None:
-                    data['moveTime'] = float(m.group(1))
-                if m.group(3) is not None:
-                    data['maxMoves'] = int(m.group(3))
+        text = fh.read()
+
+    # Per-line anchors for headers
+    m_game = re.search(r'(?im)^\s*Game:\s*(.+?)\s*$', text)
+    if m_game:
+        data['game'] = m_game.group(1).strip()
+
+    m_variant = re.search(r'(?im)^\s*Variant:\s*(.+?)\s*$', text)
+    if m_variant:
+        data['variant'] = m_variant.group(1).strip()
+
+    # Tolerant full-text parsing for result counters (supports wrapped lines)
+    m_completed = re.search(r'completed\s*=\s*(\d+)\s*/\s*(\d+)', text, re.IGNORECASE)
+    if m_completed:
+        data['completed'] = int(m_completed.group(1))
+        data['total_expected'] = int(m_completed.group(2))
+
+    m_wins = re.search(r'wins\s*=\s*(\d+)', text, re.IGNORECASE)
+    if m_wins:
+        data['wins'] = int(m_wins.group(1))
+
+    m_losses = re.search(r'losses\s*=\s*(\d+)', text, re.IGNORECASE)
+    if m_losses:
+        data['losses'] = int(m_losses.group(1))
+
+    m_draws = re.search(r'draws\s*=\s*(\d+)', text, re.IGNORECASE)
+    if m_draws:
+        data['draws'] = int(m_draws.group(1))
+
+    m_failures = re.search(r'failures\s*=\s*(\d+)', text, re.IGNORECASE)
+    if m_failures:
+        data['failures'] = int(m_failures.group(1))
+
+    m_avg = re.search(r'avgMoves\s*=\s*([0-9.]+)', text, re.IGNORECASE)
+    if m_avg:
+        data['avgMoves'] = float(m_avg.group(1))
+
+    for m in META_RE.finditer(text):
+        if m.group(1) is not None:
+            data['moveTime'] = float(m.group(1))
+        if m.group(3) is not None:
+            data['maxMoves'] = int(m.group(3))
+
     return data
+
+
+def build_raw_dataset(results_dir: str) -> pd.DataFrame:
+    """Parse all .out/.err pairs into a raw dataset with minimal processing.
+
+    This keeps parseable and non-parseable jobs, and does not compute derived
+    rates/scores. Useful for diagnostics.
+    """
+    bases: Dict[str, Dict[str, str]] = {}
+    for fname in os.listdir(results_dir):
+        if fname.endswith('.out') or fname.endswith('.err'):
+            base, ext = fname.rsplit('.', 1)
+            bases.setdefault(base, {})[ext] = fname
+
+    rows: List[Dict[str, Any]] = []
+    for base, parts in sorted(bases.items()):
+        out_file = parts.get('out')
+        err_file = parts.get('err')
+        out_path = os.path.join(results_dir, out_file) if out_file else None
+        err_path = os.path.join(results_dir, err_file) if err_file else None
+        out_exists = bool(out_path and os.path.isfile(out_path))
+        err_exists = bool(err_path and os.path.isfile(err_path))
+        out_size = os.path.getsize(out_path) if out_exists else 0
+        err_size = os.path.getsize(err_path) if err_exists else 0
+
+        parsed: Dict[str, Any] = {
+            'game': None,
+            'variant': None,
+            'wins': None,
+            'losses': None,
+            'draws': None,
+            'failures': None,
+            'completed': None,
+            'total_expected': None,
+            'avgMoves': None,
+            'moveTime': None,
+            'maxMoves': None,
+        }
+        if out_exists:
+            parsed = _parse_out_file(out_path)
+
+        n_timeouts = _count_timeouts_in_err(err_path) if err_path else 0
+        has_game = bool(parsed.get('game'))
+        has_variant = bool(parsed.get('variant'))
+        has_wins = parsed.get('wins') is not None
+        has_total = (parsed.get('total_expected') is not None or parsed.get('completed') is not None)
+        parse_ok = bool(
+            has_game and has_wins and has_total
+        )
+
+        if parse_ok:
+            diagnostic_reason = 'complete'
+        elif has_game and not has_wins and not has_total:
+            diagnostic_reason = 'started_no_result_summary'
+        elif not out_exists:
+            diagnostic_reason = 'missing_out_file'
+        elif out_size == 0:
+            diagnostic_reason = 'empty_out_file'
+        elif not has_game:
+            diagnostic_reason = 'missing_game_header'
+        elif not has_variant:
+            diagnostic_reason = 'missing_variant_header'
+        elif not has_wins and has_total:
+            diagnostic_reason = 'missing_wins_only'
+        elif has_wins and not has_total:
+            diagnostic_reason = 'missing_total_only'
+        else:
+            diagnostic_reason = 'other_partial_parse'
+
+        rows.append({
+            'job': base,
+            'out_file': out_file,
+            'err_file': err_file,
+            'out_exists': out_exists,
+            'err_exists': err_exists,
+            'out_size_bytes': out_size,
+            'err_size_bytes': err_size,
+            'parse_ok': parse_ok,
+            'has_game': has_game,
+            'has_variant': has_variant,
+            'has_wins': has_wins,
+            'has_total': has_total,
+            'diagnostic_reason': diagnostic_reason,
+            'n_timeouts': n_timeouts,
+            **parsed,
+        })
+
+    return pd.DataFrame(rows)
 
 
 def _count_timeouts_in_err(path: str) -> int:
@@ -141,6 +250,8 @@ def build_datasets(results_dir: str, game_props_path: str):
     rows: List[Dict[str, Any]] = []
     timeout_report: List[Dict[str, Any]] = []
     skipped_parse = skipped_game = skipped_all_timeout = 0
+    skipped_incomplete = 0
+    skipped_missing_game = skipped_missing_wins = skipped_missing_total = 0
     total_timeout_games = 0
 
     for base, parts in sorted(bases.items()):
@@ -158,9 +269,23 @@ def build_datasets(results_dir: str, game_props_path: str):
             )
 
         parsed = _parse_out_file(out_path)
-        if (not parsed['game'] or parsed.get('wins') is None or
-            (parsed.get('total_expected') is None and parsed.get('completed') is None)):
+        missing_game = not parsed['game']
+        missing_wins = parsed.get('wins') is None
+        missing_total = (parsed.get('total_expected') is None and parsed.get('completed') is None)
+
+        # Most common non-parse case: job started but did not print final summary yet.
+        if (not missing_game) and missing_wins and missing_total:
+            skipped_incomplete += 1
+            continue
+
+        if missing_game or missing_wins or missing_total:
             skipped_parse += 1
+            if missing_game:
+                skipped_missing_game += 1
+            if missing_wins:
+                skipped_missing_wins += 1
+            if missing_total:
+                skipped_missing_total += 1
             continue
 
         mapped_game = _find_game(_normalize(parsed['game']), norm_to_game)
@@ -230,8 +355,13 @@ def build_datasets(results_dir: str, game_props_path: str):
     df_notimeout = df_all[df_all['n_timeouts'] == 0].copy()
 
     # ---- Summary ----
-    print(f"Total jobs parsed  : {len(df_all) + skipped_parse + skipped_game + skipped_all_timeout}")
+    print(f"Total jobs parsed  : {len(df_all) + skipped_parse + skipped_incomplete + skipped_game + skipped_all_timeout}")
     print(f"  Skipped (parse)  : {skipped_parse}")
+    if skipped_parse:
+        print(f"    - missing game     : {skipped_missing_game}")
+        print(f"    - missing wins     : {skipped_missing_wins}")
+        print(f"    - missing total    : {skipped_missing_total}")
+    print(f"  Skipped (incomplete): {skipped_incomplete}")
     print(f"  Skipped (game)   : {skipped_game}")
     print(f"  Skipped (all TO) : {skipped_all_timeout}  (all games timed out)")
     print(f"  All dataset      : {len(df_all)} rows")
@@ -262,12 +392,15 @@ def main():
         raise SystemExit(f"game_properties.csv not found: {GAME_PROPS}")
 
     df_all, df_notimeout = build_datasets(RESULTS_DIR, GAME_PROPS)
+    df_raw = build_raw_dataset(RESULTS_DIR)
 
     df_all.to_csv(DATASET_ALL_OUT, index=False)
     df_notimeout.to_csv(DATASET_NOTIMEOUT_OUT, index=False)
+    df_raw.to_csv(DATASET_RAW_OUT, index=False)
 
     print(f"\nSaved: {DATASET_ALL_OUT}")
     print(f"Saved: {DATASET_NOTIMEOUT_OUT}")
+    print(f"Saved: {DATASET_RAW_OUT}")
 
 
 if __name__ == '__main__':

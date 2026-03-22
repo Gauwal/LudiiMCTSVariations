@@ -1,7 +1,0 @@
-Running T631 on lm4-w027 at Thu Mar 12 23:17:35 CET 2026
-Game: Bide
-Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T631 (Flower Shop) -> completed=30/30, wins=14, losses=15, draws=1, failures=0, avgMoves=60.8
-Job completed at Thu Mar 12 23:32:18 CET 2026

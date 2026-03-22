@@ -1,7 +1,0 @@
-Running T446 on lm4-w025 at Thu Mar 12 22:43:28 CET 2026
-Game: Dig Dig
-Variant: UCB1 | MAST | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T446 (Bounce) -> completed=30/30, wins=16, losses=14, draws=0, failures=0, avgMoves=41.5
-Job completed at Thu Mar 12 22:53:56 CET 2026

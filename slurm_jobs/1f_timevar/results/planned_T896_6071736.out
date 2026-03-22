@@ -1,7 +1,0 @@
-Running T896 on lm4-w007 at Fri Mar 13 03:35:30 CET 2026
-Game: Atoll
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T896 (Dai Seireigi) -> completed=30/30, wins=10, losses=4, draws=16, failures=0, avgMoves=855.4
-Job completed at Fri Mar 13 19:28:35 CET 2026

@@ -1,3 +1,0 @@
-Exception in thread "main" java.lang.IllegalArgumentException: TestId not found in plan: T6896
-	at experiments.planning.RunPlannedTest.main(RunPlannedTest.java:43)
-srun: error: lm4-w004: task 0: Exited with exit code 1

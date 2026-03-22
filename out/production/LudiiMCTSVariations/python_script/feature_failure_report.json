@@ -1,0 +1,8134 @@
+{
+  "summary": {
+    "total_tests": 10000,
+    "completed": 998,
+    "rejected": 9004,
+    "completion_rate": 0.0998
+  },
+  "by_feature": {
+    "gameName": {
+      "Chungcajon": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Katro": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Abrobad": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Kos": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "HexGo": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Unlur": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Nchuwa": {
+        "total": 22,
+        "rejected": 15,
+        "completed": 7,
+        "partial": 0,
+        "failed": 15
+      },
+      "Throngs": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Misoro Tsoro (Additional Capture)": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Nzengue (Small)": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Allemande": {
+        "total": 12,
+        "rejected": 6,
+        "completed": 6,
+        "partial": 0,
+        "failed": 6
+      },
+      "Onyx": {
+        "total": 18,
+        "rejected": 13,
+        "completed": 5,
+        "partial": 0,
+        "failed": 13
+      },
+      "Complica": {
+        "total": 19,
+        "rejected": 13,
+        "completed": 6,
+        "partial": 0,
+        "failed": 13
+      },
+      "Hordes Realm": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "En Gehe": {
+        "total": 17,
+        "rejected": 11,
+        "completed": 6,
+        "partial": 0,
+        "failed": 11
+      },
+      "Sprout-R-Out": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Diviyan Keliya": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "N-Mesh": {
+        "total": 12,
+        "rejected": 6,
+        "completed": 6,
+        "partial": 0,
+        "failed": 6
+      },
+      "To Kinegi tou Lagou": {
+        "total": 17,
+        "rejected": 14,
+        "completed": 3,
+        "partial": 0,
+        "failed": 14
+      },
+      "DisPath": {
+        "total": 15,
+        "rejected": 9,
+        "completed": 6,
+        "partial": 0,
+        "failed": 9
+      },
+      "Alquerkonane": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Arimaa": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Rampart": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Sher Bakr": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Enindji": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "FairKalah": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Mutant Y^3": {
+        "total": 19,
+        "rejected": 10,
+        "completed": 9,
+        "partial": 0,
+        "failed": 10
+      },
+      "Crossline": {
+        "total": 24,
+        "rejected": 12,
+        "completed": 12,
+        "partial": 0,
+        "failed": 12
+      },
+      "Bao Kiswahili (East Africa)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Faraday": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Gygoreg": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Gobblet Gobblers": {
+        "total": 17,
+        "rejected": 11,
+        "completed": 6,
+        "partial": 0,
+        "failed": 11
+      },
+      "Hexshogi": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Rimau-Rimau (One Tiger)": {
+        "total": 14,
+        "rejected": 11,
+        "completed": 3,
+        "partial": 0,
+        "failed": 11
+      },
+      "Half Chess": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Mbenga Alignment Game": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "00'Y'": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Agilidade": {
+        "total": 13,
+        "rejected": 10,
+        "completed": 3,
+        "partial": 0,
+        "failed": 10
+      },
+      "Quoridor": {
+        "total": 12,
+        "rejected": 6,
+        "completed": 6,
+        "partial": 0,
+        "failed": 6
+      },
+      "Scaffold": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Line and Cross": {
+        "total": 14,
+        "rejected": 10,
+        "completed": 4,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ikibuguzo (Opening 1)": {
+        "total": 7,
+        "rejected": 6,
+        "completed": 1,
+        "partial": 0,
+        "failed": 6
+      },
+      "Dongjintian": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Mini Hexchess": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Mig Mang": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "Gol Ekuish": {
+        "total": 17,
+        "rejected": 14,
+        "completed": 3,
+        "partial": 0,
+        "failed": 14
+      },
+      "Mangala (Bedouin)": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Azteka": {
+        "total": 16,
+        "rejected": 16,
+        "completed": 0,
+        "partial": 0,
+        "failed": 16
+      },
+      "L Game": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Splastwo": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Madrod": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Mysore Tiger Game (Two Tigers)": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Makonn": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Bao": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Katra Boaoaka": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Yi": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Katra": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Spire": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dots and Boxes": {
+        "total": 12,
+        "rejected": 6,
+        "completed": 6,
+        "partial": 0,
+        "failed": 6
+      },
+      "Hackenbush": {
+        "total": 16,
+        "rejected": 11,
+        "completed": 5,
+        "partial": 0,
+        "failed": 11
+      },
+      "Six-Penny Madell": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Celticator": {
+        "total": 19,
+        "rejected": 12,
+        "completed": 7,
+        "partial": 0,
+        "failed": 12
+      },
+      "Netted": {
+        "total": 12,
+        "rejected": 5,
+        "completed": 7,
+        "partial": 0,
+        "failed": 5
+      },
+      "Dama (Philippines)": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "King And Courtesan": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Chopsticks": {
+        "total": 14,
+        "rejected": 8,
+        "completed": 6,
+        "partial": 0,
+        "failed": 8
+      },
+      "Mastermind": {
+        "total": 19,
+        "rejected": 8,
+        "completed": 11,
+        "partial": 0,
+        "failed": 8
+      },
+      "Hexade": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Talyn Buga": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Renard et les Poules": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Cylinder Chess": {
+        "total": 28,
+        "rejected": 19,
+        "completed": 9,
+        "partial": 0,
+        "failed": 19
+      },
+      "Fang": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Mraha wa Bwe": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Rumi Shatranj": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "El Zorro": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Fortresse": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Crossway": {
+        "total": 6,
+        "rejected": 4,
+        "completed": 2,
+        "partial": 0,
+        "failed": 4
+      },
+      "Nedilmarth": {
+        "total": 18,
+        "rejected": 14,
+        "completed": 4,
+        "partial": 0,
+        "failed": 14
+      },
+      "Neg Tugal Tuux": {
+        "total": 19,
+        "rejected": 15,
+        "completed": 4,
+        "partial": 0,
+        "failed": 15
+      },
+      "Shobu": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "T'mbl": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Ringo": {
+        "total": 29,
+        "rejected": 17,
+        "completed": 12,
+        "partial": 0,
+        "failed": 17
+      },
+      "Pula": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Lasca": {
+        "total": 14,
+        "rejected": 10,
+        "completed": 4,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ikh Buga": {
+        "total": 13,
+        "rejected": 9,
+        "completed": 4,
+        "partial": 0,
+        "failed": 9
+      },
+      "Trax": {
+        "total": 19,
+        "rejected": 14,
+        "completed": 5,
+        "partial": 0,
+        "failed": 14
+      },
+      "Zurgaan Tal": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Epelle": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Vela": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Tides": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Squadro": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Bravalath": {
+        "total": 15,
+        "rejected": 10,
+        "completed": 5,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tai Shogi": {
+        "total": 15,
+        "rejected": 10,
+        "completed": 5,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ilpion": {
+        "total": 18,
+        "rejected": 10,
+        "completed": 8,
+        "partial": 0,
+        "failed": 10
+      },
+      "Upper Hand": {
+        "total": 16,
+        "rejected": 16,
+        "completed": 0,
+        "partial": 0,
+        "failed": 16
+      },
+      "RootZone": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Sim": {
+        "total": 19,
+        "rejected": 11,
+        "completed": 8,
+        "partial": 0,
+        "failed": 11
+      },
+      "Otep": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Phantom Go": {
+        "total": 19,
+        "rejected": 10,
+        "completed": 9,
+        "partial": 0,
+        "failed": 10
+      },
+      "Shakhmaty (Early Modern)": {
+        "total": 19,
+        "rejected": 10,
+        "completed": 9,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tavli": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Triple Tangle": {
+        "total": 29,
+        "rejected": 20,
+        "completed": 9,
+        "partial": 0,
+        "failed": 20
+      },
+      "Fox and Geese": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Jungle": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Khutka Boia": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Deka": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Driesticken": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Gurgaldaj": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Kriegsspiel": {
+        "total": 19,
+        "rejected": 9,
+        "completed": 10,
+        "partial": 0,
+        "failed": 9
+      },
+      "Plotto": {
+        "total": 10,
+        "rejected": 4,
+        "completed": 6,
+        "partial": 0,
+        "failed": 4
+      },
+      "Bagh Guti": {
+        "total": 29,
+        "rejected": 21,
+        "completed": 8,
+        "partial": 0,
+        "failed": 21
+      },
+      "Atoll": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Ciri Amber": {
+        "total": 15,
+        "rejected": 11,
+        "completed": 4,
+        "partial": 0,
+        "failed": 11
+      },
+      "Omny": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shogi": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Cavity": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Janggi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Kolowis Awithlaknannai": {
+        "total": 16,
+        "rejected": 13,
+        "completed": 3,
+        "partial": 0,
+        "failed": 13
+      },
+      "Dablot Prejjesne": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Nim": {
+        "total": 18,
+        "rejected": 12,
+        "completed": 6,
+        "partial": 0,
+        "failed": 12
+      },
+      "Ko-app-paw-na": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Gyre": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Zamma": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "CustAndantino": {
+        "total": 10,
+        "rejected": 4,
+        "completed": 6,
+        "partial": 0,
+        "failed": 4
+      },
+      "Haretavl (Horsens)": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Bipod": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Archworm": {
+        "total": 15,
+        "rejected": 8,
+        "completed": 7,
+        "partial": 0,
+        "failed": 8
+      },
+      "Cheng Fang Cheng Long": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Refugia": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Score Four": {
+        "total": 16,
+        "rejected": 12,
+        "completed": 4,
+        "partial": 0,
+        "failed": 12
+      },
+      "Pylos": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Loop Xiangqi": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Chu Seireigi": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Bagh Bandi": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Merimueng-rimueng": {
+        "total": 9,
+        "rejected": 6,
+        "completed": 3,
+        "partial": 0,
+        "failed": 6
+      },
+      "Spline+": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Challis Ghutia (Titagarh)": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Pyrga": {
+        "total": 16,
+        "rejected": 12,
+        "completed": 4,
+        "partial": 0,
+        "failed": 12
+      },
+      "Davxar Zirge (Type 1)": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Fanorona": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Cirgol": {
+        "total": 12,
+        "rejected": 8,
+        "completed": 4,
+        "partial": 0,
+        "failed": 8
+      },
+      "Gifia": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Baqura": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Hus (Damara)": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Owela (Benguela)": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Castello": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Len Cua Kin Ngoa": {
+        "total": 17,
+        "rejected": 13,
+        "completed": 4,
+        "partial": 0,
+        "failed": 13
+      },
+      "Adere": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Chaturanga (14x14)": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Intotoi": {
+        "total": 16,
+        "rejected": 12,
+        "completed": 4,
+        "partial": 0,
+        "failed": 12
+      },
+      "McCooey Chess": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Atom": {
+        "total": 19,
+        "rejected": 13,
+        "completed": 6,
+        "partial": 0,
+        "failed": 13
+      },
+      "Double-Run Stone": {
+        "total": 17,
+        "rejected": 16,
+        "completed": 1,
+        "partial": 0,
+        "failed": 16
+      },
+      "Chomp": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Ram Tir": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Jeu du Renard et de la Poule": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Oust": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shogi Puzzle": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Y (Hex)": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Yeung Luk Sz' Kon Tseung Kwan": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Katsela": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Ijil Buga": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Manu": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "O-Pat-Kono": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Bipartisan Y": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Splice": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Alea Evangelii": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Nchayo": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Dorvolz": {
+        "total": 19,
+        "rejected": 12,
+        "completed": 7,
+        "partial": 0,
+        "failed": 12
+      },
+      "Isolation": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Manzhouqi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Xiangqi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tavan Tal": {
+        "total": 17,
+        "rejected": 15,
+        "completed": 2,
+        "partial": 0,
+        "failed": 15
+      },
+      "Breakthru": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Quarto": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Bara Guti (Bihar)": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Conspirateurs": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Polypods": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Gasetavl": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Kensington": {
+        "total": 18,
+        "rejected": 14,
+        "completed": 4,
+        "partial": 0,
+        "failed": 14
+      },
+      "Millieu": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Tibetan Jiuqi": {
+        "total": 15,
+        "rejected": 10,
+        "completed": 5,
+        "partial": 0,
+        "failed": 10
+      },
+      "Defector Y": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Seega": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Connect Four": {
+        "total": 23,
+        "rejected": 15,
+        "completed": 8,
+        "partial": 0,
+        "failed": 15
+      },
+      "Taikyoku Shogi": {
+        "total": 17,
+        "rejected": 7,
+        "completed": 10,
+        "partial": 0,
+        "failed": 7
+      },
+      "Um el Tuweisat": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Nine Holes": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Fenix": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Okwe (Achalla)": {
+        "total": 15,
+        "rejected": 11,
+        "completed": 4,
+        "partial": 0,
+        "failed": 11
+      },
+      "Ploy": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Andantino": {
+        "total": 15,
+        "rejected": 9,
+        "completed": 6,
+        "partial": 0,
+        "failed": 9
+      },
+      "Workers and Soldiers": {
+        "total": 14,
+        "rejected": 9,
+        "completed": 5,
+        "partial": 0,
+        "failed": 9
+      },
+      "Yoin": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Bide": {
+        "total": 29,
+        "rejected": 19,
+        "completed": 10,
+        "partial": 0,
+        "failed": 19
+      },
+      "Lay Gwet Kyah": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Root": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Gadis": {
+        "total": 16,
+        "rejected": 14,
+        "completed": 2,
+        "partial": 0,
+        "failed": 14
+      },
+      "Quantik": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Lotus": {
+        "total": 16,
+        "rejected": 15,
+        "completed": 1,
+        "partial": 0,
+        "failed": 15
+      },
+      "Buqruru": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Yakamaido": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Toguz Kumalak": {
+        "total": 15,
+        "rejected": 12,
+        "completed": 3,
+        "partial": 0,
+        "failed": 12
+      },
+      "Rimoe": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Nsolo": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Notakto": {
+        "total": 15,
+        "rejected": 12,
+        "completed": 3,
+        "partial": 0,
+        "failed": 12
+      },
+      "Picaria": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Laram Wali": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "ArdRi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Chaturanga (12x12)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Game of Dwarfs": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Lewthwaite's Game": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Azigo": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Tic Tactics": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Liu Tsi": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Master Y": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Chiana wa Kunja": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Adzua (Children)": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Ring": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Dala": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Fibonacci Nim": {
+        "total": 19,
+        "rejected": 12,
+        "completed": 7,
+        "partial": 0,
+        "failed": 12
+      },
+      "Dai Seireigi": {
+        "total": 9,
+        "rejected": 6,
+        "completed": 3,
+        "partial": 0,
+        "failed": 6
+      },
+      "Nodal Chess": {
+        "total": 16,
+        "rejected": 15,
+        "completed": 1,
+        "partial": 0,
+        "failed": 15
+      },
+      "Shatranj ar-Rumiya": {
+        "total": 18,
+        "rejected": 15,
+        "completed": 3,
+        "partial": 0,
+        "failed": 15
+      },
+      "Iyogh": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Radran": {
+        "total": 19,
+        "rejected": 10,
+        "completed": 9,
+        "partial": 0,
+        "failed": 10
+      },
+      "San-Noku-Narabe": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Grand Trictrac": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Minishogi": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Terhuchu": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Haretavl": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Seesaw Draughts": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Veloop (Square)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Slimetrail": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Bashni": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Murus Gallicus": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Sprite": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tenjiku Shogi": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Pulijudamu": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Spline": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Julbahar": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Gabata (Oromo)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Blue Nile": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Residuel": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Triodi (Chios)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Kubuguza": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Uxrijn Ever": {
+        "total": 16,
+        "rejected": 15,
+        "completed": 1,
+        "partial": 0,
+        "failed": 15
+      },
+      "Gala (Buginese)": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Weave": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Baghchal": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Xanan Zirge": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Njombwa (Two Counters)": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Mu Torere": {
+        "total": 14,
+        "rejected": 11,
+        "completed": 3,
+        "partial": 0,
+        "failed": 11
+      },
+      "Tre Guti": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Yavalax": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Altan Xaraacaj": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Quathaxx": {
+        "total": 16,
+        "rejected": 14,
+        "completed": 2,
+        "partial": 0,
+        "failed": 14
+      },
+      "Seven-Fang": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Konane": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "NoGo": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Hermit": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Wari": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Symple": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Mbelele": {
+        "total": 18,
+        "rejected": 15,
+        "completed": 3,
+        "partial": 0,
+        "failed": 15
+      },
+      "Vertiges": {
+        "total": 16,
+        "rejected": 15,
+        "completed": 1,
+        "partial": 0,
+        "failed": 15
+      },
+      "Mefuvha": {
+        "total": 12,
+        "rejected": 8,
+        "completed": 4,
+        "partial": 0,
+        "failed": 8
+      },
+      "Onek Rong": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Awithlaknan Mosona": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Patok": {
+        "total": 7,
+        "rejected": 5,
+        "completed": 2,
+        "partial": 0,
+        "failed": 5
+      },
+      "Callanish": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Four-Fang": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Xarajlt": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Windir": {
+        "total": 15,
+        "rejected": 8,
+        "completed": 7,
+        "partial": 0,
+        "failed": 8
+      },
+      "Padaivettu": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tri-It-Out": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tara": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Let's Catch the Lion": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Sponnect": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Xiang Hex": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Six Insect Game": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Duene": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Queen's Four": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Ryakati": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Adhesion": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Kyoto Shogi": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Lielow": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Davxar Zirge (Type 2)": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Sat Gol": {
+        "total": 12,
+        "rejected": 8,
+        "completed": 4,
+        "partial": 0,
+        "failed": 8
+      },
+      "BlooGo": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Gomoku": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Adzua": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Asalto": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Misoro Tsoro": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Gabata (Adowa)": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Gabata (Aksum)": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Che Lo": {
+        "total": 16,
+        "rejected": 11,
+        "completed": 5,
+        "partial": 0,
+        "failed": 11
+      },
+      "Muvalavala (Luena)": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Trianon": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Marelle Quadruple": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Sungka": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Aboyne": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Nex": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "La'b Akila": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Bouge Shodra": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Diagonal Hex": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Spargo": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "TacTix": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Madelinette": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Spots": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Abande": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Lava": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "English Wari (St. Lucia)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Galatjang": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Weiqi": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Bay Khom": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Mysore Tiger Game": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Un": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Shui Yen Ho-Shang": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ngre E E": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Selbia": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Tapatan": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Three Men's Morris": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Hund efter Hare (Thy)": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "MacBeth": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Mysore Tiger Game (Three Tigers)": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Bajr": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "CoDi": {
+        "total": 16,
+        "rejected": 14,
+        "completed": 2,
+        "partial": 0,
+        "failed": 14
+      },
+      "Demala Diviyan Keliya": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Diamond": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Nuktagaq": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Loop Chess": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Rimau-Rimau (Two Tigers)": {
+        "total": 16,
+        "rejected": 11,
+        "completed": 5,
+        "partial": 0,
+        "failed": 11
+      },
+      "Poprad Game": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Crand": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Spreta": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Paitariya": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Grande Acedrex": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shatera": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "CrossGeo": {
+        "total": 17,
+        "rejected": 10,
+        "completed": 7,
+        "partial": 0,
+        "failed": 10
+      },
+      "Wong": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "I Pere": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Janes Soppi": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Orissa Tiger Game (Four Tigers)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Alquerque de Doze (Portugal)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Merimueng-rimueng-do": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Seesaw": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Yaguarete Kora": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Unachess": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Adjiboto": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Bosh": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "The Concentration Game": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Andada": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Brandub": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Go with the Floe": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Selayar Game": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Dig Dig": {
+        "total": 7,
+        "rejected": 5,
+        "completed": 2,
+        "partial": 0,
+        "failed": 5
+      },
+      "Gioco dell'Orso": {
+        "total": 18,
+        "rejected": 14,
+        "completed": 4,
+        "partial": 0,
+        "failed": 14
+      },
+      "Buudal": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Bizingo": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Fondji": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "La Dama": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Pasang": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Hawalis": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Kay": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Choko": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Awari": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "French Wari": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Halusa": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Hoyito": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Nei-Pat-Kono": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Mahbouseh": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Musinaykahwhanmetowaywin": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ntyenge": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Hyvn aetter Hare": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Eleven-Fang": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Atari Go": {
+        "total": 6,
+        "rejected": 4,
+        "completed": 2,
+        "partial": 0,
+        "failed": 4
+      },
+      "Egara Guti": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Cercar La Liebre": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Shatranj al-Kabir": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Refskak": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tapata": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Double Chess": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Chess (Siberia)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Game of Solomon": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Halma": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Mughrabieh": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Spree": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "AlmaTafl": {
+        "total": 16,
+        "rejected": 12,
+        "completed": 4,
+        "partial": 0,
+        "failed": 12
+      },
+      "Boukerourou": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Ngolo": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Foji": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Tchela": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Sujjua": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Ufuba wa Hulana": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Camelot": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Vigilance": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Fivalath": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Watershed": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Santorini": {
+        "total": 17,
+        "rejected": 13,
+        "completed": 4,
+        "partial": 0,
+        "failed": 13
+      },
+      "Mangola": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Koti Keliya": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Gopher": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Qirq": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Abak": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Alquerque de Tres": {
+        "total": 5,
+        "rejected": 4,
+        "completed": 1,
+        "partial": 0,
+        "failed": 4
+      },
+      "Sonka": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Diagonals": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Kisolo (Lali)": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dama (Alquerque)": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Brain Coral": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Guerrilla Checkers": {
+        "total": 13,
+        "rejected": 10,
+        "completed": 3,
+        "partial": 0,
+        "failed": 10
+      },
+      "Challis Ghutia": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Welschschach": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Pentomino": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Wure Dune": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Tank Tactics": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Dabuda": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Tennessee Waltz": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Toono": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Satoel": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Sittuyin": {
+        "total": 12,
+        "rejected": 8,
+        "completed": 4,
+        "partial": 0,
+        "failed": 8
+      },
+      "Dara": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Hus (Nama)": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Connect6": {
+        "total": 8,
+        "rejected": 5,
+        "completed": 3,
+        "partial": 0,
+        "failed": 5
+      },
+      "Wagner": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Riga Game": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Uril": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Choro (Acholi)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Currierspiel": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Kara": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Reversi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Equi Game System": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Jeson Zam": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Battleships": {
+        "total": 15,
+        "rejected": 12,
+        "completed": 3,
+        "partial": 0,
+        "failed": 12
+      },
+      "Gabata (Wuqro)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Njombwa": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Xonin Shatar (Complex)": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Ahtarah Guti": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Wari (Alignment)": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "MensaSpiel": {
+        "total": 16,
+        "rejected": 12,
+        "completed": 4,
+        "partial": 0,
+        "failed": 12
+      },
+      "Veloop (Hex)": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Orthokon": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Kulaochal": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Bao Ki Arabu (Zanzibar 1)": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Flowers": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Musoro Tsoro": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Make Muster": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "There and Back": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Seireigi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Trike": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Dogtown Clans": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Bao Ki Arabu (Zanzibar 2)": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Col": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Ovalhu": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Gamacha (Nobility)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Morabaraba": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Toads and Frogs": {
+        "total": 13,
+        "rejected": 9,
+        "completed": 4,
+        "partial": 0,
+        "failed": 9
+      },
+      "Shah": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Sam K'i": {
+        "total": 6,
+        "rejected": 4,
+        "completed": 2,
+        "partial": 0,
+        "failed": 4
+      },
+      "Akidada": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Shatranj al-Jawarhiya": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tumbleweed": {
+        "total": 11,
+        "rejected": 6,
+        "completed": 5,
+        "partial": 0,
+        "failed": 6
+      },
+      "Round Merels": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "1D Chess": {
+        "total": 13,
+        "rejected": 9,
+        "completed": 4,
+        "partial": 0,
+        "failed": 9
+      },
+      "Garrisons": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Chisolo": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Njombwa (One Counter)": {
+        "total": 12,
+        "rejected": 9,
+        "completed": 3,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dra": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Ngulungu": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Greater Even Loss": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Vanguard": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Fractal": {
+        "total": 17,
+        "rejected": 14,
+        "completed": 3,
+        "partial": 0,
+        "failed": 14
+      },
+      "Mulabalaba": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Contagion": {
+        "total": 20,
+        "rejected": 11,
+        "completed": 9,
+        "partial": 0,
+        "failed": 11
+      },
+      "Lian Qi (A-Type)": {
+        "total": 6,
+        "rejected": 4,
+        "completed": 2,
+        "partial": 0,
+        "failed": 4
+      },
+      "OddEvenTree": {
+        "total": 16,
+        "rejected": 11,
+        "completed": 5,
+        "partial": 0,
+        "failed": 11
+      },
+      "Social Distance Chess": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Jeson Mor": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Meridians": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Monkey Queen": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Double-Move Situ": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Shiva": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Broken Line": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Cannon": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "Dris at-Talata": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Manipur Capturing Game": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Janes Soppi (Symmetrical)": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Kotu Ellima": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Peralikatuma": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Waurie": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Yovodi": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Cram": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Dragonchess": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Chongka'": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Shatranj al-Husun": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Sneakthrough": {
+        "total": 14,
+        "rejected": 11,
+        "completed": 3,
+        "partial": 0,
+        "failed": 11
+      },
+      "Pong Hau K'i": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Fetach": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Morpharaoh": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Unashogi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Sumi Naga Game (Hunt)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Laomuzhu": {
+        "total": 14,
+        "rejected": 9,
+        "completed": 5,
+        "partial": 0,
+        "failed": 9
+      },
+      "Snowpaque": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shantarad": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Adidada": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Fettas": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Lau Kata Kati": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Selus": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Juroku Musashi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Lobudok": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Smasandyutakankarikrida (Allahabad)": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Keryo-Pente": {
+        "total": 8,
+        "rejected": 5,
+        "completed": 3,
+        "partial": 0,
+        "failed": 5
+      },
+      "Shatranj at-Tamma": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Adi": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Marelle Triple": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Mlabalaba": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Center": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Resolve": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Mylna": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Bolotudu": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "LastEdge": {
+        "total": 15,
+        "rejected": 8,
+        "completed": 7,
+        "partial": 0,
+        "failed": 8
+      },
+      "Tsoro Yemutwelve": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Al-Qirq": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "La Yagua": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Comina": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Spice": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Spodd": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Symbol S.2": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Roman Small Merels": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Nao Guti": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Samoan Game": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Spoing": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Erherhe": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Geister": {
+        "total": 14,
+        "rejected": 10,
+        "completed": 4,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tic-Tac-Chess": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Hund efter Hare (Vendsyssel)": {
+        "total": 15,
+        "rejected": 13,
+        "completed": 2,
+        "partial": 0,
+        "failed": 13
+      },
+      "HexTrike": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Lifeline": {
+        "total": 11,
+        "rejected": 7,
+        "completed": 4,
+        "partial": 0,
+        "failed": 7
+      },
+      "Tauru": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Pam Pait": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Wolf and Sheep": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "First Attack": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "I": {
+        "total": 10,
+        "rejected": 6,
+        "completed": 4,
+        "partial": 0,
+        "failed": 6
+      },
+      "Dam (Singapore)": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Dash Guti": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Nerenchi Keliya": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "Oure Ngat": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Achi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Five Men's Morris": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Starchess": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Catchup": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Feed the Ducks": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Kiuthi": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Main Chongkak": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Tsoro Yemutatu": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Banyarwanda Mill Game": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Gundru": {
+        "total": 15,
+        "rejected": 11,
+        "completed": 4,
+        "partial": 0,
+        "failed": 11
+      },
+      "Forge": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Felli": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Unfair": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Dorvon Cag": {
+        "total": 13,
+        "rejected": 10,
+        "completed": 3,
+        "partial": 0,
+        "failed": 10
+      },
+      "Bagha Guti": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Rithmomachia": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Spava": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Spaji": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "SnipSnip": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Sibling": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Owana": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Wrigglers Squared": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Wali": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Permainan-Tabal": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Boxijn Barildaan": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Go": {
+        "total": 6,
+        "rejected": 4,
+        "completed": 2,
+        "partial": 0,
+        "failed": 4
+      },
+      "Chaturanga": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Cumi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Breakthrough": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Stargazers": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "One-Eyed Go": {
+        "total": 6,
+        "rejected": 4,
+        "completed": 2,
+        "partial": 0,
+        "failed": 4
+      },
+      "Choro (Lango)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Shodra": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Sparro": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Ataxx": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Span": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Lam Waladach": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "DuploHex": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Tic-Tac-Toe Misere": {
+        "total": 7,
+        "rejected": 6,
+        "completed": 1,
+        "partial": 0,
+        "failed": 6
+      },
+      "Lontu-Holo": {
+        "total": 14,
+        "rejected": 7,
+        "completed": 7,
+        "partial": 0,
+        "failed": 7
+      },
+      "Tic-Tac-Toe": {
+        "total": 7,
+        "rejected": 6,
+        "completed": 1,
+        "partial": 0,
+        "failed": 6
+      },
+      "Bechi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Kapana Bona": {
+        "total": 10,
+        "rejected": 6,
+        "completed": 4,
+        "partial": 0,
+        "failed": 6
+      },
+      "Two-Colour": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Pon Chochotl": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Ketatu": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Spought": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Ecosys": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Spaiji": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Niranchy": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Triodi (Diagonal)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Taktik": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Alquerque": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Abalala'e": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Surakarta": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Sowing": {
+        "total": 19,
+        "rejected": 13,
+        "completed": 6,
+        "partial": 0,
+        "failed": 13
+      },
+      "Traffic Lights": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Adugo": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "The Babylonian": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Wore": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Annuvin": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Ho-Bag Gonu": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Dai Hasami Shogi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "OffShore": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Papan Dakon": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Raquithue": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Diris": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "Mughal Pathan": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Centripetal Force": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Fart (7x7)": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Boseog Gonu": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Mwambulula": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Gale": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Qatranj": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Gamacha": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Pretwa": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "4 Squared": {
+        "total": 15,
+        "rejected": 14,
+        "completed": 1,
+        "partial": 0,
+        "failed": 14
+      },
+      "Ako Okwe": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Six Men's Morris": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Temeen Tavag": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Viking Chess": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "La Chascona": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Ancient Merels": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Orissa Tiger Game (One Tiger)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Quick Chess": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Goldilocks Stones": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Diagonals (2002)": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Kaooa": {
+        "total": 15,
+        "rejected": 15,
+        "completed": 0,
+        "partial": 0,
+        "failed": 15
+      },
+      "Daramuti": {
+        "total": 7,
+        "rejected": 6,
+        "completed": 1,
+        "partial": 0,
+        "failed": 6
+      },
+      "Puhulmutu": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Centrifugal Force": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Clobber": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Bamboo": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Main Tapak Empat": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tabu Y": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "La Liebre Perseguida": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Namudilakunze": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Ti": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Djara-Badakh": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Chucka": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Cashlan Gherra": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Kpo": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Smasandyutakankarikrida": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Lisolo": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Mao Naga Tiger Game": {
+        "total": 14,
+        "rejected": 9,
+        "completed": 5,
+        "partial": 0,
+        "failed": 9
+      },
+      "Nsumbi": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Skirt": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Hex Amazons": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Brusky Chess": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ludus Coriovalli": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Bara Guti": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Greater Loss": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Khamousiyya": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Uthi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Roll-Ing to Four": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Ouk Chatrang": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Jostle": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Teeko": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "3D Tic-Tac-Toe": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "Compart": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Omega Chess": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Greater": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Totolospi (War)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Atidada": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Minefield": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Manalath": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Meurimueng-rimueng Peuet Ploh": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Shred": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Mank": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Manddiare": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Pente": {
+        "total": 7,
+        "rejected": 4,
+        "completed": 3,
+        "partial": 0,
+        "failed": 4
+      },
+      "Dam Hariman": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "ConHex": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Ikibuguzo (Opening 2)": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Koro": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "HexDame": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dodo": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Walking Dots": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "MiniXiangqi": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Quela": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Havannah": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Esa Hex": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Icebreaker": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dodgem": {
+        "total": 8,
+        "rejected": 6,
+        "completed": 2,
+        "partial": 0,
+        "failed": 6
+      },
+      "Ja-Jeon-Geo-Gonu": {
+        "total": 14,
+        "rejected": 14,
+        "completed": 0,
+        "partial": 0,
+        "failed": 14
+      },
+      "Maharajah Chess": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Cascades": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Short Assize": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Migration": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Rab'e": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Leyla Gobale (Somaliland)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Mankala": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Manifold": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Lamosh": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Jeu de Renard": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Msuwa wa Kunja": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "Hasami Shogi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Shataranja": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Spyramid": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Damat": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Kisolo": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Nzengue (Large)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Gurvan Xudag": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ethiopian Capture Game": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Kharebga (7x7)": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Barca": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Glinski Chess": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "The SmallHolder": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Gala": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Caturvimsatikosthakatmiki Krida": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Sumi Naga Game (War)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Press Ups": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "HeXentafl": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tshuba": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tsoro Yemutatu (Triangle)": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Hnefatafl": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Okwe (Nigeria)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Symmetric Chess": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Terhuchu (Small)": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Cage": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Susan": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Los Alamos Chess": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Co Chan Cho": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Ratti-Chitti-Bakri": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Huli-Mane Ata": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Hindustani Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Walak-Pussa": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Agon": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Pereauni": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Gasetavl (Gedved)": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Mweiso": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Yucebao": {
+        "total": 9,
+        "rejected": 5,
+        "completed": 4,
+        "partial": 0,
+        "failed": 5
+      },
+      "Queah Game": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Louis XVI": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Fergen Gobale": {
+        "total": 13,
+        "rejected": 12,
+        "completed": 1,
+        "partial": 0,
+        "failed": 12
+      },
+      "Selus (Massawa)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Jeu Militaire": {
+        "total": 13,
+        "rejected": 11,
+        "completed": 2,
+        "partial": 0,
+        "failed": 11
+      },
+      "L'attaque": {
+        "total": 12,
+        "rejected": 9,
+        "completed": 3,
+        "partial": 0,
+        "failed": 9
+      },
+      "Lian Qi (Bohai)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Wa'ache Waledat": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Isolo": {
+        "total": 11,
+        "rejected": 7,
+        "completed": 4,
+        "partial": 0,
+        "failed": 7
+      },
+      "Gonnect": {
+        "total": 14,
+        "rejected": 13,
+        "completed": 1,
+        "partial": 0,
+        "failed": 13
+      },
+      "A-i-u": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "O An Quan": {
+        "total": 10,
+        "rejected": 6,
+        "completed": 4,
+        "partial": 0,
+        "failed": 6
+      },
+      "Chaturanga (Kridakausalya 14x14)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Shatranj (12x12)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Solitario": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Coyote": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Kaua Dorki": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "3 6 9": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Mweso": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Chonka": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Andot": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Bison": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Amazons": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Draughts (12x12)": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Tuk Tak": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Overflow": {
+        "total": 14,
+        "rejected": 10,
+        "completed": 4,
+        "partial": 0,
+        "failed": 10
+      },
+      "Ex Nihilo": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Flower Shop": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Kharbaga": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Diaballik": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Ashanti Draughts": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "A Simple Game": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Wolf und Schaaf": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "King's Valley": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Rabbit Warrens": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Affinage": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Canadian Draughts": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Shakhmaty": {
+        "total": 7,
+        "rejected": 6,
+        "completed": 1,
+        "partial": 0,
+        "failed": 6
+      },
+      "Jeu de Renard (Two Foxes)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Grasshopper": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Damdaman": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Quiela": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Claustro": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Khrour": {
+        "total": 15,
+        "rejected": 11,
+        "completed": 4,
+        "partial": 0,
+        "failed": 11
+      },
+      "Hewakam Keliya": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Winkers": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Flume": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Bam Blang Beh Khla": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Bug": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tablo": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Mandinka Game": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Katro Bevohoka": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Apocalypse": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Pushing Me XO": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Quixo": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Aiyawatstani": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Bis Gutiya": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Reach Chess": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Dam": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Chandaraki": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Tuknanavuhpi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Hat Diviyan Keliya": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Li'b al-'Aqil": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Kanji Guti": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Mangala (Turkey)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Hujura": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Three Musketeers": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Ultimate Tic-Tac-Toe": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Nine Men's Morris": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Branching Coral": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Mandoli": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Goats Wintering": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shatranj al-Kabir (Constantinople)": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tsoro (Baia)": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Dris et-Tessa (Diagonals)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Ashanti Alignment Game": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Li'b al-Sidr": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Ludus Latrunculorum": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Pippinzip (Zipline variant)": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Pippinzip": {
+        "total": 14,
+        "rejected": 12,
+        "completed": 2,
+        "partial": 0,
+        "failed": 12
+      },
+      "Obridje": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Domineering": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Pathway": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Neutron": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Engijn Zirge": {
+        "total": 5,
+        "rejected": 4,
+        "completed": 1,
+        "partial": 0,
+        "failed": 4
+      },
+      "All Queens Chess": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Nin Adnai Kit Adnat": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Windflowers": {
+        "total": 13,
+        "rejected": 13,
+        "completed": 0,
+        "partial": 0,
+        "failed": 13
+      },
+      "Ratio": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "SupplierSabotage": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Odd": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Fart (5x5)": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Shatranj (14x14)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Santaraj": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Sfenj": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Knightthrough": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Neutreeko": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "MaxMatch": {
+        "total": 18,
+        "rejected": 11,
+        "completed": 7,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shono": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Whyo": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Y": {
+        "total": 12,
+        "rejected": 12,
+        "completed": 0,
+        "partial": 0,
+        "failed": 12
+      },
+      "Tawlbwrdd": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Coil": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "Chessence": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Luuth": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Lam Pusri": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Elea": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Triodi": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Pentago": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Aw-li On-nam Ot-tjin": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Stairs": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Momentum": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Ngrin": {
+        "total": 15,
+        "rejected": 12,
+        "completed": 3,
+        "partial": 0,
+        "failed": 12
+      },
+      "Shanzak Kammar": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Do Guti": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "Kharebga (5x5)": {
+        "total": 3,
+        "rejected": 2,
+        "completed": 1,
+        "partial": 0,
+        "failed": 2
+      },
+      "El Cazador": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Groups": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Li'b al-Ghashim": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "SupplyChains": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Mak Ruk": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Sabou'iyya": {
+        "total": 3,
+        "rejected": 2,
+        "completed": 1,
+        "partial": 0,
+        "failed": 2
+      },
+      "Chiana wa Bwalo": {
+        "total": 10,
+        "rejected": 7,
+        "completed": 3,
+        "partial": 0,
+        "failed": 7
+      },
+      "Cross": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Omega": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Redstone": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "El Perro": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Mogul Putt'han": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Yavalath": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Bagh Batti": {
+        "total": 10,
+        "rejected": 5,
+        "completed": 5,
+        "partial": 0,
+        "failed": 5
+      },
+      "Boop": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "De Vasa Chess": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Tsukkalavde": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Kuang": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Sher Bakar": {
+        "total": 9,
+        "rejected": 5,
+        "completed": 4,
+        "partial": 0,
+        "failed": 5
+      },
+      "Kharberg": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Muvalavala (Quioco)": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Zonesh": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Mity": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Chameleons": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Chatur": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Parsi Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Chaturanga (Kridakausalya)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Greatest Loss": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Rongmei Naga Capturing Game": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Guettal": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Tule Paid": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Twelve Men's Morris": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Fanorona Telo": {
+        "total": 5,
+        "rejected": 4,
+        "completed": 1,
+        "partial": 0,
+        "failed": 4
+      },
+      "Les Pendus": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Chameleon": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Hops-a-Daisy Generalized": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Sahmatloudi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Moxie": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Lu Qi": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Abanga": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Fianco": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Zola": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Wrigglers": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Roots": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Signum": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Qirkat": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Saxun": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "India": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Katrayo": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tant Fant": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Moruba": {
+        "total": 11,
+        "rejected": 9,
+        "completed": 2,
+        "partial": 0,
+        "failed": 9
+      },
+      "Xonin Shatar (Simple)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Brood": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Taiji": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Riga": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Oumoul Kono": {
+        "total": 9,
+        "rejected": 6,
+        "completed": 3,
+        "partial": 0,
+        "failed": 6
+      },
+      "Tablut": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Bao Kiswahili (DR Congo)": {
+        "total": 3,
+        "rejected": 2,
+        "completed": 1,
+        "partial": 0,
+        "failed": 2
+      },
+      "Shafran Chess": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Infuse": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Sute": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Tsoro (Additional Capture)": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Tsoro (Reentered Captures)": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Tsoro": {
+        "total": 6,
+        "rejected": 5,
+        "completed": 1,
+        "partial": 0,
+        "failed": 5
+      },
+      "Das Bohnenspiel": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "J'odu": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Kalah": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Meusueb": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "El-Mthaltha": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Oware": {
+        "total": 4,
+        "rejected": 3,
+        "completed": 1,
+        "partial": 0,
+        "failed": 3
+      },
+      "Chains of Thought": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Tap Urdy": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Unnee Tugalluulax": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Vai Lung Thlan": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Woli": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Wouri": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Yovodji": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Tandems": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Shatranj": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Ultimate Chess": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Jumping Beans": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Can The Sardines": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Lines of Action": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Beirut Chess": {
+        "total": 12,
+        "rejected": 9,
+        "completed": 3,
+        "partial": 0,
+        "failed": 9
+      },
+      "Gekitai": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tobi Shogi": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Kriegspiel (Chess)": {
+        "total": 14,
+        "rejected": 11,
+        "completed": 3,
+        "partial": 0,
+        "failed": 11
+      },
+      "Shatren": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Tsatsarandi": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Aralzaa": {
+        "total": 8,
+        "rejected": 6,
+        "completed": 2,
+        "partial": 0,
+        "failed": 6
+      },
+      "Freeze Frenzy": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Squava": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Zuz Mel (7x7)": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Kotu Baendum": {
+        "total": 12,
+        "rejected": 9,
+        "completed": 3,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tugul Shodra": {
+        "total": 12,
+        "rejected": 10,
+        "completed": 2,
+        "partial": 0,
+        "failed": 10
+      },
+      "Paintbucket": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Amazon Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Shisima": {
+        "total": 14,
+        "rejected": 11,
+        "completed": 3,
+        "partial": 0,
+        "failed": 11
+      },
+      "Addi Kul": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Tron": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "Hex": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Maak Yek": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Leap Frog": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "T'uk T'uk": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Koruboddo": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Epoxy": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Yavalanchor": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Chaturanga (al-Adli)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Awagagae": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Kassle": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Order and Chaos": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Dris et-Tessa": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Duqurjin": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Feldja": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Mono": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Natt Klab ash-Shawk": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Mak Khom": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Mawkar Katiya": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Motiq": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Omangunta Peeta": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Tavelspel": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Msuwa": {
+        "total": 10,
+        "rejected": 8,
+        "completed": 2,
+        "partial": 0,
+        "failed": 8
+      },
+      "Cittabhramanrpasya Khelanam": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dum Blas": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Komikan": {
+        "total": 11,
+        "rejected": 11,
+        "completed": 0,
+        "partial": 0,
+        "failed": 11
+      },
+      "Capture the Queen": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Malomjatek": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Frisian Draughts": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Horde Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Phase Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Pentalath": {
+        "total": 12,
+        "rejected": 11,
+        "completed": 1,
+        "partial": 0,
+        "failed": 11
+      },
+      "Spartan Chess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Skirmish (GDL)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Breakthrough Chess": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "T'oki": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Yote": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Unnamed Dutch Draughts Game": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Snailtrail": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Zuz Mel (5x5)": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Diagonal Draughts": {
+        "total": 8,
+        "rejected": 8,
+        "completed": 0,
+        "partial": 0,
+        "failed": 8
+      },
+      "International Draughts": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Shi Liu Kan Tsiang Kun": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Hexifact": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Chess Puzzle": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Gabata (Adegrat)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Gabata (Ansaba)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Hufesay": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Pallankuli": {
+        "total": 3,
+        "rejected": 3,
+        "completed": 0,
+        "partial": 0,
+        "failed": 3
+      },
+      "Product": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "J'erin": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Leyla Gobale (Gabradarre)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Rascals": {
+        "total": 6,
+        "rejected": 6,
+        "completed": 0,
+        "partial": 0,
+        "failed": 6
+      },
+      "Breakback": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Breakthrough Checkers": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Duidoku": {
+        "total": 10,
+        "rejected": 10,
+        "completed": 0,
+        "partial": 0,
+        "failed": 10
+      },
+      "Rongmei Naga Alignment Game": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Claim Jumpers": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Taptana": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Stratomic": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Verge": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Astralesce and Constellation": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Puma": {
+        "total": 5,
+        "rejected": 5,
+        "completed": 0,
+        "partial": 0,
+        "failed": 5
+      },
+      "Cumisitha": {
+        "total": 4,
+        "rejected": 4,
+        "completed": 0,
+        "partial": 0,
+        "failed": 4
+      },
+      "Maleys": {
+        "total": 7,
+        "rejected": 7,
+        "completed": 0,
+        "partial": 0,
+        "failed": 7
+      },
+      "Gauntlet": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "American Pool Checkers": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Shatranj Diwana Shah": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Macheng": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Qelat (Beni Amir-Mensa)": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Conflagration and Keep-a-riding": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Altiev": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Krida Buddhibalasrita": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Dama (Comoros)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Main Chator (Batak)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Main Chator (Selangor)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Ludus Rebellionis 1": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Safe Passage": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Dama (Kenya)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Brazilian Draughts": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Coc-Inbert": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Tama": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Wan Fu Cave Game": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Salta": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Dama (Italy)": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Shatr ikh Padan": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "KiKiBunBun": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Picaria (Large)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Roman Merels": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Leyla": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Bombardment": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Damas": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "NotChess": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Damenspiel": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Pachgarhwa": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Mangala (Suez)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Mewelad": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Ludus Rebellionis 2": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Don't Mosey and The Last Scavenger": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Squish": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Um el-Bagara": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Unlace": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Zombego": {
+        "total": 9,
+        "rejected": 8,
+        "completed": 1,
+        "partial": 0,
+        "failed": 8
+      },
+      "Wild Draughts": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Atlanbagj": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Dame": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Ferses": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "YavaGo": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Football Chess": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Aqrad": {
+        "total": 10,
+        "rejected": 9,
+        "completed": 1,
+        "partial": 0,
+        "failed": 9
+      },
+      "Damspel": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Doov": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "English Draughts": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Jekab": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Rio Kadalis": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Archimedes": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Main Chator": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Agapi": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Ludus Rebellionis (Asymmetric)": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Main Dam": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Makvoer": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Moo": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Pleasant Draughts": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "The Pawn Game": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Sahkku (Lujavv'r)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Persian Chess with a Queen": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Or Thella": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Thales": {
+        "total": 11,
+        "rejected": 10,
+        "completed": 1,
+        "partial": 0,
+        "failed": 10
+      },
+      "Shashki": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Dama": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Wakanpamungthae": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Yup'ik Checkers": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Snort": {
+        "total": 2,
+        "rejected": 2,
+        "completed": 0,
+        "partial": 0,
+        "failed": 2
+      },
+      "Omnidirectional Draughts": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Troll": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Bounce": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Virus": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Kanguruh": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Shatranj (Algeria)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Shatranj (Iraq)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Shatranj (Turkey)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Barbarian": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Catapult": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Crusade": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Um el Banat": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Fission": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Quad Wrangle": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Sweep Burrow": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Havabu": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "HopThrough": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Rwandan Alignment Game": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Sgjough": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Trique": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Um el-Bil": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Dimraw": {
+        "total": 9,
+        "rejected": 9,
+        "completed": 0,
+        "partial": 0,
+        "failed": 9
+      },
+      "Tepong": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Apit": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Acedrex (Alfonso)": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Alice Chess": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Atomic Chess": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Forcado": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      },
+      "Korkserschach": {
+        "total": 1,
+        "rejected": 1,
+        "completed": 0,
+        "partial": 0,
+        "failed": 1
+      }
+    },
+    "component": {
+      "SIMULATION": {
+        "total": 1969,
+        "rejected": 1756,
+        "completed": 213,
+        "partial": 0,
+        "failed": 1756
+      },
+      "SELECTION": {
+        "total": 5616,
+        "rejected": 5116,
+        "completed": 500,
+        "partial": 0,
+        "failed": 5116
+      },
+      "FINAL_MOVE": {
+        "total": 1079,
+        "rejected": 958,
+        "completed": 121,
+        "partial": 0,
+        "failed": 958
+      },
+      "BACKPROP": {
+        "total": 1336,
+        "rejected": 1173,
+        "completed": 163,
+        "partial": 0,
+        "failed": 1173
+      }
+    },
+    "variantSelection": {
+      "UCB1": {
+        "total": 4938,
+        "rejected": 4396,
+        "completed": 542,
+        "partial": 0,
+        "failed": 4396
+      },
+      "Noisy AG0": {
+        "total": 420,
+        "rejected": 378,
+        "completed": 42,
+        "partial": 0,
+        "failed": 378
+      },
+      "UCB1 GRAVE": {
+        "total": 522,
+        "rejected": 479,
+        "completed": 43,
+        "partial": 0,
+        "failed": 479
+      },
+      "Progressive Bias": {
+        "total": 512,
+        "rejected": 473,
+        "completed": 39,
+        "partial": 0,
+        "failed": 473
+      },
+      "AG0": {
+        "total": 439,
+        "rejected": 396,
+        "completed": 43,
+        "partial": 0,
+        "failed": 396
+      },
+      "UCB1 tuned": {
+        "total": 533,
+        "rejected": 493,
+        "completed": 40,
+        "partial": 0,
+        "failed": 493
+      },
+      "McGRAVE": {
+        "total": 457,
+        "rejected": 416,
+        "completed": 41,
+        "partial": 0,
+        "failed": 416
+      },
+      "ExIt": {
+        "total": 430,
+        "rejected": 390,
+        "completed": 40,
+        "partial": 0,
+        "failed": 390
+      },
+      "Progressive History": {
+        "total": 497,
+        "rejected": 459,
+        "completed": 38,
+        "partial": 0,
+        "failed": 459
+      },
+      "McBRAVE": {
+        "total": 475,
+        "rejected": 431,
+        "completed": 44,
+        "partial": 0,
+        "failed": 431
+      },
+      "Progressive Widening": {
+        "total": 405,
+        "rejected": 360,
+        "completed": 45,
+        "partial": 0,
+        "failed": 360
+      },
+      "Alpha-Beta": {
+        "total": 186,
+        "rejected": 167,
+        "completed": 19,
+        "partial": 0,
+        "failed": 167
+      },
+      "Implicit Minimax": {
+        "total": 186,
+        "rejected": 165,
+        "completed": 21,
+        "partial": 0,
+        "failed": 165
+      }
+    },
+    "variantSimulation": {
+      "Heuristic Sampling": {
+        "total": 161,
+        "rejected": 138,
+        "completed": 23,
+        "partial": 0,
+        "failed": 138
+      },
+      "LGR": {
+        "total": 154,
+        "rejected": 134,
+        "completed": 20,
+        "partial": 0,
+        "failed": 134
+      },
+      "Heuristic": {
+        "total": 159,
+        "rejected": 142,
+        "completed": 17,
+        "partial": 0,
+        "failed": 142
+      },
+      "Random": {
+        "total": 8432,
+        "rejected": 7610,
+        "completed": 822,
+        "partial": 0,
+        "failed": 7610
+      },
+      "NST": {
+        "total": 387,
+        "rejected": 353,
+        "completed": 34,
+        "partial": 0,
+        "failed": 353
+      },
+      "HS Playout": {
+        "total": 161,
+        "rejected": 141,
+        "completed": 20,
+        "partial": 0,
+        "failed": 141
+      },
+      "MAST": {
+        "total": 395,
+        "rejected": 352,
+        "completed": 43,
+        "partial": 0,
+        "failed": 352
+      },
+      "PlayoutHS": {
+        "total": 151,
+        "rejected": 133,
+        "completed": 18,
+        "partial": 0,
+        "failed": 133
+      }
+    },
+    "variantBackprop": {
+      "MonteCarlo": {
+        "total": 9037,
+        "rejected": 8163,
+        "completed": 874,
+        "partial": 0,
+        "failed": 8163
+      },
+      "Qualitative": {
+        "total": 159,
+        "rejected": 139,
+        "completed": 20,
+        "partial": 0,
+        "failed": 139
+      },
+      "Implicit Minimax": {
+        "total": 143,
+        "rejected": 124,
+        "completed": 19,
+        "partial": 0,
+        "failed": 124
+      },
+      "Score Bounded": {
+        "total": 366,
+        "rejected": 322,
+        "completed": 44,
+        "partial": 0,
+        "failed": 322
+      },
+      "AlphaGo": {
+        "total": 149,
+        "rejected": 129,
+        "completed": 20,
+        "partial": 0,
+        "failed": 129
+      },
+      "Heuristic": {
+        "total": 146,
+        "rejected": 126,
+        "completed": 20,
+        "partial": 0,
+        "failed": 126
+      }
+    },
+    "variantFinalMove": {
+      "Robust": {
+        "total": 9290,
+        "rejected": 8372,
+        "completed": 918,
+        "partial": 0,
+        "failed": 8372
+      },
+      "Proportional Exp": {
+        "total": 355,
+        "rejected": 318,
+        "completed": 37,
+        "partial": 0,
+        "failed": 318
+      },
+      "MaxAvgScore": {
+        "total": 355,
+        "rejected": 313,
+        "completed": 42,
+        "partial": 0,
+        "failed": 313
+      }
+    },
+    "moveTimeSeconds": {
+      "2.0": {
+        "total": 2500,
+        "rejected": 2250,
+        "completed": 250,
+        "partial": 0,
+        "failed": 2250
+      },
+      "0.2": {
+        "total": 2500,
+        "rejected": 2251,
+        "completed": 249,
+        "partial": 0,
+        "failed": 2251
+      },
+      "0.5": {
+        "total": 2500,
+        "rejected": 2251,
+        "completed": 249,
+        "partial": 0,
+        "failed": 2251
+      },
+      "1.0": {
+        "total": 2500,
+        "rejected": 2251,
+        "completed": 249,
+        "partial": 0,
+        "failed": 2251
+      }
+    },
+    "gamesPerMatchup": {
+      "50": {
+        "total": 10000,
+        "rejected": 9003,
+        "completed": 997,
+        "partial": 0,
+        "failed": 9003
+      }
+    },
+    "usesHeuristic": {
+      "1": {
+        "total": 1755,
+        "rejected": 1538,
+        "completed": 217,
+        "partial": 0,
+        "failed": 1538
+      },
+      "0": {
+        "total": 8245,
+        "rejected": 7465,
+        "completed": 780,
+        "partial": 0,
+        "failed": 7465
+      }
+    }
+  }
+}

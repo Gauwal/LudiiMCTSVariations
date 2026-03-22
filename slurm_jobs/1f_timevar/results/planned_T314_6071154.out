@@ -1,7 +1,0 @@
-Running T314 on lm4-w007 at Fri Mar 13 02:09:07 CET 2026
-Game: Das Bohnenspiel
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T314 (Papan Dakon) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
-Job completed at Fri Mar 13 04:48:24 CET 2026

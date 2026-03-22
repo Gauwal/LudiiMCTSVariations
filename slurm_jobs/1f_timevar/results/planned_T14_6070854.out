@@ -1,7 +1,0 @@
-Running T14 on lm4-w017 at Thu Mar 12 15:17:29 CET 2026
-Game: Taikyoku Shogi
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=38G, time=16:00:00
-Completed T14 (Asalto) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=15.9
-Job completed at Thu Mar 12 15:21:30 CET 2026

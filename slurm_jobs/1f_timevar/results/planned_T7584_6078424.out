@@ -1,6 +1,0 @@
-Running T7584 on lm4-w027 at Fri Mar 13 09:48:18 CET 2026
-Game: Wari (Alignment)
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 09:48:19 CET 2026

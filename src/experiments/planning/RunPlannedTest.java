@@ -52,6 +52,9 @@ public final class RunPlannedTest
 		final Config baseline = new Config(test.baselineSelection, test.baselineSimulation, test.baselineBackprop, test.baselineFinalMove);
 		final Config variant = new Config(test.variantSelection, test.variantSimulation, test.variantBackprop, test.variantFinalMove);
 
+		assertSupportedOnGame(game, baseline, "baseline");
+		assertSupportedOnGame(game, variant, "variant");
+
 		final MatchStats stats = runMatchup(game, variant, baseline, test);
 		writeSingleResult(parsed.outPath, test, stats);
 
@@ -68,6 +71,18 @@ public final class RunPlannedTest
 				stats.failures,
 				stats.averageMoves()
 		);
+	}
+
+	private static void assertSupportedOnGame(final Game game, final Config config, final String role)
+	{
+		final AI ai = config.instantiate();
+		if (!ai.supportsGame(game))
+		{
+			throw new IllegalStateException(
+					"Configured " + role + " AI does not support game '" + game.name() + "': "
+							+ config.summary()
+			);
+		}
 	}
 
 	private static MatchStats runMatchup(final Game game, final Config variant, final Config baseline, final PlannedTest test)
@@ -280,6 +295,11 @@ public final class RunPlannedTest
 		AI instantiate()
 		{
 			return new MCTSVariations(selection, simulation, backprop, finalMove);
+		}
+
+		String summary()
+		{
+			return selection + " | " + simulation + " | " + backprop + " | " + finalMove;
 		}
 	}
 

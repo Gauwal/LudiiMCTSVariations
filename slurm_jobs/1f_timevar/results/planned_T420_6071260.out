@@ -1,7 +1,0 @@
-Running T420 on lm4-w027 at Fri Mar 13 02:18:17 CET 2026
-Game: Tibetan Jiuqi
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T420 (Havannah) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=61.0
-Job completed at Fri Mar 13 02:33:38 CET 2026

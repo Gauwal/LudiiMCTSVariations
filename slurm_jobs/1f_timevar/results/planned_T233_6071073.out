@@ -1,7 +1,0 @@
-Running T233 on lm4-w009 at Fri Mar 13 01:54:34 CET 2026
-Game: Rimau-Rimau (Two Tigers)
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T233 (Bosh) -> completed=30/30, wins=0, losses=26, draws=4, failures=0, avgMoves=243.5
-Job completed at Fri Mar 13 02:12:26 CET 2026

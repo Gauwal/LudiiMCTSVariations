@@ -1,7 +1,0 @@
-Running T162 on lm4-w019 at Thu Mar 12 15:55:07 CET 2026
-Game: Bagh Guti
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T162 (Katra) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
-Job completed at Thu Mar 12 17:50:50 CET 2026

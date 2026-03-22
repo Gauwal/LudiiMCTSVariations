@@ -1,7 +1,0 @@
-Running T156 on lm4-w009 at Fri Mar 13 01:43:03 CET 2026
-Game: Musoro Tsoro
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T156 (Hus (Damara)) -> completed=30/30, wins=0, losses=13, draws=17, failures=0, avgMoves=813.2
-Job completed at Fri Mar 13 04:21:31 CET 2026

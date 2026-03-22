@@ -1,7 +1,0 @@
-Running T517 on lm4-w019 at Fri Mar 13 02:34:20 CET 2026
-Game: Kapana Bona
-Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T517 (Kassle) -> completed=30/30, wins=23, losses=7, draws=0, failures=0, avgMoves=21.9
-Job completed at Fri Mar 13 02:39:52 CET 2026

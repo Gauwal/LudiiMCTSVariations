@@ -1,7 +1,0 @@
-Running T1000 on lm4-w013 at Fri Mar 13 04:06:04 CET 2026
-Game: Katro
-Variant: UCB1 | LGR | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T1000 (Veloop (Square)) -> completed=30/30, wins=19, losses=11, draws=0, failures=0, avgMoves=49.1
-Job completed at Fri Mar 13 04:18:33 CET 2026

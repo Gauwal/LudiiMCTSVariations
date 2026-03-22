@@ -1,7 +1,0 @@
-Running T376 on lm4-w027 at Fri Mar 13 02:13:47 CET 2026
-Game: En Gehe
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T376 (NoGo) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=72.2
-Job completed at Fri Mar 13 02:31:37 CET 2026

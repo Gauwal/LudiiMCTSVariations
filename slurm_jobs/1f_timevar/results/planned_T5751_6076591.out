@@ -1,6 +1,0 @@
-Running T5751 on lm4-w007 at Fri Mar 13 08:20:04 CET 2026
-Game: Greater
-Variant: UCB1 | Random | Heuristic | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 08:20:06 CET 2026

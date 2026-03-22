@@ -1,7 +1,0 @@
-Running T175 on lm4-w025 at Thu Mar 12 15:57:07 CET 2026
-Game: Tai Shogi
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=19G, time=16:00:00
-Completed T175 (Msuwa wa Kunja) -> completed=30/30, wins=13, losses=17, draws=0, failures=0, avgMoves=69.1
-Job completed at Thu Mar 12 16:07:00 CET 2026

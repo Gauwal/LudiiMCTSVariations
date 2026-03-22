@@ -1,6 +1,0 @@
-Running T3536 on lm4-w003 at Fri Mar 13 00:55:54 CET 2026
-Game: Gomoku
-Variant: UCB1 | Random | Implicit Minimax | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 00:55:55 CET 2026

@@ -1,6 +1,0 @@
-Running T1563 on lm4-w017 at Fri Mar 13 00:42:53 CET 2026
-Game: Conspirateurs
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 00:42:54 CET 2026

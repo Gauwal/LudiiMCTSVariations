@@ -1,7 +1,0 @@
-Running T371 on lm4-w027 at Fri Mar 13 02:13:47 CET 2026
-Game: Kolowis Awithlaknannai
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T371 (L Game) -> completed=30/30, wins=5, losses=25, draws=0, failures=0, avgMoves=33.9
-Job completed at Fri Mar 13 02:22:17 CET 2026

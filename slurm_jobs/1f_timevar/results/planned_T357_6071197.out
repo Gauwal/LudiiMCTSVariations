@@ -1,7 +1,0 @@
-Running T357 on lm4-w025 at Fri Mar 13 02:13:17 CET 2026
-Game: Paitariya
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T357 (Duidoku) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=65.2
-Job completed at Fri Mar 13 02:29:33 CET 2026

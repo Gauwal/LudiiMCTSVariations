@@ -1,7 +1,0 @@
-Running T744 on lm4-w019 at Fri Mar 13 03:05:55 CET 2026
-Game: Forge
-Variant: UCB1 | MAST | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T744 (Hewakam Keliya) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=193.9
-Job completed at Fri Mar 13 03:54:30 CET 2026

@@ -1,7 +1,0 @@
-Running T603 on lm4-w019 at Fri Mar 13 02:44:52 CET 2026
-Game: Ram Tir
-Variant: UCB1 | MAST | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T603 (Wali) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=93.7
-Job completed at Fri Mar 13 03:08:01 CET 2026

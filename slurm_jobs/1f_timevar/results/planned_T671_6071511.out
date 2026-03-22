@@ -1,7 +1,0 @@
-Running T671 on lm4-w013 at Fri Mar 13 02:55:23 CET 2026
-Game: The Concentration Game
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T671 (Boseog Gonu) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=78.9
-Job completed at Fri Mar 13 03:15:10 CET 2026

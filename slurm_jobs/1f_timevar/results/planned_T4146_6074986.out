@@ -1,6 +1,0 @@
-Running T4146 on lm4-w008 at Fri Mar 13 07:01:59 CET 2026
-Game: Dam (Singapore)
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 07:01:59 CET 2026

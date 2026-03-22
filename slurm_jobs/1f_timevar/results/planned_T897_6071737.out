@@ -1,7 +1,0 @@
-Running T897 on lm4-w009 at Fri Mar 13 03:35:30 CET 2026
-Game: Njombwa (Two Counters)
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T897 (Hasami Shogi) -> completed=30/30, wins=12, losses=15, draws=3, failures=0, avgMoves=773.3
-Job completed at Fri Mar 13 06:50:35 CET 2026

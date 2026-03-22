@@ -1,6 +1,0 @@
-Running T9691 on lm4-w008 at Fri Mar 13 11:25:54 CET 2026
-Game: 1D Chess
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 11:25:55 CET 2026

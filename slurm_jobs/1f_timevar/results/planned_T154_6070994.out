@@ -1,7 +1,0 @@
-Running T154 on lm4-w007 at Fri Mar 13 01:43:03 CET 2026
-Game: Mutant Y^3
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T154 (Choro (Lango)) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=25.8
-Job completed at Fri Mar 13 01:43:43 CET 2026

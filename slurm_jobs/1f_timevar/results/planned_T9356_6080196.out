@@ -1,6 +1,0 @@
-Running T9356 on lm4-w033 at Fri Mar 13 11:10:23 CET 2026
-Game: Archimedes
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 11:10:24 CET 2026

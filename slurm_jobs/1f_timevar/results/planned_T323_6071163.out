@@ -1,7 +1,0 @@
-Running T323 on lm4-w007 at Thu Mar 12 21:15:41 CET 2026
-Game: Atari Go
-Variant: UCB1 | Heuristic | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T323 (Ti) -> completed=30/30, wins=2, losses=25, draws=3, failures=0, avgMoves=224.5
-Job completed at Thu Mar 12 21:43:13 CET 2026

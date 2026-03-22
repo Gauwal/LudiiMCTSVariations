@@ -1,7 +1,0 @@
-Running T408 on lm4-w008 at Thu Mar 12 22:19:22 CET 2026
-Game: Shred
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T408 (Coil) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=41.6
-Job completed at Thu Mar 12 22:29:50 CET 2026

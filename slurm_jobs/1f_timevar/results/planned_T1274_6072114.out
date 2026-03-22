@@ -1,6 +1,0 @@
-Running T1274 on lm4-w003 at Fri Mar 13 04:18:37 CET 2026
-Game: Yavalax
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 04:18:38 CET 2026

@@ -1,7 +1,0 @@
-Running T873 on lm4-w003 at Fri Mar 13 00:30:50 CET 2026
-Game: Symple
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T873 (Mini Hexchess) -> completed=30/30, wins=0, losses=24, draws=6, failures=0, avgMoves=102.9
-Job completed at Fri Mar 13 00:56:29 CET 2026

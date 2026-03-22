@@ -1,7 +1,0 @@
-Running T244 on lm4-w019 at Thu Mar 12 16:24:44 CET 2026
-Game: Mao Naga Tiger Game
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T244 (Duene) -> completed=30/30, wins=1, losses=26, draws=3, failures=0, avgMoves=58.0
-Job completed at Thu Mar 12 16:32:19 CET 2026

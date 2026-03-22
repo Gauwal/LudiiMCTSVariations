@@ -1,7 +1,0 @@
-Running T680 on lm4-w024 at Fri Mar 13 02:55:23 CET 2026
-Game: 1D Chess
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T680 (Kharebga (5x5)) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=332.2
-Job completed at Fri Mar 13 04:17:52 CET 2026

@@ -1,7 +1,0 @@
-Running T509 on lm4-w003 at Fri Mar 13 02:33:20 CET 2026
-Game: Gonnect
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T509 (Fettas) -> completed=30/30, wins=3, losses=26, draws=1, failures=0, avgMoves=217.9
-Job completed at Fri Mar 13 03:25:39 CET 2026

@@ -1,7 +1,0 @@
-Running T655 on lm4-w017 at Fri Mar 13 02:52:53 CET 2026
-Game: Ratio
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T655 (Spargo) -> completed=30/30, wins=8, losses=22, draws=0, failures=0, avgMoves=25.8
-Job completed at Fri Mar 13 02:59:57 CET 2026

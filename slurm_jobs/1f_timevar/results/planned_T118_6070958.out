@@ -1,7 +1,0 @@
-Running T118 on lm4-w017 at Thu Mar 12 15:49:05 CET 2026
-Game: Score Four
-Variant: UCB1 | Random | Qualitative | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T118 (Diaballik) -> completed=30/30, wins=29, losses=1, draws=0, failures=0, avgMoves=162.9
-Job completed at Thu Mar 12 16:30:24 CET 2026

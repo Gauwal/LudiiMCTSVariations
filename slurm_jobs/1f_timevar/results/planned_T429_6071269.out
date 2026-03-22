@@ -1,7 +1,0 @@
-Running T429 on lm4-w025 at Thu Mar 12 22:35:56 CET 2026
-Game: Shakhmaty (Early Modern)
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=8G, time=16:00:00
-Completed T429 (Scaffold) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=97.7
-Job completed at Thu Mar 12 23:01:54 CET 2026

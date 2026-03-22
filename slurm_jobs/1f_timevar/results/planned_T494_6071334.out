@@ -1,7 +1,0 @@
-Running T494 on lm4-w025 at Fri Mar 13 02:30:49 CET 2026
-Game: Zurgaan Tal
-Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T494 (Connect6) -> completed=30/30, wins=19, losses=11, draws=0, failures=0, avgMoves=120.7
-Job completed at Fri Mar 13 03:01:07 CET 2026

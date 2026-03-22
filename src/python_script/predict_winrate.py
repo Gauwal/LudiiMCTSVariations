@@ -15,13 +15,13 @@ Exposed API
 predict_score(game_name, select, simulation, backprop, finalmove, label) -> float
     Predicts the score for a (game, variant) pair looked up by game name.
 
-predict_best_variant(game_name, label, top_k) -> dict
-    Exhaustively evaluates all variant combinations for a game.
+predict_best_variant(game_name, label, top_k, assume_no_interaction=False) -> dict
+    Exhaustive search by default; optional no-interaction independent search.
 
 predict_score_from_features(game_features, select, simulation, backprop, finalmove, label) -> float
     Same as predict_score but accepts a dict of game features instead of a name.
 
-predict_best_variant_from_features(game_features, label, top_k) -> dict
+predict_best_variant_from_features(game_features, label, top_k, assume_no_interaction=False) -> dict
     Same as predict_best_variant but accepts a dict of game features.
 """
 
@@ -44,6 +44,12 @@ VARIANT_COMP_COLS = [
     'variant_backprop',
     'variant_finalmove',
 ]
+
+META_NUMERIC_FEATURES = {
+    'moveTime',
+    'maxMoves',
+    'gamesPerMatchup',
+}
 
 _NAME_RE = re.compile(r'[^a-z0-9]')
 
@@ -113,6 +119,12 @@ def _build_feature_vector(
             col = feat[len('game_'):]
             try:
                 val = game_row.get(col, np.nan)
+                x_vals.append(float(val) if val is not None else np.nan)
+            except (TypeError, ValueError):
+                x_vals.append(np.nan)
+        elif feat in META_NUMERIC_FEATURES:
+            try:
+                val = game_row.get(feat, np.nan)
                 x_vals.append(float(val) if val is not None else np.nan)
             except (TypeError, ValueError):
                 x_vals.append(np.nan)
@@ -241,8 +253,16 @@ def predict_best_variant(
     game_name: str,
     label: str = 'all',
     top_k: int = 5,
+    assume_no_interaction: bool = False,
 ) -> Dict:
-    """Find the best MCTS variant for a game by exhaustive search over the catalogue.
+    """Find the best MCTS variant for a game.
+
+    If ``assume_no_interaction`` is False (default), performs exhaustive
+    search over all 4-component combinations.
+
+    If ``assume_no_interaction`` is True, estimates each component's value
+    independently (marginal mean score over combinations) and combines the
+    independently-best values into one variant.
 
     Returns
     -------
@@ -254,6 +274,12 @@ def predict_best_variant(
     games_df = _load_game_properties()
     game_row = _get_game_row(game_name, games_df)
     resolved_name = str(game_row.get('game', game_name))
+
+    if assume_no_interaction:
+        return _independent_search(
+            game_row, resolved_name, pipeline, feature_names, multi_output,
+            catalogue, label,
+        )
 
     return _exhaustive_search(
         game_row, resolved_name, pipeline, feature_names, multi_output,
@@ -301,8 +327,9 @@ def predict_best_variant_from_features(
     game_features: Dict[str, float],
     label: str = 'all',
     top_k: int = 5,
+    assume_no_interaction: bool = False,
 ) -> Dict:
-    """Find the best MCTS variant for a set of game features by exhaustive search.
+    """Find the best MCTS variant for a set of game features.
 
     Parameters
     ----------
@@ -312,6 +339,8 @@ def predict_best_variant_from_features(
         Which trained model to use.
     top_k : int
         Number of top combinations to return.
+    assume_no_interaction : bool
+        If True, choose component values independently by marginal mean score.
 
     Returns
     -------
@@ -321,6 +350,12 @@ def predict_best_variant_from_features(
     catalogue = _load_catalogue(label)
     game_row = _game_features_to_series(game_features)
 
+    if assume_no_interaction:
+        return _independent_search(
+            game_row, '(custom features)', pipeline, feature_names, multi_output,
+            catalogue, label,
+        )
+
     return _exhaustive_search(
         game_row, '(custom features)', pipeline, feature_names, multi_output,
         catalogue, label, top_k,
@@ -328,20 +363,17 @@ def predict_best_variant_from_features(
 
 
 # ---------------------------------------------------------------------------
-# Shared exhaustive search
+# Shared search helpers
 # ---------------------------------------------------------------------------
 
-def _exhaustive_search(
+def _score_all_combos(
     game_row,
-    game_display_name: str,
     pipeline,
     feature_names: List[str],
     multi_output: bool,
     catalogue: Dict[str, List[str]],
-    label: str,
-    top_k: int,
-) -> Dict:
-    """Score every variant combo and return the top-k."""
+) -> Tuple[List[Tuple[str, str, str, str]], np.ndarray]:
+    """Return all variant combos and their predicted scores for one game row."""
     selects     = catalogue.get('variant_select',     [])
     simulations = catalogue.get('variant_simulation', [])
     backprops   = catalogue.get('variant_backprop',   [])
@@ -357,6 +389,83 @@ def _exhaustive_search(
 
     X_all = np.vstack(rows)
     preds = _predict_score_from_pipeline(pipeline, X_all, multi_output)
+    return all_combos, preds
+
+
+def _independent_search(
+    game_row,
+    game_display_name: str,
+    pipeline,
+    feature_names: List[str],
+    multi_output: bool,
+    catalogue: Dict[str, List[str]],
+    label: str,
+) -> Dict:
+    """Choose each component independently by marginal mean predicted score."""
+    all_combos, preds = _score_all_combos(
+        game_row, pipeline, feature_names, multi_output, catalogue
+    )
+    if not all_combos:
+        return {
+            'game': game_display_name,
+            'label': label,
+            'search_mode': 'independent_no_interaction',
+            'best_variant': {
+                'select': '', 'simulation': '', 'backprop': '', 'finalmove': '',
+            },
+            'best_score': float('nan'),
+            'component_rankings': {},
+            'n_evaluated': 0,
+        }
+
+    comp_labels = ['select', 'simulation', 'backprop', 'finalmove']
+    best_variant: Dict[str, str] = {}
+    component_rankings: Dict[str, List[Dict[str, object]]] = {}
+
+    for ci, out_name in enumerate(comp_labels):
+        values = sorted({combo[ci] for combo in all_combos})
+        rows = []
+        for value in values:
+            idx = [i for i, combo in enumerate(all_combos) if combo[ci] == value]
+            mean_score = float(np.mean(preds[idx])) if idx else float('nan')
+            rows.append({'value': value, 'marginal_mean_score': mean_score})
+        rows.sort(key=lambda r: r['marginal_mean_score'], reverse=True)
+        component_rankings[out_name] = rows
+        best_variant[out_name] = rows[0]['value'] if rows else ''
+
+    vbc = _variant_dict(
+        best_variant['select'],
+        best_variant['simulation'],
+        best_variant['backprop'],
+        best_variant['finalmove'],
+    )
+    x_best = _build_feature_vector(game_row, vbc, feature_names).reshape(1, -1)
+    best_score = float(_predict_score_from_pipeline(pipeline, x_best, multi_output)[0])
+
+    return {
+        'game': game_display_name,
+        'label': label,
+        'search_mode': 'independent_no_interaction',
+        'best_variant': best_variant,
+        'best_score': best_score,
+        'component_rankings': component_rankings,
+        'n_evaluated': len(all_combos),
+    }
+
+def _exhaustive_search(
+    game_row,
+    game_display_name: str,
+    pipeline,
+    feature_names: List[str],
+    multi_output: bool,
+    catalogue: Dict[str, List[str]],
+    label: str,
+    top_k: int,
+) -> Dict:
+    """Score every variant combo and return the top-k."""
+    all_combos, preds = _score_all_combos(
+        game_row, pipeline, feature_names, multi_output, catalogue
+    )
 
     order = np.argsort(preds)[::-1]
     ranked = []
@@ -372,6 +481,7 @@ def _exhaustive_search(
     return {
         'game':         game_display_name,
         'label':        label,
+        'search_mode':  'exhaustive',
         'best_variant': {
             'select': best[0], 'simulation': best[1],
             'backprop': best[2], 'finalmove': best[3],

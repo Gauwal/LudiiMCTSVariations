@@ -1,7 +1,0 @@
-Running T578 on lm4-w019 at Fri Mar 13 02:41:51 CET 2026
-Game: Tic-Tac-Toe Misere
-Variant: UCB1 | Random | Heuristic | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T578 (Taktik) -> completed=30/30, wins=8, losses=16, draws=6, failures=0, avgMoves=484.5
-Job completed at Fri Mar 13 04:45:30 CET 2026

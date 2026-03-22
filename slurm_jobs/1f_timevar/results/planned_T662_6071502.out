@@ -1,7 +1,0 @@
-Running T662 on lm4-w003 at Fri Mar 13 02:53:53 CET 2026
-Game: Pentalath
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T662 (Tumbleweed) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=383.0
-Job completed at Fri Mar 13 04:45:38 CET 2026

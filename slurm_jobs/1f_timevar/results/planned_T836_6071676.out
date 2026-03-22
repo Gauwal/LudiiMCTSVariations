@@ -1,7 +1,0 @@
-Running T836 on lm4-w013 at Fri Mar 13 03:19:28 CET 2026
-Game: Quathaxx
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T836 (Shatranj al-Kabir) -> completed=30/30, wins=1, losses=2, draws=27, failures=0, avgMoves=911.2
-Job completed at Fri Mar 13 08:44:23 CET 2026

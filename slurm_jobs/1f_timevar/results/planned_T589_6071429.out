@@ -1,7 +1,0 @@
-Running T589 on lm4-w027 at Thu Mar 12 23:10:34 CET 2026
-Game: MensaSpiel
-Variant: UCB1 | Random | MonteCarlo | Proportional Exp
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T589 (Traffic Lights) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=25.4
-Job completed at Thu Mar 12 23:16:59 CET 2026

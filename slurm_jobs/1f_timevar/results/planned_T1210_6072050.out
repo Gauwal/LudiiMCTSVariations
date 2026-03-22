@@ -1,6 +1,0 @@
-Running T1210 on lm4-w013 at Fri Mar 13 00:40:22 CET 2026
-Game: Ringo
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=10G, time=16:00:00
-Job completed at Fri Mar 13 00:40:23 CET 2026

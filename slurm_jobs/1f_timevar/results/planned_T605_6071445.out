@@ -1,7 +1,0 @@
-Running T605 on lm4-w013 at Fri Mar 13 02:45:22 CET 2026
-Game: Loop Xiangqi
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=8G, time=16:00:00
-Completed T605 (Winkers) -> completed=30/30, wins=13, losses=14, draws=3, failures=0, avgMoves=32.6
-Job completed at Fri Mar 13 02:53:32 CET 2026

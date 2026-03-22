@@ -1,7 +1,0 @@
-Running T866 on lm4-w007 at Fri Mar 13 03:28:00 CET 2026
-Game: Throngs
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T866 (Lombard Chess) -> completed=30/30, wins=5, losses=6, draws=19, failures=0, avgMoves=678.1
-Job completed at Fri Mar 13 06:23:09 CET 2026

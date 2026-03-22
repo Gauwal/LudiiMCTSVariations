@@ -1,7 +1,0 @@
-Running T9 on lm4-w003 at Thu Mar 12 15:17:29 CET 2026
-Game: Ringo
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=10G, time=16:00:00
-Completed T9 (Sowing) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=14.4
-Job completed at Thu Mar 12 15:19:59 CET 2026

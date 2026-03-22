@@ -1,7 +1,0 @@
-Running T930 on lm4-w009 at Fri Mar 13 03:50:03 CET 2026
-Game: Gundru
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T930 (Oust) -> completed=30/30, wins=7, losses=23, draws=0, failures=0, avgMoves=108.4
-Job completed at Fri Mar 13 04:18:13 CET 2026

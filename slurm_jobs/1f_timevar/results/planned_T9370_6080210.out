@@ -1,6 +1,0 @@
-Running T9370 on lm4-w001 at Fri Mar 13 11:11:23 CET 2026
-Game: Y
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 11:11:24 CET 2026

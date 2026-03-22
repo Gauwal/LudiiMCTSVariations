@@ -1,7 +1,0 @@
-Running T483 on lm4-w027 at Thu Mar 12 22:53:30 CET 2026
-Game: Selayar Game
-Variant: ExIt | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T483 (Andantino) -> completed=30/30, wins=9, losses=19, draws=2, failures=0, avgMoves=27.2
-Job completed at Thu Mar 12 23:00:25 CET 2026

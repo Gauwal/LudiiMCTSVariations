@@ -1,6 +1,0 @@
-Running T4056 on lm4-w008 at Fri Mar 13 06:56:58 CET 2026
-Game: Mweiso
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 06:56:59 CET 2026

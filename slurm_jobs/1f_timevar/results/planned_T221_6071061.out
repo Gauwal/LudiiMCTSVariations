@@ -1,7 +1,0 @@
-Running T221 on lm4-w009 at Fri Mar 13 01:52:04 CET 2026
-Game: Andot
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T221 (Adjiboto) -> completed=30/30, wins=11, losses=11, draws=8, failures=0, avgMoves=70.1
-Job completed at Fri Mar 13 02:08:25 CET 2026

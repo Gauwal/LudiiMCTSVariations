@@ -1,6 +1,0 @@
-Running T4209 on lm4-w008 at Fri Mar 13 07:04:59 CET 2026
-Game: Freeze Frenzy
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 07:05:00 CET 2026

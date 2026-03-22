@@ -1,7 +1,0 @@
-Running T876 on lm4-w007 at Fri Mar 13 03:30:30 CET 2026
-Game: Chiana wa Kunja
-Variant: UCB1 | MAST | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T876 (Omega Chess) -> completed=30/30, wins=9, losses=11, draws=10, failures=0, avgMoves=380.0
-Job completed at Fri Mar 13 05:06:47 CET 2026

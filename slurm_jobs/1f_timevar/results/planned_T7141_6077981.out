@@ -1,6 +1,0 @@
-Running T7141 on lm4-w003 at Fri Mar 13 09:23:39 CET 2026
-Game: Ngulungu
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 09:23:42 CET 2026

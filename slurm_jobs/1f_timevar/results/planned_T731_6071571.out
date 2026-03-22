@@ -1,7 +1,0 @@
-Running T731 on lm4-w027 at Thu Mar 12 23:36:09 CET 2026
-Game: Score Four
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T731 (Claim Jumpers) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=58.5
-Job completed at Thu Mar 12 23:47:18 CET 2026

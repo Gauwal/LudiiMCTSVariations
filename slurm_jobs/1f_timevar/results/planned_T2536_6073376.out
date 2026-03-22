@@ -1,6 +1,0 @@
-Running T2536 on lm4-w008 at Fri Mar 13 05:21:18 CET 2026
-Game: Mogul Putt'han
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 05:21:18 CET 2026

@@ -1,7 +1,0 @@
-Running T120 on lm4-w033 at Thu Mar 12 15:50:36 CET 2026
-Game: N-Mesh
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T120 (Football Chess) -> completed=30/30, wins=10, losses=11, draws=9, failures=0, avgMoves=448.3
-Job completed at Thu Mar 12 17:47:35 CET 2026

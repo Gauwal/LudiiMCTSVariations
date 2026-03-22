@@ -1,7 +1,0 @@
-Running T99 on lm4-w013 at Fri Mar 13 01:31:31 CET 2026
-Game: Cylinder Chess
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T99 (Barca) -> completed=30/30, wins=3, losses=7, draws=20, failures=0, avgMoves=792.8
-Job completed at Fri Mar 13 05:16:57 CET 2026

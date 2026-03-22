@@ -1,7 +1,0 @@
-Running T596 on lm4-w013 at Fri Mar 13 02:44:21 CET 2026
-Game: Starchess
-Variant: UCB1 | LGR | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T596 (Tsoro Yemutwelve) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=72.7
-Job completed at Fri Mar 13 03:02:12 CET 2026

@@ -84,6 +84,11 @@ public final class GenerateSlurmScripts
 
 	private static void writeOneScript(final Path out, final PlannedTest t, final Resources res, final Args parsed, final Path slurmLogsPath) throws IOException
 	{
+		final Path planFileName = parsed.planPath.getFileName();
+		final String planPathInProject = (planFileName == null)
+				? "${PROJECT_DIR}/planned_tests.csv"
+				: "${PROJECT_DIR}/" + planFileName.toString();
+
 		try (BufferedWriter bw = Files.newBufferedWriter(out, StandardCharsets.UTF_8))
 		{
 			bw.write("#!/bin/bash\n");
@@ -105,7 +110,7 @@ public final class GenerateSlurmScripts
 			bw.write("LUDII_JAR=\"" + parsed.ludiiJar + "\"\n");
 			bw.write("CLASSPATH=\"${LUDII_JAR}:${PROJECT_DIR}/bin\"\n\n");
 
-			bw.write("PLAN=\"" + parsed.planInProjectDir + "\"\n");
+			bw.write("PLAN=\"" + planPathInProject + "\"\n");
 			bw.write("OUT_DIR=\"" + parsed.resultsDir + "\"\n");
 			bw.write("mkdir -p \"${OUT_DIR}\"\n\n");
 			bw.write("echo \"Running " + t.testId + " on $(hostname) at $(date)\"\n");
@@ -292,6 +297,7 @@ public final class GenerateSlurmScripts
 					if (line.trim().isEmpty())
 						continue;
 					final List<String> fields = Csv.parseLine(line);
+					final int usesHeuristic = readHeuristicFlag(fields, idx);
 					out.add(new PlannedTest(
 							Csv.get(fields, idx, "testId"),
 							Csv.get(fields, idx, "gameName"),
@@ -307,11 +313,19 @@ public final class GenerateSlurmScripts
 							Csv.getDouble(fields, idx, "moveTimeSeconds", 0.1),
 							Csv.getInt(fields, idx, "gamesPerMatchup", 2),
 							Csv.getInt(fields, idx, "maxMoves", 500),
-							Csv.getInt(fields, idx, "requiresHeuristics", 0)
+							usesHeuristic
 					));
 				}
 			}
 			return out;
+		}
+
+		private static int readHeuristicFlag(final List<String> fields, final Map<String, Integer> idx)
+		{
+			// New plans use "usesHeuristic"; keep backward compatibility with older "requiresHeuristics".
+			if (idx.containsKey("usesheuristic"))
+				return Csv.getInt(fields, idx, "usesHeuristic", 0);
+			return Csv.getInt(fields, idx, "requiresHeuristics", 0);
 		}
 	}
 
@@ -428,7 +442,6 @@ public final class GenerateSlurmScripts
 		final String moduleLoad;
 		final String projectDir;
 		final String ludiiJar;
-		final String planInProjectDir;
 		final String resultsDir;
 		final String slurmLogsDir;
 		final String runnerClass;
@@ -460,7 +473,6 @@ public final class GenerateSlurmScripts
 				final String moduleLoad,
 				final String projectDir,
 				final String ludiiJar,
-				final String planInProjectDir,
 				final String resultsDir,
 				final String slurmLogsDir,
 				final String runnerClass,
@@ -487,7 +499,6 @@ public final class GenerateSlurmScripts
 			this.moduleLoad = moduleLoad;
 			this.projectDir = projectDir;
 			this.ludiiJar = ludiiJar;
-			this.planInProjectDir = planInProjectDir;
 			this.resultsDir = resultsDir;
 			this.slurmLogsDir = slurmLogsDir;
 			this.runnerClass = runnerClass;
@@ -536,7 +547,6 @@ public final class GenerateSlurmScripts
 			String moduleLoad = "Java";
 			String projectDir = "$HOME/LudiiMCTSVariations";
 			String ludiiJar = "$HOME/Ludii-1.3.14.jar";
-			String planInProjectDir = "${PROJECT_DIR}/planned_tests.csv";
 			String resultsDir = "${PROJECT_DIR}/out/planned_results";
 			String slurmLogsDir = "results";
 			String runnerClass = "experiments.planning.RunPlannedTest";
@@ -577,8 +587,6 @@ public final class GenerateSlurmScripts
 					ludiiJar = args[++i];
 				else if ("--module".equalsIgnoreCase(a) && i + 1 < args.length)
 					moduleLoad = args[++i];
-				else if ("--plan-path".equalsIgnoreCase(a) && i + 1 < args.length)
-					planInProjectDir = args[++i];
 				else if ("--results-dir".equalsIgnoreCase(a) && i + 1 < args.length)
 					resultsDir = args[++i];
 				else if ("--slurm-logs-dir".equalsIgnoreCase(a) && i + 1 < args.length)
@@ -606,7 +614,6 @@ public final class GenerateSlurmScripts
 					moduleLoad,
 					projectDir,
 					ludiiJar,
-					planInProjectDir,
 					resultsDir,
 					slurmLogsDir,
 					runnerClass,

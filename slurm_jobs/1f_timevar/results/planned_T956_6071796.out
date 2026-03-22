@@ -1,7 +1,0 @@
-Running T956 on lm4-w024 at Fri Mar 13 03:56:33 CET 2026
-Game: MaxMatch
-Variant: UCB1 | Random | MonteCarlo | Proportional Exp
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T956 (Astralesce and Constellation) -> completed=30/30, wins=10, losses=20, draws=0, failures=0, avgMoves=14.9
-Job completed at Fri Mar 13 04:00:17 CET 2026

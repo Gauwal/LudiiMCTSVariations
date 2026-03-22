@@ -1,7 +1,0 @@
-Running T938 on lm4-w003 at Fri Mar 13 00:33:20 CET 2026
-Game: Trax
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=10G, time=16:00:00
-Completed T938 (Triple Tangle) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=218.7
-Job completed at Fri Mar 13 01:28:03 CET 2026

@@ -1,6 +1,0 @@
-Running T6725 on lm4-w003 at Fri Mar 13 09:04:38 CET 2026
-Game: Maleys
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 09:04:39 CET 2026

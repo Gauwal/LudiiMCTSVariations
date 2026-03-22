@@ -1,6 +1,0 @@
-Running T8932 on lm4-w027 at Fri Mar 13 10:49:52 CET 2026
-Game: Msuwa
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 10:49:52 CET 2026

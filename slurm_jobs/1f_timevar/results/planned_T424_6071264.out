@@ -1,7 +1,0 @@
-Running T424 on lm4-w019 at Thu Mar 12 22:34:26 CET 2026
-Game: Dorvolz
-Variant: ExIt | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=8G, time=16:00:00
-Completed T424 (Nex) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=156.7
-Job completed at Thu Mar 12 23:13:42 CET 2026

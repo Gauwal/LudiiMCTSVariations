@@ -1,7 +1,0 @@
-Running T44 on lm4-w003 at Fri Mar 13 01:22:28 CET 2026
-Game: Ilpion
-Variant: Implicit Minimax | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T44 (Jeu de Renard (Two Foxes)) -> completed=30/30, wins=0, losses=4, draws=26, failures=0, avgMoves=873.6
-Job completed at Fri Mar 13 03:18:24 CET 2026

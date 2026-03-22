@@ -1,7 +1,0 @@
-Running T508 on lm4-w032 at Fri Mar 13 02:33:20 CET 2026
-Game: Tuk Tak
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T508 (Fart (7x7)) -> completed=30/30, wins=8, losses=15, draws=7, failures=0, avgMoves=420.1
-Job completed at Fri Mar 13 03:39:27 CET 2026

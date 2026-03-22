@@ -1,7 +1,0 @@
-Running T849 on lm4-w007 at Fri Mar 13 03:22:59 CET 2026
-Game: Celticator
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T849 (Atomic Chess) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=28.1
-Job completed at Fri Mar 13 03:30:11 CET 2026

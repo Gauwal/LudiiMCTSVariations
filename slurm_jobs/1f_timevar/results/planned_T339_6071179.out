@@ -1,7 +1,0 @@
-Running T339 on lm4-w013 at Fri Mar 13 02:12:47 CET 2026
-Game: Sujjua
-Variant: UCB1 | Random | Heuristic | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T339 (Wore) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=45.1
-Job completed at Fri Mar 13 02:22:04 CET 2026

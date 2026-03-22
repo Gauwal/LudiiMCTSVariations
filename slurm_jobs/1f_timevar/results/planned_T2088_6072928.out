@@ -1,6 +1,0 @@
-Running T2088 on lm4-w019 at Thu Mar 12 15:28:31 CET 2026
-Game: Taikyoku Shogi
-Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=38G, time=16:00:00
-Job completed at Thu Mar 12 15:28:32 CET 2026

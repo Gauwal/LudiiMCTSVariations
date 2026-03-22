@@ -1,6 +1,0 @@
-Running T2785 on lm4-w008 at Fri Mar 13 05:33:50 CET 2026
-Game: Njombwa (One Counter)
-Variant: UCB1 | MAST | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 05:33:51 CET 2026

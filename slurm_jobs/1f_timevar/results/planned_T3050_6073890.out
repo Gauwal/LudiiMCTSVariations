@@ -1,6 +1,0 @@
-Running T3050 on lm4-w004 at Fri Mar 13 05:46:51 CET 2026
-Game: Liu Tsi
-Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 05:46:52 CET 2026

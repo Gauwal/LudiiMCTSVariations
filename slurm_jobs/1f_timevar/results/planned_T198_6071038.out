@@ -1,7 +1,0 @@
-Running T198 on lm4-w017 at Fri Mar 13 01:48:34 CET 2026
-Game: Fibonacci Nim
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T198 (Ryakati) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
-Job completed at Fri Mar 13 03:00:08 CET 2026

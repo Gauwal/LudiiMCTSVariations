@@ -1,7 +1,0 @@
-Running T73 on lm4-w019 at Thu Mar 12 15:44:35 CET 2026
-Game: O An Quan
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T73 (Renard et les Poules) -> completed=30/30, wins=5, losses=24, draws=1, failures=0, avgMoves=409.2
-Job completed at Thu Mar 12 17:18:10 CET 2026

@@ -1,7 +1,0 @@
-Running T394 on lm4-w027 at Thu Mar 12 22:12:21 CET 2026
-Game: Quoridor
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T394 (TacTix) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=19.7
-Job completed at Thu Mar 12 22:17:04 CET 2026

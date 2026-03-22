@@ -1,7 +1,0 @@
-Running T70 on lm4-w017 at Thu Mar 12 15:44:04 CET 2026
-Game: Battleships
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=8G, time=16:00:00
-Completed T70 (Pon Chochotl) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=42.9
-Job completed at Thu Mar 12 15:54:49 CET 2026

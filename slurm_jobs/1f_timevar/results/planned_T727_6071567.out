@@ -1,7 +1,0 @@
-Running T727 on lm4-w013 at Thu Mar 12 23:34:09 CET 2026
-Game: Gobblet Gobblers
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T727 (Bara Guti) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=92.5
-Job completed at Thu Mar 12 23:57:14 CET 2026

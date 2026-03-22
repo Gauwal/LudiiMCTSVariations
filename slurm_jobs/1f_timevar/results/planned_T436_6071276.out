@@ -1,7 +1,0 @@
-Running T436 on lm4-w025 at Thu Mar 12 22:38:27 CET 2026
-Game: Connect Four
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T436 (Tara) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=43.7
-Job completed at Thu Mar 12 22:49:10 CET 2026

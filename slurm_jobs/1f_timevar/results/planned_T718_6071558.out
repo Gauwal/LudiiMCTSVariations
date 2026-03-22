@@ -1,7 +1,0 @@
-Running T718 on lm4-w025 at Fri Mar 13 03:01:24 CET 2026
-Game: Mangala (Bedouin)
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T718 (Pleasant Draughts) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=79.1
-Job completed at Fri Mar 13 03:20:58 CET 2026

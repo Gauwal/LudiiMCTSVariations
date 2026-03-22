@@ -1,6 +1,0 @@
-Running T8062 on lm4-w008 at Fri Mar 13 10:10:19 CET 2026
-Game: Laram Wali
-Variant: UCB1 | HS Playout | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 10:10:21 CET 2026

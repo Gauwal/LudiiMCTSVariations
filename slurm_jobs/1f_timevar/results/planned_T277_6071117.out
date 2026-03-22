@@ -1,7 +1,0 @@
-Running T277 on lm4-w013 at Fri Mar 13 02:01:36 CET 2026
-Game: Beirut Chess
-Variant: UCB1 | Random | MonteCarlo | Proportional Exp
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=8G, time=16:00:00
-Completed T277 (Khrour) -> completed=30/30, wins=1, losses=21, draws=8, failures=0, avgMoves=412.1
-Job completed at Fri Mar 13 02:27:09 CET 2026

@@ -1,7 +1,0 @@
-Running T81 on lm4-w033 at Thu Mar 12 15:45:05 CET 2026
-Game: Bravalath
-Variant: UCB1 | Random | Implicit Minimax | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Completed T81 (Sumi Naga Game (Hunt)) -> completed=30/30, wins=16, losses=14, draws=0, failures=0, avgMoves=234.4
-Job completed at Thu Mar 12 16:43:38 CET 2026

@@ -1,6 +1,0 @@
-Running T2334 on lm4-w009 at Fri Mar 13 00:47:53 CET 2026
-Game: Bravalath
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Job completed at Fri Mar 13 00:47:54 CET 2026

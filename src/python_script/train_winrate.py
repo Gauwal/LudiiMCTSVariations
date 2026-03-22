@@ -18,7 +18,8 @@ is saved as the primary model for inference.
 
 Key design decisions
 --------------------
-* META columns (moveTime, maxMoves) excluded: constant across the dataset.
+* Include ``moveTime`` as a numeric feature for time-variation experiments.
+* Keep ``maxMoves`` excluded by default (often constant in planned runs).
 * NaN in game features preserved for HistGBM native handling; other pipelines
   use SimpleImputer.
 * KernelRidge param grid uses two sub-grids (rbf / polynomial).
@@ -33,6 +34,7 @@ Output artefacts per label {'all', 'notimeout'}:
   plot_comparison_{label}.png                bar chart comparing all models
 """
 
+import argparse
 import json
 import os
 from typing import Dict, List, Tuple
@@ -68,6 +70,10 @@ VARIANT_COMP_COLS = [
     'variant_simulation',
     'variant_backprop',
     'variant_finalmove',
+]
+
+META_FEATURE_COLS = [
+    'moveTime',
 ]
 
 
@@ -120,7 +126,7 @@ def build_feature_matrix(
 
     Variant component columns are one-hot encoded into binary indicator features.
 
-    META columns (moveTime, maxMoves) are excluded (constant across dataset).
+    Time metadata can be included as numeric features (currently: moveTime).
 
     Returns
     -------
@@ -134,6 +140,10 @@ def build_feature_matrix(
     # Game property numeric features — sorted for deterministic column order
     game_cols = sorted(c for c in rows.columns if c.startswith('game_'))
     X_game = rows[game_cols].astype(float).values  # NaN preserved intentionally
+
+    # Experiment meta numeric features (e.g., time-variation studies)
+    meta_cols = [c for c in META_FEATURE_COLS if c in rows.columns]
+    X_meta = rows[meta_cols].astype(float).values if meta_cols else np.zeros((len(rows), 0))
 
     # Variant one-hot encoding (one block per component)
     token_names: List[str] = []
@@ -155,14 +165,14 @@ def build_feature_matrix(
         token_mats.append(mat)
 
     X_tokens = np.hstack(token_mats) if token_mats else np.zeros((len(rows), 0))
-    X = np.hstack([X_game, X_tokens])
+    X = np.hstack([X_game, X_meta, X_tokens])
 
     targets = {
         'score':    rows['score'].values.astype(float),
         'winrate':  rows['winrate'].values.astype(float),
         'drawrate': rows['drawrate'].values.astype(float),
     }
-    feature_names = game_cols + token_names
+    feature_names = game_cols + meta_cols + token_names
 
     return X, targets, feature_names, variant_catalogue
 
@@ -523,13 +533,32 @@ def _print_report(all_results: Dict[str, Dict[str, Dict]]) -> None:
 
 def main():
     """Parse SLURM results, build datasets, train all models, save the best one."""
-    if not os.path.isdir(RESULTS_DIR):
-        raise SystemExit(f"Results directory not found: {RESULTS_DIR}")
-    if not os.path.isfile(GAME_PROPS):
-        raise SystemExit(f"game_properties.csv not found: {GAME_PROPS}")
+    parser = argparse.ArgumentParser(description='Train MCTS variant performance models')
+    parser.add_argument(
+        '--results-dir',
+        default=RESULTS_DIR,
+        help='Directory containing SLURM .out/.err files',
+    )
+    parser.add_argument(
+        '--game-props',
+        default=GAME_PROPS,
+        help='Path to game_properties.csv',
+    )
+    args = parser.parse_args()
+
+    results_dir = os.path.abspath(args.results_dir)
+    game_props = os.path.abspath(args.game_props)
+
+    if not os.path.isdir(results_dir):
+        raise SystemExit(f"Results directory not found: {results_dir}")
+    if not os.path.isfile(game_props):
+        raise SystemExit(f"game_properties.csv not found: {game_props}")
+
+    print(f"Using results directory: {results_dir}")
+    print(f"Using game properties  : {game_props}")
 
     print("Parsing SLURM results…")
-    df_all, df_notimeout = build_datasets(RESULTS_DIR, GAME_PROPS)
+    df_all, df_notimeout = build_datasets(results_dir, game_props)
 
     if df_all.empty:
         raise SystemExit("No usable data parsed from results.")

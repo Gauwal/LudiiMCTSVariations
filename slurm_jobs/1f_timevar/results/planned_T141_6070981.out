@@ -1,7 +1,0 @@
-Running T141 on lm4-w017 at Fri Mar 13 01:40:02 CET 2026
-Game: Y (Hex)
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T141 (Zonesh) -> completed=30/30, wins=30, losses=0, draws=0, failures=0, avgMoves=44.0
-Job completed at Fri Mar 13 01:51:07 CET 2026

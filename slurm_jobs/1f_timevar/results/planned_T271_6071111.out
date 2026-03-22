@@ -1,7 +1,0 @@
-Running T271 on lm4-w019 at Thu Mar 12 16:28:45 CET 2026
-Game: Dots and Boxes
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T271 (Kalah) -> completed=30/30, wins=1, losses=28, draws=1, failures=0, avgMoves=38.2
-Job completed at Thu Mar 12 16:37:22 CET 2026

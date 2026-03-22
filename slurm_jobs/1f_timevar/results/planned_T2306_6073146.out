@@ -1,6 +1,0 @@
-Running T2306 on lm4-w008 at Fri Mar 13 05:10:17 CET 2026
-Game: Quathaxx
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 05:10:18 CET 2026

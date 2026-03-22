@@ -1,7 +1,0 @@
-Running T21 on lm4-w003 at Thu Mar 12 15:20:30 CET 2026
-Game: Taikyoku Shogi
-Variant: UCB1 | HS Playout | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=38G, time=16:00:00
-Completed T21 (Bouge Shodra) -> completed=30/30, wins=13, losses=17, draws=0, failures=0, avgMoves=405.9
-Job completed at Thu Mar 12 17:02:11 CET 2026

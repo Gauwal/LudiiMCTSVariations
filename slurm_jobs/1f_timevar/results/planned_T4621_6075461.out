@@ -1,6 +1,0 @@
-Running T4621 on lm4-w004 at Fri Mar 13 07:26:00 CET 2026
-Game: Shatranj al-Jawarhiya
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 07:26:01 CET 2026

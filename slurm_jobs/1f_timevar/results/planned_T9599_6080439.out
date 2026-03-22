@@ -1,6 +1,0 @@
-Running T9599 on lm4-w031 at Fri Mar 13 02:48:52 CET 2026
-Game: Dorvolz
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=8G, time=16:00:00
-Job completed at Fri Mar 13 02:48:53 CET 2026

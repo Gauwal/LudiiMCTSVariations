@@ -1,7 +1,0 @@
-Running T947 on lm4-w007 at Fri Mar 13 03:55:03 CET 2026
-Game: Pentago
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T947 (Ploy) -> completed=30/30, wins=20, losses=10, draws=0, failures=0, avgMoves=68.4
-Job completed at Fri Mar 13 04:12:15 CET 2026

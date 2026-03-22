@@ -1,7 +1,0 @@
-Running T174 on lm4-w007 at Fri Mar 13 01:46:33 CET 2026
-Game: Nerenchi Keliya
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T174 (Moruba) -> completed=30/30, wins=18, losses=12, draws=0, failures=0, avgMoves=163.6
-Job completed at Fri Mar 13 02:26:00 CET 2026

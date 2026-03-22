@@ -1,6 +1,0 @@
-Running T9768 on lm4-w001 at Fri Mar 13 11:29:24 CET 2026
-Game: Seega
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 11:29:25 CET 2026

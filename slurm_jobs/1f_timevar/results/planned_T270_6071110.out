@@ -1,7 +1,0 @@
-Running T270 on lm4-w017 at Thu Mar 12 16:27:45 CET 2026
-Game: Bide
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T270 (J'odu) -> completed=30/30, wins=1, losses=28, draws=1, failures=0, avgMoves=99.2
-Job completed at Thu Mar 12 16:36:38 CET 2026

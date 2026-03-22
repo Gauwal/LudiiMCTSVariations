@@ -1,6 +1,0 @@
-Running T1808 on lm4-w003 at Fri Mar 13 04:45:14 CET 2026
-Game: Boxijn Barildaan
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 04:45:15 CET 2026

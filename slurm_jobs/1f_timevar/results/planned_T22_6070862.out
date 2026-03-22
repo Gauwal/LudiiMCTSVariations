@@ -1,7 +1,0 @@
-Running T22 on lm4-w019 at Thu Mar 12 15:30:01 CET 2026
-Game: Plotto
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Completed T22 (Cercar La Liebre) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=45.3
-Job completed at Thu Mar 12 15:41:21 CET 2026

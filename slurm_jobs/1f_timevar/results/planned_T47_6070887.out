@@ -1,7 +1,0 @@
-Running T47 on lm4-w017 at Thu Mar 12 15:35:33 CET 2026
-Game: Laomuzhu
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T47 (Juroku Musashi) -> completed=30/30, wins=6, losses=21, draws=3, failures=0, avgMoves=400.4
-Job completed at Thu Mar 12 17:14:31 CET 2026

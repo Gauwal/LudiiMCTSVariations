@@ -1,6 +1,0 @@
-Running T9443 on lm4-w001 at Fri Mar 13 11:14:53 CET 2026
-Game: Brandub
-Variant: UCB1 | HS Playout | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 11:14:54 CET 2026

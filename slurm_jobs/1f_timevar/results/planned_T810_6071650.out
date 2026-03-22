@@ -1,7 +1,0 @@
-Running T810 on lm4-w007 at Fri Mar 13 03:15:27 CET 2026
-Game: Quantik
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T810 (Chaturanga (Kridakausalya)) -> completed=30/30, wins=8, losses=22, draws=0, failures=0, avgMoves=163.8
-Job completed at Fri Mar 13 03:57:57 CET 2026

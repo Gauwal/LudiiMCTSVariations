@@ -1,7 +1,0 @@
-Running T350 on lm4-w025 at Fri Mar 13 02:12:46 CET 2026
-Game: Atom
-Variant: ExIt | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T350 (Co Chan Cho) -> completed=30/30, wins=0, losses=15, draws=15, failures=0, avgMoves=504.4
-Job completed at Fri Mar 13 03:16:02 CET 2026

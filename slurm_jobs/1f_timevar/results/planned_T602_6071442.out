@@ -1,7 +1,0 @@
-Running T602 on lm4-w007 at Fri Mar 13 02:44:52 CET 2026
-Game: Weave
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T602 (Vertiges) -> completed=30/30, wins=9, losses=18, draws=3, failures=0, avgMoves=458.9
-Job completed at Fri Mar 13 04:43:27 CET 2026

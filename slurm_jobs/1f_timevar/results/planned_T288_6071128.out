@@ -1,7 +1,0 @@
-Running T288 on lm4-w025 at Fri Mar 13 02:05:06 CET 2026
-Game: Oure Ngat
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T288 (Leyla Gobale (Somaliland)) -> completed=30/30, wins=6, losses=23, draws=1, failures=0, avgMoves=50.1
-Job completed at Fri Mar 13 02:09:45 CET 2026

@@ -1,6 +1,0 @@
-Running T1530 on lm4-w003 at Fri Mar 13 04:32:08 CET 2026
-Game: Hus (Nama)
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 04:32:09 CET 2026

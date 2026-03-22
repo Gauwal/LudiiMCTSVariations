@@ -1,7 +1,0 @@
-Running T556 on lm4-w007 at Fri Mar 13 02:40:51 CET 2026
-Game: Orthokon
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T556 (Roll-Ing to Four) -> completed=30/30, wins=2, losses=28, draws=0, failures=0, avgMoves=33.8
-Job completed at Fri Mar 13 02:49:19 CET 2026

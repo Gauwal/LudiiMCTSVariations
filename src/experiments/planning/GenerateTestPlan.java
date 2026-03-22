@@ -143,6 +143,7 @@ public final class GenerateTestPlan
 		// ("as little in common as possible") per method.
 		final FeatureSpace featureSpace = FeatureSpace.from(candidates);
 		final Planner planner = new Planner(parsed.seed, existing, featureSpace);
+		planner.setStrictSupportCheck(parsed.strictSupportCheck);
 
 		final List<TestSpec> planned;
 		switch (parsed.design)
@@ -360,12 +361,21 @@ public final class GenerateTestPlan
 		private final ExistingTests existing;
 		private final FeatureSpace featureSpace;
 		private final Map<String, Boolean> heuristicCache = new HashMap<>();
+		private final Map<String, Boolean> configSupportCache = new HashMap<>();
+		private final Map<String, Boolean> baselineSupportCache = new HashMap<>();
+		private boolean strictSupportCheck = false;
+		private boolean finalVariantSupportCheck = true;
 
 		Planner(final long seed, final ExistingTests existing, final FeatureSpace featureSpace)
 		{
 			this.rng = new Random(seed);
 			this.existing = existing;
 			this.featureSpace = featureSpace;
+		}
+
+		void setStrictSupportCheck(final boolean strictSupportCheck)
+		{
+			this.strictSupportCheck = strictSupportCheck;
 		}
 
 		List<TestSpec> planOneFactor(
@@ -404,11 +414,31 @@ public final class GenerateTestPlan
 			}
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
+			long evaluatedCandidates = 0L;
+			long lastHeartbeatMs = 0L;
+			System.out.printf(Locale.ROOT,
+					"[progress] %-18s generated=%d/%d (%.1f%%) guard=%d evaluated=%d%n",
+					"ONE-FACTOR setup",
+					0,
+					numTests,
+					0.0,
+					0,
+					0L);
+			System.out.flush();
 
 			// Guard exists to prevent infinite loops when the space is truly exhausted.
 			int guard = 0;
 			while (out.size() < numTests && guard++ < numTests * 100)
 			{
+				lastHeartbeatMs = maybePrintPlanningHeartbeat(
+						"ONE-FACTOR loop",
+						out.size(),
+						numTests,
+						guard,
+						evaluatedCandidates,
+						lastHeartbeatMs
+				);
+
 				Candidate best = null;
 				double bestGain = Double.NEGATIVE_INFINITY;
 
@@ -423,6 +453,17 @@ public final class GenerateTestPlan
 						final CoverageByDiversity.MethodState state = coverage.state(component, method);
 						for (int gi = 0; gi < gameNames.size(); gi++)
 						{
+							evaluatedCandidates++;
+							if ((evaluatedCandidates & 1023L) == 0L)
+								lastHeartbeatMs = maybePrintPlanningHeartbeat(
+										"ONE-FACTOR scan",
+										out.size(),
+										numTests,
+										guard,
+										evaluatedCandidates,
+										lastHeartbeatMs
+								);
+
 							if (requiresH && !gameHasHeuristics[gi])
 								continue;
 							if (state.isSelected(gi))
@@ -466,6 +507,17 @@ public final class GenerateTestPlan
 							final boolean requiresH = methodRequiresHeuristics(component, method);
 							for (int gi = 0; gi < gameNames.size(); gi++)
 							{
+								evaluatedCandidates++;
+								if ((evaluatedCandidates & 1023L) == 0L)
+									lastHeartbeatMs = maybePrintPlanningHeartbeat(
+											"ONE-FACTOR relaxed",
+											out.size(),
+											numTests,
+											guard,
+											evaluatedCandidates,
+											lastHeartbeatMs
+									);
+
 								if (requiresH && !gameHasHeuristics[gi])
 									continue;
 								final String gn = gameNames.get(gi);
@@ -489,10 +541,21 @@ public final class GenerateTestPlan
 				if (best == null)
 					break; // Truly exhausted: every valid test key already exists.
 
-				final String game = gameNames.get(best.gameIndex);
-				final Config variant = makeVariant(BASELINE, best.component, best.method);
+				Candidate chosen = best;
+				String game = gameNames.get(chosen.gameIndex);
+				final Config variant = makeVariant(BASELINE, chosen.component, chosen.method);
+
+				if (finalVariantSupportCheck && !isConfigSupported(game, variant))
+				{
+					final Candidate rematched = rematchOneFactorCandidate(chosen, gameNames, gameHasHeuristics, globalGameCounts, coverage);
+					if (rematched == null)
+						continue;
+					chosen = rematched;
+					game = gameNames.get(chosen.gameIndex);
+				}
+
 				final int usesHeuristic = requiresHeuristics(variant) ? 1 : 0;
-				if (usesHeuristic == 1 && !gameHasHeuristics[best.gameIndex])
+				if (usesHeuristic == 1 && !gameHasHeuristics[chosen.gameIndex])
 					continue;
 
 				// Pick the least-used move time to spread tests across time budgets.
@@ -517,7 +580,7 @@ public final class GenerateTestPlan
 				out.add(spec);
 				printProgress(out.size(), numTests, "ONE-FACTOR");
 				existing.recordPlanned(spec);
-				coverage.record(best.component, best.method, best.gameIndex);
+				coverage.record(chosen.component, chosen.method, chosen.gameIndex);
 				globalGameCounts.merge(game, 1, Integer::sum);
 				moveTimeCounts.merge(chosenMoveTime, 1, Integer::sum);
 			}
@@ -560,15 +623,46 @@ public final class GenerateTestPlan
 
 			final CoverageByDiversity coverage = new CoverageByDiversity(featureSpace, gameNames, gameIndex, existing, anyHeuristicGame);
 			final MethodPairingState pairingState = new MethodPairingState();
+			long evaluatedCandidates = 0L;
+			long lastHeartbeatMs = 0L;
+			System.out.printf(Locale.ROOT,
+					"[progress] %-18s generated=%d/%d (%.1f%%) guard=%d evaluated=%d%n",
+					"FULL-COMBO setup",
+					0,
+					numTests,
+					0.0,
+					0,
+					0L);
+			System.out.flush();
 
 			int guard = 0;
 			while (out.size() < numTests && guard++ < numTests * 200)
 			{
+				lastHeartbeatMs = maybePrintPlanningHeartbeat(
+						"FULL-COMBO loop",
+						out.size(),
+						numTests,
+						guard,
+						evaluatedCandidates,
+						lastHeartbeatMs
+				);
+
 				FullCandidate best = null;
 				double bestGain = Double.NEGATIVE_INFINITY;
 
 				for (int gi = 0; gi < gameNames.size(); gi++)
 				{
+					evaluatedCandidates++;
+					if ((evaluatedCandidates & 1023L) == 0L)
+						lastHeartbeatMs = maybePrintPlanningHeartbeat(
+								"FULL-COMBO scan",
+								out.size(),
+								numTests,
+								guard,
+								evaluatedCandidates,
+								lastHeartbeatMs
+						);
+
 					final String game = gameNames.get(gi);
 					final boolean h = gameHasHeuristics[gi];
 
@@ -589,6 +683,8 @@ public final class GenerateTestPlan
 					final double diversityGain = sel.gain + sim.gain + back.gain + fin.gain;
 					final int globalCount = globalGameCounts.getOrDefault(game, 0);
 					final Config candidateVariant = new Config(sel.method, sim.method, back.method, fin.method);
+					if (strictSupportCheck && !isConfigSupported(game, candidateVariant))
+						continue;
 					final double pairingPenalty = pairingState.pairingPenalty(candidateVariant);
 					final double gain = diversityGain - 0.05 * globalCount - 0.1 * pairingPenalty;
 					if (gain <= bestGain)
@@ -609,24 +705,80 @@ public final class GenerateTestPlan
 				{
 					for (int gi = 0; gi < gameNames.size(); gi++)
 					{
+						evaluatedCandidates++;
+						if ((evaluatedCandidates & 1023L) == 0L)
+							lastHeartbeatMs = maybePrintPlanningHeartbeat(
+									"FULL-COMBO relaxed",
+									out.size(),
+									numTests,
+									guard,
+									evaluatedCandidates,
+									lastHeartbeatMs
+							);
+
 						final String gn = gameNames.get(gi);
 						final boolean h = gameHasHeuristics[gi];
 						for (final String selMethod : CoverageByDiversity.domainFor(Component.SELECTION))
 						{
+							evaluatedCandidates++;
+							if ((evaluatedCandidates & 1023L) == 0L)
+								lastHeartbeatMs = maybePrintPlanningHeartbeat(
+										"FULL-COMBO relaxed",
+										out.size(),
+										numTests,
+										guard,
+										evaluatedCandidates,
+										lastHeartbeatMs
+								);
+
 							if (!coverage.allowedByGlobalFeasibility(Component.SELECTION, selMethod)) continue;
 							if (!isMethodCompatible(gn, Component.SELECTION, selMethod, h, minMoveTime)) continue;
 							for (final String simMethod : CoverageByDiversity.domainFor(Component.SIMULATION))
 							{
+								evaluatedCandidates++;
+								if ((evaluatedCandidates & 1023L) == 0L)
+									lastHeartbeatMs = maybePrintPlanningHeartbeat(
+											"FULL-COMBO relaxed",
+											out.size(),
+											numTests,
+											guard,
+											evaluatedCandidates,
+											lastHeartbeatMs
+									);
+
 								if (methodRequiresHeuristics(Component.SIMULATION, simMethod) && !h) continue;
 								if (!isMethodCompatible(gn, Component.SIMULATION, simMethod, h, minMoveTime)) continue;
 								for (final String backMethod : CoverageByDiversity.domainFor(Component.BACKPROP))
 								{
+									evaluatedCandidates++;
+									if ((evaluatedCandidates & 1023L) == 0L)
+										lastHeartbeatMs = maybePrintPlanningHeartbeat(
+												"FULL-COMBO relaxed",
+												out.size(),
+												numTests,
+												guard,
+												evaluatedCandidates,
+												lastHeartbeatMs
+										);
+
 									if (methodRequiresHeuristics(Component.BACKPROP, backMethod) && !h) continue;
 									if (!isMethodCompatible(gn, Component.BACKPROP, backMethod, h, minMoveTime)) continue;
 									for (final String finMethod : CoverageByDiversity.domainFor(Component.FINAL_MOVE))
 									{
+										evaluatedCandidates++;
+										if ((evaluatedCandidates & 1023L) == 0L)
+											lastHeartbeatMs = maybePrintPlanningHeartbeat(
+													"FULL-COMBO relaxed",
+													out.size(),
+													numTests,
+													guard,
+													evaluatedCandidates,
+													lastHeartbeatMs
+											);
+
 										final Config cv = new Config(selMethod, simMethod, backMethod, finMethod);
 										if (requiresHeuristics(cv) && !h) continue;
+										if (strictSupportCheck && !isConfigSupported(gn, cv)) continue;
 										final String key = testKeyFullCombo(gn, selMethod, simMethod, backMethod, finMethod);
 										if (existing.testKeys.contains(key)) continue;
 										final int globalCount = globalGameCounts.getOrDefault(gn, 0);
@@ -652,10 +804,21 @@ public final class GenerateTestPlan
 				if (best == null)
 					break; // Truly exhausted: every valid test key already exists.
 
-				final String game = gameNames.get(best.gameIndex);
+				FullCandidate chosen = best;
+				String game = gameNames.get(chosen.gameIndex);
 				final Config variant = new Config(best.sel.method, best.sim.method, best.back.method, best.fin.method);
+
+				if (finalVariantSupportCheck && !isConfigSupported(game, variant))
+				{
+					final int rematchedGameIndex = rematchFullComboGameIndex(chosen, variant, gameNames, gameHasHeuristics, globalGameCounts, coverage);
+					if (rematchedGameIndex < 0)
+						continue;
+					chosen = new FullCandidate(rematchedGameIndex, chosen.sel, chosen.sim, chosen.back, chosen.fin, chosen.gain);
+					game = gameNames.get(chosen.gameIndex);
+				}
+
 				final int usesHeuristic = requiresHeuristics(variant) ? 1 : 0;
-				if (usesHeuristic == 1 && !gameHasHeuristics[best.gameIndex])
+				if (usesHeuristic == 1 && !gameHasHeuristics[chosen.gameIndex])
 					continue;
 
 				final double chosenMoveTime = leastUsedMoveTime(moveTimes, moveTimeCounts);
@@ -679,10 +842,10 @@ public final class GenerateTestPlan
 				out.add(spec);
 				printProgress(out.size(), numTests, "FULL-COMBO");
 				existing.recordPlanned(spec);
-				coverage.record(Component.SELECTION, best.sel.method, best.gameIndex);
-				coverage.record(Component.SIMULATION, best.sim.method, best.gameIndex);
-				coverage.record(Component.BACKPROP, best.back.method, best.gameIndex);
-				coverage.record(Component.FINAL_MOVE, best.fin.method, best.gameIndex);
+				coverage.record(Component.SELECTION, chosen.sel.method, chosen.gameIndex);
+				coverage.record(Component.SIMULATION, chosen.sim.method, chosen.gameIndex);
+				coverage.record(Component.BACKPROP, chosen.back.method, chosen.gameIndex);
+				coverage.record(Component.FINAL_MOVE, chosen.fin.method, chosen.gameIndex);
 				pairingState.record(variant);
 				globalGameCounts.merge(game, 1, Integer::sum);
 				moveTimeCounts.merge(chosenMoveTime, 1, Integer::sum);
@@ -690,6 +853,89 @@ public final class GenerateTestPlan
 
 			System.err.println(); // end progress bar line
 			return out;
+		}
+
+		private Candidate rematchOneFactorCandidate(
+				final Candidate chosen,
+				final List<String> gameNames,
+				final boolean[] gameHasHeuristics,
+				final Map<String, Integer> globalGameCounts,
+				final CoverageByDiversity coverage)
+		{
+			final Config variant = makeVariant(BASELINE, chosen.component, chosen.method);
+			final boolean requiresH = methodRequiresHeuristics(chosen.component, chosen.method);
+			final CoverageByDiversity.MethodState state = coverage.state(chosen.component, chosen.method);
+
+			int bestGameIndex = -1;
+			double bestScore = Double.NEGATIVE_INFINITY;
+			for (int gi = 0; gi < gameNames.size(); gi++)
+			{
+				if (requiresH && !gameHasHeuristics[gi])
+					continue;
+
+				final String game = gameNames.get(gi);
+				if (!isConfigSupported(game, variant))
+					continue;
+
+				final String key = testKeyOneFactor(game, chosen.component, chosen.method);
+				if (existing.testKeys.contains(key))
+					continue;
+
+				final double diversityGain = Math.max(0.0, state.currentGain(gi));
+				final int globalCount = globalGameCounts.getOrDefault(game, 0);
+				final double score = diversityGain - 0.05 * globalCount;
+				if (score > bestScore)
+				{
+					bestScore = score;
+					bestGameIndex = gi;
+				}
+			}
+
+			if (bestGameIndex < 0)
+				return null;
+
+			return new Candidate(chosen.component, chosen.method, bestGameIndex, chosen.gain);
+		}
+
+		private int rematchFullComboGameIndex(
+				final FullCandidate chosen,
+				final Config variant,
+				final List<String> gameNames,
+				final boolean[] gameHasHeuristics,
+				final Map<String, Integer> globalGameCounts,
+				final CoverageByDiversity coverage)
+		{
+			int bestGameIndex = -1;
+			double bestScore = Double.NEGATIVE_INFINITY;
+			for (int gi = 0; gi < gameNames.size(); gi++)
+			{
+				if (requiresHeuristics(variant) && !gameHasHeuristics[gi])
+					continue;
+
+				final String game = gameNames.get(gi);
+				if (!isConfigSupported(game, variant))
+					continue;
+
+				final String key = testKeyFullCombo(game, variant.selection, variant.simulation, variant.backprop, variant.finalMove);
+				if (existing.testKeys.contains(key))
+					continue;
+
+				double diversityGain = 0.0;
+				diversityGain += Math.max(0.0, coverage.state(Component.SELECTION, chosen.sel.method).currentGain(gi));
+				diversityGain += Math.max(0.0, coverage.state(Component.SIMULATION, chosen.sim.method).currentGain(gi));
+				diversityGain += Math.max(0.0, coverage.state(Component.BACKPROP, chosen.back.method).currentGain(gi));
+				diversityGain += Math.max(0.0, coverage.state(Component.FINAL_MOVE, chosen.fin.method).currentGain(gi));
+
+				final int globalCount = globalGameCounts.getOrDefault(game, 0);
+				final double score = diversityGain - 0.05 * globalCount;
+				if (score > bestScore)
+				{
+					bestScore = score;
+					bestGameIndex = gi;
+				}
+			}
+
+			return bestGameIndex;
 		}
 
 		private static final class Candidate
@@ -753,7 +999,97 @@ public final class GenerateTestPlan
 			// Only gate: heuristic methods are skipped on games with no heuristics.
 			if (methodRequiresHeuristics(component, method) && !gameHasHeuristics)
 				return false;
+
+			// Strict runtime supportsGame filtering is optional because it is expensive.
+			// Default planner behavior stays fast; runtime still enforces support checks.
+			if (!strictSupportCheck)
+				return true;
+
+			if (!isBaselineSupported(gameName))
+				return false;
+
+			final Config variant = makeVariant(BASELINE, component, method);
+			if (!isConfigSupported(gameName, variant))
+				return false;
+
 			return true;
+		}
+
+		private boolean isBaselineSupported(final String gameName)
+		{
+			final String key = normalize(gameName);
+			final Boolean cached = baselineSupportCache.get(key);
+			if (cached != null)
+				return cached.booleanValue();
+
+			final boolean supported = isConfigSupported(gameName, BASELINE);
+			baselineSupportCache.put(key, Boolean.valueOf(supported));
+			return supported;
+		}
+
+		private boolean isConfigSupported(final String gameName, final Config config)
+		{
+			final String key =
+					normalize(gameName) + "|"
+							+ normalize(config.selection) + "|"
+							+ normalize(config.simulation) + "|"
+							+ normalize(config.backprop) + "|"
+							+ normalize(config.finalMove);
+
+			final Boolean cached = configSupportCache.get(key);
+			if (cached != null)
+				return cached.booleanValue();
+
+			final Game game;
+			try
+			{
+				game = GameLoader.loadGameFromName(gameName + ".lud");
+			}
+			catch (final Throwable ex)
+			{
+				configSupportCache.put(key, Boolean.FALSE);
+				return false;
+			}
+			if (game == null)
+			{
+				configSupportCache.put(key, Boolean.FALSE);
+				return false;
+			}
+
+			final AI ai;
+			try
+			{
+				ai = new MCTSVariations(config.selection, config.simulation, config.backprop, config.finalMove);
+			}
+			catch (final Throwable ex)
+			{
+				configSupportCache.put(key, Boolean.FALSE);
+				return false;
+			}
+
+			boolean supported = false;
+			try
+			{
+				supported = ai.supportsGame(game);
+			}
+			catch (final Throwable ignored)
+			{
+				supported = false;
+			}
+			finally
+			{
+				try
+				{
+					ai.closeAI();
+				}
+				catch (final Throwable ignored)
+				{
+					// ignore
+				}
+			}
+
+			configSupportCache.put(key, Boolean.valueOf(supported));
+			return supported;
 		}
 	}
 
@@ -1443,6 +1779,34 @@ public final class GenerateTestPlan
 		System.err.flush();
 	}
 
+	private static long maybePrintPlanningHeartbeat(
+			final String phase,
+			final int done,
+			final int total,
+			final int guard,
+			final long evaluated,
+			final long lastHeartbeatMs)
+	{
+		final long now = System.currentTimeMillis();
+		if (lastHeartbeatMs > 0L && now - lastHeartbeatMs < 2000L)
+			return lastHeartbeatMs;
+
+		final double pct = total <= 0 ? 0.0 : (100.0 * done / total);
+
+		System.out.printf(
+				Locale.ROOT,
+				"[progress] %-18s generated=%d/%d (%.1f%%) guard=%d evaluated=%d%n",
+				phase,
+				done,
+				total,
+				pct,
+				guard,
+				evaluated
+		);
+		System.out.flush();
+		return now;
+	}
+
 	private static void writePlanCsv(final List<TestSpec> tests, final Path out) throws IOException
 	{
 		final List<String> header = Arrays.asList(
@@ -1502,6 +1866,7 @@ public final class GenerateTestPlan
 		final double[] moveTimes;
 		final int maxMoves;
 		final boolean requireTwoPlayer;
+		final boolean strictSupportCheck;
 		final Design design;
 		final Path outPath;
 		final Path catalogPath;
@@ -1514,6 +1879,7 @@ public final class GenerateTestPlan
 				final double[] moveTimes,
 				final int maxMoves,
 				final boolean requireTwoPlayer,
+				final boolean strictSupportCheck,
 				final Design design,
 				final Path outPath,
 				final Path catalogPath,
@@ -1525,6 +1891,7 @@ public final class GenerateTestPlan
 			this.moveTimes = moveTimes;
 			this.maxMoves = maxMoves;
 			this.requireTwoPlayer = requireTwoPlayer;
+			this.strictSupportCheck = strictSupportCheck;
 			this.design = design;
 			this.outPath = outPath;
 			this.catalogPath = catalogPath;
@@ -1539,6 +1906,7 @@ public final class GenerateTestPlan
 			double[] moveTimes = null; // set after parsing
 			int maxMoves = 500;
 			boolean requireTwoPlayer = true;
+			boolean strictSupportCheck = false;
 			Design design = Design.ONE_FACTOR;
 			Path out = Paths.get("planned_tests.csv");
 			Path catalog = null;
@@ -1570,6 +1938,8 @@ public final class GenerateTestPlan
 					seed = Long.parseLong(args[++i]);
 				else if ("--allow-non-two-player".equalsIgnoreCase(a))
 					requireTwoPlayer = false;
+				else if ("--strict-support-check".equalsIgnoreCase(a))
+					strictSupportCheck = true;
 				else if ("--design".equalsIgnoreCase(a) && i + 1 < args.length)
 				{
 					final String v = args[++i];
@@ -1599,6 +1969,7 @@ public final class GenerateTestPlan
 					moveTimes,
 					maxMoves,
 					requireTwoPlayer,
+					strictSupportCheck,
 					design,
 					out,
 					catalog,

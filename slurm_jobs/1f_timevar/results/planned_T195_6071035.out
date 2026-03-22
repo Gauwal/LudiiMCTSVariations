@@ -1,7 +1,0 @@
-Running T195 on lm4-w019 at Thu Mar 12 16:04:09 CET 2026
-Game: Mao Naga Tiger Game
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T195 (Pereauni) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=36.4
-Job completed at Thu Mar 12 16:05:40 CET 2026

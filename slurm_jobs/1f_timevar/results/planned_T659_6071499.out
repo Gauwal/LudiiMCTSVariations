@@ -1,7 +1,0 @@
-Running T659 on lm4-w027 at Fri Mar 13 02:53:23 CET 2026
-Game: Muvalavala (Quioco)
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T659 (SupplierSabotage) -> completed=30/30, wins=20, losses=9, draws=1, failures=0, avgMoves=45.7
-Job completed at Fri Mar 13 03:13:04 CET 2026

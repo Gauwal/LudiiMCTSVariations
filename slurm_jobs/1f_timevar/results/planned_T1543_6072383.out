@@ -1,6 +1,0 @@
-Running T1543 on lm4-w007 at Fri Mar 13 00:42:52 CET 2026
-Game: Ringo
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=10G, time=16:00:00
-Job completed at Fri Mar 13 00:42:53 CET 2026

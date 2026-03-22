@@ -1,7 +1,0 @@
-Running T562 on lm4-w017 at Fri Mar 13 02:40:51 CET 2026
-Game: Sat Gol
-Variant: UCB1 | MAST | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T562 (Shah) -> completed=30/30, wins=3, losses=11, draws=16, failures=0, avgMoves=953.6
-Job completed at Fri Mar 13 06:36:27 CET 2026

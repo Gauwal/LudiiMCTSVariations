@@ -1,7 +1,0 @@
-Running T386 on lm4-w027 at Fri Mar 13 02:14:17 CET 2026
-Game: Radran
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T386 (Shred) -> completed=30/30, wins=16, losses=14, draws=0, failures=0, avgMoves=199.3
-Job completed at Fri Mar 13 03:05:17 CET 2026

@@ -1,7 +1,0 @@
-Running T28 on lm4-w003 at Fri Mar 13 01:16:57 CET 2026
-Game: Windir
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T28 (El Zorro) -> completed=30/30, wins=0, losses=1, draws=29, failures=0, avgMoves=973.3
-Job completed at Fri Mar 13 04:06:20 CET 2026

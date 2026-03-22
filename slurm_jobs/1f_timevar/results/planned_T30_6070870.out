@@ -1,7 +1,0 @@
-Running T30 on lm4-w025 at Thu Mar 12 15:31:32 CET 2026
-Game: Ringo
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=10G, time=16:00:00
-Completed T30 (Gala (Buginese)) -> completed=30/30, wins=0, losses=12, draws=18, failures=0, avgMoves=925.7
-Job completed at Thu Mar 12 19:24:55 CET 2026

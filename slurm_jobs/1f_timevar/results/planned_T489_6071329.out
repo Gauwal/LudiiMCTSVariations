@@ -1,7 +1,0 @@
-Running T489 on lm4-w017 at Fri Mar 13 02:30:19 CET 2026
-Game: Xarajlt
-Variant: UCB1 | Random | Qualitative | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T489 (Callanish) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=53.8
-Job completed at Fri Mar 13 02:43:03 CET 2026

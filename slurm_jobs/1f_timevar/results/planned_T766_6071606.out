@@ -1,7 +1,0 @@
-Running T766 on lm4-w027 at Fri Mar 13 03:09:25 CET 2026
-Game: Chopsticks
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T766 (Spoing) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=9.2
-Job completed at Fri Mar 13 03:11:33 CET 2026

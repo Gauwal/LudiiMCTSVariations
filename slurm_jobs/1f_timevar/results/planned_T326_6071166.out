@@ -1,7 +1,0 @@
-Running T326 on lm4-w009 at Thu Mar 12 21:15:41 CET 2026
-Game: Sher Bakar
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T326 (Um el Tuweisat) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=21.9
-Job completed at Thu Mar 12 21:19:13 CET 2026

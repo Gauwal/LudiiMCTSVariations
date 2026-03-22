@@ -1,7 +1,0 @@
-Running T941 on lm4-w007 at Fri Mar 13 00:34:51 CET 2026
-Game: Agilidade
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T941 (Capture the Queen) -> completed=30/30, wins=14, losses=16, draws=0, failures=0, avgMoves=9.9
-Job completed at Fri Mar 13 00:37:22 CET 2026

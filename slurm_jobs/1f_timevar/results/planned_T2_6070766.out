@@ -1,7 +1,0 @@
-Running T2 on lm4-w025 at Fri Mar 13 07:51:32 CET 2026
-Game: Kriegsspiel
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=11G, time=38:19:22
-Completed T2 (Kriegsspiel) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
-Job completed at Sat Mar 14 04:42:06 CET 2026

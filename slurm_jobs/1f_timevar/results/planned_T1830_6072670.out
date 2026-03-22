@@ -1,6 +1,0 @@
-Running T1830 on lm4-w003 at Fri Mar 13 04:46:14 CET 2026
-Game: Tic-Tac-Toe
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 04:46:15 CET 2026

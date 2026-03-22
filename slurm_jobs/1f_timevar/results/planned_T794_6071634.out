@@ -1,7 +1,0 @@
-Running T794 on lm4-w003 at Fri Mar 13 00:00:44 CET 2026
-Game: Connect6
-Variant: ExIt | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T794 (Queah Game) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=123.0
-Job completed at Fri Mar 13 00:31:24 CET 2026

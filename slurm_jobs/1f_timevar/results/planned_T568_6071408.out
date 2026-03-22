@@ -1,7 +1,0 @@
-Running T568 on lm4-w027 at Fri Mar 13 02:40:51 CET 2026
-Game: Triple Tangle
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T568 (Sparro) -> completed=30/30, wins=9, losses=21, draws=0, failures=0, avgMoves=24.0
-Job completed at Fri Mar 13 02:46:28 CET 2026

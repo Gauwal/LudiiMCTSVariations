@@ -1,7 +1,0 @@
-Running T821 on lm4-w025 at Fri Mar 13 03:16:58 CET 2026
-Game: Tibetan Jiuqi
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T821 (Parsi Chess) -> completed=30/30, wins=12, losses=10, draws=8, failures=0, avgMoves=212.6
-Job completed at Fri Mar 13 04:12:41 CET 2026

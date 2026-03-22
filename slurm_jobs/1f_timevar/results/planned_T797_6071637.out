@@ -1,7 +1,0 @@
-Running T797 on lm4-w007 at Fri Mar 13 00:01:14 CET 2026
-Game: Trax
-Variant: Progressive Widening | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=10G, time=16:00:00
-Completed T797 (Tablo) -> completed=30/30, wins=6, losses=8, draws=16, failures=0, avgMoves=724.1
-Job completed at Fri Mar 13 02:59:34 CET 2026

@@ -1,7 +1,0 @@
-Running T285 on lm4-w025 at Fri Mar 13 02:04:06 CET 2026
-Game: Chiana wa Kunja
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T285 (Lamosh) -> completed=30/30, wins=14, losses=6, draws=10, failures=0, avgMoves=732.5
-Job completed at Fri Mar 13 03:07:31 CET 2026

@@ -1,6 +1,0 @@
-Running T9910 on lm4-w037 at Fri Mar 13 11:35:54 CET 2026
-Game: Gale
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 11:35:55 CET 2026

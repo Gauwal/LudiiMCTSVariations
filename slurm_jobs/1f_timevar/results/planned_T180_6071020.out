@@ -1,7 +1,0 @@
-Running T180 on lm4-w003 at Thu Mar 12 15:57:37 CET 2026
-Game: Go
-Variant: McBRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T180 (Mwambulula) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=319.4
-Job completed at Thu Mar 12 16:50:20 CET 2026

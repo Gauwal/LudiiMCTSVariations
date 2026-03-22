@@ -1,7 +1,0 @@
-Running T72 on lm4-w019 at Thu Mar 12 15:44:35 CET 2026
-Game: Connect Four
-Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T72 (Refskak) -> completed=30/30, wins=13, losses=17, draws=0, failures=0, avgMoves=160.3
-Job completed at Thu Mar 12 16:24:36 CET 2026

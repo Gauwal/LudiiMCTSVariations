@@ -1,7 +1,0 @@
-Running T52 on lm4-w032 at Thu Mar 12 15:35:33 CET 2026
-Game: CustAndantino
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Completed T52 (Kulaochal) -> completed=30/30, wins=10, losses=20, draws=0, failures=0, avgMoves=54.5
-Job completed at Thu Mar 12 15:48:37 CET 2026

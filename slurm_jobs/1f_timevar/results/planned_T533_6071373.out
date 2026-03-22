@@ -1,7 +1,0 @@
-Running T533 on lm4-w027 at Fri Mar 13 02:35:50 CET 2026
-Game: Hexshogi
-Variant: UCB1 | NST | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=8G, time=16:00:00
-Completed T533 (Mylna) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=78.2
-Job completed at Fri Mar 13 02:55:24 CET 2026

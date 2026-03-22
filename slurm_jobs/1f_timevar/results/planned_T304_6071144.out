@@ -1,7 +1,0 @@
-Running T304 on lm4-w019 at Thu Mar 12 19:42:26 CET 2026
-Game: Connect Four
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T304 (Ntyenge) -> completed=30/30, wins=0, losses=29, draws=1, failures=0, avgMoves=260.4
-Job completed at Thu Mar 12 20:08:37 CET 2026

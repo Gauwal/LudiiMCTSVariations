@@ -1,7 +1,0 @@
-Running T838 on lm4-w008 at Fri Mar 13 00:13:47 CET 2026
-Game: Dai Seireigi
-Variant: UCB1 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=12G, time=16:00:00
-Completed T838 (Shatranj at-Tamma) -> completed=30/30, wins=3, losses=7, draws=20, failures=0, avgMoves=823.7
-Job completed at Fri Mar 13 03:48:06 CET 2026

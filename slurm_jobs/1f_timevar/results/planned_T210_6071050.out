@@ -1,7 +1,0 @@
-Running T210 on lm4-w007 at Thu Mar 12 16:09:10 CET 2026
-Game: Connect Four
-Variant: Implicit Minimax | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T210 (Okwe (Achalla)) -> completed=30/30, wins=1, losses=29, draws=0, failures=0, avgMoves=34.2
-Job completed at Thu Mar 12 16:16:06 CET 2026

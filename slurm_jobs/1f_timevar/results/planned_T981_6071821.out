@@ -1,7 +1,0 @@
-Running T981 on lm4-w003 at Fri Mar 13 04:03:04 CET 2026
-Game: Ilpion
-Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T981 (Hordes Realm) -> completed=30/30, wins=7, losses=23, draws=0, failures=0, avgMoves=64.6
-Job completed at Fri Mar 13 04:15:15 CET 2026

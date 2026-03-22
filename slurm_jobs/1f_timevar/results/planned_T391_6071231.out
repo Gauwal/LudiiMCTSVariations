@@ -1,7 +1,0 @@
-Running T391 on lm4-w031 at Fri Mar 13 02:14:17 CET 2026
-Game: Gasetavl
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T391 (Spots) -> completed=30/30, wins=13, losses=17, draws=0, failures=0, avgMoves=15.7
-Job completed at Fri Mar 13 02:18:06 CET 2026

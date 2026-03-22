@@ -1,7 +1,0 @@
-Running T243 on lm4-w007 at Thu Mar 12 16:23:14 CET 2026
-Game: Bide
-Variant: McBRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T243 (Dongjintian) -> completed=30/30, wins=7, losses=22, draws=1, failures=0, avgMoves=111.9
-Job completed at Thu Mar 12 16:38:55 CET 2026

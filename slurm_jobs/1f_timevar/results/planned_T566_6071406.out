@@ -1,7 +1,0 @@
-Running T566 on lm4-w025 at Fri Mar 13 02:40:51 CET 2026
-Game: Khrour
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T566 (Six Men's Morris) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=32.4
-Job completed at Fri Mar 13 02:48:57 CET 2026

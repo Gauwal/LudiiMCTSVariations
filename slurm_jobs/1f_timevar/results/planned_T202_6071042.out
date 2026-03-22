@@ -1,7 +1,0 @@
-Running T202 on lm4-w019 at Thu Mar 12 16:06:09 CET 2026
-Game: Patok
-Variant: UCB1 | Random | AlphaGo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T202 (Tshuba) -> completed=30/30, wins=17, losses=13, draws=0, failures=0, avgMoves=22.6
-Job completed at Thu Mar 12 16:09:28 CET 2026

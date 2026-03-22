@@ -94,6 +94,9 @@ public class MCTSVariations extends AI
     {
         final String normalized = normalize(name);
 
+        if ("ucb1".equals(normalized))
+            return new StrategyChoice<>(new UCB1(), "UCB1");
+
         if ("ag0".equals(normalized) || "ag0 selection".equals(normalized))
             return new StrategyChoice<>(new AG0Selection(), "AG0Selection");
 
@@ -130,13 +133,20 @@ public class MCTSVariations extends AI
         if ("alphabeta".equals(normalized) || "alpha beta".equals(normalized) || "alpha-beta".equals(normalized))
             return new StrategyChoice<>(new AlphaBetaSelection(), "Alpha-Beta");
 
-        // Fallback
-        return new StrategyChoice<>(new UCB1(), "UCB1");
+        throw new IllegalArgumentException(
+            "Unknown selection policy: '" + name + "'. Supported: "
+                + "UCB1, UCB1 tuned, UCB1 GRAVE, Progressive Bias, Progressive History, "
+                + "McBRAVE, McGRAVE, AG0, Noisy AG0, ExIt, Progressive Widening, "
+                + "Implicit Minimax, Alpha-Beta"
+        );
     }
 
     private static StrategyChoice<PlayoutStrategy> buildPlayoutStrategy(final String name)
     {
         final String normalized = normalize(name);
+
+        if ("random".equals(normalized) || "random playout".equals(normalized))
+            return new StrategyChoice<>(new RandomPlayout(), "RandomPlayout");
 
         if ("heuristic".equals(normalized) || "heuristic playout".equals(normalized))
             return new StrategyChoice<>(new HeuristicPlayout(), "HeuristicPlayout");
@@ -156,14 +166,19 @@ public class MCTSVariations extends AI
         if ("lgr".equals(normalized) || "last good reply".equals(normalized))
             return new StrategyChoice<>(new LGRSimulation(), "Last Good Reply");
 
-        // fallback
-        return new StrategyChoice<>(new RandomPlayout(), "RandomPlayout");
+        throw new IllegalArgumentException(
+            "Unknown simulation policy: '" + name + "'. Supported: "
+                + "Random, MAST, NST, Heuristic, Heuristic Sampling, HS Playout, PlayoutHS, LGR"
+        );
     }
 
 
     private static StrategyChoice<BackpropagationStrategy> buildBackpropStrategy(final String name)
     {
         final String normalized = normalize(name);
+
+        if ("montecarlo".equals(normalized) || "monte carlo".equals(normalized))
+            return new StrategyChoice<>(new MonteCarloBackprop(), "MonteCarloBackprop");
 
         if ("heuristic".equals(normalized))
             return new StrategyChoice<>(new HeuristicBackprop(), "HeuristicBackprop");
@@ -180,8 +195,10 @@ public class MCTSVariations extends AI
         if ("implicitminimax".equals(normalized) || "implicit minimax".equals(normalized))
             return new StrategyChoice<>(new ImplicitMinimaxBackprop(), "ImplicitMinimax");
 
-        //  fall back to Monte Carlo backpropagation
-        return new StrategyChoice<>(new MonteCarloBackprop(), "MonteCarloBackprop");
+        throw new IllegalArgumentException(
+            "Unknown backprop policy: '" + name + "'. Supported: "
+                + "MonteCarlo, Heuristic, AlphaGo, Qualitative, Score Bounded, Implicit Minimax"
+        );
     }
 
     private static FinalMoveSelectionStrategy buildFinalMoveSelection(final String name)
@@ -197,7 +214,9 @@ public class MCTSVariations extends AI
         if ("robust".equals(normalized) || "robustchild".equals(normalized))
             return new RobustChild();
 
-        return new RobustChild(); // fallback
+        throw new IllegalArgumentException(
+                "Unknown final-move policy: '" + name + "'. Supported: Robust, MaxAvgScore, Proportional Exp"
+        );
     }
 
 

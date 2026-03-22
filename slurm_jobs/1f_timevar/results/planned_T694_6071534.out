@@ -1,7 +1,0 @@
-Running T694 on lm4-w003 at Fri Mar 13 02:58:23 CET 2026
-Game: Owana
-Variant: AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T694 (American Pool Checkers) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=48.9
-Job completed at Fri Mar 13 03:07:22 CET 2026

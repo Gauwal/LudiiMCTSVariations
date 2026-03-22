@@ -1,6 +1,0 @@
-Running T8188 on lm4-w003 at Fri Mar 13 10:15:50 CET 2026
-Game: Shatranj al-Kabir (Constantinople)
-Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=8G, time=16:00:00
-Job completed at Fri Mar 13 10:15:52 CET 2026

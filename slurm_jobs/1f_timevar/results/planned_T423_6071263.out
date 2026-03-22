@@ -1,7 +1,0 @@
-Running T423 on lm4-w025 at Thu Mar 12 22:29:25 CET 2026
-Game: Tai Shogi
-Variant: Progressive History | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=19G, time=16:00:00
-Completed T423 (Master Y) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=41.3
-Job completed at Thu Mar 12 22:39:49 CET 2026

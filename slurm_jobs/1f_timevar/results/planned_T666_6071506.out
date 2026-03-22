@@ -1,7 +1,0 @@
-Running T666 on lm4-w027 at Fri Mar 13 02:53:53 CET 2026
-Game: Caturvimsatikosthakatmiki Krida
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T666 (Weiqi) -> completed=30/30, wins=9, losses=19, draws=2, failures=0, avgMoves=570.3
-Job completed at Fri Mar 13 05:18:24 CET 2026

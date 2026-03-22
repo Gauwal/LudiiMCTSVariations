@@ -1,7 +1,0 @@
-Running T792 on lm4-w013 at Thu Mar 12 23:57:44 CET 2026
-Game: Quoridor
-Variant: UCB1 | Random | Qualitative | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T792 (Natt Klab ash-Shawk) -> completed=30/30, wins=0, losses=30, draws=0, failures=0, avgMoves=66.2
-Job completed at Fri Mar 13 00:14:10 CET 2026

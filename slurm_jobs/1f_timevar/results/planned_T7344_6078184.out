@@ -1,6 +1,0 @@
-Running T7344 on lm4-w003 at Fri Mar 13 01:14:27 CET 2026
-Game: Dai Seireigi
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=12G, time=16:00:00
-Job completed at Fri Mar 13 01:14:28 CET 2026

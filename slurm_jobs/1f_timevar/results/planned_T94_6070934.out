@@ -1,7 +1,0 @@
-Running T94 on lm4-w009 at Fri Mar 13 01:31:31 CET 2026
-Game: Rimau-Rimau (Two Tigers)
-Variant: UCB1 tuned | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T94 (Mughrabieh) -> completed=30/30, wins=1, losses=2, draws=27, failures=0, avgMoves=983.4
-Job completed at Fri Mar 13 05:10:51 CET 2026

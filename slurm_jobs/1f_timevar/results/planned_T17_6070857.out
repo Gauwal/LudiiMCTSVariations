@@ -1,7 +1,0 @@
-Running T17 on lm4-w003 at Thu Mar 12 15:29:31 CET 2026
-Game: Bravalath
-Variant: UCB1 | Heuristic | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Completed T17 (Bagh Guti) -> completed=30/30, wins=14, losses=16, draws=0, failures=0, avgMoves=295.6
-Job completed at Thu Mar 12 16:43:20 CET 2026

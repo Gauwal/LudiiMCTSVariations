@@ -1,7 +1,0 @@
-Running T104 on lm4-w017 at Thu Mar 12 15:47:35 CET 2026
-Game: Yi
-Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T104 (Grasshopper) -> completed=30/30, wins=23, losses=2, draws=5, failures=0, avgMoves=787.5
-Job completed at Thu Mar 12 19:07:27 CET 2026

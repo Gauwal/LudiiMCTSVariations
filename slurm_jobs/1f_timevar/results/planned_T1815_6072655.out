@@ -1,6 +1,0 @@
-Running T1815 on lm4-w013 at Fri Mar 13 00:44:52 CET 2026
-Game: Lian Qi (A-Type)
-Variant: UCB1 | Random | MonteCarlo | Proportional Exp
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 00:44:53 CET 2026

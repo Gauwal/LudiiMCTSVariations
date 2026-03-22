@@ -1,7 +1,0 @@
-Running T672 on lm4-w027 at Thu Mar 12 23:21:06 CET 2026
-Game: N-Mesh
-Variant: ExIt | Random | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T672 (Brandub) -> completed=30/30, wins=15, losses=15, draws=0, failures=0, avgMoves=27.8
-Job completed at Thu Mar 12 23:28:06 CET 2026

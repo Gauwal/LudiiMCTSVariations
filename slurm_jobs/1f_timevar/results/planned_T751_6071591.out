@@ -1,7 +1,0 @@
-Running T751 on lm4-w007 at Thu Mar 12 23:40:40 CET 2026
-Game: Lifeline
-Variant: Progressive Bias | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T751 (Lam Pusri) -> completed=30/30, wins=0, losses=18, draws=12, failures=0, avgMoves=502.9
-Job completed at Fri Mar 13 01:46:36 CET 2026

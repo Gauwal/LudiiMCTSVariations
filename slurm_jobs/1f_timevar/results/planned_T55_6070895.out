@@ -1,7 +1,0 @@
-Running T55 on lm4-w027 at Thu Mar 12 15:37:03 CET 2026
-Game: Laomuzhu
-Variant: McGRAVE | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T55 (Len Cua Kin Ngoa) -> completed=30/30, wins=12, losses=18, draws=0, failures=0, avgMoves=26.6
-Job completed at Thu Mar 12 15:43:44 CET 2026

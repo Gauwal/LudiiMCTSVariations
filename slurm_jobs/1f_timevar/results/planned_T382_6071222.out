@@ -1,7 +1,0 @@
-Running T382 on lm4-w017 at Thu Mar 12 22:01:19 CET 2026
-Game: Pente
-Variant: UCB1 | Random | Implicit Minimax | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=7G, time=16:00:00
-Completed T382 (Pong Hau K'i) -> completed=30/30, wins=0, losses=0, draws=30, failures=0, avgMoves=1000.0
-Job completed at Fri Mar 13 00:06:32 CET 2026

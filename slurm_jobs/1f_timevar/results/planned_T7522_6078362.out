@@ -1,6 +1,0 @@
-Running T7522 on lm4-w033 at Fri Mar 13 09:45:17 CET 2026
-Game: Dodo
-Variant: UCB1 | Random | Score Bounded | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Job completed at Fri Mar 13 09:45:18 CET 2026

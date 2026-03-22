@@ -1,111 +1,111 @@
 {
   "label": "all",
-  "best_model_name": "HistGradientBoosting",
-  "best_mse": 0.04003915967166944,
+  "best_model_name": "KernelRidge",
+  "best_mse": 0.054858892971800154,
   "multi_output": false,
   "all_models": {
     "KernelRidge": {
-      "mse": 0.041864297255968304,
-      "mae": 0.16006951561671137,
-      "r2": 0.19167499268440613,
+      "mse": 0.054858892971800154,
+      "mae": 0.20743333222472146,
+      "r2": -0.027699118632915187,
       "best_params": {
-        "model__alpha": 1.0,
-        "model__gamma": 0.01,
+        "model__alpha": 10.0,
+        "model__gamma": 0.001,
         "model__kernel": "rbf"
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": false
     },
     "Ridge": {
-      "mse": 0.04062465836318136,
-      "mae": 0.16067894380192102,
-      "r2": 0.21561021154056037,
+      "mse": 0.060299704720002206,
+      "mae": 0.21650005961863475,
+      "r2": -0.12962457019368845,
       "best_params": {
         "model__alpha": 100.0
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": false
     },
     "HistGradientBoosting": {
-      "mse": 0.04003915967166944,
-      "mae": 0.15937398099731256,
-      "r2": 0.22691514832729154,
+      "mse": 0.05936218599463443,
+      "mae": 0.21490582309511425,
+      "r2": -0.11206156234630815,
       "best_params": {
-        "model__l2_regularization": 1.0,
+        "model__l2_regularization": 0.0,
         "model__learning_rate": 0.05,
         "model__max_depth": 3,
         "model__max_iter": 200
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": false
     },
     "RandomForest": {
-      "mse": 0.04147495821177337,
-      "mae": 0.1617140934378641,
-      "r2": 0.19919243609980342,
+      "mse": 0.05606189656936967,
+      "mae": 0.20950282961776803,
+      "r2": -0.0502355875618441,
       "best_params": {
-        "model__max_depth": 10,
-        "model__max_features": 0.5,
+        "model__max_depth": 5,
+        "model__max_features": "sqrt",
         "model__min_samples_leaf": 5,
-        "model__n_estimators": 200
+        "model__n_estimators": 100
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": false
     },
     "Ridge_MO": {
-      "mse": 0.04049056563472589,
-      "mae": 0.16052145771718018,
-      "r2": 0.21819930326822057,
+      "mse": 0.060299704720002234,
+      "mae": 0.2165000596186348,
+      "r2": -0.1296245701936889,
       "best_params": {
         "model__alpha": 100.0
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": true,
-      "mse_winrate": 0.0462455936861741,
-      "r2_winrate": 0.16095251662517174,
-      "mse_drawrate": 0.08051735788336568,
-      "r2_drawrate": -0.07774963368917076
+      "mse_winrate": 0.05944667882461483,
+      "r2_winrate": -0.058816761174615984,
+      "mse_drawrate": 0.10372392172611669,
+      "r2_drawrate": -0.028042803251194126
     },
     "HistGradientBoosting_MO": {
-      "mse": 0.042801342270085696,
-      "mae": 0.16456255309740087,
-      "r2": 0.17358232261615358,
+      "mse": 0.059727854369682545,
+      "mae": 0.21189675525741042,
+      "r2": -0.11891181116452709,
       "best_params": {
-        "model__estimator__l2_regularization": 0.0,
+        "model__estimator__l2_regularization": 1.0,
         "model__estimator__learning_rate": 0.05,
         "model__estimator__max_depth": 3,
         "model__estimator__max_iter": 200
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": true,
-      "mse_winrate": 0.046732209681727116,
-      "r2_winrate": 0.1521236987012543,
-      "mse_drawrate": 0.08534679213476293,
-      "r2_drawrate": -0.14239309855433646
+      "mse_winrate": 0.06041439536533348,
+      "r2_winrate": -0.07605295525034883,
+      "mse_drawrate": 0.11567496982024604,
+      "r2_drawrate": -0.14649367533565227
     },
     "RandomForest_MO": {
-      "mse": 0.04312123993957128,
-      "mae": 0.17145604059036837,
-      "r2": 0.1674056684507642,
+      "mse": 0.054966215294917575,
+      "mae": 0.2072380070272323,
+      "r2": -0.029709641465268,
       "best_params": {
-        "model__max_depth": 10,
-        "model__max_features": 0.5,
+        "model__max_depth": 5,
+        "model__max_features": "sqrt",
         "model__min_samples_leaf": 5,
         "model__n_estimators": 200
       },
-      "n_train": 897,
+      "n_train": 898,
       "n_test": 100,
       "multi_output": true,
-      "mse_winrate": 0.04798908273305468,
-      "r2_winrate": 0.12931987921102428,
-      "mse_drawrate": 0.08150292175090854,
-      "r2_drawrate": -0.09094170959856962
+      "mse_winrate": 0.05628799415446378,
+      "r2_winrate": -0.0025567927769127863,
+      "mse_drawrate": 0.10387567826586036,
+      "r2_drawrate": -0.029546913546423248
     }
   }
 }

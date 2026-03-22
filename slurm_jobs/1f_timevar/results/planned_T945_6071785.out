@@ -1,7 +1,0 @@
-Running T945 on lm4-w001 at Fri Mar 13 03:53:33 CET 2026
-Game: Terhuchu
-Variant: UCB1 | LGR | MonteCarlo | Robust
-Meta: moveTime=0.2, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T945 (Lielow) -> completed=30/30, wins=3, losses=27, draws=0, failures=0, avgMoves=12.9
-Job completed at Fri Mar 13 03:56:49 CET 2026

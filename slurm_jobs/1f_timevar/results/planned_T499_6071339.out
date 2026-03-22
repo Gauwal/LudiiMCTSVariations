@@ -1,7 +1,0 @@
-Running T499 on lm4-w019 at Fri Mar 13 02:31:20 CET 2026
-Game: Dala
-Variant: Alpha-Beta | Random | MonteCarlo | Robust
-Meta: moveTime=1.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T499 (Dig Dig) -> completed=30/30, wins=4, losses=26, draws=0, failures=0, avgMoves=151.8
-Job completed at Fri Mar 13 03:08:45 CET 2026

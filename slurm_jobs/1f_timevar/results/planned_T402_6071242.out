@@ -1,7 +1,0 @@
-Running T402 on lm4-w019 at Thu Mar 12 22:15:53 CET 2026
-Game: CustAndantino
-Variant: Noisy AG0 | Random | MonteCarlo | Robust
-Meta: moveTime=0.5, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=5, mem=9G, time=16:00:00
-Completed T402 (Abak) -> completed=30/30, wins=0, losses=1, draws=29, failures=0, avgMoves=904.5
-Job completed at Fri Mar 13 03:22:55 CET 2026

@@ -1,7 +1,0 @@
-Running T60 on lm4-w029 at Fri Mar 13 01:24:58 CET 2026
-Game: MaxMatch
-Variant: UCB1 | LGR | MonteCarlo | Robust
-Meta: moveTime=2.0, gamesPerMatchup=50, maxMoves=1000
-Estimated: cpus=4, mem=7G, time=16:00:00
-Completed T60 (Merimueng-rimueng-do) -> completed=30/30, wins=11, losses=19, draws=0, failures=0, avgMoves=231.2
-Job completed at Fri Mar 13 02:22:28 CET 2026
