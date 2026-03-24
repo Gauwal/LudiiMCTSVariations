@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T777,"Freeze Frenzy",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",PlayoutHS,AlphaGo,MaxAvgScore,0.200000,100,2000,1,17,83,0,0,100,100,40.2000,

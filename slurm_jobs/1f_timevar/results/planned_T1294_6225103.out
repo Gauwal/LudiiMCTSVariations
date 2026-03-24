@@ -1,0 +1,5 @@
+Running T1294 on lm4-w017 at Tue Mar 24 04:36:14 CET 2026
+Game: Phantom Go
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

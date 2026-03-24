@@ -1,0 +1,7 @@
+Running T1813 on lm4-w015 at Mon Mar 23 13:40:14 CET 2026
+Game: Iyogh
+Variant: UCB1 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1813 (Iyogh) -> completed=100/100, wins=81, losses=16, draws=3, failures=0, avgMoves=499.8
+Job completed at Mon Mar 23 16:37:19 CET 2026

@@ -1,0 +1,7 @@
+Running T1643 on lm4-w034 at Tue Mar 24 07:21:31 CET 2026
+Game: Waurie
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1643 (Waurie) -> completed=100/100, wins=20, losses=80, draws=0, failures=0, avgMoves=112.1
+Job completed at Tue Mar 24 10:16:09 CET 2026

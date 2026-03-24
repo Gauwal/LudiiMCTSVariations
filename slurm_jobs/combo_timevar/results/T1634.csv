@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1634,"Qelat (Beni Amir-Mensa)",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",Random,MonteCarlo,MaxAvgScore,0.500000,100,2000,0,39,39,22,0,100,100,468.2700,

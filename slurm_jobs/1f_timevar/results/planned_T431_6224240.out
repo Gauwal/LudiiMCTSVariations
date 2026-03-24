@@ -1,0 +1,5 @@
+Running T431 on lm4-w012 at Mon Mar 23 22:05:28 CET 2026
+Game: Hus (Damara)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

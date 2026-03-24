@@ -1,0 +1,7 @@
+Running T999 on lm4-w005 at Mon Mar 23 08:20:40 CET 2026
+Game: Misoro Tsoro
+Variant: McBRAVE | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T999 (Misoro Tsoro) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=86.1
+Job completed at Mon Mar 23 09:44:08 CET 2026

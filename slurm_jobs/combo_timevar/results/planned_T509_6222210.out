@@ -1,0 +1,7 @@
+Running T509 on lm4-w028 at Sun Mar 22 20:39:39 CET 2026
+Game: Yucebao
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T509 (Yucebao) -> completed=100/100, wins=1, losses=1, draws=98, failures=0, avgMoves=1979.4
+Job completed at Mon Mar 23 00:26:39 CET 2026

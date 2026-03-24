@@ -1,0 +1,7 @@
+Running T434 on lm4-w015 at Mon Mar 23 02:04:54 CET 2026
+Game: Andada
+Variant: Implicit Minimax | Heuristic Sampling | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T434 (Andada) -> completed=100/100, wins=19, losses=81, draws=0, failures=0, avgMoves=103.6
+Job completed at Mon Mar 23 02:48:52 CET 2026

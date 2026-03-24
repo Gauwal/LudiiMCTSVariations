@@ -1,0 +1,7 @@
+Running T887 on lm4-w023 at Tue Mar 24 01:23:49 CET 2026
+Game: Zombego
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T887 (Zombego) -> completed=100/100, wins=47, losses=53, draws=0, failures=0, avgMoves=63.8
+Job completed at Tue Mar 24 03:10:28 CET 2026

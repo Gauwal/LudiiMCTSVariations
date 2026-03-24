@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T128,Andantino,FULL,UCB1,Random,MonteCarlo,Robust,UCB1,"HS Playout","Implicit Minimax",Robust,2.000000,100,2000,1,39,57,4,0,100,100,20.8900,

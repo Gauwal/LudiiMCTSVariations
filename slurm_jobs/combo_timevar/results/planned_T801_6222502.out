@@ -1,0 +1,7 @@
+Running T801 on lm4-w009 at Mon Mar 23 05:31:33 CET 2026
+Game: Chomp
+Variant: UCB1 tuned | PlayoutHS | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T801 (Chomp) -> completed=100/100, wins=55, losses=45, draws=0, failures=0, avgMoves=10.9
+Job completed at Mon Mar 23 05:34:52 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T10,Ringo,FULL,UCB1,Random,MonteCarlo,Robust,AG0,LGR,AlphaGo,MaxAvgScore,0.500000,100,2000,1,2,97,1,0,100,100,21.1800,

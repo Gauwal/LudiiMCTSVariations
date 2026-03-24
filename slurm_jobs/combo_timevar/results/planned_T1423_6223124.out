@@ -1,0 +1,7 @@
+Running T1423 on lm4-w022 at Mon Mar 23 11:19:53 CET 2026
+Game: Buudal
+Variant: Noisy AG0 | Heuristic | Score Bounded | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1423 (Buudal) -> completed=100/100, wins=0, losses=91, draws=9, failures=0, avgMoves=218.5
+Job completed at Mon Mar 23 11:52:10 CET 2026

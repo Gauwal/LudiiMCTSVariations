@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T229,"Shatranj al-Kabir",FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,MAST,AlphaGo,Robust,0.200000,100,2000,1,6,10,84,0,100,100,1286.8600,

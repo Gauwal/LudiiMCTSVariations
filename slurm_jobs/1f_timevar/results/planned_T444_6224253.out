@@ -1,0 +1,5 @@
+Running T444 on lm4-w034 at Mon Mar 23 16:20:33 CET 2026
+Game: Tumbleweed
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T759 on lm4-w034 at Mon Mar 23 05:02:31 CET 2026
+Game: De Vasa Chess
+Variant: McBRAVE | PlayoutHS | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T759 (De Vasa Chess) -> completed=100/100, wins=4, losses=82, draws=14, failures=0, avgMoves=228.5
+Job completed at Mon Mar 23 11:29:40 CET 2026

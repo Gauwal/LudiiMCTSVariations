@@ -1,0 +1,5 @@
+Running T791 on lm4-w005 at Mon Mar 23 17:03:38 CET 2026
+Game: Dai Seireigi
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=12G, time=16:00:00

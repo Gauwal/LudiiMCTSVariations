@@ -1,0 +1,7 @@
+Running T707 on lm4-w029 at Tue Mar 24 00:27:42 CET 2026
+Game: Sujjua
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T707 (Sujjua) -> completed=100/100, wins=52, losses=48, draws=0, failures=0, avgMoves=15.9
+Job completed at Tue Mar 24 00:54:21 CET 2026

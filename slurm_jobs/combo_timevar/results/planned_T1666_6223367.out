@@ -1,0 +1,5 @@
+Running T1666 on lm4-w017 at Mon Mar 23 12:32:34 CET 2026
+Game: Unashogi
+Variant: Progressive Widening | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

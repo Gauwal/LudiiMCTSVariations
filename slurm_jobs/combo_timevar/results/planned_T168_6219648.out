@@ -1,0 +1,5 @@
+Running T168 on lm4-w032 at Sun Mar 22 18:40:51 CET 2026
+Game: Bagh Bandi
+Variant: McGRAVE | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

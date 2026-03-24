@@ -1,0 +1,5 @@
+Running T275 on lm4-w013 at Mon Mar 23 20:54:50 CET 2026
+Game: Kapana Bona
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

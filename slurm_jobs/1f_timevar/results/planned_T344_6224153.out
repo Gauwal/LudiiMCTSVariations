@@ -1,0 +1,7 @@
+Running T344 on lm4-w011 at Mon Mar 23 21:19:23 CET 2026
+Game: Owela (Benguela)
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T344 (Owela (Benguela)) -> completed=100/100, wins=0, losses=99, draws=1, failures=0, avgMoves=71.3
+Job completed at Mon Mar 23 23:00:25 CET 2026

@@ -1,0 +1,5 @@
+Running T245 on lm4-w034 at Sun Mar 22 18:40:51 CET 2026
+Game: Eleven-Fang
+Variant: Progressive Bias | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

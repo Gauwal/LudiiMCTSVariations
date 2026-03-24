@@ -1,0 +1,7 @@
+Running T1727 on lm4-w035 at Mon Mar 23 12:44:36 CET 2026
+Game: Zombego
+Variant: UCB1 | MAST | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1727 (Zombego) -> completed=100/100, wins=56, losses=44, draws=0, failures=0, avgMoves=68.7
+Job completed at Mon Mar 23 14:39:10 CET 2026

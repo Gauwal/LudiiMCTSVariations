@@ -1,0 +1,5 @@
+Running T1368 on lm4-w023 at Tue Mar 24 05:23:42 CET 2026
+Game: Shui Yen Ho-Shang
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

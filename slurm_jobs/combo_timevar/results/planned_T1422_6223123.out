@@ -1,0 +1,7 @@
+Running T1422 on lm4-w010 at Mon Mar 23 11:19:53 CET 2026
+Game: Buudal
+Variant: McGRAVE | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1422 (Buudal) -> completed=100/100, wins=0, losses=87, draws=13, failures=0, avgMoves=298.9
+Job completed at Mon Mar 23 11:45:19 CET 2026

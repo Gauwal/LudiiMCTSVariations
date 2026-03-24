@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1398,"Jeu du Renard et de la Poule",FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,"Heuristic Sampling",Heuristic,Robust,0.500000,100,2000,1,49,51,0,0,100,100,78.1700,

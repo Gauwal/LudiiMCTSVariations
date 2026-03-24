@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T236,"Toguz Kumalak",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",NST,"Implicit Minimax",MaxAvgScore,2.000000,100,2000,1,20,78,2,0,100,100,150.9600,

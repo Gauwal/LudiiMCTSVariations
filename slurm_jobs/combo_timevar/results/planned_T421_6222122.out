@@ -1,0 +1,7 @@
+Running T421 on lm4-w009 at Mon Mar 23 01:46:54 CET 2026
+Game: Dablot Prejjesne
+Variant: ExIt | Heuristic Sampling | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T421 (Dablot Prejjesne) -> completed=100/100, wins=8, losses=89, draws=3, failures=0, avgMoves=1295.3
+Job completed at Mon Mar 23 05:27:22 CET 2026

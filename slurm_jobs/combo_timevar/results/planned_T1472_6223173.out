@@ -1,0 +1,7 @@
+Running T1472 on lm4-w036 at Mon Mar 23 11:33:25 CET 2026
+Game: Otep
+Variant: McGRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1472 (Otep) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=72.4
+Job completed at Mon Mar 23 12:59:26 CET 2026

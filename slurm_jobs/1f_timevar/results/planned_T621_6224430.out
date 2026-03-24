@@ -1,0 +1,7 @@
+Running T621 on lm4-w025 at Mon Mar 23 23:43:38 CET 2026
+Game: Ho-Bag Gonu
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T621 (Ho-Bag Gonu) -> completed=100/100, wins=4, losses=5, draws=91, failures=0, avgMoves=1825.7
+Job completed at Tue Mar 24 09:35:42 CET 2026

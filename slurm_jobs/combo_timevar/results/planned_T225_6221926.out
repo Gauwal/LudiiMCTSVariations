@@ -1,0 +1,7 @@
+Running T225 on lm4-w023 at Mon Mar 23 00:24:50 CET 2026
+Game: Janes Soppi
+Variant: Alpha-Beta | Heuristic Sampling | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T225 (Janes Soppi) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=381.7
+Job completed at Mon Mar 23 02:28:06 CET 2026

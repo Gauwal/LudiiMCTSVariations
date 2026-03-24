@@ -1,0 +1,5 @@
+Running T1595 on lm4-w026 at Mon Mar 23 12:15:31 CET 2026
+Game: Azigo
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

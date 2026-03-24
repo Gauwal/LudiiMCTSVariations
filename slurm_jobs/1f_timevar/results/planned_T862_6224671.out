@@ -1,0 +1,7 @@
+Running T862 on lm4-w026 at Tue Mar 24 01:15:48 CET 2026
+Game: En Gehe
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T862 (En Gehe) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=490.7
+Job completed at Tue Mar 24 03:50:05 CET 2026

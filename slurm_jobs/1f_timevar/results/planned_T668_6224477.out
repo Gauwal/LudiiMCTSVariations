@@ -1,0 +1,7 @@
+Running T668 on lm4-w017 at Tue Mar 24 00:01:10 CET 2026
+Game: Oware
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T668 (Oware) -> completed=100/100, wins=49, losses=19, draws=32, failures=0, avgMoves=713.9
+Job completed at Tue Mar 24 09:39:52 CET 2026

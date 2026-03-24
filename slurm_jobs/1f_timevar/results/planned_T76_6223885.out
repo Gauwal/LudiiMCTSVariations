@@ -1,0 +1,7 @@
+Running T76 on lm4-w002 at Mon Mar 23 15:01:54 CET 2026
+Game: Connect Four
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T76 (Connect Four) -> completed=100/100, wins=9, losses=90, draws=1, failures=0, avgMoves=28.4
+Job completed at Mon Mar 23 16:35:55 CET 2026

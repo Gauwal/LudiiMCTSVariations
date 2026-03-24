@@ -1,0 +1,7 @@
+Running T995 on lm4-w012 at Tue Mar 24 02:11:53 CET 2026
+Game: Dala
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T995 (Dala) -> completed=100/100, wins=32, losses=68, draws=0, failures=0, avgMoves=60.7
+Job completed at Tue Mar 24 03:51:43 CET 2026

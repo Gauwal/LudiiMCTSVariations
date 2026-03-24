@@ -1,0 +1,7 @@
+Running T956 on lm4-w002 at Tue Mar 24 01:54:22 CET 2026
+Game: MaxMatch
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T956 (MaxMatch) -> completed=100/100, wins=7, losses=41, draws=52, failures=0, avgMoves=27.9
+Job completed at Tue Mar 24 03:24:25 CET 2026

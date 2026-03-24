@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1022,FairKalah,SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,NST,MonteCarlo,Robust,0.500000,100,2000,0,41,49,10,0,100,100,34.4200,

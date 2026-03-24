@@ -1,0 +1,7 @@
+Running T1121 on lm4-w009 at Mon Mar 23 09:30:44 CET 2026
+Game: Fart (5x5)
+Variant: Progressive Widening | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1121 (Fart (5x5)) -> completed=100/100, wins=47, losses=53, draws=0, failures=0, avgMoves=158.7
+Job completed at Mon Mar 23 10:02:07 CET 2026

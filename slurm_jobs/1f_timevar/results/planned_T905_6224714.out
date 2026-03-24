@@ -1,0 +1,7 @@
+Running T905 on lm4-w038 at Mon Mar 23 17:21:11 CET 2026
+Game: Archworm
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T905 (Archworm) -> completed=100/100, wins=16, losses=76, draws=8, failures=0, avgMoves=984.5
+Job completed at Mon Mar 23 23:12:05 CET 2026

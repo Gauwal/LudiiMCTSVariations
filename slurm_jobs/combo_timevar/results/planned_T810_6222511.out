@@ -1,0 +1,7 @@
+Running T810 on lm4-w010 at Mon Mar 23 05:40:03 CET 2026
+Game: Jungle
+Variant: ExIt | PlayoutHS | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T810 (Jungle) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=162.0
+Job completed at Mon Mar 23 06:48:06 CET 2026

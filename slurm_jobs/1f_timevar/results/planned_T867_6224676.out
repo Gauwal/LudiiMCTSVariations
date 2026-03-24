@@ -1,0 +1,7 @@
+Running T867 on lm4-w014 at Tue Mar 24 01:17:49 CET 2026
+Game: Rabbit Warrens
+Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T867 (Rabbit Warrens) -> completed=100/100, wins=3, losses=0, draws=97, failures=0, avgMoves=133.7
+Job completed at Tue Mar 24 07:31:29 CET 2026

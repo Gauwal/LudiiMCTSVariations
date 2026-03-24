@@ -1,0 +1,5 @@
+Running T564 on lm4-w038 at Sun Mar 22 20:39:39 CET 2026
+Game: Conspirateurs
+Variant: Progressive Widening | NST | AlphaGo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

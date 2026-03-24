@@ -1,0 +1,7 @@
+Running T1203 on lm4-w012 at Tue Mar 24 03:51:44 CET 2026
+Game: Yakamaido
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1203 (Yakamaido) -> completed=100/100, wins=58, losses=42, draws=0, failures=0, avgMoves=59.3
+Job completed at Tue Mar 24 05:30:04 CET 2026

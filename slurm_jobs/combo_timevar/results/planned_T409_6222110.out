@@ -1,0 +1,7 @@
+Running T409 on lm4-w009 at Mon Mar 23 01:42:23 CET 2026
+Game: I
+Variant: UCB1 tuned | Heuristic | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T409 (I) -> completed=100/100, wins=40, losses=60, draws=0, failures=0, avgMoves=21.4
+Job completed at Mon Mar 23 01:46:53 CET 2026

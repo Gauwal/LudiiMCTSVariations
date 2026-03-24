@@ -1,0 +1,7 @@
+Running T1199 on lm4-w014 at Tue Mar 24 03:50:05 CET 2026
+Game: Gadis
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1199 (Gadis) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=130.4
+Job completed at Tue Mar 24 05:26:47 CET 2026

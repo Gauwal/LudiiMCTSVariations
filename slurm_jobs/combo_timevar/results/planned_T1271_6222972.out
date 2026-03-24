@@ -1,0 +1,5 @@
+Running T1271 on lm4-w016 at Mon Mar 23 10:21:18 CET 2026
+Game: Queen's Four
+Variant: UCB1 | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

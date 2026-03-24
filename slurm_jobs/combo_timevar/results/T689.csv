@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T689,Rimoe,FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,"HS Playout",Heuristic,MaxAvgScore,0.200000,100,2000,1,44,56,0,0,100,100,183.5000,

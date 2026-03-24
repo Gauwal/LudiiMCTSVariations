@@ -1,0 +1,7 @@
+Running T1211 on lm4-w017 at Tue Mar 24 03:55:02 CET 2026
+Game: Nsolo
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1211 (Nsolo) -> completed=100/100, wins=55, losses=45, draws=0, failures=0, avgMoves=210.4
+Job completed at Tue Mar 24 06:57:07 CET 2026

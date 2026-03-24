@@ -1,0 +1,7 @@
+Running T819 on lm4-w014 at Tue Mar 24 01:03:17 CET 2026
+Game: Mutant Y^3
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T819 (Mutant Y^3) -> completed=100/100, wins=58, losses=42, draws=0, failures=0, avgMoves=22.6
+Job completed at Tue Mar 24 01:40:57 CET 2026

@@ -1,0 +1,7 @@
+Running T1357 on lm4-w023 at Mon Mar 23 10:53:21 CET 2026
+Game: Shah
+Variant: AG0 | Heuristic Sampling | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1357 (Shah) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=1052.4
+Job completed at Mon Mar 23 13:52:34 CET 2026

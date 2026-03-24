@@ -1,0 +1,7 @@
+Running T1612 on lm4-w003 at Mon Mar 23 12:22:02 CET 2026
+Game: Six-Penny Madell
+Variant: UCB1 tuned | Heuristic | Implicit Minimax | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1612 (Six-Penny Madell) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=94.6
+Job completed at Mon Mar 23 17:16:10 CET 2026

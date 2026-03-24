@@ -1,0 +1,7 @@
+Running T292 on lm4-w022 at Mon Mar 23 00:52:51 CET 2026
+Game: Breakthru
+Variant: Implicit Minimax | PlayoutHS | Qualitative | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T292 (Breakthru) -> completed=100/100, wins=4, losses=96, draws=0, failures=0, avgMoves=84.1
+Job completed at Mon Mar 23 03:17:39 CET 2026

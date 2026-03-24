@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1910,Ntyenge,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",Random,"Score Bounded",Robust,0.500000,100,2000,0,33,46,21,0,100,100,354.2100,

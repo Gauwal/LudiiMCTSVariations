@@ -1,0 +1,7 @@
+Running T706 on lm4-w036 at Mon Mar 23 16:51:06 CET 2026
+Game: Quoridor
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T706 (Quoridor) -> completed=100/100, wins=53, losses=45, draws=2, failures=0, avgMoves=87.2
+Job completed at Mon Mar 23 18:41:59 CET 2026

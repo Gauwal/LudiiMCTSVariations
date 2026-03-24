@@ -1,0 +1,7 @@
+Running T1533 on lm4-w025 at Tue Mar 24 06:44:31 CET 2026
+Game: Riga Game
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1533 (Riga Game) -> completed=100/100, wins=56, losses=43, draws=1, failures=0, avgMoves=75.3
+Job completed at Tue Mar 24 07:09:27 CET 2026

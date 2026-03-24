@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T366,Terhuchu,FULL,UCB1,Random,MonteCarlo,Robust,"Implicit Minimax",PlayoutHS,"Score Bounded",MaxAvgScore,0.500000,100,2000,1,27,29,44,0,100,100,1132.3200,

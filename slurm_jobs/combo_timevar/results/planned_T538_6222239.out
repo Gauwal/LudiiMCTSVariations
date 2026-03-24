@@ -1,0 +1,7 @@
+Running T538 on lm4-w022 at Mon Mar 23 03:21:27 CET 2026
+Game: Uxrijn Ever
+Variant: McGRAVE | Random | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T538 (Uxrijn Ever) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=24.3
+Job completed at Mon Mar 23 03:41:19 CET 2026

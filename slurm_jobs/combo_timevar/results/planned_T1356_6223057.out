@@ -1,0 +1,5 @@
+Running T1356 on lm4-w023 at Mon Mar 23 10:53:21 CET 2026
+Game: Shah
+Variant: Progressive Widening | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T706 on lm4-w035 at Mon Mar 23 04:42:01 CET 2026
+Game: Social Distance Chess
+Variant: Progressive History | PlayoutHS | Qualitative | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T706 (Social Distance Chess) -> completed=100/100, wins=3, losses=78, draws=19, failures=0, avgMoves=294.4
+Job completed at Mon Mar 23 07:03:15 CET 2026

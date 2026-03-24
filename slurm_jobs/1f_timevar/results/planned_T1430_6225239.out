@@ -1,0 +1,7 @@
+Running T1430 on lm4-w025 at Tue Mar 24 05:57:35 CET 2026
+Game: Buudal
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1430 (Buudal) -> completed=100/100, wins=41, losses=35, draws=24, failures=0, avgMoves=515.8
+Job completed at Tue Mar 24 08:50:34 CET 2026

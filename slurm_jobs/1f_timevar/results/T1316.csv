@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1316,"Shakhmaty (Early Modern)",SELECTION,UCB1,Random,MonteCarlo,Robust,"Progressive Bias",Random,MonteCarlo,Robust,2.000000,100,2000,0,7,71,22,0,100,100,502.9000,

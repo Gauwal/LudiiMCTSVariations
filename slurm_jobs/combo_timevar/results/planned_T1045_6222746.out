@@ -1,0 +1,7 @@
+Running T1045 on lm4-w028 at Mon Mar 23 09:03:12 CET 2026
+Game: Chess (Siberia)
+Variant: AG0 | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1045 (Chess (Siberia)) -> completed=100/100, wins=4, losses=29, draws=67, failures=0, avgMoves=1383.3
+Job completed at Mon Mar 23 13:02:16 CET 2026

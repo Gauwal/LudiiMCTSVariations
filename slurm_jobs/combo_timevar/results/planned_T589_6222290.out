@@ -1,0 +1,7 @@
+Running T589 on lm4-w026 at Mon Mar 23 03:56:29 CET 2026
+Game: BlooGo
+Variant: McBRAVE | Heuristic | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T589 (BlooGo) -> completed=100/100, wins=9, losses=91, draws=0, failures=0, avgMoves=63.9
+Job completed at Mon Mar 23 04:18:29 CET 2026

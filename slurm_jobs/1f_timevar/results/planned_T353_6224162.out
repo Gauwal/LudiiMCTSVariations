@@ -1,0 +1,7 @@
+Running T353 on lm4-w034 at Mon Mar 23 15:52:02 CET 2026
+Game: Quoridor
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T353 (Quoridor) -> completed=100/100, wins=34, losses=66, draws=0, failures=0, avgMoves=56.8
+Job completed at Mon Mar 23 16:50:22 CET 2026

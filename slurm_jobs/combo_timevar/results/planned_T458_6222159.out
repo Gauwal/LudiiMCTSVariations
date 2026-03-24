@@ -1,0 +1,7 @@
+Running T458 on lm4-w031 at Mon Mar 23 02:37:26 CET 2026
+Game: Nuktagaq
+Variant: Progressive Bias | Heuristic | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T458 (Nuktagaq) -> completed=100/100, wins=48, losses=52, draws=0, failures=0, avgMoves=493.9
+Job completed at Mon Mar 23 06:03:23 CET 2026

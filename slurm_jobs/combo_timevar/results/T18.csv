@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T18,Nchuwa,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",NST,AlphaGo,Robust,0.500000,100,2000,1,54,46,0,0,100,100,81.3400,

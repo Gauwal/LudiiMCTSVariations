@@ -1,0 +1,7 @@
+Running T509 on lm4-w017 at Mon Mar 23 22:51:33 CET 2026
+Game: Gonnect
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T509 (Gonnect) -> completed=100/100, wins=99, losses=1, draws=0, failures=0, avgMoves=134.1
+Job completed at Mon Mar 23 23:36:28 CET 2026

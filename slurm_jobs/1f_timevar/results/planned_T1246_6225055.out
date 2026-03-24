@@ -1,0 +1,7 @@
+Running T1246 on lm4-w012 at Mon Mar 23 18:10:15 CET 2026
+Game: Veloop (Square)
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1246 (Veloop (Square)) -> completed=100/100, wins=7, losses=93, draws=0, failures=0, avgMoves=49.8
+Job completed at Mon Mar 23 18:31:34 CET 2026

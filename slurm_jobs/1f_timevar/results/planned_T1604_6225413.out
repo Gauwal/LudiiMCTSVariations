@@ -1,0 +1,7 @@
+Running T1604 on lm4-w025 at Tue Mar 24 07:09:27 CET 2026
+Game: 1D Chess
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1604 (1D Chess) -> completed=100/100, wins=0, losses=91, draws=9, failures=0, avgMoves=7.2
+Job completed at Tue Mar 24 07:21:11 CET 2026

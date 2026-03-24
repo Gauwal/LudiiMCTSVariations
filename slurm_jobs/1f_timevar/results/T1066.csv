@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1066,"Mraha wa Bwe",FINAL_MOVE,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,"Proportional Exp",0.500000,100,2000,0,6,93,1,0,100,100,163.1600,

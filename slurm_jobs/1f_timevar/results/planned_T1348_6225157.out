@@ -1,0 +1,7 @@
+Running T1348 on lm4-w031 at Tue Mar 24 05:17:18 CET 2026
+Game: La'b Akila
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1348 (La'b Akila) -> completed=100/100, wins=54, losses=41, draws=5, failures=0, avgMoves=132.8
+Job completed at Tue Mar 24 08:40:25 CET 2026

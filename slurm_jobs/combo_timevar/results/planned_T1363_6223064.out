@@ -1,0 +1,7 @@
+Running T1363 on lm4-w028 at Mon Mar 23 10:58:21 CET 2026
+Game: Fergen Gobale
+Variant: Progressive History | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1363 (Fergen Gobale) -> completed=100/100, wins=28, losses=72, draws=0, failures=0, avgMoves=53.2
+Job completed at Mon Mar 23 11:34:25 CET 2026

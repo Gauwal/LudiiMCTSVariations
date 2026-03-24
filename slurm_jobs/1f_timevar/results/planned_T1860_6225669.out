@@ -1,0 +1,5 @@
+Running T1860 on lm4-w025 at Tue Mar 24 09:04:55 CET 2026
+Game: Baghchal
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

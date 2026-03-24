@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1193,Camelot,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Bias","Heuristic Sampling","Score Bounded","Proportional Exp",0.200000,100,2000,1,0,97,3,0,100,100,266.5500,

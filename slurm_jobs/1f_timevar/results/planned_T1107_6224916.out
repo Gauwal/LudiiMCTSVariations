@@ -1,0 +1,7 @@
+Running T1107 on lm4-w015 at Tue Mar 24 03:05:57 CET 2026
+Game: Janggi
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1107 (Janggi) -> completed=100/100, wins=63, losses=31, draws=6, failures=0, avgMoves=128.6
+Job completed at Tue Mar 24 06:41:53 CET 2026

@@ -1,0 +1,7 @@
+Running T649 on lm4-w031 at Mon Mar 23 04:19:30 CET 2026
+Game: Kaooa
+Variant: McGRAVE | HS Playout | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T649 (Kaooa) -> completed=100/100, wins=30, losses=70, draws=0, failures=0, avgMoves=34.1
+Job completed at Mon Mar 23 04:29:54 CET 2026

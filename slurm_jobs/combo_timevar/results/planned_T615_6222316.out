@@ -1,0 +1,7 @@
+Running T615 on lm4-w035 at Mon Mar 23 04:08:59 CET 2026
+Game: L Game
+Variant: AG0 | Random | Implicit Minimax | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T615 (L Game) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=26.5
+Job completed at Mon Mar 23 04:31:43 CET 2026

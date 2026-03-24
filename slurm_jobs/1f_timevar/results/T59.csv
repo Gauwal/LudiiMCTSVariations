@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T59,"Okwe (Achalla)",SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,"HS Playout",MonteCarlo,Robust,1.000000,100,2000,1,29,70,1,0,100,100,37.2300,

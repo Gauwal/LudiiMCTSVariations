@@ -1,0 +1,7 @@
+Running T1990 on lm4-w015 at Tue Mar 24 10:03:48 CET 2026
+Game: Jostle
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1990 (Jostle) -> completed=100/100, wins=60, losses=40, draws=0, failures=0, avgMoves=32.8
+Job completed at Tue Mar 24 10:30:22 CET 2026

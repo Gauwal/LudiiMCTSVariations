@@ -1,0 +1,5 @@
+Running T358 on lm4-w018 at Mon Mar 23 01:10:22 CET 2026
+Game: Akidada
+Variant: UCB1 | LGR | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

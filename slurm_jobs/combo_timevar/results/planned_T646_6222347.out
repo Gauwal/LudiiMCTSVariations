@@ -1,0 +1,7 @@
+Running T646 on lm4-w028 at Mon Mar 23 04:17:29 CET 2026
+Game: Marelle Quadruple
+Variant: Progressive Widening | PlayoutHS | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T646 (Marelle Quadruple) -> completed=100/100, wins=52, losses=48, draws=0, failures=0, avgMoves=256.8
+Job completed at Mon Mar 23 08:10:37 CET 2026

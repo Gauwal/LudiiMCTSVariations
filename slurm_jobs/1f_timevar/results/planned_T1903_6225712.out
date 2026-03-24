@@ -1,0 +1,7 @@
+Running T1903 on lm4-w017 at Tue Mar 24 09:20:42 CET 2026
+Game: Unlur
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1903 (Unlur) -> completed=100/100, wins=88, losses=12, draws=0, failures=0, avgMoves=58.4
+Job completed at Tue Mar 24 10:57:25 CET 2026

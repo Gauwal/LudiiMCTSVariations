@@ -1,0 +1,7 @@
+Running T1877 on lm4-w036 at Mon Mar 23 14:17:20 CET 2026
+Game: Diagonal Draughts
+Variant: Progressive Widening | NST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1877 (Diagonal Draughts) -> completed=100/100, wins=11, losses=78, draws=11, failures=0, avgMoves=521.3
+Job completed at Mon Mar 23 17:01:50 CET 2026

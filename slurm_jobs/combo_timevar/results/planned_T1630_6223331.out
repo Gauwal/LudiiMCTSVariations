@@ -1,0 +1,7 @@
+Running T1630 on lm4-w030 at Mon Mar 23 12:26:03 CET 2026
+Game: Beirut Chess
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1630 (Beirut Chess) -> completed=100/100, wins=5, losses=76, draws=19, failures=0, avgMoves=182.0
+Job completed at Mon Mar 23 13:45:13 CET 2026

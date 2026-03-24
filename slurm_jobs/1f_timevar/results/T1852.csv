@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1852,"Ngre E E",SELECTION,UCB1,Random,MonteCarlo,Robust,McGRAVE,Random,MonteCarlo,Robust,2.000000,100,2000,0,0,73,27,0,100,100,6.1300,

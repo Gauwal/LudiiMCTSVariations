@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T781,"Dam Hariman",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",LGR,AlphaGo,"Proportional Exp",0.200000,100,2000,1,8,88,4,0,100,100,341.2600,

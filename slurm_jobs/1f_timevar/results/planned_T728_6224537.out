@@ -1,0 +1,7 @@
+Running T728 on lm4-w037 at Tue Mar 24 00:36:44 CET 2026
+Game: Kolowis Awithlaknannai
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T728 (Kolowis Awithlaknannai) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=327.1
+Job completed at Tue Mar 24 09:43:17 CET 2026

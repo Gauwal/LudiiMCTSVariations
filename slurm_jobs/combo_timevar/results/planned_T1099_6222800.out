@@ -1,0 +1,5 @@
+Running T1099 on lm4-w039 at Mon Mar 23 09:25:13 CET 2026
+Game: Hexshogi
+Variant: McBRAVE | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T130 on lm4-w021 at Sun Mar 22 20:27:09 CET 2026
+Game: Agilidade
+Variant: ExIt | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T130 (Agilidade) -> completed=100/100, wins=0, losses=97, draws=3, failures=0, avgMoves=8.6
+Job completed at Sun Mar 22 20:30:58 CET 2026

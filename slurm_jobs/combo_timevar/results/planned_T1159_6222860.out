@@ -1,0 +1,7 @@
+Running T1159 on lm4-w012 at Mon Mar 23 09:42:14 CET 2026
+Game: Adzua (Children)
+Variant: AG0 | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1159 (Adzua (Children)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=15.8
+Job completed at Mon Mar 23 09:57:07 CET 2026

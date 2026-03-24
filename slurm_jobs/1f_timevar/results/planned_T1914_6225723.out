@@ -1,0 +1,5 @@
+Running T1914 on lm4-w010 at Tue Mar 24 09:28:00 CET 2026
+Game: Orissa Tiger Game (One Tiger)
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,5 @@
+Running T1458 on lm4-w018 at Mon Mar 23 18:34:47 CET 2026
+Game: Eleven-Fang
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

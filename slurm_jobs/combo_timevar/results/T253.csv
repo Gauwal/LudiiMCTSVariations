@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T253,Nedilmarth,FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,Random,"Score Bounded","Proportional Exp",0.200000,100,2000,1,4,96,0,0,100,100,13.6600,

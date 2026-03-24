@@ -1,0 +1,7 @@
+Running T569 on lm4-w040 at Sun Mar 22 20:43:09 CET 2026
+Game: Castello
+Variant: Alpha-Beta | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T569 (Castello) -> completed=100/100, wins=0, losses=13, draws=87, failures=0, avgMoves=1933.0
+Job completed at Mon Mar 23 08:34:05 CET 2026

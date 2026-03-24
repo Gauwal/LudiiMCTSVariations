@@ -1,0 +1,7 @@
+Running T24 on lm4-w026 at Mon Mar 23 19:28:39 CET 2026
+Game: Crossline
+Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T24 (Crossline) -> completed=100/100, wins=21, losses=79, draws=0, failures=0, avgMoves=12.5
+Job completed at Mon Mar 23 20:05:53 CET 2026

@@ -1,0 +1,7 @@
+Running T637 on lm4-w004 at Mon Mar 23 23:48:08 CET 2026
+Game: Temeen Tavag
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T637 (Temeen Tavag) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=2000.0
+Job completed at Tue Mar 24 05:23:33 CET 2026

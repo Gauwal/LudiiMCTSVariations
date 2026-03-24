@@ -1,0 +1,7 @@
+Running T287 on lm4-w015 at Mon Mar 23 00:52:22 CET 2026
+Game: Neg Tugal Tuux
+Variant: UCB1 GRAVE | NST | Implicit Minimax | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T287 (Neg Tugal Tuux) -> completed=100/100, wins=40, losses=45, draws=15, failures=0, avgMoves=355.6
+Job completed at Mon Mar 23 10:43:25 CET 2026

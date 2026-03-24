@@ -1,0 +1,7 @@
+Running T1710 on lm4-w030 at Mon Mar 23 12:41:35 CET 2026
+Game: Salta
+Variant: Progressive History | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1710 (Salta) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=2000.0
+Job completed at Tue Mar 24 01:07:37 CET 2026

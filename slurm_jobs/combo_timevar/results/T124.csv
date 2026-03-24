@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T124,"Msuwa wa Kunja",FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,NST,AlphaGo,MaxAvgScore,2.000000,100,2000,1,6,94,0,0,100,100,65.5500,

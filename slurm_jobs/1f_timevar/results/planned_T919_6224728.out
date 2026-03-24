@@ -1,0 +1,7 @@
+Running T919 on lm4-w003 at Tue Mar 24 01:37:51 CET 2026
+Game: Wore
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T919 (Wore) -> completed=100/100, wins=25, losses=45, draws=30, failures=0, avgMoves=50.1
+Job completed at Tue Mar 24 02:47:23 CET 2026

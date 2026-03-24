@@ -1,0 +1,7 @@
+Running T337 on lm4-w001 at Mon Mar 23 21:14:53 CET 2026
+Game: Okwe (Achalla)
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T337 (Okwe (Achalla)) -> completed=100/100, wins=49, losses=49, draws=2, failures=0, avgMoves=32.6
+Job completed at Mon Mar 23 21:23:35 CET 2026

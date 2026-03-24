@@ -1,0 +1,7 @@
+Running T1330 on lm4-w039 at Tue Mar 24 05:00:34 CET 2026
+Game: Toguz Kumalak
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1330 (Toguz Kumalak) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=150.5
+Job completed at Tue Mar 24 07:02:01 CET 2026

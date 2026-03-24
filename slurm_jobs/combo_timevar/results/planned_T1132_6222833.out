@@ -1,0 +1,7 @@
+Running T1132 on lm4-w031 at Mon Mar 23 09:34:44 CET 2026
+Game: Refskak
+Variant: McGRAVE | Heuristic Sampling | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1132 (Refskak) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=152.8
+Job completed at Mon Mar 23 18:03:45 CET 2026

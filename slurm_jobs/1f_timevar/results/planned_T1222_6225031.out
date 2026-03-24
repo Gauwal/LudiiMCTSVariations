@@ -1,0 +1,7 @@
+Running T1222 on lm4-w007 at Tue Mar 24 04:04:22 CET 2026
+Game: Celticator
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1222 (Celticator) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=59.2
+Job completed at Tue Mar 24 04:29:39 CET 2026

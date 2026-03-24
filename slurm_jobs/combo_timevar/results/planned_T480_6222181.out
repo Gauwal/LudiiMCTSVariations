@@ -1,0 +1,7 @@
+Running T480 on lm4-w002 at Mon Mar 23 02:48:26 CET 2026
+Game: Bao Ki Arabu (Zanzibar 1)
+Variant: Implicit Minimax | MAST | AlphaGo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T480 (Bao Ki Arabu (Zanzibar 1)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=75.4
+Job completed at Mon Mar 23 04:46:37 CET 2026

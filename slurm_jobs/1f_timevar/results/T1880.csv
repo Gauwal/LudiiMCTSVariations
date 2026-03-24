@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1880,"Onek Rong",FINAL_MOVE,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,MaxAvgScore,2.000000,100,2000,0,39,36,25,0,100,100,31.8800,

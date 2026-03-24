@@ -1,0 +1,7 @@
+Running T442 on lm4-w029 at Mon Mar 23 22:16:59 CET 2026
+Game: Pippinzip
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T442 (Pippinzip) -> completed=100/100, wins=53, losses=47, draws=0, failures=0, avgMoves=99.3
+Job completed at Mon Mar 23 23:39:58 CET 2026

@@ -1,0 +1,7 @@
+Running T1302 on lm4-w008 at Mon Mar 23 10:33:49 CET 2026
+Game: Tsoro
+Variant: Progressive Widening | NST | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1302 (Tsoro) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=88.6
+Job completed at Mon Mar 23 11:17:44 CET 2026

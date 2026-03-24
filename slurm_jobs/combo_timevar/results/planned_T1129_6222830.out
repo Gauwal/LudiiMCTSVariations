@@ -1,0 +1,7 @@
+Running T1129 on lm4-w034 at Mon Mar 23 09:32:14 CET 2026
+Game: Gasetavl (Gedved)
+Variant: UCB1 tuned | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1129 (Gasetavl (Gedved)) -> completed=100/100, wins=4, losses=6, draws=90, failures=0, avgMoves=1875.2
+Job completed at Mon Mar 23 17:01:54 CET 2026

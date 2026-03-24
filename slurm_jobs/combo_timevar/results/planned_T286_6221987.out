@@ -1,0 +1,7 @@
+Running T286 on lm4-w015 at Mon Mar 23 00:52:22 CET 2026
+Game: Janggi
+Variant: AG0 | Heuristic | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T286 (Janggi) -> completed=100/100, wins=1, losses=85, draws=14, failures=0, avgMoves=119.5
+Job completed at Mon Mar 23 01:42:47 CET 2026

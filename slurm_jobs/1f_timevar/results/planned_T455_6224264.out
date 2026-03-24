@@ -1,0 +1,7 @@
+Running T455 on lm4-w031 at Mon Mar 23 22:24:00 CET 2026
+Game: Guerrilla Checkers
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T455 (Guerrilla Checkers) -> completed=100/100, wins=48, losses=52, draws=0, failures=0, avgMoves=37.8
+Job completed at Mon Mar 23 23:19:34 CET 2026

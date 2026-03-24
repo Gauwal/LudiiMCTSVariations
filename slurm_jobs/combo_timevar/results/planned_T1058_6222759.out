@@ -1,0 +1,7 @@
+Running T1058 on lm4-w037 at Sun Mar 22 21:00:10 CET 2026
+Game: Selayar Game
+Variant: Progressive History | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1058 (Selayar Game) -> completed=100/100, wins=50, losses=45, draws=5, failures=0, avgMoves=729.0
+Job completed at Mon Mar 23 07:08:01 CET 2026

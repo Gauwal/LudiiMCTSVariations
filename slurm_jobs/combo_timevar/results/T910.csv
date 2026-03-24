@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T910,"Chaturanga (14x14)",FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",NST,MonteCarlo,MaxAvgScore,0.500000,100,2000,0,0,5,95,0,100,100,1906.6500,

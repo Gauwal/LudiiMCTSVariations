@@ -1,0 +1,5 @@
+Running T219 on lm4-w040 at Sun Mar 22 19:57:38 CET 2026
+Game: Guerrilla Checkers
+Variant: Implicit Minimax | Heuristic | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

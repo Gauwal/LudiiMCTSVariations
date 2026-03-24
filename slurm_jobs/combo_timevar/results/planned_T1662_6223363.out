@@ -1,0 +1,7 @@
+Running T1662 on lm4-w007 at Mon Mar 23 12:31:34 CET 2026
+Game: Hordes Realm
+Variant: Progressive History | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1662 (Hordes Realm) -> completed=100/100, wins=22, losses=78, draws=0, failures=0, avgMoves=63.2
+Job completed at Mon Mar 23 13:11:24 CET 2026

@@ -1,0 +1,7 @@
+Running T861 on lm4-w010 at Mon Mar 23 06:27:05 CET 2026
+Game: Orissa Tiger Game (One Tiger)
+Variant: Noisy AG0 | LGR | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T861 (Orissa Tiger Game (One Tiger)) -> completed=100/100, wins=42, losses=58, draws=0, failures=0, avgMoves=372.9
+Job completed at Mon Mar 23 07:29:15 CET 2026

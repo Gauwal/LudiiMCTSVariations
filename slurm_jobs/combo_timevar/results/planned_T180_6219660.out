@@ -1,0 +1,5 @@
+Running T180 on lm4-w006 at Sun Mar 22 19:47:38 CET 2026
+Game: Chopsticks
+Variant: UCB1 | Heuristic | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T631 on lm4-w013 at Mon Mar 23 04:15:30 CET 2026
+Game: Guerrilla Checkers
+Variant: McBRAVE | Random | Heuristic | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T631 (Guerrilla Checkers) -> completed=100/100, wins=10, losses=90, draws=0, failures=0, avgMoves=48.6
+Job completed at Mon Mar 23 05:24:00 CET 2026

@@ -1,0 +1,7 @@
+Running T1842 on lm4-w013 at Mon Mar 23 13:55:16 CET 2026
+Game: Buqruru
+Variant: McBRAVE | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1842 (Buqruru) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=4.5
+Job completed at Mon Mar 23 13:58:19 CET 2026

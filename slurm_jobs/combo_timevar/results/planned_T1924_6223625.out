@@ -1,0 +1,7 @@
+Running T1924 on lm4-w024 at Mon Mar 23 14:33:22 CET 2026
+Game: Fart (7x7)
+Variant: UCB1 GRAVE | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1924 (Fart (7x7)) -> completed=100/100, wins=11, losses=88, draws=1, failures=0, avgMoves=350.0
+Job completed at Tue Mar 24 02:52:54 CET 2026

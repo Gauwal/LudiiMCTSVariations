@@ -1,0 +1,7 @@
+Running T1598 on lm4-w022 at Mon Mar 23 12:16:01 CET 2026
+Game: Neutreeko
+Variant: McGRAVE | NST | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1598 (Neutreeko) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=5.0
+Job completed at Mon Mar 23 12:20:11 CET 2026

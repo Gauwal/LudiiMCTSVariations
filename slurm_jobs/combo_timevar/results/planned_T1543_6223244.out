@@ -1,0 +1,7 @@
+Running T1543 on lm4-w015 at Mon Mar 23 11:48:27 CET 2026
+Game: Squava
+Variant: Noisy AG0 | LGR | AlphaGo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1543 (Squava) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=8.2
+Job completed at Mon Mar 23 11:55:40 CET 2026

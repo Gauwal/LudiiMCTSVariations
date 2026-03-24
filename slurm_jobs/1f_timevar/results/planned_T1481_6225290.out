@@ -1,0 +1,5 @@
+Running T1481 on lm4-w011 at Tue Mar 24 06:26:19 CET 2026
+Game: Ngolo
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

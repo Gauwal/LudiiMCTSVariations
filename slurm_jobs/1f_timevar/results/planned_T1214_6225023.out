@@ -1,0 +1,7 @@
+Running T1214 on lm4-w018 at Tue Mar 24 03:57:31 CET 2026
+Game: Laram Wali
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1214 (Laram Wali) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=261.6
+Job completed at Tue Mar 24 07:35:55 CET 2026

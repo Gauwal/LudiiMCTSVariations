@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T514,"Rumi Shatranj",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Bias",PlayoutHS,Heuristic,"Proportional Exp",0.500000,100,2000,1,4,30,66,0,100,100,1423.7600,

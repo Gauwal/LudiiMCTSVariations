@@ -1,0 +1,7 @@
+Running T297 on lm4-w015 at Mon Mar 23 00:55:52 CET 2026
+Game: Gurvan Xudag
+Variant: Progressive Widening | HS Playout | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T297 (Gurvan Xudag) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=38.3
+Job completed at Mon Mar 23 01:05:06 CET 2026

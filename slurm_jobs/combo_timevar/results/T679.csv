@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T679,"Janes Soppi",FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,NST,AlphaGo,Robust,1.000000,100,2000,1,45,50,5,0,100,100,386.3800,

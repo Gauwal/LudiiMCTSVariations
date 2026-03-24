@@ -1,0 +1,7 @@
+Running T41 on lm4-w034 at Mon Mar 23 19:35:40 CET 2026
+Game: CrossGeo
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T41 (CrossGeo) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=26.0
+Job completed at Mon Mar 23 19:43:45 CET 2026

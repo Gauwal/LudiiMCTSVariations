@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1275,"Omega Chess",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",MAST,MonteCarlo,"Proportional Exp",1.000000,100,2000,0,5,72,23,0,100,100,332.8700,

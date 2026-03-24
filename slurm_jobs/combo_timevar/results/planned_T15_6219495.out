@@ -1,0 +1,6 @@
+Running T15 on lm4-w037 at Sun Mar 22 18:40:47 CET 2026
+Game: Nchuwa
+Variant: AG0 | LGR | Heuristic | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:06:59 CET 2026

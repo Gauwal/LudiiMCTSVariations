@@ -1,0 +1,7 @@
+Running T118 on lm4-w019 at Sun Mar 22 20:27:09 CET 2026
+Game: Laomuzhu
+Variant: Progressive Bias | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T118 (Laomuzhu) -> completed=100/100, wins=0, losses=8, draws=92, failures=0, avgMoves=1900.2
+Job completed at Mon Mar 23 00:45:55 CET 2026

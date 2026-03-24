@@ -1,0 +1,7 @@
+Running T461 on lm4-w030 at Mon Mar 23 02:37:26 CET 2026
+Game: Currierspiel
+Variant: Noisy AG0 | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T461 (Currierspiel) -> completed=100/100, wins=2, losses=25, draws=73, failures=0, avgMoves=1527.8
+Job completed at Mon Mar 23 07:02:17 CET 2026

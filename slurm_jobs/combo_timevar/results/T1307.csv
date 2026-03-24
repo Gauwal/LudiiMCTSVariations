@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1307,"Ako Okwe",FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,"HS Playout",MonteCarlo,"Proportional Exp",1.000000,100,2000,1,0,100,0,0,100,100,80.4200,

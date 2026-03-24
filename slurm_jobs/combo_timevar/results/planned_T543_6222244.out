@@ -1,0 +1,7 @@
+Running T543 on lm4-w020 at Mon Mar 23 03:23:27 CET 2026
+Game: Gala (Buginese)
+Variant: Noisy AG0 | Heuristic | Heuristic | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T543 (Gala (Buginese)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=864.9
+Job completed at Mon Mar 23 15:22:53 CET 2026

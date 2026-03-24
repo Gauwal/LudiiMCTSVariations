@@ -1,0 +1,7 @@
+Running T1454 on lm4-w017 at Mon Mar 23 11:31:55 CET 2026
+Game: Manifold
+Variant: Progressive Widening | PlayoutHS | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1454 (Manifold) -> completed=100/100, wins=12, losses=88, draws=0, failures=0, avgMoves=37.9
+Job completed at Mon Mar 23 12:04:36 CET 2026

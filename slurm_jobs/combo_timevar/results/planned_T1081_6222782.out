@@ -1,0 +1,7 @@
+Running T1081 on lm4-w039 at Mon Mar 23 09:19:43 CET 2026
+Game: Loop Chess
+Variant: AG0 | LGR | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1081 (Loop Chess) -> completed=100/100, wins=23, losses=77, draws=0, failures=0, avgMoves=231.7
+Job completed at Mon Mar 23 10:04:02 CET 2026

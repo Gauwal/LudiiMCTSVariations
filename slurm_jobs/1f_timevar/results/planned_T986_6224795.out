@@ -1,0 +1,7 @@
+Running T986 on lm4-w012 at Mon Mar 23 17:30:11 CET 2026
+Game: Contagion
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T986 (Contagion) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=73.0
+Job completed at Mon Mar 23 18:00:44 CET 2026

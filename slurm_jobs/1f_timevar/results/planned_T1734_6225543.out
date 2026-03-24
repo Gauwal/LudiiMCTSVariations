@@ -1,0 +1,7 @@
+Running T1734 on lm4-w002 at Tue Mar 24 08:13:46 CET 2026
+Game: Paitariya
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1734 (Paitariya) -> completed=100/100, wins=57, losses=37, draws=6, failures=0, avgMoves=14.3
+Job completed at Tue Mar 24 08:25:41 CET 2026

@@ -1,0 +1,7 @@
+Running T524 on lm4-w019 at Mon Mar 23 23:00:34 CET 2026
+Game: Goldilocks Stones
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T524 (Goldilocks Stones) -> completed=100/100, wins=48, losses=52, draws=0, failures=0, avgMoves=36.5
+Job completed at Tue Mar 24 01:01:40 CET 2026

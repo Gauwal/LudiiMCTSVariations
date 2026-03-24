@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T51,OddEvenTree,FINAL_MOVE,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,"Proportional Exp",1.000000,100,2000,0,49,51,0,0,100,100,6.0600,

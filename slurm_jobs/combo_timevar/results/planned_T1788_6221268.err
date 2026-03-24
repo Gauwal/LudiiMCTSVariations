@@ -1,0 +1,401 @@
+mkdir: cannot create directory ‘/slurm_jobs’: Permission denied
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException: Index 32 out of bounds for length 32
+	at other.state.zhash.HashedChunkStack.incrementSize(HashedChunkStack.java:482)
+	at other.state.stacking.ContainerStateStacks.addItem(ContainerStateStacks.java:288)
+	at other.state.stacking.BaseContainerStateStacking.addItemGeneric(BaseContainerStateStacking.java:170)
+	at other.action.move.ActionAdd.applyStack(ActionAdd.java:336)
+	at other.action.move.ActionAdd.apply(ActionAdd.java:285)
+	at other.move.Move.apply(Move.java:507)
+	at other.move.Move.apply(Move.java:527)
+	at game.Game.applyInternal(Game.java:3049)
+	at game.Game.apply(Game.java:3016)
+	at game.Game.apply(Game.java:2966)
+	at other.model.AlternatingMove.playout(AlternatingMove.java:633)
+	at game.Game.playout(Game.java:3648)
+	at search.mcts.playout.MAST.runPlayout(MAST.java:66)
+	at search.mcts.MCTS.lambda$selectAction$0(MCTS.java:668)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+MCTS error in game: Seesaw Draughts
+java.lang.ArrayIndexOutOfBoundsException
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** STEP 6221268.0 ON lm4-w002 CANCELLED AT 2026-03-22T20:21:53 ***
+slurmstepd: error: *** JOB 6221268 ON lm4-w002 CANCELLED AT 2026-03-22T20:21:53 ***

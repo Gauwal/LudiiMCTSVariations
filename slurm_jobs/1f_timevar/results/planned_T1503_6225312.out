@@ -1,0 +1,5 @@
+Running T1503 on lm4-w025 at Tue Mar 24 06:40:31 CET 2026
+Game: Qirq
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

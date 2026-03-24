@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1491,Gadis,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,Robust,1.000000,100,2000,0,16,22,62,0,100,100,90.7700,

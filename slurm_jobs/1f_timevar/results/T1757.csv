@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1757,"Demala Diviyan Keliya",SELECTION,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",Random,MonteCarlo,Robust,0.200000,100,2000,0,49,51,0,0,100,100,103.4300,

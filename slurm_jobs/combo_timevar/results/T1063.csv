@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1063,Omny,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Bias",Random,Heuristic,MaxAvgScore,1.000000,100,2000,1,47,53,0,0,100,100,110.7700,

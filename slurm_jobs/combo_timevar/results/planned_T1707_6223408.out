@@ -1,0 +1,7 @@
+Running T1707 on lm4-w039 at Mon Mar 23 12:41:05 CET 2026
+Game: Boop
+Variant: ExIt | MAST | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1707 (Boop) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=41.7
+Job completed at Mon Mar 23 13:18:24 CET 2026

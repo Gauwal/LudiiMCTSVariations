@@ -1,0 +1,7 @@
+Running T1593 on lm4-w015 at Tue Mar 24 07:07:22 CET 2026
+Game: Rimoe
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1593 (Rimoe) -> completed=100/100, wins=44, losses=56, draws=0, failures=0, avgMoves=205.2
+Job completed at Tue Mar 24 08:11:21 CET 2026

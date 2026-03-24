@@ -1,0 +1,7 @@
+Running T1702 on lm4-w010 at Tue Mar 24 07:59:31 CET 2026
+Game: Al-Qirq
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1702 (Al-Qirq) -> completed=100/100, wins=21, losses=79, draws=0, failures=0, avgMoves=49.1
+Job completed at Tue Mar 24 08:40:31 CET 2026

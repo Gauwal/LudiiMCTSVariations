@@ -1,0 +1,5 @@
+Running T900 on lm4-w034 at Sun Mar 22 18:55:23 CET 2026
+Game: Overflow
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T1039 on lm4-w014 at Mon Mar 23 08:57:42 CET 2026
+Game: Achi
+Variant: Progressive Bias | HS Playout | Heuristic | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1039 (Achi) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=30.5
+Job completed at Mon Mar 23 09:26:50 CET 2026

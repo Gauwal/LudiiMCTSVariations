@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T632,"Guerrilla Checkers",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",PlayoutHS,"Implicit Minimax","Proportional Exp",2.000000,100,2000,1,36,64,0,0,100,100,51.7300,

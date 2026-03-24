@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1010,"Um el-Bagara",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE","HS Playout","Score Bounded",Robust,0.500000,100,2000,1,7,92,1,0,100,100,51.0600,

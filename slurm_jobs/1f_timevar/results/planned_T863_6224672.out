@@ -1,0 +1,7 @@
+Running T863 on lm4-w012 at Tue Mar 24 01:16:49 CET 2026
+Game: Sat Gol
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T863 (Sat Gol) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=40.0
+Job completed at Tue Mar 24 01:18:30 CET 2026

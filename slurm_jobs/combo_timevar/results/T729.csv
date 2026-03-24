@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T729,Adugo,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History","Heuristic Sampling","Implicit Minimax","Proportional Exp",0.200000,100,2000,1,46,54,0,0,100,100,371.4800,

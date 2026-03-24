@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T720,"Los Alamos Chess",FULL,UCB1,Random,MonteCarlo,Robust,McGRAVE,"Heuristic Sampling",Heuristic,Robust,2.000000,100,2000,1,0,99,1,0,100,100,38.8000,

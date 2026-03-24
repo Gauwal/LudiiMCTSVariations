@@ -1,0 +1,7 @@
+Running T1945 on lm4-w024 at Mon Mar 23 14:34:52 CET 2026
+Game: Wrigglers
+Variant: UCB1 tuned | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1945 (Wrigglers) -> completed=100/100, wins=66, losses=34, draws=0, failures=0, avgMoves=46.3
+Job completed at Mon Mar 23 14:50:09 CET 2026

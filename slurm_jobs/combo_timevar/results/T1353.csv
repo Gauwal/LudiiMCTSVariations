@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1353,"Lian Qi (Bohai)",FULL,UCB1,Random,MonteCarlo,Robust,UCB1,MAST,"Score Bounded",MaxAvgScore,0.200000,100,2000,0,9,12,79,0,100,100,34.0300,

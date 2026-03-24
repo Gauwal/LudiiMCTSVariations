@@ -1,0 +1,7 @@
+Running T385 on lm4-w004 at Mon Mar 23 01:24:23 CET 2026
+Game: Terhuchu
+Variant: AG0 | Random | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T385 (Terhuchu) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=519.3
+Job completed at Mon Mar 23 02:51:37 CET 2026

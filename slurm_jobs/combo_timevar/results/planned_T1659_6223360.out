@@ -1,0 +1,7 @@
+Running T1659 on lm4-w003 at Mon Mar 23 12:31:04 CET 2026
+Game: Sumi Naga Game (Hunt)
+Variant: UCB1 | PlayoutHS | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1659 (Sumi Naga Game (Hunt)) -> completed=100/100, wins=18, losses=82, draws=0, failures=0, avgMoves=235.0
+Job completed at Mon Mar 23 19:01:19 CET 2026

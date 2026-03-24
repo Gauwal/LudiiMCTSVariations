@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1390,"Alquerque de Tres",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",NST,MonteCarlo,MaxAvgScore,0.500000,100,2000,0,0,0,100,0,100,100,8.0000,

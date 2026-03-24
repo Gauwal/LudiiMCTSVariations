@@ -1,0 +1,5 @@
+Running T600 on lm4-w021 at Mon Mar 23 04:02:59 CET 2026
+Game: Dash Guti
+Variant: UCB1 tuned | MAST | AlphaGo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

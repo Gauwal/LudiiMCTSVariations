@@ -1,0 +1,5 @@
+Running T883 on lm4-w017 at Mon Mar 23 06:41:06 CET 2026
+Game: Bam Blang Beh Khla
+Variant: Progressive History | Heuristic | AlphaGo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,11 @@
+Running T87 on lm4-w023 at Sun Mar 22 23:08:16 CET 2026
+Game: Workers and Soldiers
+Variant: Progressive Widening | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 16384 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/users/g/s/gsavary/LudiiMCTSVariations/hs_err_pid1700165.log
+Job completed at Mon Mar 23 10:41:23 CET 2026

@@ -1,0 +1,7 @@
+Running T1306 on lm4-w005 at Mon Mar 23 10:36:50 CET 2026
+Game: Ako Okwe
+Variant: Progressive History | Heuristic | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1306 (Ako Okwe) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=89.1
+Job completed at Mon Mar 23 11:55:21 CET 2026

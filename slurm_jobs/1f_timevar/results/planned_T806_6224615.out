@@ -1,0 +1,7 @@
+Running T806 on lm4-w032 at Mon Mar 23 17:07:38 CET 2026
+Game: Keryo-Pente
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T806 (Keryo-Pente) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=94.4
+Job completed at Mon Mar 23 18:25:43 CET 2026

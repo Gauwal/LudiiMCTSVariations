@@ -1,0 +1,7 @@
+Running T1232 on lm4-w031 at Tue Mar 24 04:11:25 CET 2026
+Game: Nodal Chess
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1232 (Nodal Chess) -> completed=100/100, wins=23, losses=77, draws=0, failures=0, avgMoves=62.8
+Job completed at Tue Mar 24 07:36:29 CET 2026

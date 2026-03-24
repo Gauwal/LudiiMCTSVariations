@@ -1,0 +1,7 @@
+Running T731 on lm4-w025 at Mon Mar 23 04:48:31 CET 2026
+Game: Koti Keliya
+Variant: McBRAVE | PlayoutHS | Qualitative | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T731 (Koti Keliya) -> completed=100/100, wins=17, losses=83, draws=0, failures=0, avgMoves=40.2
+Job completed at Mon Mar 23 05:22:08 CET 2026

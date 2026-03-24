@@ -1,0 +1,7 @@
+Running T70 on lm4-w023 at Mon Mar 23 14:57:54 CET 2026
+Game: Battleships
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T70 (Battleships) -> completed=100/100, wins=52, losses=48, draws=0, failures=0, avgMoves=123.2
+Job completed at Mon Mar 23 16:40:44 CET 2026

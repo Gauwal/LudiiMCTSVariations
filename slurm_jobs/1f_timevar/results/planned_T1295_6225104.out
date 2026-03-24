@@ -1,0 +1,7 @@
+Running T1295 on lm4-w039 at Tue Mar 24 04:37:06 CET 2026
+Game: Okwe (Achalla)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1295 (Okwe (Achalla)) -> completed=100/100, wins=47, losses=53, draws=0, failures=0, avgMoves=34.5
+Job completed at Tue Mar 24 05:23:47 CET 2026

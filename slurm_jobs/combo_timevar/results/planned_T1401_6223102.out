@@ -1,0 +1,7 @@
+Running T1401 on lm4-w037 at Mon Mar 23 11:13:23 CET 2026
+Game: Manu
+Variant: Progressive Widening | MAST | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1401 (Manu) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=462.3
+Job completed at Mon Mar 23 13:47:27 CET 2026

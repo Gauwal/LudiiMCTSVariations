@@ -1,0 +1,7 @@
+Running T1379 on lm4-w010 at Tue Mar 24 05:29:13 CET 2026
+Game: CoDi
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1379 (CoDi) -> completed=100/100, wins=33, losses=43, draws=24, failures=0, avgMoves=80.0
+Job completed at Tue Mar 24 07:42:57 CET 2026

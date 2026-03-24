@@ -1,0 +1,7 @@
+Running T16 on lm4-w021 at Mon Mar 23 14:45:53 CET 2026
+Game: Andantino
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T16 (Andantino) -> completed=100/100, wins=45, losses=42, draws=13, failures=0, avgMoves=30.1
+Job completed at Mon Mar 23 16:26:20 CET 2026

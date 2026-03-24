@@ -1,0 +1,7 @@
+Running T1812 on lm4-w007 at Mon Mar 23 13:39:44 CET 2026
+Game: Engijn Zirge
+Variant: Progressive History | MAST | Heuristic | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1812 (Engijn Zirge) -> completed=100/100, wins=44, losses=52, draws=4, failures=0, avgMoves=116.7
+Job completed at Mon Mar 23 20:09:59 CET 2026

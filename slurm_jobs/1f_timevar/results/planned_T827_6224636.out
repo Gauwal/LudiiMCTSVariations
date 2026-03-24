@@ -1,0 +1,7 @@
+Running T827 on lm4-w014 at Tue Mar 24 01:06:18 CET 2026
+Game: MaxMatch
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T827 (MaxMatch) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=24.7
+Job completed at Tue Mar 24 01:26:12 CET 2026

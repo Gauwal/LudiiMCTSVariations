@@ -1,0 +1,7 @@
+Running T376 on lm4-w003 at Mon Mar 23 21:36:55 CET 2026
+Game: En Gehe
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T376 (En Gehe) -> completed=100/100, wins=22, losses=77, draws=1, failures=0, avgMoves=504.9
+Job completed at Tue Mar 24 08:19:50 CET 2026

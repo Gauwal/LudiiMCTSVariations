@@ -1,0 +1,7 @@
+Running T1649 on lm4-w007 at Mon Mar 23 12:29:03 CET 2026
+Game: Groups
+Variant: Noisy AG0 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1649 (Groups) -> completed=100/100, wins=3, losses=68, draws=29, failures=0, avgMoves=1296.4
+Job completed at Mon Mar 23 16:12:06 CET 2026

@@ -1,0 +1,7 @@
+Running T730 on lm4-w034 at Mon Mar 23 16:56:37 CET 2026
+Game: O An Quan
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T730 (O An Quan) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=154.9
+Job completed at Mon Mar 23 17:53:50 CET 2026

@@ -1,0 +1,5 @@
+Running T263 on lm4-w012 at Sun Mar 22 20:10:39 CET 2026
+Game: Crand
+Variant: Progressive Widening | PlayoutHS | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

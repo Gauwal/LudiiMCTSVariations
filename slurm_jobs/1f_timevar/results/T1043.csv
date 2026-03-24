@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1043,"L Game",SELECTION,UCB1,Random,MonteCarlo,Robust,"Progressive History",Random,MonteCarlo,Robust,1.000000,100,2000,0,64,36,0,0,100,100,10.6800,

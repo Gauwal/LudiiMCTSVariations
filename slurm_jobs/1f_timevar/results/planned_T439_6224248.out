@@ -1,0 +1,7 @@
+Running T439 on lm4-w007 at Mon Mar 23 22:10:59 CET 2026
+Game: Dodgem
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T439 (Dodgem) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=157.7
+Job completed at Tue Mar 24 02:33:13 CET 2026

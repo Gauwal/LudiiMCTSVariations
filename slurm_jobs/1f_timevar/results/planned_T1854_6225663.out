@@ -1,0 +1,7 @@
+Running T1854 on lm4-w025 at Tue Mar 24 09:02:57 CET 2026
+Game: Gol Ekuish
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1854 (Gol Ekuish) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=185.2
+Job completed at Tue Mar 24 10:20:28 CET 2026

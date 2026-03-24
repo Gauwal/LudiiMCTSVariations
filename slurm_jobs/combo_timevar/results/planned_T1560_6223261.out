@@ -1,0 +1,7 @@
+Running T1560 on lm4-w022 at Mon Mar 23 11:52:27 CET 2026
+Game: Amazons
+Variant: Progressive Bias | Random | Heuristic | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1560 (Amazons) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=109.6
+Job completed at Mon Mar 23 14:56:28 CET 2026

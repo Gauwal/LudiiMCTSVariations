@@ -1,0 +1,7 @@
+Running T1162 on lm4-w002 at Tue Mar 24 03:32:34 CET 2026
+Game: Crossline
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1162 (Crossline) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=10.5
+Job completed at Tue Mar 24 03:36:26 CET 2026

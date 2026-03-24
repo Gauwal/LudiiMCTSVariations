@@ -1,0 +1,7 @@
+Running T819 on lm4-w012 at Mon Mar 23 05:51:34 CET 2026
+Game: Dash Guti
+Variant: ExIt | LGR | Implicit Minimax | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T819 (Dash Guti) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=39.2
+Job completed at Mon Mar 23 06:24:04 CET 2026

@@ -1,0 +1,10 @@
+Game exceeded time limit after 1430 decisions
+Game exceeded time limit after 1288 decisions
+Game exceeded time limit after 1305 decisions
+Game exceeded time limit after 1465 decisions
+Game exceeded time limit after 1229 decisions
+Game exceeded time limit after 1263 decisions
+Game exceeded time limit after 1199 decisions
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** JOB 6222094 ON lm4-w011 CANCELLED AT 2026-03-23T12:35:26 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6222094.0 ON lm4-w011 CANCELLED AT 2026-03-23T12:35:26 DUE TO TIME LIMIT ***

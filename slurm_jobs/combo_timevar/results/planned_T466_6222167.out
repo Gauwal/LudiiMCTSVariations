@@ -1,0 +1,7 @@
+Running T466 on lm4-w035 at Mon Mar 23 02:38:26 CET 2026
+Game: Double Chess
+Variant: AG0 | Heuristic Sampling | Qualitative | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T466 (Double Chess) -> completed=100/100, wins=23, losses=59, draws=18, failures=0, avgMoves=809.7
+Job completed at Mon Mar 23 14:44:00 CET 2026

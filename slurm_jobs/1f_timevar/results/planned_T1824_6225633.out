@@ -1,0 +1,7 @@
+Running T1824 on lm4-w009 at Mon Mar 23 19:09:03 CET 2026
+Game: Ringo
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T1824 (Ringo) -> completed=100/100, wins=30, losses=70, draws=0, failures=0, avgMoves=20.8
+Job completed at Mon Mar 23 20:18:59 CET 2026

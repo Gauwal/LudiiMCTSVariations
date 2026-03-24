@@ -1,0 +1,7 @@
+Running T362 on lm4-w009 at Mon Mar 23 21:27:24 CET 2026
+Game: Gol Ekuish
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T362 (Gol Ekuish) -> completed=100/100, wins=28, losses=72, draws=0, failures=0, avgMoves=218.2
+Job completed at Tue Mar 24 00:29:33 CET 2026

@@ -1,0 +1,7 @@
+Running T197 on lm4-w024 at Mon Mar 23 15:23:26 CET 2026
+Game: Archworm
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T197 (Archworm) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=786.1
+Job completed at Mon Mar 23 20:05:18 CET 2026

@@ -1,0 +1,7 @@
+Running T1908 on lm4-w025 at Mon Mar 23 14:32:21 CET 2026
+Game: Lines of Action
+Variant: Implicit Minimax | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1908 (Lines of Action) -> completed=100/100, wins=40, losses=60, draws=0, failures=0, avgMoves=232.3
+Job completed at Tue Mar 24 03:27:27 CET 2026

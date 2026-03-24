@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T405,Boukerourou,FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,NST,AlphaGo,MaxAvgScore,0.200000,100,2000,1,20,15,65,0,100,100,1384.9600,

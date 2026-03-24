@@ -1,0 +1,7 @@
+Running T761 on lm4-w003 at Tue Mar 24 00:44:15 CET 2026
+Game: Havannah
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T761 (Havannah) -> completed=100/100, wins=100, losses=0, draws=0, failures=0, avgMoves=64.6
+Job completed at Tue Mar 24 01:05:57 CET 2026

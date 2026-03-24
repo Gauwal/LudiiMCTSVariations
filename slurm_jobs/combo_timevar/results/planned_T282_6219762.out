@@ -1,0 +1,5 @@
+Running T282 on lm4-w015 at Sun Mar 22 20:16:39 CET 2026
+Game: Bolotudu
+Variant: AG0 | MAST | Qualitative | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

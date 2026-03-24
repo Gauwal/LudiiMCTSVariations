@@ -1,0 +1,7 @@
+Running T1603 on lm4-w016 at Sun Mar 22 22:37:15 CET 2026
+Game: Diaballik
+Variant: Progressive Widening | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1603 (Diaballik) -> completed=100/100, wins=55, losses=45, draws=0, failures=0, avgMoves=190.3
+Job completed at Mon Mar 23 03:55:07 CET 2026

@@ -1,0 +1,7 @@
+Running T914 on lm4-w014 at Tue Mar 24 01:34:50 CET 2026
+Game: Mbelele
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T914 (Mbelele) -> completed=100/100, wins=46, losses=52, draws=2, failures=0, avgMoves=212.5
+Job completed at Tue Mar 24 03:21:26 CET 2026

@@ -1,0 +1,5 @@
+Running T658 on lm4-w039 at Mon Mar 23 23:56:39 CET 2026
+Game: Kensington
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

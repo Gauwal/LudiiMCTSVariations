@@ -1,0 +1,7 @@
+Running T794 on lm4-w011 at Mon Mar 23 17:05:08 CET 2026
+Game: Connect6
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T794 (Connect6) -> completed=100/100, wins=6, losses=94, draws=0, failures=0, avgMoves=136.7
+Job completed at Mon Mar 23 18:02:27 CET 2026

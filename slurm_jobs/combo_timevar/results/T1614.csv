@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1614,Qirq,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",Random,"Score Bounded",Robust,0.500000,100,2000,0,36,60,4,0,100,100,711.2700,

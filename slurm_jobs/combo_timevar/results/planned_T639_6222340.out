@@ -1,0 +1,7 @@
+Running T639 on lm4-w034 at Mon Mar 23 04:16:30 CET 2026
+Game: Game of Solomon
+Variant: Noisy AG0 | Random | Heuristic | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T639 (Game of Solomon) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=20.4
+Job completed at Mon Mar 23 04:26:11 CET 2026

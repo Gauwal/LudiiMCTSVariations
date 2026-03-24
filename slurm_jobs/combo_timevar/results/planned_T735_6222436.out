@@ -1,0 +1,7 @@
+Running T735 on lm4-w011 at Mon Mar 23 04:49:31 CET 2026
+Game: Ultimate Tic-Tac-Toe
+Variant: UCB1 tuned | MAST | AlphaGo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T735 (Ultimate Tic-Tac-Toe) -> completed=100/100, wins=32, losses=28, draws=40, failures=0, avgMoves=52.6
+Job completed at Mon Mar 23 06:15:11 CET 2026

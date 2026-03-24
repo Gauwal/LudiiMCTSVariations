@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T485,"Pam Pait",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned","HS Playout",MonteCarlo,"Proportional Exp",0.200000,100,2000,1,28,40,32,0,100,100,969.8300,

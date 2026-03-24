@@ -1,0 +1,7 @@
+Running T1172 on lm4-w017 at Tue Mar 24 03:39:35 CET 2026
+Game: Quarto
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1172 (Quarto) -> completed=100/100, wins=14, losses=20, draws=66, failures=0, avgMoves=33.4
+Job completed at Tue Mar 24 05:17:45 CET 2026

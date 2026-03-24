@@ -1,0 +1,5 @@
+Running T1708 on lm4-w020 at Tue Mar 24 08:02:56 CET 2026
+Game: Workers and Soldiers
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

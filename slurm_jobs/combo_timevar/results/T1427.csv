@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1427,"Chiana wa Bwalo",FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,MAST,"Score Bounded",MaxAvgScore,1.000000,100,2000,0,1,97,2,0,100,100,354.3800,

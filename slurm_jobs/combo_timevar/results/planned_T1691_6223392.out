@@ -1,0 +1,7 @@
+Running T1691 on lm4-w029 at Mon Mar 23 12:37:05 CET 2026
+Game: Winkers
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1691 (Winkers) -> completed=100/100, wins=41, losses=43, draws=16, failures=0, avgMoves=32.3
+Job completed at Mon Mar 23 13:30:10 CET 2026

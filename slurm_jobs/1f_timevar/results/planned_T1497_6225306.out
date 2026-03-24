@@ -1,0 +1,5 @@
+Running T1497 on lm4-w015 at Tue Mar 24 06:38:57 CET 2026
+Game: Tavli
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

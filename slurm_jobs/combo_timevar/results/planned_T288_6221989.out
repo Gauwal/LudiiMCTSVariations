@@ -1,0 +1,7 @@
+Running T288 on lm4-w015 at Mon Mar 23 00:52:22 CET 2026
+Game: DisPath
+Variant: Noisy AG0 | NST | Heuristic | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T288 (DisPath) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=36.2
+Job completed at Mon Mar 23 01:51:26 CET 2026

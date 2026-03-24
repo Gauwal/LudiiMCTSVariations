@@ -1,0 +1,7 @@
+Running T1635 on lm4-w031 at Mon Mar 23 12:27:03 CET 2026
+Game: Sponnect
+Variant: Progressive History | Random | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1635 (Sponnect) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=28.7
+Job completed at Mon Mar 23 13:14:05 CET 2026

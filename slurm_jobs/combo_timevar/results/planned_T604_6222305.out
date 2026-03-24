@@ -1,0 +1,11 @@
+Running T604 on lm4-w021 at Mon Mar 23 04:07:29 CET 2026
+Game: Kaua Dorki
+Variant: UCB1 GRAVE | Random | Implicit Minimax | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 18874368 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/users/g/s/gsavary/LudiiMCTSVariations/hs_err_pid1874733.log
+Job completed at Mon Mar 23 10:38:14 CET 2026

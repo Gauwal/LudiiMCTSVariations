@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1151,"Shogi Puzzle",FINAL_MOVE,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,"Proportional Exp",1.000000,100,2000,0,50,50,0,0,100,100,1.0000,

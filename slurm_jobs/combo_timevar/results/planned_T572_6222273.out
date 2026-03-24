@@ -1,0 +1,5 @@
+Running T572 on lm4-w022 at Mon Mar 23 03:47:28 CET 2026
+Game: Fang
+Variant: UCB1 GRAVE | Heuristic Sampling | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

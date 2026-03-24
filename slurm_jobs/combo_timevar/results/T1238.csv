@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1238,"4 Squared",FULL,UCB1,Random,MonteCarlo,Robust,McGRAVE,Random,MonteCarlo,Robust,0.500000,100,2000,0,7,91,2,0,100,100,125.3900,

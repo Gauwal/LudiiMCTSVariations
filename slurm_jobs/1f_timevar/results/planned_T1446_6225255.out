@@ -1,0 +1,5 @@
+Running T1446 on lm4-w004 at Tue Mar 24 06:07:00 CET 2026
+Game: Choko
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

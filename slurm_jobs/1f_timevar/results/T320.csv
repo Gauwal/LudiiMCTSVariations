@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T320,"Beirut Chess",SELECTION,UCB1,Random,MonteCarlo,Robust,AG0,Random,MonteCarlo,Robust,2.000000,100,2000,0,3,81,16,0,100,100,155.5600,

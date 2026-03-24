@@ -1,0 +1,7 @@
+Running T712 on lm4-w012 at Mon Mar 23 04:42:01 CET 2026
+Game: Goldilocks Stones
+Variant: Implicit Minimax | MAST | Heuristic | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T712 (Goldilocks Stones) -> completed=100/100, wins=48, losses=52, draws=0, failures=0, avgMoves=37.2
+Job completed at Mon Mar 23 06:44:46 CET 2026

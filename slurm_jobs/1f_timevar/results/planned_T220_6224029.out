@@ -1,0 +1,5 @@
+Running T220 on lm4-w022 at Mon Mar 23 14:41:22 CET 2026
+Game: Taikyoku Shogi
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=38G, time=16:00:00

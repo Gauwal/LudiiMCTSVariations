@@ -1,0 +1,7 @@
+Running T594 on lm4-w017 at Mon Mar 23 03:59:59 CET 2026
+Game: Yote
+Variant: Progressive History | Heuristic | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T594 (Yote) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=41.2
+Job completed at Mon Mar 23 04:34:27 CET 2026

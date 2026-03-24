@@ -1,0 +1,5 @@
+Running T1892 on lm4-w013 at Mon Mar 23 14:25:51 CET 2026
+Game: Smasandyutakankarikrida
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

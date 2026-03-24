@@ -1,0 +1,5 @@
+Running T290 on lm4-w038 at Sun Mar 22 20:19:39 CET 2026
+Game: Xarajlt
+Variant: Noisy AG0 | MAST | AlphaGo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

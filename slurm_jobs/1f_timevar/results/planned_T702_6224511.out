@@ -1,0 +1,7 @@
+Running T702 on lm4-w028 at Tue Mar 24 00:25:12 CET 2026
+Game: Walking Dots
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T702 (Walking Dots) -> completed=100/100, wins=40, losses=48, draws=12, failures=0, avgMoves=63.3
+Job completed at Tue Mar 24 01:15:21 CET 2026

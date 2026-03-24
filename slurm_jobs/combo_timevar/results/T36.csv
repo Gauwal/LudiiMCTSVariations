@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T36,"Mutant Y^3",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,MAST,MonteCarlo,Robust,2.000000,100,2000,0,0,100,0,0,100,100,19.7200,

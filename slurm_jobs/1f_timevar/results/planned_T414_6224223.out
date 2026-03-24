@@ -1,0 +1,7 @@
+Running T414 on lm4-w017 at Mon Mar 23 21:57:57 CET 2026
+Game: Njombwa
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T414 (Njombwa) -> completed=100/100, wins=25, losses=59, draws=16, failures=0, avgMoves=608.0
+Job completed at Tue Mar 24 01:22:34 CET 2026

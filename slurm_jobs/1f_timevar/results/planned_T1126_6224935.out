@@ -1,0 +1,7 @@
+Running T1126 on lm4-w003 at Mon Mar 23 17:59:14 CET 2026
+Game: Merimueng-rimueng
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1126 (Merimueng-rimueng) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=549.7
+Job completed at Tue Mar 24 01:37:35 CET 2026

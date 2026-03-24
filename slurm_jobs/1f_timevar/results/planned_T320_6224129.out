@@ -1,0 +1,7 @@
+Running T320 on lm4-w003 at Mon Mar 23 21:09:22 CET 2026
+Game: Beirut Chess
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T320 (Beirut Chess) -> completed=100/100, wins=3, losses=81, draws=16, failures=0, avgMoves=155.6
+Job completed at Tue Mar 24 01:31:35 CET 2026

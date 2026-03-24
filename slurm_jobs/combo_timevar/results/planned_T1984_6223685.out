@@ -1,0 +1,7 @@
+Running T1984 on lm4-w032 at Mon Mar 23 14:38:22 CET 2026
+Game: Bosh
+Variant: McBRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1984 (Bosh) -> completed=100/100, wins=0, losses=98, draws=2, failures=0, avgMoves=180.1
+Job completed at Mon Mar 23 18:22:05 CET 2026

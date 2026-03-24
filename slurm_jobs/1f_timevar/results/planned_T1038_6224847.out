@@ -1,0 +1,7 @@
+Running T1038 on lm4-w023 at Tue Mar 24 02:35:25 CET 2026
+Game: Dongjintian
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1038 (Dongjintian) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=75.7
+Job completed at Tue Mar 24 03:02:51 CET 2026

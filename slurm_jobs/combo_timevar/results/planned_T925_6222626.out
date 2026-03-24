@@ -1,0 +1,7 @@
+Running T925 on lm4-w030 at Mon Mar 23 07:02:37 CET 2026
+Game: Pippinzip
+Variant: Implicit Minimax | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T925 (Pippinzip) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=115.9
+Job completed at Mon Mar 23 07:41:20 CET 2026

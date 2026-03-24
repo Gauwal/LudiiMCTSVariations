@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T891,"Hus (Damara)",FULL,UCB1,Random,MonteCarlo,Robust,UCB1,MAST,Qualitative,Robust,1.000000,100,2000,1,0,87,13,0,100,100,961.4700,

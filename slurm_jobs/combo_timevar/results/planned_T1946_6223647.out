@@ -1,0 +1,5 @@
+Running T1946 on lm4-w024 at Mon Mar 23 14:34:52 CET 2026
+Game: Tuknanavuhpi
+Variant: Progressive Widening | HS Playout | AlphaGo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T1801 on lm4-w038 at Mon Mar 23 13:32:43 CET 2026
+Game: Mak Khom
+Variant: UCB1 tuned | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1801 (Mak Khom) -> completed=100/100, wins=59, losses=38, draws=3, failures=0, avgMoves=320.6
+Job completed at Mon Mar 23 15:18:26 CET 2026

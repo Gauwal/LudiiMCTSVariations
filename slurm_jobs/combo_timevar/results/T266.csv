@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T266,T'oki,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening","Heuristic Sampling",Heuristic,MaxAvgScore,0.500000,100,2000,1,51,41,8,0,100,100,445.6000,

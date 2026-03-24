@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1706,Duidoku,FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,NST,"Score Bounded",Robust,0.500000,100,2000,0,3,97,0,0,100,100,65.1500,

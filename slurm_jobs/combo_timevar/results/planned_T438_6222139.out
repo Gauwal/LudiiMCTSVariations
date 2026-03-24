@@ -1,0 +1,7 @@
+Running T438 on lm4-w022 at Mon Mar 23 02:16:25 CET 2026
+Game: Dabuda
+Variant: UCB1 tuned | PlayoutHS | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T438 (Dabuda) -> completed=100/100, wins=7, losses=91, draws=2, failures=0, avgMoves=138.4
+Job completed at Mon Mar 23 02:56:40 CET 2026

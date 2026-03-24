@@ -1,0 +1,7 @@
+Running T1538 on lm4-w015 at Tue Mar 24 06:45:31 CET 2026
+Game: Nim
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1538 (Nim) -> completed=100/100, wins=39, losses=61, draws=0, failures=0, avgMoves=27.1
+Job completed at Tue Mar 24 07:07:21 CET 2026

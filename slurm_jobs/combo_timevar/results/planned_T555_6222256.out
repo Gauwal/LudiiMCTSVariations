@@ -1,0 +1,7 @@
+Running T555 on lm4-w026 at Mon Mar 23 03:40:58 CET 2026
+Game: Tic-Tac-Toe Misere
+Variant: Progressive History | Random | Heuristic | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T555 (Tic-Tac-Toe Misere) -> completed=100/100, wins=0, losses=47, draws=53, failures=0, avgMoves=9.5
+Job completed at Mon Mar 23 03:53:47 CET 2026

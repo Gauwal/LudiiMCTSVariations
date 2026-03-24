@@ -1,0 +1,7 @@
+Running T1346 on lm4-w032 at Mon Mar 23 18:22:16 CET 2026
+Game: Agilidade
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1346 (Agilidade) -> completed=100/100, wins=0, losses=98, draws=2, failures=0, avgMoves=8.7
+Job completed at Mon Mar 23 18:26:10 CET 2026

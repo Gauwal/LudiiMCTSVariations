@@ -1,0 +1,7 @@
+Running T542 on lm4-w023 at Mon Mar 23 03:22:57 CET 2026
+Game: Jeu de Renard
+Variant: McBRAVE | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T542 (Jeu de Renard) -> completed=100/100, wins=0, losses=11, draws=89, failures=0, avgMoves=1788.0
+Job completed at Mon Mar 23 16:13:03 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T865,"Um el Tuweisat",FULL,UCB1,Random,MonteCarlo,Robust,UCB1,PlayoutHS,MonteCarlo,Robust,0.200000,100,2000,1,26,62,12,0,100,100,54.2200,

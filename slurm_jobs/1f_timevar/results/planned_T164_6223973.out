@@ -1,0 +1,7 @@
+Running T164 on lm4-w025 at Mon Mar 23 20:15:45 CET 2026
+Game: Chongka'
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T164 (Chongka') -> completed=100/100, wins=48, losses=51, draws=1, failures=0, avgMoves=142.2
+Job completed at Mon Mar 23 22:33:11 CET 2026

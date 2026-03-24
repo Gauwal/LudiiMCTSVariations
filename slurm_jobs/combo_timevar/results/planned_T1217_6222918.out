@@ -1,0 +1,7 @@
+Running T1217 on lm4-w039 at Mon Mar 23 09:55:45 CET 2026
+Game: Ja-Jeon-Geo-Gonu
+Variant: Progressive Widening | Heuristic Sampling | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1217 (Ja-Jeon-Geo-Gonu) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=8.2
+Job completed at Mon Mar 23 09:58:20 CET 2026

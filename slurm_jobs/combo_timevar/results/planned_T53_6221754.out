@@ -1,0 +1,5 @@
+Running T53 on lm4-w009 at Sun Mar 22 20:26:09 CET 2026
+Game: Taikyoku Shogi
+Variant: Implicit Minimax | Random | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=39G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T358 on lm4-w031 at Mon Mar 23 21:25:54 CET 2026
+Game: Celticator
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T358 (Celticator) -> completed=100/100, wins=42, losses=58, draws=0, failures=0, avgMoves=49.1
+Job completed at Mon Mar 23 22:05:25 CET 2026

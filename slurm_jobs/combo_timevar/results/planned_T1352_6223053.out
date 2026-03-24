@@ -1,0 +1,7 @@
+Running T1352 on lm4-w034 at Mon Mar 23 10:52:20 CET 2026
+Game: Yavalax
+Variant: Progressive Bias | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1352 (Yavalax) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=55.8
+Job completed at Mon Mar 23 12:26:17 CET 2026

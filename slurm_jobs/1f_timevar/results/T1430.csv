@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1430,Buudal,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,"Score Bounded",Robust,0.500000,100,2000,0,41,35,24,0,100,100,515.8100,

@@ -1,0 +1,5 @@
+Running T1941 on lm4-w037 at Sun Mar 22 19:22:21 CET 2026
+Game: Weiqi
+Variant: UCB1 | PlayoutHS | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

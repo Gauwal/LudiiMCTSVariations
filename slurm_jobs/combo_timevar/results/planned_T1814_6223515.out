@@ -1,0 +1,7 @@
+Running T1814 on lm4-w031 at Mon Mar 23 13:40:44 CET 2026
+Game: Ngulungu
+Variant: UCB1 tuned | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1814 (Ngulungu) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=18.0
+Job completed at Mon Mar 23 13:40:46 CET 2026

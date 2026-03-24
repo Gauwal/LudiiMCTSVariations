@@ -1,0 +1,7 @@
+Running T412 on lm4-w004 at Mon Mar 23 01:42:53 CET 2026
+Game: Faraday
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T412 (Faraday) -> completed=100/100, wins=44, losses=56, draws=0, failures=0, avgMoves=92.0
+Job completed at Mon Mar 23 05:58:51 CET 2026

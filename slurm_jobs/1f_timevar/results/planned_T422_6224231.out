@@ -1,0 +1,5 @@
+Running T422 on lm4-w017 at Mon Mar 23 22:00:28 CET 2026
+Game: Talyn Buga
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

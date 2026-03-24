@@ -1,0 +1,7 @@
+Running T1757 on lm4-w031 at Mon Mar 23 13:02:38 CET 2026
+Game: Tsoro (Baia)
+Variant: UCB1 GRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1757 (Tsoro (Baia)) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=219.8
+Job completed at Mon Mar 23 13:40:22 CET 2026

@@ -1,0 +1,7 @@
+Running T726 on lm4-w002 at Mon Mar 23 04:47:01 CET 2026
+Game: Two-Colour
+Variant: McBRAVE | HS Playout | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T726 (Two-Colour) -> completed=100/100, wins=0, losses=98, draws=2, failures=0, avgMoves=27.1
+Job completed at Mon Mar 23 05:08:48 CET 2026

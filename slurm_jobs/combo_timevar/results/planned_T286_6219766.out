@@ -1,0 +1,5 @@
+Running T286 on lm4-w038 at Sun Mar 22 20:18:39 CET 2026
+Game: Janggi
+Variant: AG0 | Heuristic | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

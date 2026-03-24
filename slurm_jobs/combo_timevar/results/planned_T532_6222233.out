@@ -1,0 +1,7 @@
+Running T532 on lm4-w035 at Mon Mar 23 03:17:27 CET 2026
+Game: Double-Move Situ
+Variant: Implicit Minimax | LGR | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T532 (Double-Move Situ) -> completed=100/100, wins=18, losses=82, draws=0, failures=0, avgMoves=18.8
+Job completed at Mon Mar 23 04:15:42 CET 2026

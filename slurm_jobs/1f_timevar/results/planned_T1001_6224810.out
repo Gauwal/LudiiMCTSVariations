@@ -1,0 +1,7 @@
+Running T1001 on lm4-w020 at Tue Mar 24 02:16:54 CET 2026
+Game: Abrobad
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1001 (Abrobad) -> completed=100/100, wins=9, losses=91, draws=0, failures=0, avgMoves=13.8
+Job completed at Tue Mar 24 02:20:53 CET 2026

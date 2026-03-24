@@ -1,0 +1,5 @@
+Running T1444 on lm4-w011 at Tue Mar 24 06:06:57 CET 2026
+Game: Davxar Zirge (Type 1)
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

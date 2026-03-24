@@ -1,0 +1,7 @@
+Running T1608 on lm4-w022 at Mon Mar 23 12:20:32 CET 2026
+Game: Bug
+Variant: McBRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1608 (Bug) -> completed=100/100, wins=14, losses=86, draws=0, failures=0, avgMoves=27.7
+Job completed at Mon Mar 23 13:29:14 CET 2026

@@ -1,0 +1,7 @@
+Running T1125 on lm4-w028 at Mon Mar 23 09:30:44 CET 2026
+Game: Four-Fang
+Variant: UCB1 GRAVE | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1125 (Four-Fang) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=18.0
+Job completed at Mon Mar 23 09:35:51 CET 2026

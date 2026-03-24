@@ -1,0 +1,7 @@
+Running T1708 on lm4-w004 at Mon Mar 23 12:41:05 CET 2026
+Game: Apocalypse
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1708 (Apocalypse) -> completed=100/100, wins=31, losses=69, draws=0, failures=0, avgMoves=36.3
+Job completed at Mon Mar 23 14:28:34 CET 2026

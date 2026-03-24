@@ -1,0 +1,7 @@
+Running T1613 on lm4-w029 at Tue Mar 24 07:11:04 CET 2026
+Game: Okwe (Achalla)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1613 (Okwe (Achalla)) -> completed=100/100, wins=44, losses=52, draws=4, failures=0, avgMoves=32.3
+Job completed at Tue Mar 24 07:19:40 CET 2026

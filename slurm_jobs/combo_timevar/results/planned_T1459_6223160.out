@@ -1,0 +1,5 @@
+Running T1459 on lm4-w017 at Mon Mar 23 11:31:55 CET 2026
+Game: Oumoul Kono
+Variant: Progressive History | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

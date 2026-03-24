@@ -1,0 +1,7 @@
+Running T769 on lm4-w003 at Tue Mar 24 00:48:45 CET 2026
+Game: Residuel
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T769 (Residuel) -> completed=100/100, wins=52, losses=48, draws=0, failures=0, avgMoves=33.7
+Job completed at Tue Mar 24 01:00:28 CET 2026

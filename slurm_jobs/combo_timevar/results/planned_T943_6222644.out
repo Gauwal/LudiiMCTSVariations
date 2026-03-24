@@ -1,0 +1,7 @@
+Running T943 on lm4-w037 at Sun Mar 22 20:47:39 CET 2026
+Game: Yi
+Variant: McGRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T943 (Yi) -> completed=100/100, wins=13, losses=87, draws=0, failures=0, avgMoves=369.5
+Job completed at Mon Mar 23 07:06:10 CET 2026

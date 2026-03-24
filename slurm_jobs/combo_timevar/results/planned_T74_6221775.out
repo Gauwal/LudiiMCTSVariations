@@ -1,0 +1,7 @@
+Running T74 on lm4-w011 at Sun Mar 22 20:26:39 CET 2026
+Game: CustAndantino
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T74 (CustAndantino) -> completed=100/100, wins=24, losses=76, draws=0, failures=0, avgMoves=35.0
+Job completed at Sun Mar 22 20:55:57 CET 2026

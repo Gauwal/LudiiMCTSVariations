@@ -1,0 +1,7 @@
+Running T301 on lm4-w014 at Mon Mar 23 00:58:22 CET 2026
+Game: Manzhouqi
+Variant: ExIt | Heuristic Sampling | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T301 (Manzhouqi) -> completed=100/100, wins=20, losses=42, draws=38, failures=0, avgMoves=899.8
+Job completed at Mon Mar 23 03:54:10 CET 2026

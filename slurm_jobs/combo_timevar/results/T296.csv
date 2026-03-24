@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T296,"Loop Xiangqi",FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",Random,"Score Bounded",Robust,2.000000,100,2000,0,17,76,7,0,100,100,414.4000,

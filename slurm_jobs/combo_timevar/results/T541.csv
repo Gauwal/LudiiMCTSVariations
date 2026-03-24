@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T541,Mbelele,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",NST,"Score Bounded",Robust,0.200000,100,2000,0,12,82,6,0,100,100,302.0800,

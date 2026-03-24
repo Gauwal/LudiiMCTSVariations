@@ -1,0 +1,5 @@
+Running T742 on lm4-w008 at Mon Mar 23 04:54:01 CET 2026
+Game: Bara Guti (Bihar)
+Variant: UCB1 | HS Playout | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

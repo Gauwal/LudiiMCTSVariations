@@ -1,0 +1,7 @@
+Running T746 on lm4-w001 at Mon Mar 23 16:59:08 CET 2026
+Game: Connect Four
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T746 (Connect Four) -> completed=100/100, wins=34, losses=62, draws=4, failures=0, avgMoves=33.0
+Job completed at Mon Mar 23 17:26:30 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1595,Intotoi,FINAL_MOVE,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,"Proportional Exp",1.000000,100,2000,0,37,58,5,0,100,100,60.6900,

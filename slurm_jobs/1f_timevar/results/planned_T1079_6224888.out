@@ -1,0 +1,7 @@
+Running T1079 on lm4-w004 at Tue Mar 24 02:52:56 CET 2026
+Game: Zurgaan Tal
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1079 (Zurgaan Tal) -> completed=100/100, wins=50, losses=39, draws=11, failures=0, avgMoves=381.6
+Job completed at Tue Mar 24 10:21:13 CET 2026

@@ -1,0 +1,7 @@
+Running T187 on lm4-w007 at Mon Mar 23 20:23:16 CET 2026
+Game: En Gehe
+Variant: UCB1 | Random | AlphaGo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T187 (En Gehe) -> completed=100/100, wins=51, losses=48, draws=1, failures=0, avgMoves=449.2
+Job completed at Tue Mar 24 01:13:00 CET 2026

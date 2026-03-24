@@ -1,0 +1,7 @@
+Running T1103 on lm4-w023 at Tue Mar 24 03:02:57 CET 2026
+Game: Ciri Amber
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1103 (Ciri Amber) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=20.7
+Job completed at Tue Mar 24 03:19:34 CET 2026

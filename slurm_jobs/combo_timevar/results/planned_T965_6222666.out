@@ -1,0 +1,7 @@
+Running T965 on lm4-w004 at Sun Mar 22 20:48:39 CET 2026
+Game: Connect6
+Variant: Noisy AG0 | NST | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T965 (Connect6) -> completed=100/100, wins=5, losses=95, draws=0, failures=0, avgMoves=157.1
+Job completed at Sun Mar 22 21:15:05 CET 2026

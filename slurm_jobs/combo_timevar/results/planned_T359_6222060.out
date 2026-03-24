@@ -1,0 +1,7 @@
+Running T359 on lm4-w018 at Mon Mar 23 01:10:22 CET 2026
+Game: Fanorona Telo
+Variant: ExIt | Heuristic | Qualitative | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T359 (Fanorona Telo) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=6.1
+Job completed at Mon Mar 23 01:15:52 CET 2026

@@ -1,0 +1,7 @@
+Running T1237 on lm4-w003 at Mon Mar 23 10:01:46 CET 2026
+Game: Center
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1237 (Center) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=29.9
+Job completed at Mon Mar 23 10:11:47 CET 2026

@@ -1,0 +1,5 @@
+Running T1872 on lm4-w014 at Mon Mar 23 14:12:19 CET 2026
+Game: Challis Ghutia
+Variant: ExIt | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

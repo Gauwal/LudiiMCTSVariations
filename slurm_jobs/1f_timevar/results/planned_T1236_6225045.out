@@ -1,0 +1,7 @@
+Running T1236 on lm4-w035 at Tue Mar 24 04:14:29 CET 2026
+Game: Cylinder Chess
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1236 (Cylinder Chess) -> completed=100/100, wins=41, losses=49, draws=10, failures=0, avgMoves=121.6
+Job completed at Tue Mar 24 11:00:07 CET 2026

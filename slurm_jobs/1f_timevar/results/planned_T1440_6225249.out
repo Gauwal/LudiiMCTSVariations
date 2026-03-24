@@ -1,0 +1,5 @@
+Running T1440 on lm4-w011 at Tue Mar 24 06:04:37 CET 2026
+Game: Kay
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

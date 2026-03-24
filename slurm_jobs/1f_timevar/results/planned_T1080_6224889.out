@@ -1,0 +1,5 @@
+Running T1080 on lm4-w022 at Tue Mar 24 02:52:56 CET 2026
+Game: Vela
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

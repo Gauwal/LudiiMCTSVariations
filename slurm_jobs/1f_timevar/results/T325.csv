@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T325,Bide,SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,"Heuristic Sampling",MonteCarlo,Robust,0.200000,100,2000,1,45,55,0,0,100,100,65.2500,

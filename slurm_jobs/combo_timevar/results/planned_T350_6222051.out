@@ -1,0 +1,7 @@
+Running T350 on lm4-w026 at Mon Mar 23 01:09:22 CET 2026
+Game: Tabu Y
+Variant: Alpha-Beta | MAST | Qualitative | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T350 (Tabu Y) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=31.9
+Job completed at Mon Mar 23 01:22:56 CET 2026

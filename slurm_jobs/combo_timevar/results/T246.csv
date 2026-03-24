@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T246,"Caturvimsatikosthakatmiki Krida",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,MAST,"Score Bounded",Robust,0.500000,100,2000,0,0,100,0,0,100,100,14.9200,

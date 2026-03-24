@@ -1,0 +1,7 @@
+Running T281 on lm4-w023 at Mon Mar 23 20:56:20 CET 2026
+Game: Gala (Buginese)
+Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T281 (Gala (Buginese)) -> completed=100/100, wins=10, losses=63, draws=27, failures=0, avgMoves=1491.8
+Job completed at Tue Mar 24 05:23:42 CET 2026

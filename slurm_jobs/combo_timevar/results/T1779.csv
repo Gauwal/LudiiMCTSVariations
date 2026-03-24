@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1779,Qatranj,FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,NST,MonteCarlo,"Proportional Exp",1.000000,100,2000,0,6,75,19,0,100,100,483.7300,

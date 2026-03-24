@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T232,"Bao Ki Arabu (Zanzibar 2)",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening","HS Playout",MonteCarlo,MaxAvgScore,2.000000,100,2000,1,0,100,0,0,100,100,105.2600,

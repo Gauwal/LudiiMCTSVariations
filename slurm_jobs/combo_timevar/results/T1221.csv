@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1221,"Xanan Zirge",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",MAST,MonteCarlo,Robust,0.200000,100,2000,0,42,57,1,0,100,100,359.2000,

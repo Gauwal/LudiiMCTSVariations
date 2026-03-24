@@ -1,0 +1,7 @@
+Running T229 on lm4-w002 at Mon Mar 23 00:28:20 CET 2026
+Game: Shatranj al-Kabir
+Variant: Alpha-Beta | MAST | AlphaGo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T229 (Shatranj al-Kabir) -> completed=100/100, wins=6, losses=10, draws=84, failures=0, avgMoves=1286.9
+Job completed at Mon Mar 23 15:03:13 CET 2026

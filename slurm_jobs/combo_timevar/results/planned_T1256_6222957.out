@@ -1,0 +1,7 @@
+Running T1256 on lm4-w016 at Mon Mar 23 10:08:46 CET 2026
+Game: Abanga
+Variant: UCB1 tuned | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1256 (Abanga) -> completed=100/100, wins=22, losses=78, draws=0, failures=0, avgMoves=74.9
+Job completed at Mon Mar 23 14:00:05 CET 2026

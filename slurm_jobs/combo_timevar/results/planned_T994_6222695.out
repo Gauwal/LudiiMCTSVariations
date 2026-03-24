@@ -1,0 +1,7 @@
+Running T994 on lm4-w021 at Mon Mar 23 08:08:10 CET 2026
+Game: Duene
+Variant: Implicit Minimax | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T994 (Duene) -> completed=100/100, wins=13, losses=65, draws=22, failures=0, avgMoves=76.5
+Job completed at Mon Mar 23 08:45:39 CET 2026

@@ -1,0 +1,7 @@
+Running T1733 on lm4-w021 at Tue Mar 24 08:13:01 CET 2026
+Game: Faraday
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1733 (Faraday) -> completed=100/100, wins=42, losses=58, draws=0, failures=0, avgMoves=93.4
+Job completed at Tue Mar 24 08:26:17 CET 2026

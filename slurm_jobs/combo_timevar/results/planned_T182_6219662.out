@@ -1,0 +1,6 @@
+Running T182 on lm4-w040 at Sun Mar 22 19:47:38 CET 2026
+Game: Residuel
+Variant: Progressive Widening | MAST | Heuristic | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 20:18:07 CET 2026

@@ -1,0 +1,5 @@
+Running T1266 on lm4-w031 at Tue Mar 24 04:26:11 CET 2026
+Game: Gala (Buginese)
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

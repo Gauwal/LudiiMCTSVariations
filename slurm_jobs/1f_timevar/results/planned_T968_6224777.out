@@ -1,0 +1,7 @@
+Running T968 on lm4-w012 at Tue Mar 24 01:58:52 CET 2026
+Game: Vela
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T968 (Vela) -> completed=100/100, wins=53, losses=47, draws=0, failures=0, avgMoves=108.8
+Job completed at Tue Mar 24 07:45:01 CET 2026

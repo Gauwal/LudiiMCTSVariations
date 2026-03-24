@@ -1,0 +1,5 @@
+Running T39 on lm4-w019 at Sun Mar 22 18:40:46 CET 2026
+Game: Bagh Guti
+Variant: ExIt | HS Playout | Implicit Minimax | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T813 on lm4-w009 at Mon Mar 23 05:43:03 CET 2026
+Game: Kyoto Shogi
+Variant: Alpha-Beta | Random | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T813 (Kyoto Shogi) -> completed=100/100, wins=33, losses=67, draws=0, failures=0, avgMoves=76.7
+Job completed at Mon Mar 23 06:09:13 CET 2026

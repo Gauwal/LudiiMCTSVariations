@@ -1,0 +1,7 @@
+Running T1753 on lm4-w012 at Tue Mar 24 08:24:01 CET 2026
+Game: Achi
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1753 (Achi) -> completed=100/100, wins=21, losses=79, draws=0, failures=0, avgMoves=52.8
+Job completed at Tue Mar 24 08:41:27 CET 2026

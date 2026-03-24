@@ -1,0 +1,7 @@
+Running T1828 on lm4-w037 at Mon Mar 23 13:47:45 CET 2026
+Game: Taktik
+Variant: Progressive Bias | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1828 (Taktik) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=387.3
+Job completed at Tue Mar 24 00:36:36 CET 2026

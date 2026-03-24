@@ -1,0 +1,7 @@
+Running T1244 on lm4-w007 at Tue Mar 24 04:16:17 CET 2026
+Game: Intotoi
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1244 (Intotoi) -> completed=100/100, wins=53, losses=45, draws=2, failures=0, avgMoves=59.0
+Job completed at Tue Mar 24 06:39:28 CET 2026

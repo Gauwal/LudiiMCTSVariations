@@ -1,0 +1,7 @@
+Running T1096 on lm4-w012 at Mon Mar 23 09:24:43 CET 2026
+Game: Loop Chess
+Variant: UCB1 | NST | Qualitative | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1096 (Loop Chess) -> completed=100/100, wins=10, losses=90, draws=0, failures=0, avgMoves=167.2
+Job completed at Mon Mar 23 14:12:04 CET 2026

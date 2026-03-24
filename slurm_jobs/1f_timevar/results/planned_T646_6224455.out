@@ -1,0 +1,7 @@
+Running T646 on lm4-w035 at Mon Mar 23 23:53:39 CET 2026
+Game: Hawalis
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T646 (Hawalis) -> completed=100/100, wins=57, losses=43, draws=0, failures=0, avgMoves=224.5
+Job completed at Tue Mar 24 02:28:53 CET 2026

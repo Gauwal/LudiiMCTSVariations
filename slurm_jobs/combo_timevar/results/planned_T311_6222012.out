@@ -1,0 +1,7 @@
+Running T311 on lm4-w031 at Sun Mar 22 20:30:39 CET 2026
+Game: Centripetal Force
+Variant: ExIt | Heuristic | Implicit Minimax | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T311 (Centripetal Force) -> completed=100/100, wins=9, losses=91, draws=0, failures=0, avgMoves=31.6
+Job completed at Sun Mar 22 20:58:15 CET 2026

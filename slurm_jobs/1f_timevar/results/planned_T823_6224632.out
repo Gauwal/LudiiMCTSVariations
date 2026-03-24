@@ -1,0 +1,7 @@
+Running T823 on lm4-w023 at Tue Mar 24 01:05:48 CET 2026
+Game: Shisima
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T823 (Shisima) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=7.6
+Job completed at Tue Mar 24 01:12:34 CET 2026

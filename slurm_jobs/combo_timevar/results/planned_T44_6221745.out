@@ -1,0 +1,7 @@
+Running T44 on lm4-w032 at Sun Mar 22 23:01:16 CET 2026
+Game: Fibonacci Nim
+Variant: Progressive Bias | NST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T44 (Fibonacci Nim) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=62.2
+Job completed at Sun Mar 22 23:57:32 CET 2026

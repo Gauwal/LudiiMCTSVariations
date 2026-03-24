@@ -1,0 +1,7 @@
+Running T1364 on lm4-w038 at Mon Mar 23 10:58:51 CET 2026
+Game: ArdRi
+Variant: UCB1 | Random | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1364 (ArdRi) -> completed=100/100, wins=40, losses=60, draws=0, failures=0, avgMoves=68.7
+Job completed at Mon Mar 23 14:47:47 CET 2026

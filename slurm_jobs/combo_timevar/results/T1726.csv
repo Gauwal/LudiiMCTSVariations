@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1726,"Shatranj Diwana Shah",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",Random,"Score Bounded",MaxAvgScore,0.500000,100,2000,0,50,50,0,0,100,100,200.4600,

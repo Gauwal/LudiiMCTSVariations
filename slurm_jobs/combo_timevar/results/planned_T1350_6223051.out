@@ -1,0 +1,7 @@
+Running T1350 on lm4-w018 at Mon Mar 23 10:51:21 CET 2026
+Game: Ludus Latrunculorum
+Variant: Noisy AG0 | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1350 (Ludus Latrunculorum) -> completed=100/100, wins=0, losses=6, draws=94, failures=0, avgMoves=1973.9
+Job completed at Tue Mar 24 01:17:21 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1450,Hoyito,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,"Implicit Minimax",Robust,0.500000,100,2000,1,13,71,16,0,100,100,76.3700,

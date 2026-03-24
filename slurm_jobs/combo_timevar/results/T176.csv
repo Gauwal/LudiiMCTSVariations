@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T176,Archworm,FULL,UCB1,Random,MonteCarlo,Robust,ExIt,PlayoutHS,"Score Bounded","Proportional Exp",2.000000,100,2000,1,5,95,0,0,100,100,350.1300,

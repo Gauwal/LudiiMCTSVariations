@@ -1,0 +1,5 @@
+Running T1674 on lm4-w025 at Mon Mar 23 12:33:34 CET 2026
+Game: Epelle
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

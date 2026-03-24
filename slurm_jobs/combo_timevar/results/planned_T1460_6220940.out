@@ -1,0 +1,5 @@
+Running T1460 on lm4-w029 at Sun Mar 22 19:10:35 CET 2026
+Game: Chaturanga (14x14)
+Variant: UCB1 tuned | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

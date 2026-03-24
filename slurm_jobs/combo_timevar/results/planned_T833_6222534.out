@@ -1,0 +1,7 @@
+Running T833 on lm4-w034 at Mon Mar 23 06:03:34 CET 2026
+Game: Hnefatafl
+Variant: UCB1 tuned | LGR | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T833 (Hnefatafl) -> completed=100/100, wins=42, losses=58, draws=0, failures=0, avgMoves=352.0
+Job completed at Mon Mar 23 08:03:17 CET 2026

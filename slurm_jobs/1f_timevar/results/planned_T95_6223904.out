@@ -1,0 +1,5 @@
+Running T95 on lm4-w022 at Mon Mar 23 19:48:11 CET 2026
+Game: Tavelspel
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

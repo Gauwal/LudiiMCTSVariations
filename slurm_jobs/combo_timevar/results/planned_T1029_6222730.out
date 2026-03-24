@@ -1,0 +1,7 @@
+Running T1029 on lm4-w024 at Mon Mar 23 08:51:12 CET 2026
+Game: Njombwa (One Counter)
+Variant: Progressive Widening | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1029 (Njombwa (One Counter)) -> completed=100/100, wins=22, losses=30, draws=48, failures=0, avgMoves=1082.6
+Job completed at Mon Mar 23 11:59:26 CET 2026

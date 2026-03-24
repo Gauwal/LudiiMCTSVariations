@@ -1,0 +1,5 @@
+Running T166 on lm4-w025 at Sun Mar 22 19:42:08 CET 2026
+Game: Hus (Damara)
+Variant: UCB1 tuned | LGR | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

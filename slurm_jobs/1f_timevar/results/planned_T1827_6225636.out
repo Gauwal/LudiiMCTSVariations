@@ -1,0 +1,5 @@
+Running T1827 on lm4-w028 at Tue Mar 24 08:53:44 CET 2026
+Game: Lam Waladach
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

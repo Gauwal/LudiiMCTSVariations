@@ -1,0 +1,5 @@
+Running T518 on lm4-w002 at Mon Mar 23 03:03:57 CET 2026
+Game: Hexshogi
+Variant: UCB1 GRAVE | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

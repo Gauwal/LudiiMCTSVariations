@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1175,Polypods,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,"Implicit Minimax",Robust,1.000000,100,2000,1,38,62,0,0,100,100,58.7500,

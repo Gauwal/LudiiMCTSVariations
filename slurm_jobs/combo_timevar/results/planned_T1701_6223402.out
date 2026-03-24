@@ -1,0 +1,7 @@
+Running T1701 on lm4-w038 at Mon Mar 23 12:40:05 CET 2026
+Game: Ludus Rebellionis (Asymmetric)
+Variant: McGRAVE | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1701 (Ludus Rebellionis (Asymmetric)) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=130.2
+Job completed at Mon Mar 23 13:22:53 CET 2026

@@ -1,0 +1,7 @@
+Running T821 on lm4-w020 at Mon Mar 23 05:55:04 CET 2026
+Game: Ko-app-paw-na
+Variant: Alpha-Beta | HS Playout | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T821 (Ko-app-paw-na) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=36.0
+Job completed at Mon Mar 23 06:07:09 CET 2026

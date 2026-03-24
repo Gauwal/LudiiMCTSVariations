@@ -1,0 +1,7 @@
+Running T1853 on lm4-w012 at Tue Mar 24 09:02:57 CET 2026
+Game: Selbia
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1853 (Selbia) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=8.0
+Job completed at Tue Mar 24 09:04:59 CET 2026

@@ -1,0 +1,7 @@
+Running T724 on lm4-w012 at Mon Mar 23 04:45:31 CET 2026
+Game: Vela
+Variant: Alpha-Beta | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T724 (Vela) -> completed=100/100, wins=4, losses=96, draws=0, failures=0, avgMoves=48.0
+Job completed at Mon Mar 23 07:11:58 CET 2026

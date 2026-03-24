@@ -1,0 +1,7 @@
+Running T629 on lm4-w013 at Mon Mar 23 04:15:30 CET 2026
+Game: Marelle Quadruple
+Variant: UCB1 GRAVE | Heuristic | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T629 (Marelle Quadruple) -> completed=100/100, wins=12, losses=85, draws=3, failures=0, avgMoves=654.2
+Job completed at Mon Mar 23 08:34:11 CET 2026

@@ -1,0 +1,7 @@
+Running T554 on lm4-w013 at Mon Mar 23 23:17:05 CET 2026
+Game: Tic Tactics
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T554 (Tic Tactics) -> completed=100/100, wins=21, losses=79, draws=0, failures=0, avgMoves=11.1
+Job completed at Mon Mar 23 23:26:23 CET 2026

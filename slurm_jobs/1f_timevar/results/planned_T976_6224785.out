@@ -1,0 +1,5 @@
+Running T976 on lm4-w005 at Tue Mar 24 02:03:23 CET 2026
+Game: Chopsticks
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

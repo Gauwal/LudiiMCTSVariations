@@ -1,0 +1,11 @@
+Running T1222 on lm4-w020 at Mon Mar 23 09:57:45 CET 2026
+Game: Throngs
+Variant: Noisy AG0 | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Not a token: ""
+Check for empty clause "()".
+Not a token: ""
+Check for empty clause "()".
+Completed T1222 (Throngs) -> completed=100/100, wins=12, losses=87, draws=1, failures=0, avgMoves=96.3
+Job completed at Mon Mar 23 10:46:36 CET 2026

@@ -1,0 +1,6 @@
+Running T113 on lm4-w039 at Sun Mar 22 19:24:07 CET 2026
+Game: Pylos
+Variant: ExIt | PlayoutHS | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:31:28 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T222,"Hund efter Hare (Vendsyssel)",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",NST,"Implicit Minimax","Proportional Exp",0.500000,100,2000,1,10,50,40,0,100,100,992.8600,

@@ -1,0 +1,7 @@
+Running T1590 on lm4-w002 at Mon Mar 23 18:47:49 CET 2026
+Game: Bide
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1590 (Bide) -> completed=100/100, wins=46, losses=54, draws=0, failures=0, avgMoves=64.7
+Job completed at Mon Mar 23 19:52:41 CET 2026

@@ -1,0 +1,7 @@
+Running T1214 on lm4-w008 at Mon Mar 23 09:53:45 CET 2026
+Game: Ngolo
+Variant: UCB1 | HS Playout | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1214 (Ngolo) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=27.2
+Job completed at Mon Mar 23 10:25:26 CET 2026

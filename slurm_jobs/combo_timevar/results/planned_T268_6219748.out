@@ -1,0 +1,5 @@
+Running T268 on lm4-w009 at Sun Mar 22 20:11:39 CET 2026
+Game: Spire
+Variant: McBRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1879,Spaji,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",MAST,"Score Bounded","Proportional Exp",1.000000,100,2000,0,16,84,0,0,100,100,31.2800,

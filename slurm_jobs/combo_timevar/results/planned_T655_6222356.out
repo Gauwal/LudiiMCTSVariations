@@ -1,0 +1,7 @@
+Running T655 on lm4-w029 at Mon Mar 23 04:22:00 CET 2026
+Game: Tabu Y
+Variant: UCB1 tuned | PlayoutHS | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T655 (Tabu Y) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=30.0
+Job completed at Mon Mar 23 05:12:10 CET 2026

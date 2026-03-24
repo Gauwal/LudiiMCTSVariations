@@ -1,0 +1,7 @@
+Running T1402 on lm4-w010 at Mon Mar 23 11:13:23 CET 2026
+Game: Manu
+Variant: UCB1 GRAVE | LGR | AlphaGo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1402 (Manu) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=444.9
+Job completed at Mon Mar 23 17:24:28 CET 2026

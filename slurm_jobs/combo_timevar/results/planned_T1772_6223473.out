@@ -1,0 +1,7 @@
+Running T1772 on lm4-w007 at Mon Mar 23 13:11:40 CET 2026
+Game: Brain Coral
+Variant: UCB1 GRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1772 (Brain Coral) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=32.7
+Job completed at Mon Mar 23 14:58:25 CET 2026

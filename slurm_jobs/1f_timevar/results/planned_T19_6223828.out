@@ -1,0 +1,7 @@
+Running T19 on lm4-w031 at Mon Mar 23 14:47:23 CET 2026
+Game: Ringo
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T19 (Ringo) -> completed=100/100, wins=6, losses=94, draws=0, failures=0, avgMoves=19.9
+Job completed at Mon Mar 23 15:23:57 CET 2026

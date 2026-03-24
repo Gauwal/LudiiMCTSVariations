@@ -1,0 +1,7 @@
+Running T1992 on lm4-w027 at Mon Mar 23 14:39:22 CET 2026
+Game: Root
+Variant: AG0 | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1992 (Root) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=31.2
+Job completed at Mon Mar 23 15:29:47 CET 2026

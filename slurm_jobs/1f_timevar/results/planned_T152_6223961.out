@@ -1,0 +1,7 @@
+Running T152 on lm4-w007 at Mon Mar 23 20:11:44 CET 2026
+Game: Atom
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T152 (Atom) -> completed=100/100, wins=51, losses=49, draws=0, failures=0, avgMoves=203.6
+Job completed at Tue Mar 24 07:30:36 CET 2026

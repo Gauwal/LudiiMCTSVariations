@@ -1,0 +1,7 @@
+Running T545 on lm4-w032 at Mon Mar 23 03:23:57 CET 2026
+Game: Jeu de Renard (Two Foxes)
+Variant: Implicit Minimax | Random | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T545 (Jeu de Renard (Two Foxes)) -> completed=100/100, wins=10, losses=12, draws=78, failures=0, avgMoves=1571.3
+Job completed at Mon Mar 23 07:50:06 CET 2026

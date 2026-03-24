@@ -1,0 +1,7 @@
+Running T1893 on lm4-w012 at Tue Mar 24 09:14:44 CET 2026
+Game: Adzua
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1893 (Adzua) -> completed=100/100, wins=41, losses=59, draws=0, failures=0, avgMoves=75.9
+Job completed at Tue Mar 24 09:40:04 CET 2026

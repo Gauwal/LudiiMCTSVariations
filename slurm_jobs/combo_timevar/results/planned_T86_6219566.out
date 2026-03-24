@@ -1,0 +1,5 @@
+Running T86 on lm4-w022 at Sun Mar 22 18:40:47 CET 2026
+Game: Co Chan Cho
+Variant: UCB1 GRAVE | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

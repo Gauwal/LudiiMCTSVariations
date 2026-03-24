@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T918,"Shi Liu Kan Tsiang Kun",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening","HS Playout",AlphaGo,"Proportional Exp",0.500000,100,2000,1,32,54,14,0,100,100,374.1600,

@@ -1,0 +1,7 @@
+Running T1494 on lm4-w012 at Mon Mar 23 11:36:55 CET 2026
+Game: Meurimueng-rimueng Peuet Ploh
+Variant: Progressive Bias | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1494 (Meurimueng-rimueng Peuet Ploh) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=840.2
+Job completed at Mon Mar 23 17:29:54 CET 2026

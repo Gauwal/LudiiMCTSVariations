@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1064,"Cylinder Chess",SELECTION,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,Random,MonteCarlo,Robust,2.000000,100,2000,1,17,77,6,0,100,100,98.9300,

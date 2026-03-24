@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1137,"Hus (Damara)",SELECTION,UCB1,Random,MonteCarlo,Robust,"Implicit Minimax",Random,MonteCarlo,Robust,0.200000,100,2000,1,9,20,71,0,100,100,1717.1200,

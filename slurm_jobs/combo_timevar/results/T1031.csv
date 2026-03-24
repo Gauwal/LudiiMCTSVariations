@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1031,Flume,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned","HS Playout","Score Bounded",Robust,1.000000,100,2000,1,13,87,0,0,100,100,49.0900,

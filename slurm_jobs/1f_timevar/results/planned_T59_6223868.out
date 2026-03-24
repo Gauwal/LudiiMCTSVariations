@@ -1,0 +1,7 @@
+Running T59 on lm4-w024 at Mon Mar 23 19:41:41 CET 2026
+Game: Okwe (Achalla)
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T59 (Okwe (Achalla)) -> completed=100/100, wins=29, losses=70, draws=1, failures=0, avgMoves=37.2
+Job completed at Mon Mar 23 20:31:15 CET 2026

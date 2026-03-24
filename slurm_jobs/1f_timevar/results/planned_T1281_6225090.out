@@ -1,0 +1,7 @@
+Running T1281 on lm4-w031 at Tue Mar 24 04:33:40 CET 2026
+Game: Wari
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1281 (Wari) -> completed=100/100, wins=43, losses=56, draws=1, failures=0, avgMoves=228.2
+Job completed at Tue Mar 24 05:44:02 CET 2026

@@ -1,0 +1,7 @@
+Running T293 on lm4-w019 at Mon Mar 23 00:54:51 CET 2026
+Game: Shobu
+Variant: McBRAVE | LGR | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T293 (Shobu) -> completed=100/100, wins=10, losses=90, draws=0, failures=0, avgMoves=181.5
+Job completed at Mon Mar 23 01:54:27 CET 2026

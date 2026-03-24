@@ -1,0 +1,7 @@
+Running T818 on lm4-w039 at Mon Mar 23 05:50:33 CET 2026
+Game: Dash Guti
+Variant: Progressive History | Heuristic | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T818 (Dash Guti) -> completed=100/100, wins=98, losses=1, draws=1, failures=0, avgMoves=218.8
+Job completed at Mon Mar 23 08:51:57 CET 2026

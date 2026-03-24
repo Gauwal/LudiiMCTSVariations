@@ -1,0 +1,7 @@
+Running T931 on lm4-w017 at Tue Mar 24 01:45:22 CET 2026
+Game: CoDi
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T931 (CoDi) -> completed=100/100, wins=3, losses=90, draws=7, failures=0, avgMoves=80.0
+Job completed at Tue Mar 24 03:59:11 CET 2026

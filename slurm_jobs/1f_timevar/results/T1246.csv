@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1246,"Veloop (Square)",SELECTION,UCB1,Random,MonteCarlo,Robust,"Progressive Bias",Random,MonteCarlo,Robust,0.500000,100,2000,0,7,93,0,0,100,100,49.7500,

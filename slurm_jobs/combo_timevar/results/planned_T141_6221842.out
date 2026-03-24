@@ -1,0 +1,7 @@
+Running T141 on lm4-w008 at Sun Mar 22 23:24:48 CET 2026
+Game: Okwe (Achalla)
+Variant: ExIt | HS Playout | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T141 (Okwe (Achalla)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=38.7
+Job completed at Sun Mar 22 23:30:21 CET 2026

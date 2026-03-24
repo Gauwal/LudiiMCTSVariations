@@ -1,0 +1,7 @@
+Running T1061 on lm4-w034 at Mon Mar 23 09:09:13 CET 2026
+Game: Domineering
+Variant: Progressive Widening | LGR | Qualitative | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1061 (Domineering) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=14.6
+Job completed at Mon Mar 23 09:11:43 CET 2026

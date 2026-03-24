@@ -1,0 +1,7 @@
+Running T863 on lm4-w009 at Mon Mar 23 06:29:05 CET 2026
+Game: Nine Holes
+Variant: UCB1 tuned | Heuristic Sampling | AlphaGo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T863 (Nine Holes) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=108.6
+Job completed at Mon Mar 23 09:30:36 CET 2026

@@ -1,0 +1,7 @@
+Running T1043 on lm4-w012 at Tue Mar 24 02:37:55 CET 2026
+Game: L Game
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1043 (L Game) -> completed=100/100, wins=64, losses=36, draws=0, failures=0, avgMoves=10.7
+Job completed at Tue Mar 24 02:55:44 CET 2026

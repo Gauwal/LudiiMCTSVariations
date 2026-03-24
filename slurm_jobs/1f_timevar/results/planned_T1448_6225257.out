@@ -1,0 +1,7 @@
+Running T1448 on lm4-w008 at Tue Mar 24 06:08:32 CET 2026
+Game: French Wari
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1448 (French Wari) -> completed=100/100, wins=39, losses=52, draws=9, failures=0, avgMoves=115.4
+Job completed at Tue Mar 24 07:32:55 CET 2026

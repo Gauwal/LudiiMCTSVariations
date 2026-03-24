@@ -1,0 +1,5 @@
+Running T780 on lm4-w034 at Mon Mar 23 05:13:02 CET 2026
+Game: Dam (Singapore)
+Variant: Implicit Minimax | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

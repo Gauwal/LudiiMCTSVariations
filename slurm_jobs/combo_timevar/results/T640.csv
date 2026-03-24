@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T640,MensaSpiel,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",MAST,"Score Bounded",Robust,2.000000,100,2000,0,77,23,0,0,100,100,30.9800,

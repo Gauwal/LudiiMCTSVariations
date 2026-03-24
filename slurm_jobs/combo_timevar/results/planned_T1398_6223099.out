@@ -1,0 +1,7 @@
+Running T1398 on lm4-w012 at Mon Mar 23 11:11:52 CET 2026
+Game: Jeu du Renard et de la Poule
+Variant: Alpha-Beta | Heuristic Sampling | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1398 (Jeu du Renard et de la Poule) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=78.2
+Job completed at Mon Mar 23 12:15:54 CET 2026

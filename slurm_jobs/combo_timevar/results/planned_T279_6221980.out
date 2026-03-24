@@ -1,0 +1,5 @@
+Running T279 on lm4-w019 at Mon Mar 23 00:50:51 CET 2026
+Game: Kensington
+Variant: McBRAVE | NST | Implicit Minimax | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

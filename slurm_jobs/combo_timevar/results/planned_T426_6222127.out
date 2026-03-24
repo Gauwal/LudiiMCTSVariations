@@ -1,0 +1,7 @@
+Running T426 on lm4-w032 at Mon Mar 23 01:51:54 CET 2026
+Game: Bis Gutiya
+Variant: Progressive History | LGR | Qualitative | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T426 (Bis Gutiya) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=218.4
+Job completed at Mon Mar 23 03:23:34 CET 2026

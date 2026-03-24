@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T321,"Upper Hand",FULL,UCB1,Random,MonteCarlo,Robust,"Implicit Minimax",Heuristic,Heuristic,"Proportional Exp",0.200000,100,2000,1,3,97,0,0,100,100,30.2700,

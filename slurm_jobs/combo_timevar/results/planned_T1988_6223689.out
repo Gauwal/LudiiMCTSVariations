@@ -1,0 +1,7 @@
+Running T1988 on lm4-w032 at Mon Mar 23 14:38:52 CET 2026
+Game: Uril
+Variant: UCB1 tuned | MAST | Heuristic | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1988 (Uril) -> completed=100/100, wins=0, losses=98, draws=2, failures=0, avgMoves=70.9
+Job completed at Mon Mar 23 18:25:21 CET 2026

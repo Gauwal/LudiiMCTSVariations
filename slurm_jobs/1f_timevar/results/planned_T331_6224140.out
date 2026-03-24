@@ -1,0 +1,7 @@
+Running T331 on lm4-w035 at Mon Mar 23 21:12:22 CET 2026
+Game: Mefuvha
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T331 (Mefuvha) -> completed=100/100, wins=8, losses=91, draws=1, failures=0, avgMoves=123.4
+Job completed at Mon Mar 23 23:08:05 CET 2026

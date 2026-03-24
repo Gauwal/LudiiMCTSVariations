@@ -1,0 +1,7 @@
+Running T204 on lm4-w008 at Mon Mar 23 00:07:20 CET 2026
+Game: Mbelele
+Variant: AG0 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T204 (Mbelele) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=131.0
+Job completed at Mon Mar 23 01:31:05 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1427,Nchuwa,SELECTION,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",Random,MonteCarlo,Robust,1.000000,100,2000,0,0,100,0,0,100,100,58.7200,

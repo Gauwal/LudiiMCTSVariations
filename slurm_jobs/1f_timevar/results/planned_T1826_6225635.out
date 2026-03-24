@@ -1,0 +1,7 @@
+Running T1826 on lm4-w025 at Tue Mar 24 08:52:26 CET 2026
+Game: Span
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1826 (Span) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=14.0
+Job completed at Tue Mar 24 09:04:09 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1172,Quarto,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,Heuristic,Robust,2.000000,100,2000,1,14,20,66,0,100,100,33.4000,

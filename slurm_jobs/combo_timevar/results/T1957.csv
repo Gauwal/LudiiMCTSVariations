@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1957,Tablo,FULL,UCB1,Random,MonteCarlo,Robust,UCB1,MAST,"Score Bounded",MaxAvgScore,0.200000,100,2000,0,27,41,32,0,100,100,891.7700,

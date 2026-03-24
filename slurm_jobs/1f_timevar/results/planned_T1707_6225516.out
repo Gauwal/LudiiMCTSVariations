@@ -1,0 +1,7 @@
+Running T1707 on lm4-w006 at Tue Mar 24 08:02:15 CET 2026
+Game: Spodd
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1707 (Spodd) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=29.9
+Job completed at Tue Mar 24 08:41:09 CET 2026

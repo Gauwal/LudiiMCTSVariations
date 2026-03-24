@@ -1,0 +1,7 @@
+Running T117 on lm4-w002 at Mon Mar 23 19:53:12 CET 2026
+Game: Baqura
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T117 (Baqura) -> completed=100/100, wins=39, losses=60, draws=1, failures=0, avgMoves=594.4
+Job completed at Mon Mar 23 22:35:23 CET 2026

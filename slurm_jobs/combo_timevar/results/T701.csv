@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T701,"Owela (Benguela)",FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,"HS Playout",AlphaGo,"Proportional Exp",0.200000,100,2000,1,1,98,1,0,100,100,73.0500,

@@ -1,0 +1,7 @@
+Running T1661 on lm4-w022 at Sun Mar 22 22:43:15 CET 2026
+Game: Symple
+Variant: McBRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1661 (Symple) -> completed=100/100, wins=42, losses=58, draws=0, failures=0, avgMoves=361.0
+Job completed at Mon Mar 23 14:11:09 CET 2026

@@ -1,0 +1,7 @@
+Running T842 on lm4-w025 at Tue Mar 24 01:08:18 CET 2026
+Game: Arimaa
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T842 (Arimaa) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=318.6
+Job completed at Tue Mar 24 05:35:33 CET 2026

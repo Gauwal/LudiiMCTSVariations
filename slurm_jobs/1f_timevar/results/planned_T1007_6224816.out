@@ -1,0 +1,7 @@
+Running T1007 on lm4-w015 at Tue Mar 24 02:18:24 CET 2026
+Game: Misoro Tsoro (Additional Capture)
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1007 (Misoro Tsoro (Additional Capture)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=36.8
+Job completed at Tue Mar 24 02:44:33 CET 2026

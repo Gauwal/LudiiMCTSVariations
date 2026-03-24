@@ -1,0 +1,7 @@
+Running T1386 on lm4-w029 at Tue Mar 24 05:32:52 CET 2026
+Game: Loop Chess
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1386 (Loop Chess) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=142.2
+Job completed at Tue Mar 24 07:37:41 CET 2026

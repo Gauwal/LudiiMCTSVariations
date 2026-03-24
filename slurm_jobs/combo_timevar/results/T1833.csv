@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1833,"Jeu de Renard (Two Foxes)",FULL,UCB1,Random,MonteCarlo,Robust,AG0,MAST,MonteCarlo,Robust,0.200000,100,2000,0,2,41,57,0,100,100,1334.8900,

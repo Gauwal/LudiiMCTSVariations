@@ -1,0 +1,7 @@
+Running T755 on lm4-w014 at Sun Mar 22 20:45:39 CET 2026
+Game: Centripetal Force
+Variant: McGRAVE | Random | AlphaGo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T755 (Centripetal Force) -> completed=100/100, wins=12, losses=88, draws=0, failures=0, avgMoves=30.5
+Job completed at Sun Mar 22 21:37:59 CET 2026

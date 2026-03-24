@@ -1,0 +1,7 @@
+Running T954 on lm4-w011 at Mon Mar 23 07:32:08 CET 2026
+Game: Marelle Triple
+Variant: McBRAVE | Heuristic Sampling | AlphaGo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T954 (Marelle Triple) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=76.9
+Job completed at Mon Mar 23 08:36:25 CET 2026

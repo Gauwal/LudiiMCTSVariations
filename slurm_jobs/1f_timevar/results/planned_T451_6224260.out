@@ -1,0 +1,7 @@
+Running T451 on lm4-w007 at Mon Mar 23 16:22:33 CET 2026
+Game: Santorini
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T451 (Santorini) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=40.6
+Job completed at Mon Mar 23 16:56:17 CET 2026

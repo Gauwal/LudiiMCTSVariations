@@ -1,0 +1,7 @@
+Running T1714 on lm4-w002 at Mon Mar 23 12:43:35 CET 2026
+Game: First Attack
+Variant: Progressive Widening | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1714 (First Attack) -> completed=100/100, wins=53, losses=47, draws=0, failures=0, avgMoves=6.6
+Job completed at Mon Mar 23 12:48:46 CET 2026

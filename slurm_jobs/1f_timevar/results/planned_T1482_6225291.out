@@ -1,0 +1,7 @@
+Running T1482 on lm4-w035 at Tue Mar 24 06:26:52 CET 2026
+Game: Celticator
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1482 (Celticator) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=49.5
+Job completed at Tue Mar 24 06:49:22 CET 2026

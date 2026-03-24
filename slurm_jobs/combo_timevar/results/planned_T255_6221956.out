@@ -1,0 +1,7 @@
+Running T255 on lm4-w030 at Mon Mar 23 00:39:51 CET 2026
+Game: Windir
+Variant: ExIt | HS Playout | Heuristic | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T255 (Windir) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=27.9
+Job completed at Mon Mar 23 01:02:25 CET 2026

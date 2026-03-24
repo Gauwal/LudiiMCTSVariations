@@ -1,0 +1,5 @@
+Running T1424 on lm4-w003 at Mon Mar 23 11:20:53 CET 2026
+Game: Haretavl
+Variant: UCB1 tuned | NST | AlphaGo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

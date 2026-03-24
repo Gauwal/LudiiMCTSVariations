@@ -1,0 +1,7 @@
+Running T716 on lm4-w025 at Tue Mar 24 00:30:43 CET 2026
+Game: Crossline
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T716 (Crossline) -> completed=100/100, wins=37, losses=63, draws=0, failures=0, avgMoves=12.1
+Job completed at Tue Mar 24 01:06:26 CET 2026

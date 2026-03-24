@@ -1,0 +1,7 @@
+Running T1177 on lm4-w039 at Mon Mar 23 09:44:14 CET 2026
+Game: Shiva
+Variant: Progressive Widening | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1177 (Shiva) -> completed=100/100, wins=22, losses=75, draws=3, failures=0, avgMoves=157.1
+Job completed at Mon Mar 23 10:31:20 CET 2026

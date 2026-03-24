@@ -1,0 +1,7 @@
+Running T1249 on lm4-w032 at Mon Mar 23 10:06:16 CET 2026
+Game: HexDame
+Variant: UCB1 | Heuristic Sampling | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1249 (HexDame) -> completed=100/100, wins=34, losses=61, draws=5, failures=0, avgMoves=203.3
+Job completed at Mon Mar 23 11:14:21 CET 2026

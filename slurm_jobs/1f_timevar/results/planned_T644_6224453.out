@@ -1,0 +1,7 @@
+Running T644 on lm4-w017 at Mon Mar 23 23:52:09 CET 2026
+Game: Engijn Zirge
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T644 (Engijn Zirge) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=5.8
+Job completed at Tue Mar 24 00:02:45 CET 2026

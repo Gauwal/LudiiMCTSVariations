@@ -1,0 +1,7 @@
+Running T285 on lm4-w015 at Mon Mar 23 00:52:21 CET 2026
+Game: Ploy
+Variant: McBRAVE | LGR | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T285 (Ploy) -> completed=100/100, wins=6, losses=94, draws=0, failures=0, avgMoves=129.4
+Job completed at Mon Mar 23 01:14:51 CET 2026

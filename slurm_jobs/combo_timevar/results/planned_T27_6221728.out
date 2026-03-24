@@ -1,0 +1,7 @@
+Running T27 on lm4-w034 at Sun Mar 22 20:25:39 CET 2026
+Game: Netted
+Variant: Progressive Widening | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T27 (Netted) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=7.9
+Job completed at Sun Mar 22 20:38:38 CET 2026

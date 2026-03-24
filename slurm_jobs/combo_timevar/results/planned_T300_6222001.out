@@ -1,0 +1,7 @@
+Running T300 on lm4-w002 at Mon Mar 23 00:57:21 CET 2026
+Game: Symbol S.2
+Variant: UCB1 GRAVE | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T300 (Symbol S.2) -> completed=100/100, wins=32, losses=63, draws=5, failures=0, avgMoves=225.0
+Job completed at Mon Mar 23 13:23:42 CET 2026

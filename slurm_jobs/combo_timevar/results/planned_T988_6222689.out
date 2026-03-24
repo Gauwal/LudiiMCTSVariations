@@ -1,0 +1,11 @@
+Running T988 on lm4-w023 at Mon Mar 23 08:05:10 CET 2026
+Game: Mangala (Turkey)
+Variant: UCB1 GRAVE | Heuristic Sampling | Implicit Minimax | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 23068672 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/users/g/s/gsavary/LudiiMCTSVariations/hs_err_pid1752123.log
+Job completed at Mon Mar 23 10:37:08 CET 2026

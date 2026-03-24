@@ -1,0 +1,7 @@
+Running T462 on lm4-w019 at Mon Mar 23 22:30:31 CET 2026
+Game: Okwe (Achalla)
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T462 (Okwe (Achalla)) -> completed=100/100, wins=56, losses=41, draws=3, failures=0, avgMoves=33.0
+Job completed at Mon Mar 23 22:52:49 CET 2026

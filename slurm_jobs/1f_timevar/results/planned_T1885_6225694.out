@@ -1,0 +1,7 @@
+Running T1885 on lm4-w019 at Mon Mar 23 19:13:03 CET 2026
+Game: Centripetal Force
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1885 (Centripetal Force) -> completed=100/100, wins=31, losses=69, draws=0, failures=0, avgMoves=39.1
+Job completed at Mon Mar 23 19:28:09 CET 2026

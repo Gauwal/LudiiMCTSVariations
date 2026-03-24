@@ -1,0 +1,7 @@
+Running T158 on lm4-w023 at Sun Mar 22 23:30:18 CET 2026
+Game: Shisima
+Variant: McBRAVE | Heuristic | Score Bounded | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T158 (Shisima) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=8.8
+Job completed at Sun Mar 22 23:37:41 CET 2026

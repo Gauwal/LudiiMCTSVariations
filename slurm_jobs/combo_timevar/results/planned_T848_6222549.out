@@ -1,0 +1,7 @@
+Running T848 on lm4-w032 at Mon Mar 23 06:18:05 CET 2026
+Game: Xarajlt
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T848 (Xarajlt) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=23.7
+Job completed at Mon Mar 23 06:58:30 CET 2026

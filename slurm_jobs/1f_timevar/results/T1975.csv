@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1975,Snowpaque,SELECTION,UCB1,Random,MonteCarlo,Robust,McGRAVE,Random,MonteCarlo,Robust,1.000000,100,2000,0,3,97,0,0,100,100,31.8900,

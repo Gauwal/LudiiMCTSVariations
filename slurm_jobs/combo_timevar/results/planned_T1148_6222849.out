@@ -1,0 +1,7 @@
+Running T1148 on lm4-w016 at Mon Mar 23 09:40:14 CET 2026
+Game: Dala
+Variant: UCB1 GRAVE | PlayoutHS | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1148 (Dala) -> completed=100/100, wins=6, losses=94, draws=0, failures=0, avgMoves=60.7
+Job completed at Mon Mar 23 13:00:01 CET 2026

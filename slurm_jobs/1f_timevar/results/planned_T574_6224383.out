@@ -1,0 +1,7 @@
+Running T574 on lm4-w017 at Mon Mar 23 23:22:05 CET 2026
+Game: Dabuda
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T574 (Dabuda) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=124.9
+Job completed at Tue Mar 24 00:00:54 CET 2026

@@ -1,0 +1,7 @@
+Running T657 on lm4-w034 at Mon Mar 23 04:22:00 CET 2026
+Game: Adhesion
+Variant: ExIt | Heuristic | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T657 (Adhesion) -> completed=100/100, wins=20, losses=80, draws=0, failures=0, avgMoves=150.4
+Job completed at Mon Mar 23 04:48:47 CET 2026

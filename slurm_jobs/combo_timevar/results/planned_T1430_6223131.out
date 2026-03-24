@@ -1,0 +1,7 @@
+Running T1430 on lm4-w012 at Mon Mar 23 11:24:24 CET 2026
+Game: Meridians
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1430 (Meridians) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=122.7
+Job completed at Mon Mar 23 13:07:11 CET 2026

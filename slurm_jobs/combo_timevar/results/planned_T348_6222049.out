@@ -1,0 +1,7 @@
+Running T348 on lm4-w026 at Mon Mar 23 01:09:22 CET 2026
+Game: Glinski Chess
+Variant: UCB1 | Heuristic Sampling | Qualitative | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T348 (Glinski Chess) -> completed=100/100, wins=1, losses=93, draws=6, failures=0, avgMoves=187.9
+Job completed at Mon Mar 23 06:34:01 CET 2026

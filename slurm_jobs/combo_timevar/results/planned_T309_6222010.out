@@ -1,0 +1,5 @@
+Running T309 on lm4-w039 at Sun Mar 22 20:28:39 CET 2026
+Game: Tai Shogi
+Variant: Noisy AG0 | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=20G, time=16:00:00

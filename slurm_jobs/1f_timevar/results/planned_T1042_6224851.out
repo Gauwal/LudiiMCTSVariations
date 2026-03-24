@@ -1,0 +1,7 @@
+Running T1042 on lm4-w004 at Tue Mar 24 02:37:55 CET 2026
+Game: Azteka
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1042 (Azteka) -> completed=100/100, wins=14, losses=75, draws=11, failures=0, avgMoves=152.2
+Job completed at Tue Mar 24 04:45:06 CET 2026

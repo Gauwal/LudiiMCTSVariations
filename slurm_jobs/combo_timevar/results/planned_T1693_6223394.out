@@ -1,0 +1,7 @@
+Running T1693 on lm4-w028 at Mon Mar 23 12:37:35 CET 2026
+Game: Chessence
+Variant: McBRAVE | NST | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1693 (Chessence) -> completed=100/100, wins=4, losses=93, draws=3, failures=0, avgMoves=112.1
+Job completed at Mon Mar 23 13:14:57 CET 2026

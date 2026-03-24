@@ -1,0 +1,7 @@
+Running T1327 on lm4-w015 at Mon Mar 23 10:43:50 CET 2026
+Game: Qelat (Beni Amir-Mensa)
+Variant: UCB1 GRAVE | MAST | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1327 (Qelat (Beni Amir-Mensa)) -> completed=100/100, wins=8, losses=70, draws=22, failures=0, avgMoves=486.4
+Job completed at Mon Mar 23 18:40:50 CET 2026

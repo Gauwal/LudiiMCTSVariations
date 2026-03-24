@@ -1,0 +1,7 @@
+Running T411 on lm4-w025 at Mon Mar 23 21:55:57 CET 2026
+Game: DisPath
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T411 (DisPath) -> completed=100/100, wins=3, losses=56, draws=41, failures=0, avgMoves=40.7
+Job completed at Mon Mar 23 23:02:22 CET 2026

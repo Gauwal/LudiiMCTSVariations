@@ -1,0 +1,7 @@
+Running T955 on lm4-w027 at Tue Mar 24 01:53:52 CET 2026
+Game: Mastermind
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T955 (Mastermind) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=34.3
+Job completed at Tue Mar 24 02:07:48 CET 2026

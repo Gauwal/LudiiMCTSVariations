@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T242,Trax,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Bias","Heuristic Sampling",AlphaGo,"Proportional Exp",0.500000,100,2000,1,43,55,2,0,100,100,14.9500,

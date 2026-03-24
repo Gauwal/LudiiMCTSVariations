@@ -1,0 +1,5 @@
+Running T680 on lm4-w017 at Mon Mar 23 04:34:30 CET 2026
+Game: Janes Soppi
+Variant: McGRAVE | MAST | Qualitative | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

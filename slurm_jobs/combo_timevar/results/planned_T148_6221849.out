@@ -1,0 +1,7 @@
+Running T148 on lm4-w008 at Sun Mar 22 23:24:48 CET 2026
+Game: Abalala'e
+Variant: Progressive Bias | NST | Heuristic | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T148 (Abalala'e) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=173.8
+Job completed at Mon Mar 23 00:58:23 CET 2026

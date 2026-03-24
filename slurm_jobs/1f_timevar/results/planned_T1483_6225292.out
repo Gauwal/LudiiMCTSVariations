@@ -1,0 +1,7 @@
+Running T1483 on lm4-w011 at Tue Mar 24 06:28:42 CET 2026
+Game: Muvalavala (Luena)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1483 (Muvalavala (Luena)) -> completed=100/100, wins=55, losses=45, draws=0, failures=0, avgMoves=84.5
+Job completed at Tue Mar 24 07:44:04 CET 2026

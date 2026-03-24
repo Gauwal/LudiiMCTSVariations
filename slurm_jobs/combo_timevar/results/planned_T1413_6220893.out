@@ -1,0 +1,6 @@
+Running T1413 on lm4-w014 at Sun Mar 22 19:08:28 CET 2026
+Game: Fenix
+Variant: Progressive Widening | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 20:09:41 CET 2026

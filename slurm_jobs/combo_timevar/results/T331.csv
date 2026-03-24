@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T331,Sujjua,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",Random,"Implicit Minimax",Robust,1.000000,100,2000,1,40,60,0,0,100,100,15.8200,

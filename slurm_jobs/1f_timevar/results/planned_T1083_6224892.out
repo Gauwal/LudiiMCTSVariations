@@ -1,0 +1,7 @@
+Running T1083 on lm4-w002 at Mon Mar 23 17:51:13 CET 2026
+Game: Bravalath
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T1083 (Bravalath) -> completed=100/100, wins=64, losses=36, draws=0, failures=0, avgMoves=37.5
+Job completed at Mon Mar 23 18:53:50 CET 2026

@@ -1,0 +1,7 @@
+Running T1370 on lm4-w019 at Tue Mar 24 05:24:01 CET 2026
+Game: Selbia
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1370 (Selbia) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=8.0
+Job completed at Tue Mar 24 05:29:06 CET 2026

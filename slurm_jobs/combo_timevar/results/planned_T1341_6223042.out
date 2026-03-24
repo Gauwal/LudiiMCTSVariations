@@ -1,0 +1,7 @@
+Running T1341 on lm4-w021 at Mon Mar 23 10:48:50 CET 2026
+Game: McCooey Chess
+Variant: McBRAVE | MAST | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1341 (McCooey Chess) -> completed=100/100, wins=5, losses=61, draws=34, failures=0, avgMoves=293.1
+Job completed at Mon Mar 23 12:28:51 CET 2026

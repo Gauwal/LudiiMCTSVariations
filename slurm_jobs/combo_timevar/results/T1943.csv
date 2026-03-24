@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1943,"One-Eyed Go",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,MAST,MonteCarlo,MaxAvgScore,1.000000,100,2000,0,0,100,0,0,100,100,441.2700,

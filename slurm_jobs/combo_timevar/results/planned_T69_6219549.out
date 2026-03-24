@@ -1,0 +1,5 @@
+Running T69 on lm4-w025 at Sun Mar 22 18:40:47 CET 2026
+Game: Dorvolz
+Variant: Progressive History | HS Playout | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

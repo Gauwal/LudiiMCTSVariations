@@ -1,0 +1,5 @@
+Running T1410 on lm4-w011 at Tue Mar 24 05:45:18 CET 2026
+Game: Gol Ekuish
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

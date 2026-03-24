@@ -1,0 +1,7 @@
+Running T529 on lm4-w011 at Mon Mar 23 23:02:04 CET 2026
+Game: Meridians
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T529 (Meridians) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=117.9
+Job completed at Mon Mar 23 23:42:00 CET 2026

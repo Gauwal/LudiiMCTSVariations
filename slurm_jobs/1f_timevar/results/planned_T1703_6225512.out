@@ -1,0 +1,7 @@
+Running T1703 on lm4-w010 at Tue Mar 24 07:59:35 CET 2026
+Game: La Yagua
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1703 (La Yagua) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=136.7
+Job completed at Tue Mar 24 09:53:28 CET 2026

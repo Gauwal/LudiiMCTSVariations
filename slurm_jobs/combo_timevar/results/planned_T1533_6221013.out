@@ -1,0 +1,5 @@
+Running T1533 on lm4-w004 at Sun Mar 22 19:14:00 CET 2026
+Game: Merimueng-rimueng
+Variant: UCB1 tuned | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

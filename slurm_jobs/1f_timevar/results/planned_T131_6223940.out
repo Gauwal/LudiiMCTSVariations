@@ -1,0 +1,5 @@
+Running T131 on lm4-w017 at Mon Mar 23 15:10:55 CET 2026
+Game: Shakhmaty (Early Modern)
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

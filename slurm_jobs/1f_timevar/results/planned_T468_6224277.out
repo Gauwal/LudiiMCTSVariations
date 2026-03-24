@@ -1,0 +1,5 @@
+Running T468 on lm4-w005 at Mon Mar 23 16:25:33 CET 2026
+Game: Conspirateurs
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

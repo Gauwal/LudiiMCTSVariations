@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T214,"Tibetan Jiuqi",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,MAST,"Score Bounded","Proportional Exp",0.500000,100,2000,0,22,71,7,0,100,100,880.7000,

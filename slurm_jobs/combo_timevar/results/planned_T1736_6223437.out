@@ -1,0 +1,7 @@
+Running T1736 on lm4-w009 at Mon Mar 23 12:50:06 CET 2026
+Game: Chaturanga (12x12)
+Variant: Progressive Bias | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1736 (Chaturanga (12x12)) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=365.1
+Job completed at Mon Mar 23 23:02:53 CET 2026

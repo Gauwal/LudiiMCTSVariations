@@ -1,0 +1,6 @@
+Running T1323 on lm4-w009 at Sun Mar 22 19:00:47 CET 2026
+Game: King And Courtesan
+Variant: AG0 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:16:41 CET 2026

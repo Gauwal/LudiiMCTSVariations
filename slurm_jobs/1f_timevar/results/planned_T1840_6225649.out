@@ -1,0 +1,5 @@
+Running T1840 on lm4-w010 at Tue Mar 24 09:00:12 CET 2026
+Game: Pon Chochotl
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

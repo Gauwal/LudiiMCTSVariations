@@ -1,0 +1,7 @@
+Running T1240 on lm4-w029 at Tue Mar 24 04:15:54 CET 2026
+Game: Minishogi
+Variant: UCB1 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1240 (Minishogi) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=52.5
+Job completed at Tue Mar 24 07:20:40 CET 2026

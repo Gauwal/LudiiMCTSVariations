@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1305,Andot,FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",MAST,"Score Bounded",MaxAvgScore,0.200000,100,2000,0,0,98,2,0,100,100,75.8400,

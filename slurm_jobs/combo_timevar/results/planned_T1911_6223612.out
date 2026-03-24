@@ -1,0 +1,7 @@
+Running T1911 on lm4-w002 at Mon Mar 23 14:32:21 CET 2026
+Game: La'b Akila
+Variant: Noisy AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1911 (La'b Akila) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=151.9
+Job completed at Mon Mar 23 15:26:56 CET 2026

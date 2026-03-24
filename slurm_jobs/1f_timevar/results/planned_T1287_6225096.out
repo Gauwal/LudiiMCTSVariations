@@ -1,0 +1,7 @@
+Running T1287 on lm4-w010 at Tue Mar 24 04:34:30 CET 2026
+Game: Mefuvha
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1287 (Mefuvha) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=118.0
+Job completed at Tue Mar 24 05:35:47 CET 2026

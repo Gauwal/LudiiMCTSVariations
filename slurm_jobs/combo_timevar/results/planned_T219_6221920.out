@@ -1,0 +1,7 @@
+Running T219 on lm4-w004 at Mon Mar 23 00:20:20 CET 2026
+Game: Guerrilla Checkers
+Variant: Implicit Minimax | Heuristic | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T219 (Guerrilla Checkers) -> completed=100/100, wins=48, losses=52, draws=0, failures=0, avgMoves=26.6
+Job completed at Mon Mar 23 01:00:29 CET 2026

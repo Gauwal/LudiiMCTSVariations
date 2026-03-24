@@ -1,0 +1,5 @@
+Running T370 on lm4-w037 at Mon Mar 23 15:59:02 CET 2026
+Game: Kriegsspiel
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=11G, time=16:00:00

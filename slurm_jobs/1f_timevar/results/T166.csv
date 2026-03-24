@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T166,Connect6,SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,"HS Playout",MonteCarlo,Robust,0.500000,100,2000,1,59,41,0,0,100,100,125.6300,

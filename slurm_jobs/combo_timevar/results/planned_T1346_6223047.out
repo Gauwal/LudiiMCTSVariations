@@ -1,0 +1,7 @@
+Running T1346 on lm4-w021 at Mon Mar 23 10:49:20 CET 2026
+Game: Davxar Zirge (Type 2)
+Variant: UCB1 tuned | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1346 (Davxar Zirge (Type 2)) -> completed=100/100, wins=18, losses=82, draws=0, failures=0, avgMoves=282.0
+Job completed at Mon Mar 23 14:43:40 CET 2026

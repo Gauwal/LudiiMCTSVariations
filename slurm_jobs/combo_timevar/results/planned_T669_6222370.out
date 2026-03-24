@@ -1,0 +1,7 @@
+Running T669 on lm4-w005 at Mon Mar 23 04:30:30 CET 2026
+Game: Ketatu
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T669 (Ketatu) -> completed=100/100, wins=61, losses=39, draws=0, failures=0, avgMoves=29.1
+Job completed at Mon Mar 23 04:40:28 CET 2026

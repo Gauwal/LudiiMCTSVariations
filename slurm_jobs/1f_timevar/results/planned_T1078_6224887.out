@@ -1,0 +1,7 @@
+Running T1078 on lm4-w033 at Mon Mar 23 17:48:13 CET 2026
+Game: Trax
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T1078 (Trax) -> completed=100/100, wins=49, losses=49, draws=2, failures=0, avgMoves=17.0
+Job completed at Mon Mar 23 18:31:31 CET 2026

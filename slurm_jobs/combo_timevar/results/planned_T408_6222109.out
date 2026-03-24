@@ -1,0 +1,7 @@
+Running T408 on lm4-w038 at Mon Mar 23 01:41:53 CET 2026
+Game: Kapana Bona
+Variant: McGRAVE | NST | Heuristic | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T408 (Kapana Bona) -> completed=100/100, wins=0, losses=96, draws=4, failures=0, avgMoves=13.9
+Job completed at Mon Mar 23 02:28:13 CET 2026

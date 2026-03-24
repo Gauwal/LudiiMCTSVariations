@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1881,Meusueb,FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,Heuristic,Heuristic,Robust,0.200000,100,2000,1,0,93,7,0,100,100,274.3500,

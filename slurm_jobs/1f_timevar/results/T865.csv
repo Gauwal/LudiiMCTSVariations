@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T865,"Qelat (Beni Amir-Mensa)",BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,"Score Bounded",Robust,0.200000,100,2000,0,35,43,22,0,100,100,467.0600,

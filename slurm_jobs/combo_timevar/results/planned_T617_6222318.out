@@ -1,0 +1,7 @@
+Running T617 on lm4-w004 at Sun Mar 22 20:44:39 CET 2026
+Game: Plotto
+Variant: Progressive Widening | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T617 (Plotto) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=6.0
+Job completed at Sun Mar 22 20:46:46 CET 2026

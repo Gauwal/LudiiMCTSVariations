@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1633,Shiva,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,"Implicit Minimax",Robust,0.200000,100,2000,1,33,51,16,0,100,100,454.8900,

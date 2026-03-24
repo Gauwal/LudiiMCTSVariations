@@ -1,0 +1,5 @@
+Running T748 on lm4-w015 at Mon Mar 23 14:43:53 CET 2026
+Game: Taikyoku Shogi
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=38G, time=16:00:00

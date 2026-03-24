@@ -1,0 +1,7 @@
+Running T1009 on lm4-w019 at Mon Mar 23 08:32:41 CET 2026
+Game: Mangala (Turkey)
+Variant: Progressive History | PlayoutHS | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1009 (Mangala (Turkey)) -> completed=100/100, wins=16, losses=81, draws=3, failures=0, avgMoves=50.6
+Job completed at Mon Mar 23 08:48:15 CET 2026

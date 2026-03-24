@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T56,"Dorvon Cag",FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,NST,Qualitative,MaxAvgScore,2.000000,100,2000,1,7,93,0,0,100,100,5.8100,

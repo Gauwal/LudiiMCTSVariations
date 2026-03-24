@@ -1,0 +1,7 @@
+Running T961 on lm4-w022 at Mon Mar 23 07:40:08 CET 2026
+Game: Kyoto Shogi
+Variant: UCB1 tuned | Heuristic Sampling | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T961 (Kyoto Shogi) -> completed=100/100, wins=28, losses=72, draws=0, failures=0, avgMoves=77.4
+Job completed at Mon Mar 23 08:07:35 CET 2026

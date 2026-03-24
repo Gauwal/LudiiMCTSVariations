@@ -1,0 +1,6 @@
+Running T257 on lm4-w014 at Sun Mar 22 20:08:39 CET 2026
+Game: OddEvenTree
+Variant: UCB1 | HS Playout | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 20:09:41 CET 2026

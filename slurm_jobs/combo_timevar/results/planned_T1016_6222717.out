@@ -1,0 +1,5 @@
+Running T1016 on lm4-w004 at Mon Mar 23 08:37:11 CET 2026
+Game: Rumi Shatranj
+Variant: UCB1 GRAVE | Random | AlphaGo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

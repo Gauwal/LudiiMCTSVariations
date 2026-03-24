@@ -1,0 +1,5 @@
+Running T126 on lm4-w014 at Sun Mar 22 19:27:58 CET 2026
+Game: Gioco dell'Orso
+Variant: Progressive Widening | LGR | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T1321 on lm4-w032 at Mon Mar 23 10:40:20 CET 2026
+Game: Game of Dwarfs
+Variant: Progressive Widening | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1321 (Game of Dwarfs) -> completed=100/100, wins=40, losses=33, draws=27, failures=0, avgMoves=550.1
+Job completed at Mon Mar 23 13:12:48 CET 2026

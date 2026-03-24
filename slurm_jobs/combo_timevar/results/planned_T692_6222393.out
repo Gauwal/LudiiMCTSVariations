@@ -1,0 +1,7 @@
+Running T692 on lm4-w022 at Mon Mar 23 04:40:00 CET 2026
+Game: Tennessee Waltz
+Variant: Alpha-Beta | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T692 (Tennessee Waltz) -> completed=100/100, wins=13, losses=87, draws=0, failures=0, avgMoves=17.7
+Job completed at Mon Mar 23 05:39:12 CET 2026

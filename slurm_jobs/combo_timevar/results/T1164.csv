@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1164,"Davxar Zirge (Type 1)",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,NST,"Score Bounded",MaxAvgScore,2.000000,100,2000,0,0,100,0,0,100,100,97.3200,

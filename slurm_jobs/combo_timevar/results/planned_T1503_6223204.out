@@ -1,0 +1,7 @@
+Running T1503 on lm4-w038 at Mon Mar 23 11:41:56 CET 2026
+Game: ConHex
+Variant: UCB1 tuned | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1503 (ConHex) -> completed=100/100, wins=48, losses=51, draws=1, failures=0, avgMoves=29.6
+Job completed at Mon Mar 23 12:31:22 CET 2026

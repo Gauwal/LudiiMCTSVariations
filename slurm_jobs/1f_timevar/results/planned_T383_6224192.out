@@ -1,0 +1,7 @@
+Running T383 on lm4-w019 at Mon Mar 23 21:39:55 CET 2026
+Game: Chiana wa Bwalo
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T383 (Chiana wa Bwalo) -> completed=100/100, wins=52, losses=46, draws=2, failures=0, avgMoves=308.8
+Job completed at Tue Mar 24 05:24:01 CET 2026

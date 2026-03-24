@@ -1,0 +1,7 @@
+Running T124 on lm4-w002 at Mon Mar 23 15:08:55 CET 2026
+Game: Murus Gallicus
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T124 (Murus Gallicus) -> completed=100/100, wins=86, losses=14, draws=0, failures=0, avgMoves=63.9
+Job completed at Mon Mar 23 18:42:06 CET 2026

@@ -1,0 +1,5 @@
+Running T920 on lm4-w031 at Tue Mar 24 01:38:21 CET 2026
+Game: Rimau-Rimau (Two Tigers)
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

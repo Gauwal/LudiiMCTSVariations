@@ -1,0 +1,7 @@
+Running T1293 on lm4-w011 at Mon Mar 23 18:16:46 CET 2026
+Game: Callanish
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1293 (Callanish) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=53.9
+Job completed at Mon Mar 23 18:33:42 CET 2026

@@ -1,0 +1,7 @@
+Running T506 on lm4-w020 at Mon Mar 23 02:59:27 CET 2026
+Game: Two-Colour
+Variant: McGRAVE | Heuristic Sampling | AlphaGo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T506 (Two-Colour) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=24.8
+Job completed at Mon Mar 23 03:19:29 CET 2026

@@ -1,0 +1,7 @@
+Running T411 on lm4-w015 at Mon Mar 23 01:42:53 CET 2026
+Game: Vertiges
+Variant: UCB1 GRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T411 (Vertiges) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=419.6
+Job completed at Mon Mar 23 13:43:21 CET 2026

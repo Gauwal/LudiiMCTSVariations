@@ -1,0 +1,11 @@
+Running T1230 on lm4-w017 at Tue Mar 24 04:11:09 CET 2026
+Game: Throngs
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Not a token: ""
+Check for empty clause "()".
+Not a token: ""
+Check for empty clause "()".
+Completed T1230 (Throngs) -> completed=100/100, wins=14, losses=84, draws=2, failures=0, avgMoves=99.4
+Job completed at Tue Mar 24 05:02:13 CET 2026

@@ -1,0 +1,7 @@
+Running T1756 on lm4-w003 at Mon Mar 23 13:02:38 CET 2026
+Game: Tsoro (Baia)
+Variant: AG0 | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1756 (Tsoro (Baia)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=206.7
+Job completed at Mon Mar 23 16:59:23 CET 2026

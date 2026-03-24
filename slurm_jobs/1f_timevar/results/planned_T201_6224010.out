@@ -1,0 +1,7 @@
+Running T201 on lm4-w033 at Mon Mar 23 15:23:56 CET 2026
+Game: Pente
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T201 (Pente) -> completed=100/100, wins=30, losses=70, draws=0, failures=0, avgMoves=100.2
+Job completed at Mon Mar 23 15:57:10 CET 2026

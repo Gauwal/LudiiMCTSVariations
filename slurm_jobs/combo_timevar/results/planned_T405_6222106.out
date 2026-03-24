@@ -1,0 +1,7 @@
+Running T405 on lm4-w002 at Mon Mar 23 01:39:23 CET 2026
+Game: Boukerourou
+Variant: Alpha-Beta | NST | AlphaGo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T405 (Boukerourou) -> completed=100/100, wins=20, losses=15, draws=65, failures=0, avgMoves=1385.0
+Job completed at Mon Mar 23 02:49:41 CET 2026

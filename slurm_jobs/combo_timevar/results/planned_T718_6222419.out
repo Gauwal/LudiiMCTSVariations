@@ -1,0 +1,7 @@
+Running T718 on lm4-w013 at Mon Mar 23 04:42:31 CET 2026
+Game: Maharajah Chess
+Variant: AG0 | Random | Heuristic | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T718 (Maharajah Chess) -> completed=100/100, wins=40, losses=52, draws=8, failures=0, avgMoves=172.4
+Job completed at Mon Mar 23 05:55:47 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T978,"Mak Ruk",FULL,UCB1,Random,MonteCarlo,Robust,McGRAVE,Random,AlphaGo,MaxAvgScore,0.500000,100,2000,1,4,87,9,0,100,100,195.4400,

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T798,"King's Valley",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",LGR,AlphaGo,Robust,0.500000,100,2000,1,26,74,0,0,100,100,23.0000,

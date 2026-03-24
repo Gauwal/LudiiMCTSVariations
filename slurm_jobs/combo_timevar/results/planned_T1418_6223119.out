@@ -1,0 +1,7 @@
+Running T1418 on lm4-w011 at Sun Mar 22 22:16:44 CET 2026
+Game: Short Assize
+Variant: Progressive History | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1418 (Short Assize) -> completed=100/100, wins=38, losses=62, draws=0, failures=0, avgMoves=252.8
+Job completed at Mon Mar 23 01:55:00 CET 2026

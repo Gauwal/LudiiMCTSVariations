@@ -1,0 +1,5 @@
+Running T1408 on lm4-w023 at Tue Mar 24 05:45:01 CET 2026
+Game: Merimueng-rimueng-do
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

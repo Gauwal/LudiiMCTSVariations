@@ -1,0 +1,7 @@
+Running T1004 on lm4-w019 at Tue Mar 24 02:17:24 CET 2026
+Game: Unlur
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1004 (Unlur) -> completed=100/100, wins=51, losses=49, draws=0, failures=0, avgMoves=66.5
+Job completed at Tue Mar 24 05:57:15 CET 2026

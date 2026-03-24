@@ -1,0 +1,7 @@
+Running T1381 on lm4-w024 at Mon Mar 23 11:06:22 CET 2026
+Game: Xiang Hex
+Variant: AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1381 (Xiang Hex) -> completed=100/100, wins=13, losses=29, draws=58, failures=0, avgMoves=1254.1
+Job completed at Mon Mar 23 15:33:23 CET 2026

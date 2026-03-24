@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1291,Janggi,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,Qualitative,Robust,1.000000,100,2000,1,2,90,8,0,100,100,107.6500,

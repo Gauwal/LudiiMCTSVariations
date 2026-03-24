@@ -1,0 +1,7 @@
+Running T1859 on lm4-w015 at Mon Mar 23 14:04:18 CET 2026
+Game: Hex
+Variant: Noisy AG0 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1859 (Hex) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=36.6
+Job completed at Mon Mar 23 14:35:22 CET 2026

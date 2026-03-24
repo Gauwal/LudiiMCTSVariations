@@ -1,0 +1,7 @@
+Running T399 on lm4-w017 at Mon Mar 23 21:50:56 CET 2026
+Game: Triple Tangle
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T399 (Triple Tangle) -> completed=100/100, wins=90, losses=10, draws=0, failures=0, avgMoves=168.1
+Job completed at Tue Mar 24 02:26:52 CET 2026

@@ -1,0 +1,7 @@
+Running T106 on lm4-w011 at Sun Mar 22 23:18:48 CET 2026
+Game: Nim
+Variant: Progressive Widening | HS Playout | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T106 (Nim) -> completed=100/100, wins=18, losses=82, draws=0, failures=0, avgMoves=25.4
+Job completed at Sun Mar 22 23:39:02 CET 2026

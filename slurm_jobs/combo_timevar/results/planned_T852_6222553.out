@@ -1,0 +1,7 @@
+Running T852 on lm4-w020 at Mon Mar 23 06:19:35 CET 2026
+Game: Domineering
+Variant: McGRAVE | NST | AlphaGo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T852 (Domineering) -> completed=100/100, wins=5, losses=95, draws=0, failures=0, avgMoves=15.1
+Job completed at Mon Mar 23 07:06:42 CET 2026

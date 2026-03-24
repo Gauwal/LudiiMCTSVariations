@@ -1,0 +1,7 @@
+Running T575 on lm4-w031 at Sun Mar 22 20:44:09 CET 2026
+Game: Allemande
+Variant: Progressive Bias | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T575 (Allemande) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=19.2
+Job completed at Sun Mar 22 21:00:36 CET 2026

@@ -1,0 +1,7 @@
+Running T407 on lm4-w008 at Mon Mar 23 01:40:23 CET 2026
+Game: Ako Okwe
+Variant: McGRAVE | PlayoutHS | AlphaGo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T407 (Ako Okwe) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=80.0
+Job completed at Mon Mar 23 03:57:28 CET 2026

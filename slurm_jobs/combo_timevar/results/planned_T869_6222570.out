@@ -1,0 +1,7 @@
+Running T869 on lm4-w018 at Mon Mar 23 06:32:35 CET 2026
+Game: McCooey Chess
+Variant: Implicit Minimax | Random | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T869 (McCooey Chess) -> completed=100/100, wins=54, losses=28, draws=18, failures=0, avgMoves=237.8
+Job completed at Mon Mar 23 07:53:37 CET 2026

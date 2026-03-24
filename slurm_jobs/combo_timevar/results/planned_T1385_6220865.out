@@ -1,0 +1,6 @@
+Running T1385 on lm4-w014 at Sun Mar 22 19:03:59 CET 2026
+Game: Monkey Queen
+Variant: Progressive History | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:05:54 CET 2026

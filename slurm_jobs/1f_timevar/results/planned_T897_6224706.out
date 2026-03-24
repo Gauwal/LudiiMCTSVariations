@@ -1,0 +1,7 @@
+Running T897 on lm4-w014 at Tue Mar 24 01:26:19 CET 2026
+Game: Njombwa (Two Counters)
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T897 (Njombwa (Two Counters)) -> completed=100/100, wins=3, losses=86, draws=11, failures=0, avgMoves=502.9
+Job completed at Tue Mar 24 02:11:29 CET 2026

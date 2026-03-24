@@ -1,0 +1,7 @@
+Running T341 on lm4-w005 at Mon Mar 23 15:49:02 CET 2026
+Game: Lasca
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T341 (Lasca) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=139.6
+Job completed at Mon Mar 23 16:25:11 CET 2026

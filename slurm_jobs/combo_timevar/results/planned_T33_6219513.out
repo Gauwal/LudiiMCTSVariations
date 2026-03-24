@@ -1,0 +1,6 @@
+Running T33 on lm4-w039 at Sun Mar 22 18:40:47 CET 2026
+Game: Triple Tangle
+Variant: AG0 | LGR | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:24:03 CET 2026

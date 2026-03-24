@@ -1,0 +1,7 @@
+Running T1352 on lm4-w011 at Tue Mar 24 05:19:01 CET 2026
+Game: TacTix
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1352 (TacTix) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=21.9
+Job completed at Tue Mar 24 06:28:42 CET 2026

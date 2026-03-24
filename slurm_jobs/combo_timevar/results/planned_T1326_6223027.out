@@ -1,0 +1,7 @@
+Running T1326 on lm4-w038 at Mon Mar 23 10:43:20 CET 2026
+Game: Ratio
+Variant: Progressive History | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1326 (Ratio) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=78.8
+Job completed at Mon Mar 23 11:36:18 CET 2026

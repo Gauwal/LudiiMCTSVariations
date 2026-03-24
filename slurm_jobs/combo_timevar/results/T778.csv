@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T778,Epoxy,FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",Heuristic,"Score Bounded","Proportional Exp",0.500000,100,2000,1,2,98,0,0,100,100,60.3600,

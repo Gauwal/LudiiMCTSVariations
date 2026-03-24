@@ -1,0 +1,5 @@
+Running T750 on lm4-w026 at Mon Mar 23 04:59:01 CET 2026
+Game: Dablot Prejjesne
+Variant: Progressive Widening | Random | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

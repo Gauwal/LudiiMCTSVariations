@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T164,"The Concentration Game",FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,NST,MonteCarlo,Robust,2.000000,100,2000,0,0,100,0,0,100,100,174.0500,

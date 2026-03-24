@@ -1,0 +1,7 @@
+Running T1157 on lm4-w012 at Mon Mar 23 09:42:14 CET 2026
+Game: Windflowers
+Variant: UCB1 GRAVE | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1157 (Windflowers) -> completed=100/100, wins=14, losses=86, draws=0, failures=0, avgMoves=34.6
+Job completed at Mon Mar 23 09:53:38 CET 2026

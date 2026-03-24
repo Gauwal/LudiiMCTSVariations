@@ -1,0 +1,7 @@
+Running T1017 on lm4-w014 at Tue Mar 24 02:22:54 CET 2026
+Game: DisPath
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1017 (DisPath) -> completed=100/100, wins=3, losses=51, draws=46, failures=0, avgMoves=42.0
+Job completed at Tue Mar 24 02:36:38 CET 2026

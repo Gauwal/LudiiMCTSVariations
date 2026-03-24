@@ -1,0 +1,7 @@
+Running T548 on lm4-w017 at Mon Mar 23 23:14:05 CET 2026
+Game: Gadis
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T548 (Gadis) -> completed=100/100, wins=15, losses=34, draws=51, failures=0, avgMoves=98.4
+Job completed at Tue Mar 24 04:05:27 CET 2026

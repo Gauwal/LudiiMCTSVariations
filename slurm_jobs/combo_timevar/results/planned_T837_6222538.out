@@ -1,0 +1,7 @@
+Running T837 on lm4-w020 at Mon Mar 23 06:07:34 CET 2026
+Game: The Babylonian
+Variant: Alpha-Beta | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T837 (The Babylonian) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=337.5
+Job completed at Mon Mar 23 08:00:48 CET 2026

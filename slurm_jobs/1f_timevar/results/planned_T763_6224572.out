@@ -1,0 +1,5 @@
+Running T763 on lm4-w017 at Tue Mar 24 00:46:15 CET 2026
+Game: Kapana Bona
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

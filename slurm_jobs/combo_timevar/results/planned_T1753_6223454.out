@@ -1,0 +1,7 @@
+Running T1753 on lm4-w031 at Mon Mar 23 13:00:38 CET 2026
+Game: Un
+Variant: Noisy AG0 | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1753 (Un) -> completed=100/100, wins=4, losses=96, draws=0, failures=0, avgMoves=12.2
+Job completed at Mon Mar 23 13:02:40 CET 2026

@@ -1,0 +1,7 @@
+Running T618 on lm4-w018 at Mon Mar 23 04:10:59 CET 2026
+Game: Spots
+Variant: Progressive History | LGR | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T618 (Spots) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=15.4
+Job completed at Mon Mar 23 04:23:21 CET 2026

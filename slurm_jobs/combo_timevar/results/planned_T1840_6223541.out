@@ -1,0 +1,7 @@
+Running T1840 on lm4-w028 at Mon Mar 23 13:52:46 CET 2026
+Game: TacTix
+Variant: ExIt | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1840 (TacTix) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=19.9
+Job completed at Mon Mar 23 14:26:43 CET 2026

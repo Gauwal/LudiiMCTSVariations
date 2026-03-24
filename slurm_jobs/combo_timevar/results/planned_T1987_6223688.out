@@ -1,0 +1,7 @@
+Running T1987 on lm4-w002 at Mon Mar 23 14:38:52 CET 2026
+Game: Uril
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1987 (Uril) -> completed=100/100, wins=35, losses=33, draws=32, failures=0, avgMoves=298.0
+Job completed at Mon Mar 23 18:08:48 CET 2026

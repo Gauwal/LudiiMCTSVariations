@@ -1,0 +1,5 @@
+Running T1091 on lm4-w022 at Mon Mar 23 09:23:43 CET 2026
+Game: Tobi Shogi
+Variant: Alpha-Beta | Heuristic | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

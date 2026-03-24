@@ -1,0 +1,7 @@
+Running T1827 on lm4-w025 at Mon Mar 23 13:47:45 CET 2026
+Game: Tauru
+Variant: AG0 | NST | AlphaGo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1827 (Tauru) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=43.1
+Job completed at Mon Mar 23 14:32:25 CET 2026

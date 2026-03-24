@@ -1,0 +1,7 @@
+Running T908 on lm4-w022 at Sun Mar 22 20:46:39 CET 2026
+Game: Gomoku
+Variant: Progressive Widening | Random | AlphaGo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T908 (Gomoku) -> completed=100/100, wins=64, losses=36, draws=0, failures=0, avgMoves=17.5
+Job completed at Sun Mar 22 21:45:21 CET 2026

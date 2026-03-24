@@ -1,0 +1,6 @@
+Running T901 on lm4-w014 at Sun Mar 22 18:55:35 CET 2026
+Game: Overflow
+Variant: UCB1 tuned | LGR | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:03:59 CET 2026

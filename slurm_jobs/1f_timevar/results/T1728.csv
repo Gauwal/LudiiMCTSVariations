@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1728,Lifeline,SELECTION,UCB1,Random,MonteCarlo,Robust,AG0,Random,MonteCarlo,Robust,2.000000,100,2000,0,2,98,0,0,100,100,125.9000,

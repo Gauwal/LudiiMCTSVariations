@@ -1,0 +1,7 @@
+Running T822 on lm4-w027 at Tue Mar 24 01:04:48 CET 2026
+Game: Tugul Shodra
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T822 (Tugul Shodra) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=10.7
+Job completed at Tue Mar 24 01:08:52 CET 2026

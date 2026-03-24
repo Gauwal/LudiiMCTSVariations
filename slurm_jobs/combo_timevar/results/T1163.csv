@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1163,"Dai Hasami Shogi",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",Random,Heuristic,MaxAvgScore,1.000000,100,2000,1,45,55,0,0,100,100,75.3500,

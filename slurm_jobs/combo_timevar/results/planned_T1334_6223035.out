@@ -1,0 +1,7 @@
+Running T1334 on lm4-w028 at Mon Mar 23 10:47:21 CET 2026
+Game: Koro
+Variant: ExIt | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1334 (Koro) -> completed=100/100, wins=2, losses=50, draws=48, failures=0, avgMoves=1378.2
+Job completed at Mon Mar 23 19:37:43 CET 2026

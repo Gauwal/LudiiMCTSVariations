@@ -1,0 +1,7 @@
+Running T203 on lm4-w031 at Mon Mar 23 20:28:47 CET 2026
+Game: 1D Chess
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T203 (1D Chess) -> completed=100/100, wins=0, losses=83, draws=17, failures=0, avgMoves=7.0
+Job completed at Mon Mar 23 20:34:09 CET 2026

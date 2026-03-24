@@ -1,0 +1,5 @@
+Running T1461 on lm4-w002 at Sun Mar 22 19:11:38 CET 2026
+Game: Tenjiku Shogi
+Variant: Progressive Widening | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=11G, time=16:00:00

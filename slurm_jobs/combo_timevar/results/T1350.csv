@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1350,"Ludus Latrunculorum",FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",NST,"Score Bounded",MaxAvgScore,0.500000,100,2000,0,0,6,94,0,100,100,1973.9100,

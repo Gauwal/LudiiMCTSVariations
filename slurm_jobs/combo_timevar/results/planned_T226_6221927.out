@@ -1,0 +1,7 @@
+Running T226 on lm4-w002 at Mon Mar 23 00:25:20 CET 2026
+Game: Six-Penny Madell
+Variant: ExIt | HS Playout | Heuristic | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T226 (Six-Penny Madell) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=71.2
+Job completed at Mon Mar 23 00:56:58 CET 2026

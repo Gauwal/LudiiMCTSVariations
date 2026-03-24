@@ -1,0 +1,7 @@
+Running T959 on lm4-w014 at Mon Mar 23 07:38:38 CET 2026
+Game: Breakthrough
+Variant: UCB1 tuned | HS Playout | Score Bounded | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T959 (Breakthrough) -> completed=100/100, wins=12, losses=88, draws=0, failures=0, avgMoves=50.1
+Job completed at Mon Mar 23 09:02:25 CET 2026

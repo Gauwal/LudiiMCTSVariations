@@ -1,0 +1,5 @@
+Running T1671 on lm4-w015 at Mon Mar 23 12:33:04 CET 2026
+Game: Djara-Badakh
+Variant: Progressive History | NST | Heuristic | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

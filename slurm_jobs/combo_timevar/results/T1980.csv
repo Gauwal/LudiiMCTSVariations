@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1980,"La'b Akila",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",Random,"Score Bounded",Robust,2.000000,100,2000,0,45,50,5,0,100,100,257.6900,

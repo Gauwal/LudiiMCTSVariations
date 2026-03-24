@@ -1,0 +1,5 @@
+Running T1962 on lm4-w015 at Tue Mar 24 09:52:24 CET 2026
+Game: Sumi Naga Game (Hunt)
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T1779 on lm4-w028 at Mon Mar 23 13:17:10 CET 2026
+Game: Qatranj
+Variant: McBRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1779 (Qatranj) -> completed=100/100, wins=6, losses=75, draws=19, failures=0, avgMoves=483.7
+Job completed at Tue Mar 24 02:57:16 CET 2026

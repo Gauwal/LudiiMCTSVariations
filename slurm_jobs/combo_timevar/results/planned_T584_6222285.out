@@ -1,0 +1,7 @@
+Running T584 on lm4-w002 at Mon Mar 23 03:52:29 CET 2026
+Game: Kotu Baendum
+Variant: Progressive History | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T584 (Kotu Baendum) -> completed=100/100, wins=20, losses=79, draws=1, failures=0, avgMoves=424.7
+Job completed at Mon Mar 23 12:48:57 CET 2026

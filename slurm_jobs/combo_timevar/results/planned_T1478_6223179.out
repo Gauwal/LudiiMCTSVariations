@@ -1,0 +1,7 @@
+Running T1478 on lm4-w003 at Mon Mar 23 11:35:25 CET 2026
+Game: Trike
+Variant: UCB1 tuned | Heuristic | Qualitative | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1478 (Trike) -> completed=100/100, wins=12, losses=88, draws=0, failures=0, avgMoves=22.7
+Job completed at Mon Mar 23 11:44:47 CET 2026

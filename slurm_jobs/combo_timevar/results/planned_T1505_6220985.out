@@ -1,0 +1,5 @@
+Running T1505 on lm4-w034 at Sun Mar 22 19:12:21 CET 2026
+Game: Eleven-Fang
+Variant: Progressive History | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

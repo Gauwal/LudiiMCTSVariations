@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T516,"Nerenchi Keliya",SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,PlayoutHS,MonteCarlo,Robust,2.000000,100,2000,1,69,30,1,0,100,100,150.8200,

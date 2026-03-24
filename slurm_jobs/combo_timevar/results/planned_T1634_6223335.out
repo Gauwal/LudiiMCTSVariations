@@ -1,0 +1,7 @@
+Running T1634 on lm4-w036 at Mon Mar 23 12:26:33 CET 2026
+Game: Qelat (Beni Amir-Mensa)
+Variant: Progressive Widening | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1634 (Qelat (Beni Amir-Mensa)) -> completed=100/100, wins=39, losses=39, draws=22, failures=0, avgMoves=468.3
+Job completed at Mon Mar 23 13:35:52 CET 2026

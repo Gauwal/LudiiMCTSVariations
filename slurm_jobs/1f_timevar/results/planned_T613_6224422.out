@@ -1,0 +1,7 @@
+Running T613 on lm4-w035 at Mon Mar 23 23:41:07 CET 2026
+Game: Brusky Chess
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T613 (Brusky Chess) -> completed=100/100, wins=47, losses=43, draws=10, failures=0, avgMoves=170.0
+Job completed at Tue Mar 24 00:39:11 CET 2026

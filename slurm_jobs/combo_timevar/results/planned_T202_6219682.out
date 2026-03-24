@@ -1,0 +1,5 @@
+Running T202 on lm4-w032 at Sun Mar 22 18:40:51 CET 2026
+Game: Alea Evangelii
+Variant: UCB1 | Heuristic Sampling | Qualitative | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

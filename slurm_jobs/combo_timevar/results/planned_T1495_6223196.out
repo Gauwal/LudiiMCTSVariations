@@ -1,0 +1,7 @@
+Running T1495 on lm4-w017 at Mon Mar 23 11:37:26 CET 2026
+Game: Zamma
+Variant: Progressive History | Heuristic Sampling | AlphaGo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1495 (Zamma) -> completed=100/100, wins=11, losses=89, draws=0, failures=0, avgMoves=232.2
+Job completed at Mon Mar 23 18:01:39 CET 2026

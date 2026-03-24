@@ -1,0 +1,7 @@
+Running T1005 on lm4-w035 at Tue Mar 24 02:17:54 CET 2026
+Game: Nchuwa
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1005 (Nchuwa) -> completed=100/100, wins=24, losses=74, draws=2, failures=0, avgMoves=115.5
+Job completed at Tue Mar 24 02:32:57 CET 2026

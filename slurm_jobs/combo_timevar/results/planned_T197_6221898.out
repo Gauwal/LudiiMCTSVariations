@@ -1,0 +1,7 @@
+Running T197 on lm4-w009 at Mon Mar 23 00:04:49 CET 2026
+Game: Shatranj ar-Rumiya
+Variant: ExIt | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T197 (Shatranj ar-Rumiya) -> completed=100/100, wins=3, losses=17, draws=80, failures=0, avgMoves=1636.5
+Job completed at Mon Mar 23 04:47:33 CET 2026

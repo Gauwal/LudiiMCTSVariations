@@ -1,0 +1,5 @@
+Running T1386 on lm4-w004 at Sun Mar 22 19:04:17 CET 2026
+Game: Rithmomachia
+Variant: McBRAVE | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

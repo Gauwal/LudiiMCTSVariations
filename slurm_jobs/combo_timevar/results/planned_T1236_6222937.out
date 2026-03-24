@@ -1,0 +1,7 @@
+Running T1236 on lm4-w009 at Sun Mar 22 21:24:11 CET 2026
+Game: Mao Naga Tiger Game
+Variant: ExIt | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1236 (Mao Naga Tiger Game) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=429.3
+Job completed at Mon Mar 23 09:19:33 CET 2026

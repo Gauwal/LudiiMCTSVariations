@@ -1,0 +1,7 @@
+Running T1400 on lm4-w031 at Tue Mar 24 05:42:31 CET 2026
+Game: I Pere
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1400 (I Pere) -> completed=100/100, wins=51, losses=49, draws=0, failures=0, avgMoves=31.5
+Job completed at Tue Mar 24 07:04:01 CET 2026

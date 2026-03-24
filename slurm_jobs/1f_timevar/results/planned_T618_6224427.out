@@ -1,0 +1,7 @@
+Running T618 on lm4-w035 at Mon Mar 23 23:42:07 CET 2026
+Game: 3D Tic-Tac-Toe
+Variant: Progressive Bias | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T618 (3D Tic-Tac-Toe) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=5.8
+Job completed at Mon Mar 23 23:44:46 CET 2026

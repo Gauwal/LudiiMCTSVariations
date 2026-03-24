@@ -1,0 +1,7 @@
+Running T151 on lm4-w003 at Mon Mar 23 20:10:14 CET 2026
+Game: Celticator
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T151 (Celticator) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=55.8
+Job completed at Mon Mar 23 20:57:37 CET 2026

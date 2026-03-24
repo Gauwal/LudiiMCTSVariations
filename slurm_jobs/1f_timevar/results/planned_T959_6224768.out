@@ -1,0 +1,5 @@
+Running T959 on lm4-w031 at Tue Mar 24 01:55:22 CET 2026
+Game: Kapana Bona
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

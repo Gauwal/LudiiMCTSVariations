@@ -1,0 +1,7 @@
+Running T1357 on lm4-w017 at Tue Mar 24 05:20:23 CET 2026
+Game: Quarto
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1357 (Quarto) -> completed=100/100, wins=29, losses=27, draws=44, failures=0, avgMoves=31.1
+Job completed at Tue Mar 24 05:29:52 CET 2026

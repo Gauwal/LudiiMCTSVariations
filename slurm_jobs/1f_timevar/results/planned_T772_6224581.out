@@ -1,0 +1,7 @@
+Running T772 on lm4-w021 at Tue Mar 24 00:48:45 CET 2026
+Game: Line and Cross
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T772 (Line and Cross) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=22.0
+Job completed at Tue Mar 24 01:58:54 CET 2026

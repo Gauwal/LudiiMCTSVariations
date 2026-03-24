@@ -1,0 +1,7 @@
+Running T630 on lm4-w023 at Mon Mar 23 23:45:08 CET 2026
+Game: Shafran Chess
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T630 (Shafran Chess) -> completed=100/100, wins=4, losses=87, draws=9, failures=0, avgMoves=149.5
+Job completed at Tue Mar 24 01:50:43 CET 2026

@@ -1,0 +1,7 @@
+Running T1750 on lm4-w022 at Tue Mar 24 08:22:01 CET 2026
+Game: Andada
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1750 (Andada) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=148.4
+Job completed at Tue Mar 24 09:13:13 CET 2026

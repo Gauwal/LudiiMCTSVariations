@@ -1,0 +1,5 @@
+Running T77 on lm4-w014 at Sun Mar 22 18:40:47 CET 2026
+Game: Chiana wa Bwalo
+Variant: Progressive Widening | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T1868 on lm4-w023 at Mon Mar 23 14:10:18 CET 2026
+Game: Manzhouqi
+Variant: Noisy AG0 | MAST | Qualitative | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1868 (Manzhouqi) -> completed=100/100, wins=7, losses=87, draws=6, failures=0, avgMoves=243.1
+Job completed at Mon Mar 23 20:55:56 CET 2026

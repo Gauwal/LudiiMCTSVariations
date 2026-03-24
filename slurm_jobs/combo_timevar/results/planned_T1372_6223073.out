@@ -1,0 +1,7 @@
+Running T1372 on lm4-w014 at Sun Mar 22 21:39:12 CET 2026
+Game: Veloop (Hex)
+Variant: McGRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1372 (Veloop (Hex)) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=19.9
+Job completed at Sun Mar 22 22:43:49 CET 2026

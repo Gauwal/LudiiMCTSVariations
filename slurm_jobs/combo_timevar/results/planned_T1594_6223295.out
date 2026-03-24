@@ -1,0 +1,7 @@
+Running T1594 on lm4-w012 at Mon Mar 23 12:15:31 CET 2026
+Game: Morpharaoh
+Variant: McBRAVE | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1594 (Morpharaoh) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=33.0
+Job completed at Mon Mar 23 12:43:06 CET 2026

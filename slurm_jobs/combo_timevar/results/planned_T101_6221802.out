@@ -1,0 +1,7 @@
+Running T101 on lm4-w017 at Sun Mar 22 20:26:39 CET 2026
+Game: Contagion
+Variant: McGRAVE | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T101 (Contagion) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=73.0
+Job completed at Sun Mar 22 20:51:12 CET 2026

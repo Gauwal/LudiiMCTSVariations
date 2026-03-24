@@ -1,0 +1,7 @@
+Running T1633 on lm4-w015 at Mon Mar 23 12:26:33 CET 2026
+Game: Katrayo
+Variant: Noisy AG0 | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1633 (Katrayo) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=22.5
+Job completed at Mon Mar 23 12:27:52 CET 2026

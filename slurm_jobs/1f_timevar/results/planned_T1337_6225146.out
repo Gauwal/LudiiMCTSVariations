@@ -1,0 +1,7 @@
+Running T1337 on lm4-w031 at Tue Mar 24 05:08:35 CET 2026
+Game: Misoro Tsoro
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1337 (Misoro Tsoro) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=98.5
+Job completed at Tue Mar 24 05:27:56 CET 2026

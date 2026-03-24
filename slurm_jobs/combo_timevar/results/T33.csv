@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T33,"Triple Tangle",FULL,UCB1,Random,MonteCarlo,Robust,AG0,LGR,AlphaGo,"Proportional Exp",0.200000,100,2000,1,0,100,0,0,100,100,256.9800,

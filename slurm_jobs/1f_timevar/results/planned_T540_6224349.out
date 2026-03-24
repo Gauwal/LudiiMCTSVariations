@@ -1,0 +1,5 @@
+Running T540 on lm4-w009 at Mon Mar 23 23:09:35 CET 2026
+Game: Chu Seireigi
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=10G, time=16:00:00

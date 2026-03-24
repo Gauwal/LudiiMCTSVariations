@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1239,"Loop Xiangqi",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,MAST,MonteCarlo,"Proportional Exp",1.000000,100,2000,0,19,76,5,0,100,100,408.9100,

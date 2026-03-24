@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1282,"Chaturanga (Kridakausalya 14x14)",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,NST,"Score Bounded",MaxAvgScore,0.500000,100,2000,0,3,97,0,0,100,100,709.1700,

@@ -1,0 +1,7 @@
+Running T1299 on lm4-w039 at Mon Mar 23 10:31:49 CET 2026
+Game: Tsoro (Additional Capture)
+Variant: UCB1 tuned | PlayoutHS | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1299 (Tsoro (Additional Capture)) -> completed=100/100, wins=47, losses=53, draws=0, failures=0, avgMoves=34.5
+Job completed at Mon Mar 23 11:06:25 CET 2026

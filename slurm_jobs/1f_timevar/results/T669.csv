@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T669,Shakhmaty,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,Robust,0.200000,100,2000,0,25,28,47,0,100,100,1037.7000,

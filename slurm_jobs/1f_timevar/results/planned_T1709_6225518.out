@@ -1,0 +1,7 @@
+Running T1709 on lm4-w037 at Mon Mar 23 18:57:58 CET 2026
+Game: Onyx
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1709 (Onyx) -> completed=100/100, wins=66, losses=34, draws=0, failures=0, avgMoves=122.9
+Job completed at Mon Mar 23 20:43:49 CET 2026

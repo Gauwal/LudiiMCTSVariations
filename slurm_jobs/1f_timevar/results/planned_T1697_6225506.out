@@ -1,0 +1,7 @@
+Running T1697 on lm4-w010 at Tue Mar 24 07:55:49 CET 2026
+Game: Mylna
+Variant: ExIt | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1697 (Mylna) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=87.1
+Job completed at Tue Mar 24 08:11:31 CET 2026

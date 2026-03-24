@@ -1,0 +1,5 @@
+Running T332 on lm4-w031 at Mon Mar 23 01:08:22 CET 2026
+Game: Rumi Shatranj
+Variant: Alpha-Beta | LGR | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

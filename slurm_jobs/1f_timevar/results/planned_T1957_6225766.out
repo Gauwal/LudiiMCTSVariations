@@ -1,0 +1,7 @@
+Running T1957 on lm4-w014 at Tue Mar 24 09:47:49 CET 2026
+Game: Kpo
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1957 (Kpo) -> completed=100/100, wins=62, losses=29, draws=9, failures=0, avgMoves=53.3
+Job completed at Tue Mar 24 10:03:38 CET 2026

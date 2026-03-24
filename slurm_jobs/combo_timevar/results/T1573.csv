@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1573,Awari,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening","HS Playout",MonteCarlo,MaxAvgScore,0.200000,100,2000,1,11,79,10,0,100,100,92.0900,

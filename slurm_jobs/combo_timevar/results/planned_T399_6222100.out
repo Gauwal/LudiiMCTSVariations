@@ -1,0 +1,7 @@
+Running T399 on lm4-w034 at Mon Mar 23 01:34:53 CET 2026
+Game: Sungka
+Variant: Noisy AG0 | PlayoutHS | AlphaGo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T399 (Sungka) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=2000.0
+Job completed at Mon Mar 23 12:32:25 CET 2026

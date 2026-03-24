@@ -1,0 +1,7 @@
+Running T1017 on lm4-w008 at Mon Mar 23 08:39:41 CET 2026
+Game: 1D Chess
+Variant: UCB1 | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1017 (1D Chess) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=8.8
+Job completed at Mon Mar 23 08:42:11 CET 2026

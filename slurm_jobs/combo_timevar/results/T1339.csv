@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1339,"Shafran Chess",FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0","HS Playout",Heuristic,MaxAvgScore,1.000000,100,2000,1,1,95,4,0,100,100,117.4900,

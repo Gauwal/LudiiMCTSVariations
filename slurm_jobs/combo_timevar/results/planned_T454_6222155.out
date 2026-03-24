@@ -1,0 +1,7 @@
+Running T454 on lm4-w031 at Mon Mar 23 02:37:26 CET 2026
+Game: Nodal Chess
+Variant: McBRAVE | Random | Qualitative | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T454 (Nodal Chess) -> completed=100/100, wins=10, losses=90, draws=0, failures=0, avgMoves=43.7
+Job completed at Mon Mar 23 02:59:44 CET 2026

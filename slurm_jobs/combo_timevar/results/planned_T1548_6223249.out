@@ -1,0 +1,7 @@
+Running T1548 on lm4-w015 at Mon Mar 23 11:48:27 CET 2026
+Game: Wrigglers Squared
+Variant: Progressive Widening | HS Playout | AlphaGo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1548 (Wrigglers Squared) -> completed=100/100, wins=43, losses=57, draws=0, failures=0, avgMoves=94.4
+Job completed at Mon Mar 23 17:02:30 CET 2026

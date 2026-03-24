@@ -1,0 +1,6 @@
+Running T577 on lm4-w036 at Sun Mar 22 18:48:20 CET 2026
+Game: Quoridor
+Variant: AG0 | NST | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Job completed at Sun Mar 22 19:16:31 CET 2026

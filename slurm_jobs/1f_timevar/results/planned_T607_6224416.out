@@ -1,0 +1,7 @@
+Running T607 on lm4-w029 at Mon Mar 23 23:40:07 CET 2026
+Game: Alquerque de Tres
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T607 (Alquerque de Tres) -> completed=100/100, wins=0, losses=81, draws=19, failures=0, avgMoves=6.0
+Job completed at Mon Mar 23 23:49:29 CET 2026

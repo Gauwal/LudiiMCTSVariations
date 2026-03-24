@@ -1,0 +1,7 @@
+Running T1065 on lm4-w028 at Mon Mar 23 09:13:13 CET 2026
+Game: Oust
+Variant: ExIt | MAST | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1065 (Oust) -> completed=100/100, wins=22, losses=78, draws=0, failures=0, avgMoves=99.0
+Job completed at Mon Mar 23 09:33:09 CET 2026

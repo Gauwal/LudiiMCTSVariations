@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T215,"Shakhmaty (Early Modern)",BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,Robust,1.000000,100,2000,0,46,33,21,0,100,100,480.8400,

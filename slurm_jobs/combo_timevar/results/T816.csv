@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T816,Tic-Tac-Toe,FULL,UCB1,Random,MonteCarlo,Robust,ExIt,PlayoutHS,Heuristic,"Proportional Exp",2.000000,100,2000,1,0,95,5,0,100,100,6.3100,

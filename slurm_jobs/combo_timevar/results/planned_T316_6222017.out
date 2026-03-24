@@ -1,0 +1,5 @@
+Running T316 on lm4-w017 at Mon Mar 23 01:01:52 CET 2026
+Game: Gundru
+Variant: Progressive Bias | Heuristic Sampling | AlphaGo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

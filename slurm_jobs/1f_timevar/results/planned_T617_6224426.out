@@ -1,0 +1,7 @@
+Running T617 on lm4-w031 at Mon Mar 23 23:42:07 CET 2026
+Game: De Vasa Chess
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T617 (De Vasa Chess) -> completed=100/100, wins=27, losses=28, draws=45, failures=0, avgMoves=395.5
+Job completed at Tue Mar 24 02:03:45 CET 2026

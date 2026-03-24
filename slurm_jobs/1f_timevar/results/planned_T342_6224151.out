@@ -1,0 +1,7 @@
+Running T342 on lm4-w034 at Mon Mar 23 15:50:02 CET 2026
+Game: Connect6
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T342 (Connect6) -> completed=100/100, wins=73, losses=27, draws=0, failures=0, avgMoves=120.9
+Job completed at Mon Mar 23 17:31:05 CET 2026

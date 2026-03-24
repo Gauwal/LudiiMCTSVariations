@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1081,"Loop Chess",FULL,UCB1,Random,MonteCarlo,Robust,AG0,LGR,"Implicit Minimax",Robust,0.200000,100,2000,1,23,77,0,0,100,100,231.7300,

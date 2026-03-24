@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T894,Susan,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",NST,"Implicit Minimax",MaxAvgScore,0.500000,100,2000,1,24,76,0,0,100,100,32.2800,

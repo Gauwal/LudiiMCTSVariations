@@ -1,0 +1,5 @@
+Running T1528 on lm4-w011 at Mon Mar 23 18:38:48 CET 2026
+Game: Symple
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

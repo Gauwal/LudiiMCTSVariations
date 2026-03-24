@@ -1,0 +1,7 @@
+Running T1010 on lm4-w018 at Mon Mar 23 17:35:11 CET 2026
+Game: Complica
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1010 (Complica) -> completed=100/100, wins=12, losses=20, draws=68, failures=0, avgMoves=70.9
+Job completed at Mon Mar 23 18:34:45 CET 2026

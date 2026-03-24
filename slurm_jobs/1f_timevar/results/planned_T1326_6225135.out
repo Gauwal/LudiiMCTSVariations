@@ -1,0 +1,7 @@
+Running T1326 on lm4-w017 at Tue Mar 24 04:59:35 CET 2026
+Game: Atom
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1326 (Atom) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=305.0
+Job completed at Tue Mar 24 07:07:09 CET 2026

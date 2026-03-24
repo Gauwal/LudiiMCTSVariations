@@ -1,0 +1,7 @@
+Running T1448 on lm4-w012 at Mon Mar 23 11:30:55 CET 2026
+Game: Odd
+Variant: Alpha-Beta | Heuristic Sampling | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1448 (Odd) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=61.0
+Job completed at Mon Mar 23 14:54:26 CET 2026

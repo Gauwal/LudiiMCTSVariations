@@ -1,0 +1,7 @@
+Running T779 on lm4-w034 at Mon Mar 23 05:13:02 CET 2026
+Game: Wrigglers
+Variant: McBRAVE | PlayoutHS | Heuristic | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T779 (Wrigglers) -> completed=100/100, wins=34, losses=66, draws=0, failures=0, avgMoves=50.5
+Job completed at Mon Mar 23 06:35:33 CET 2026

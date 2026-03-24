@@ -1,0 +1,7 @@
+Running T1529 on lm4-w019 at Sun Mar 22 22:27:15 CET 2026
+Game: Halma
+Variant: Noisy AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1529 (Halma) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=2000.0
+Job completed at Mon Mar 23 04:33:43 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T983,Pachgarhwa,FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,NST,Qualitative,MaxAvgScore,1.000000,100,2000,1,8,92,0,0,100,100,30.4800,

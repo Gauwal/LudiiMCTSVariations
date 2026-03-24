@@ -1,0 +1,7 @@
+Running T128 on lm4-w021 at Sun Mar 22 20:27:09 CET 2026
+Game: Andantino
+Variant: UCB1 | HS Playout | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Completed T128 (Andantino) -> completed=100/100, wins=39, losses=57, draws=4, failures=0, avgMoves=20.9
+Job completed at Sun Mar 22 21:36:55 CET 2026

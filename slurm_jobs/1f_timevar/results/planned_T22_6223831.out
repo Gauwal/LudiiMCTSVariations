@@ -1,0 +1,7 @@
+Running T22 on lm4-w001 at Mon Mar 23 14:47:53 CET 2026
+Game: Plotto
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Completed T22 (Plotto) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=6.0
+Job completed at Mon Mar 23 14:53:00 CET 2026

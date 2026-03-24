@@ -1,0 +1,7 @@
+Running T253 on lm4-w011 at Mon Mar 23 15:33:31 CET 2026
+Game: Bagh Batti
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T253 (Bagh Batti) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=273.0
+Job completed at Mon Mar 23 17:04:36 CET 2026

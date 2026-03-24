@@ -1,0 +1,7 @@
+Running T1622 on lm4-w017 at Tue Mar 24 07:15:12 CET 2026
+Game: Quarto
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1622 (Quarto) -> completed=100/100, wins=9, losses=49, draws=42, failures=0, avgMoves=31.5
+Job completed at Tue Mar 24 07:39:20 CET 2026

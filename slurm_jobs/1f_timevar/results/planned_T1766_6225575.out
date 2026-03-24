@@ -1,0 +1,5 @@
+Running T1766 on lm4-w025 at Tue Mar 24 08:28:31 CET 2026
+Game: Main Chongkak
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

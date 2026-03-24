@@ -1,0 +1,7 @@
+Running T266 on lm4-w017 at Mon Mar 23 00:43:24 CET 2026
+Game: T'oki
+Variant: Progressive Widening | Heuristic Sampling | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T266 (T'oki) -> completed=100/100, wins=51, losses=41, draws=8, failures=0, avgMoves=445.6
+Job completed at Mon Mar 23 06:54:58 CET 2026

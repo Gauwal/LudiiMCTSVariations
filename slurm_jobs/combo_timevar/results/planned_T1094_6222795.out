@@ -1,0 +1,5 @@
+Running T1094 on lm4-w031 at Mon Mar 23 09:24:43 CET 2026
+Game: Tobi Shogi
+Variant: UCB1 tuned | Heuristic Sampling | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

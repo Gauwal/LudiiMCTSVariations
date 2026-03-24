@@ -1,0 +1,7 @@
+Running T1406 on lm4-w032 at Mon Mar 23 18:26:17 CET 2026
+Game: Connect Four
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1406 (Connect Four) -> completed=100/100, wins=47, losses=50, draws=3, failures=0, avgMoves=31.3
+Job completed at Mon Mar 23 18:52:29 CET 2026

@@ -1,0 +1,7 @@
+Running T1400 on lm4-w025 at Mon Mar 23 11:12:53 CET 2026
+Game: Fox and Geese
+Variant: Progressive Bias | Random | Implicit Minimax | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1400 (Fox and Geese) -> completed=100/100, wins=32, losses=68, draws=0, failures=0, avgMoves=350.4
+Job completed at Mon Mar 23 20:56:45 CET 2026

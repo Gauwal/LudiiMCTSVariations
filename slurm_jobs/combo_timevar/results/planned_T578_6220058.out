@@ -1,0 +1,5 @@
+Running T578 on lm4-w024 at Sun Mar 22 18:48:30 CET 2026
+Game: Dots and Boxes
+Variant: Implicit Minimax | Heuristic Sampling | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

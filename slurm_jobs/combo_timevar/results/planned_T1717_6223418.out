@@ -1,0 +1,7 @@
+Running T1717 on lm4-w015 at Mon Mar 23 12:43:36 CET 2026
+Game: Minefield
+Variant: McGRAVE | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1717 (Minefield) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=9.8
+Job completed at Mon Mar 23 12:46:53 CET 2026

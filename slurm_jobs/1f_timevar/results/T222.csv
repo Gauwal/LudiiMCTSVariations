@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T222,"Jeson Zam",SELECTION,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,Random,MonteCarlo,Robust,0.500000,100,2000,1,37,63,0,0,100,100,52.1500,

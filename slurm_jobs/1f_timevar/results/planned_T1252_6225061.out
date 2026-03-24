@@ -1,0 +1,5 @@
+Running T1252 on lm4-w033 at Tue Mar 24 04:18:20 CET 2026
+Game: Pulijudamu
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

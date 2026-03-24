@@ -1,0 +1,6 @@
+Running T1384 on lm4-w034 at Sun Mar 22 19:03:35 CET 2026
+Game: Bashni
+Variant: Progressive Bias | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:51:01 CET 2026

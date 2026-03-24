@@ -1,0 +1,7 @@
+Running T1835 on lm4-w028 at Tue Mar 24 08:58:04 CET 2026
+Game: Quantik
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1835 (Quantik) -> completed=100/100, wins=32, losses=68, draws=0, failures=0, avgMoves=9.5
+Job completed at Tue Mar 24 09:13:47 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T638,Tumbleweed,FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,NST,MonteCarlo,Robust,0.500000,100,2000,0,45,55,0,0,100,100,383.7500,

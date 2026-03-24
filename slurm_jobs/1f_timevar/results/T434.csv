@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T434,"Kotu Baendum",BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,Robust,0.500000,100,2000,0,51,48,1,0,100,100,383.3700,

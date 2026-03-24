@@ -1,0 +1,7 @@
+Running T97 on lm4-w015 at Mon Mar 23 19:49:11 CET 2026
+Game: Mastermind
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T97 (Mastermind) -> completed=100/100, wins=47, losses=53, draws=0, failures=0, avgMoves=30.4
+Job completed at Mon Mar 23 19:59:24 CET 2026

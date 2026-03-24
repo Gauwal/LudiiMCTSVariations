@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T277,Squadro,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",Random,Heuristic,Robust,0.200000,100,2000,1,61,38,1,0,100,100,122.7100,

@@ -1,0 +1,7 @@
+Running T1308 on lm4-w015 at Mon Mar 23 10:36:50 CET 2026
+Game: Andot
+Variant: UCB1 | Heuristic Sampling | Qualitative | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1308 (Andot) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=50.1
+Job completed at Mon Mar 23 11:48:32 CET 2026

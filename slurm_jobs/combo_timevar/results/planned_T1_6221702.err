@@ -1,0 +1,30 @@
+Game exceeded time limit after 967 decisions
+Game exceeded time limit after 954 decisions
+Game exceeded time limit after 958 decisions
+Game exceeded time limit after 958 decisions
+Game exceeded time limit after 966 decisions
+Game exceeded time limit after 968 decisions
+Game exceeded time limit after 970 decisions
+Game exceeded time limit after 962 decisions
+Game exceeded time limit after 960 decisions
+Game exceeded time limit after 969 decisions
+Game exceeded time limit after 964 decisions
+Game exceeded time limit after 969 decisions
+Game exceeded time limit after 955 decisions
+Game exceeded time limit after 968 decisions
+Game exceeded time limit after 959 decisions
+Game exceeded time limit after 969 decisions
+Game exceeded time limit after 966 decisions
+Game exceeded time limit after 958 decisions
+Game exceeded time limit after 967 decisions
+Game exceeded time limit after 961 decisions
+Game exceeded time limit after 969 decisions
+Game exceeded time limit after 960 decisions
+Game exceeded time limit after 970 decisions
+Game exceeded time limit after 967 decisions
+Game exceeded time limit after 950 decisions
+Game exceeded time limit after 967 decisions
+Game exceeded time limit after 969 decisions
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** STEP 6221702.0 ON lm4-w002 CANCELLED AT 2026-03-23T12:25:26 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 6221702 ON lm4-w002 CANCELLED AT 2026-03-23T12:25:26 DUE TO TIME LIMIT ***

@@ -1,0 +1,7 @@
+Running T614 on lm4-w007 at Mon Mar 23 16:38:35 CET 2026
+Game: Dots and Boxes
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T614 (Dots and Boxes) -> completed=100/100, wins=100, losses=0, draws=0, failures=0, avgMoves=104.6
+Job completed at Mon Mar 23 18:06:00 CET 2026

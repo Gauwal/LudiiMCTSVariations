@@ -1,0 +1,7 @@
+Running T628 on lm4-w013 at Mon Mar 23 04:15:30 CET 2026
+Game: Altan Xaraacaj
+Variant: Progressive Bias | Heuristic Sampling | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T628 (Altan Xaraacaj) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=52.0
+Job completed at Mon Mar 23 05:49:36 CET 2026

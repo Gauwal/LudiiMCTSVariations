@@ -1,0 +1,7 @@
+Running T162 on lm4-w008 at Sun Mar 22 23:30:48 CET 2026
+Game: Intotoi
+Variant: Progressive History | HS Playout | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T162 (Intotoi) -> completed=100/100, wins=62, losses=30, draws=8, failures=0, avgMoves=61.2
+Job completed at Mon Mar 23 00:07:06 CET 2026

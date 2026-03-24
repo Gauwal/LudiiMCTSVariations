@@ -1,0 +1,7 @@
+Running T1059 on lm4-w027 at Mon Mar 23 17:46:42 CET 2026
+Game: King And Courtesan
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1059 (King And Courtesan) -> completed=100/100, wins=7, losses=93, draws=0, failures=0, avgMoves=18.9
+Job completed at Mon Mar 23 18:18:15 CET 2026

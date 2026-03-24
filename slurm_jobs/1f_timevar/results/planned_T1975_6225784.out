@@ -1,0 +1,7 @@
+Running T1975 on lm4-w024 at Tue Mar 24 09:58:12 CET 2026
+Game: Snowpaque
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1975 (Snowpaque) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=31.9
+Job completed at Tue Mar 24 10:49:57 CET 2026

@@ -1,0 +1,7 @@
+Running T1441 on lm4-w039 at Mon Mar 23 11:26:54 CET 2026
+Game: Njombwa (Two Counters)
+Variant: McBRAVE | MAST | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1441 (Njombwa (Two Counters)) -> completed=100/100, wins=7, losses=71, draws=22, failures=0, avgMoves=710.6
+Job completed at Mon Mar 23 12:40:39 CET 2026

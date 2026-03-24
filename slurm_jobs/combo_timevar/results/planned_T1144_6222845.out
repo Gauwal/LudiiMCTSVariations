@@ -1,0 +1,7 @@
+Running T1144 on lm4-w004 at Sun Mar 22 21:15:10 CET 2026
+Game: Kos
+Variant: UCB1 | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1144 (Kos) -> completed=100/100, wins=91, losses=9, draws=0, failures=0, avgMoves=167.1
+Job completed at Mon Mar 23 06:30:35 CET 2026

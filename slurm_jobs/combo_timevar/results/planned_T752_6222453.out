@@ -1,0 +1,7 @@
+Running T752 on lm4-w012 at Mon Mar 23 05:00:01 CET 2026
+Game: Unnamed Dutch Draughts Game
+Variant: McGRAVE | HS Playout | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T752 (Unnamed Dutch Draughts Game) -> completed=100/100, wins=12, losses=81, draws=7, failures=0, avgMoves=206.1
+Job completed at Mon Mar 23 16:15:11 CET 2026

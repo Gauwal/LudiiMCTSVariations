@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T300,"Symbol S.2",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",MAST,Heuristic,MaxAvgScore,2.000000,100,2000,1,32,63,5,0,100,100,224.9500,

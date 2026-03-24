@@ -1,0 +1,5 @@
+Running T281 on lm4-w040 at Sun Mar 22 20:16:09 CET 2026
+Game: Celticator
+Variant: UCB1 tuned | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

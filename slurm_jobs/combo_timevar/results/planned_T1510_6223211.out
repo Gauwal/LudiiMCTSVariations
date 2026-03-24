@@ -1,0 +1,7 @@
+Running T1510 on lm4-w026 at Mon Mar 23 11:42:26 CET 2026
+Game: Peralikatuma
+Variant: AG0 | Random | Implicit Minimax | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1510 (Peralikatuma) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=325.2
+Job completed at Mon Mar 23 13:59:38 CET 2026

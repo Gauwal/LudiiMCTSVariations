@@ -1,0 +1,7 @@
+Running T318 on lm4-w028 at Mon Mar 23 15:45:01 CET 2026
+Game: Pyrga
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T318 (Pyrga) -> completed=100/100, wins=40, losses=53, draws=7, failures=0, avgMoves=24.1
+Job completed at Mon Mar 23 16:01:41 CET 2026

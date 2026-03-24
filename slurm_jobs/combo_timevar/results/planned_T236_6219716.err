@@ -1,0 +1,4 @@
+mkdir: cannot create directory ‘/slurm_jobs’: Permission denied
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** JOB 6219716 ON lm4-w016 CANCELLED AT 2026-03-22T20:21:53 ***
+slurmstepd: error: *** STEP 6219716.0 ON lm4-w016 CANCELLED AT 2026-03-22T20:21:53 ***

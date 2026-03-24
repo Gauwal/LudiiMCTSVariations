@@ -1,0 +1,7 @@
+Running T325 on lm4-w002 at Mon Mar 23 15:47:01 CET 2026
+Game: Bide
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T325 (Bide) -> completed=100/100, wins=45, losses=55, draws=0, failures=0, avgMoves=65.3
+Job completed at Mon Mar 23 16:31:28 CET 2026

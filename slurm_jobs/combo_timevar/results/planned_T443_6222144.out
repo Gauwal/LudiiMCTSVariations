@@ -1,0 +1,7 @@
+Running T443 on lm4-w002 at Mon Mar 23 02:25:55 CET 2026
+Game: Shah
+Variant: McGRAVE | NST | Qualitative | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T443 (Shah) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=767.6
+Job completed at Mon Mar 23 13:28:56 CET 2026

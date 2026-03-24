@@ -1,0 +1,7 @@
+Running T1587 on lm4-w011 at Tue Mar 24 07:05:53 CET 2026
+Game: Nchuwa
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1587 (Nchuwa) -> completed=100/100, wins=51, losses=48, draws=1, failures=0, avgMoves=103.1
+Job completed at Tue Mar 24 08:27:48 CET 2026

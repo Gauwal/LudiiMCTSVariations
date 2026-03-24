@@ -1,0 +1,7 @@
+Running T235 on lm4-w028 at Mon Mar 23 00:32:21 CET 2026
+Game: Abalala'e
+Variant: Alpha-Beta | PlayoutHS | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T235 (Abalala'e) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=176.0
+Job completed at Mon Mar 23 01:20:46 CET 2026

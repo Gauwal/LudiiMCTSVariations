@@ -1,0 +1,7 @@
+Running T181 on lm4-w032 at Sun Mar 22 23:48:49 CET 2026
+Game: Omny
+Variant: AG0 | PlayoutHS | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T181 (Omny) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=115.0
+Job completed at Mon Mar 23 01:51:41 CET 2026

@@ -1,0 +1,7 @@
+Running T1257 on lm4-w012 at Tue Mar 24 04:22:28 CET 2026
+Game: Talyn Buga
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1257 (Talyn Buga) -> completed=100/100, wins=49, losses=51, draws=0, failures=0, avgMoves=1045.2
+Job completed at Tue Mar 24 10:11:44 CET 2026

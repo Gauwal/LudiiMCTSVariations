@@ -1,0 +1,7 @@
+Running T1838 on lm4-w024 at Mon Mar 23 13:51:16 CET 2026
+Game: Tule Paid
+Variant: AG0 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1838 (Tule Paid) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=84.5
+Job completed at Mon Mar 23 14:30:50 CET 2026

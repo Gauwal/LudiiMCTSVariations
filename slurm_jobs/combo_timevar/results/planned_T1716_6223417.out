@@ -1,0 +1,7 @@
+Running T1716 on lm4-w007 at Mon Mar 23 12:43:36 CET 2026
+Game: Minefield
+Variant: UCB1 tuned | NST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1716 (Minefield) -> completed=100/100, wins=46, losses=54, draws=0, failures=0, avgMoves=16.7
+Job completed at Mon Mar 23 13:39:23 CET 2026

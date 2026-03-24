@@ -1,0 +1,7 @@
+Running T571 on lm4-w022 at Mon Mar 23 03:46:58 CET 2026
+Game: Pulijudamu
+Variant: ExIt | Random | Implicit Minimax | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T571 (Pulijudamu) -> completed=100/100, wins=40, losses=60, draws=0, failures=0, avgMoves=208.1
+Job completed at Mon Mar 23 06:37:59 CET 2026

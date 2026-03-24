@@ -1,0 +1,7 @@
+Running T1857 on lm4-w025 at Tue Mar 24 09:04:09 CET 2026
+Game: Flowers
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1857 (Flowers) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=13.6
+Job completed at Tue Mar 24 09:06:37 CET 2026

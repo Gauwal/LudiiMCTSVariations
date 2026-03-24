@@ -1,0 +1,5 @@
+Running T310 on lm4-w034 at Sun Mar 22 18:40:51 CET 2026
+Game: Tai Shogi
+Variant: AG0 | HS Playout | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=20G, time=16:00:00

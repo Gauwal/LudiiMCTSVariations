@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T991,Altiev,FULL,UCB1,Random,MonteCarlo,Robust,"Implicit Minimax",Heuristic,"Score Bounded",MaxAvgScore,1.000000,100,2000,1,62,35,3,0,100,100,145.7900,

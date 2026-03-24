@@ -1,0 +1,7 @@
+Running T417 on lm4-w012 at Mon Mar 23 21:57:57 CET 2026
+Game: Bara Guti (Bihar)
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T417 (Bara Guti (Bihar)) -> completed=100/100, wins=5, losses=91, draws=4, failures=0, avgMoves=173.8
+Job completed at Mon Mar 23 22:56:02 CET 2026

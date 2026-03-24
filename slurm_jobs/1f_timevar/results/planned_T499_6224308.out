@@ -1,0 +1,7 @@
+Running T499 on lm4-w025 at Mon Mar 23 22:41:32 CET 2026
+Game: Dala
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T499 (Dala) -> completed=100/100, wins=30, losses=70, draws=0, failures=0, avgMoves=62.4
+Job completed at Tue Mar 24 00:24:01 CET 2026

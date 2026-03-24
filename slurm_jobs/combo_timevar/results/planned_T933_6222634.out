@@ -1,0 +1,7 @@
+Running T933 on lm4-w019 at Mon Mar 23 07:11:37 CET 2026
+Game: Shantarad
+Variant: ExIt | Random | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T933 (Shantarad) -> completed=100/100, wins=1, losses=18, draws=81, failures=0, avgMoves=1670.9
+Job completed at Mon Mar 23 11:39:58 CET 2026

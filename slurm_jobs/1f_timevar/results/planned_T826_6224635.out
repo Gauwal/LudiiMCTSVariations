@@ -1,0 +1,7 @@
+Running T826 on lm4-w032 at Mon Mar 23 17:09:38 CET 2026
+Game: Tumbleweed
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T826 (Tumbleweed) -> completed=100/100, wins=53, losses=46, draws=1, failures=0, avgMoves=390.5
+Job completed at Mon Mar 23 23:47:51 CET 2026

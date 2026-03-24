@@ -1,0 +1,7 @@
+Running T1852 on lm4-w008 at Tue Mar 24 09:02:50 CET 2026
+Game: Ngre E E
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1852 (Ngre E E) -> completed=100/100, wins=0, losses=73, draws=27, failures=0, avgMoves=6.1
+Job completed at Tue Mar 24 09:21:30 CET 2026

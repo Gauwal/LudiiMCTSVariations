@@ -1,0 +1,7 @@
+Running T1018 on lm4-w003 at Tue Mar 24 02:23:24 CET 2026
+Game: Alquerkonane
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1018 (Alquerkonane) -> completed=100/100, wins=59, losses=41, draws=0, failures=0, avgMoves=19.8
+Job completed at Tue Mar 24 02:39:22 CET 2026

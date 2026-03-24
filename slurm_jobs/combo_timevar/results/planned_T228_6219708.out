@@ -1,0 +1,5 @@
+Running T228 on lm4-w028 at Sun Mar 22 19:58:39 CET 2026
+Game: Shatranj ar-Rumiya
+Variant: UCB1 tuned | PlayoutHS | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

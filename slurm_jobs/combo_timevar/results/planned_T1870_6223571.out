@@ -1,0 +1,7 @@
+Running T1870 on lm4-w015 at Mon Mar 23 14:11:19 CET 2026
+Game: Janggi
+Variant: UCB1 | LGR | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1870 (Janggi) -> completed=100/100, wins=9, losses=72, draws=19, failures=0, avgMoves=118.5
+Job completed at Mon Mar 23 15:50:42 CET 2026

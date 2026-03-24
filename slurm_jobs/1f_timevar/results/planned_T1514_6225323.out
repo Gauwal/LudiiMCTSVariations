@@ -1,0 +1,7 @@
+Running T1514 on lm4-w011 at Tue Mar 24 06:42:01 CET 2026
+Game: Brain Coral
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1514 (Brain Coral) -> completed=100/100, wins=60, losses=40, draws=0, failures=0, avgMoves=32.7
+Job completed at Tue Mar 24 07:08:47 CET 2026

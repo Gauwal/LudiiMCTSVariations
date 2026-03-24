@@ -1,0 +1,7 @@
+Running T721 on lm4-w039 at Mon Mar 23 04:42:31 CET 2026
+Game: Half Chess
+Variant: Progressive Bias | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T721 (Half Chess) -> completed=100/100, wins=1, losses=81, draws=18, failures=0, avgMoves=87.6
+Job completed at Mon Mar 23 04:57:12 CET 2026

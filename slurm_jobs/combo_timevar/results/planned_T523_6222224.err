@@ -1,0 +1,2 @@
+OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000e1300000, 28311552, 0) failed; error='Not enough space' (errno=12)
+srun: error: lm4-w021: task 0: Exited with exit code 1

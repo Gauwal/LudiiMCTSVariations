@@ -1,0 +1,7 @@
+Running T158 on lm4-w017 at Mon Mar 23 20:14:15 CET 2026
+Game: Toads and Frogs
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T158 (Toads and Frogs) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=5.0
+Job completed at Mon Mar 23 20:14:16 CET 2026

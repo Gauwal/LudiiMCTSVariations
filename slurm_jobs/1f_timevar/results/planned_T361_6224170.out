@@ -1,0 +1,7 @@
+Running T361 on lm4-w025 at Mon Mar 23 21:26:54 CET 2026
+Game: Wore
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T361 (Wore) -> completed=100/100, wins=27, losses=57, draws=16, failures=0, avgMoves=45.8
+Job completed at Mon Mar 23 21:39:26 CET 2026

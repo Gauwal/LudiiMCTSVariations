@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1539,Coc-Inbert,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",MAST,AlphaGo,"Proportional Exp",1.000000,100,2000,1,65,31,4,0,100,100,205.8200,

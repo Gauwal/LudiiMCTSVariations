@@ -1,0 +1,7 @@
+Running T367 on lm4-w014 at Mon Mar 23 15:57:32 CET 2026
+Game: Bagh Guti
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T367 (Bagh Guti) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=329.8
+Job completed at Tue Mar 24 01:06:17 CET 2026

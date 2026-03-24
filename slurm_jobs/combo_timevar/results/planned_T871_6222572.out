@@ -1,0 +1,7 @@
+Running T871 on lm4-w012 at Mon Mar 23 06:34:05 CET 2026
+Game: Rabbit Warrens
+Variant: ExIt | Heuristic | Heuristic | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T871 (Rabbit Warrens) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=138.9
+Job completed at Mon Mar 23 08:44:17 CET 2026

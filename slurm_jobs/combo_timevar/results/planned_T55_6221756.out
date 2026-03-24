@@ -1,0 +1,7 @@
+Running T55 on lm4-w037 at Sun Mar 22 23:04:16 CET 2026
+Game: Okwe (Achalla)
+Variant: Noisy AG0 | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T55 (Okwe (Achalla)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=36.6
+Job completed at Sun Mar 22 23:30:58 CET 2026

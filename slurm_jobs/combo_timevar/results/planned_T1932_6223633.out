@@ -1,0 +1,7 @@
+Running T1932 on lm4-w025 at Mon Mar 23 14:34:22 CET 2026
+Game: Mak Ruk
+Variant: AG0 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1932 (Mak Ruk) -> completed=100/100, wins=0, losses=98, draws=2, failures=0, avgMoves=130.3
+Job completed at Mon Mar 23 18:13:05 CET 2026

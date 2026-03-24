@@ -1,0 +1,7 @@
+Running T1032 on lm4-w011 at Tue Mar 24 02:31:55 CET 2026
+Game: 00'Y'
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1032 (00'Y') -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=57.5
+Job completed at Tue Mar 24 05:43:18 CET 2026

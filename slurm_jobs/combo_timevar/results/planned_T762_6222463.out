@@ -1,0 +1,7 @@
+Running T762 on lm4-w015 at Mon Mar 23 05:05:32 CET 2026
+Game: Reversi
+Variant: Implicit Minimax | NST | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T762 (Reversi) -> completed=100/100, wins=36, losses=61, draws=3, failures=0, avgMoves=62.8
+Job completed at Mon Mar 23 05:53:40 CET 2026

@@ -1,0 +1,7 @@
+Running T1796 on lm4-w021 at Mon Mar 23 13:29:43 CET 2026
+Game: Greater
+Variant: UCB1 tuned | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1796 (Greater) -> completed=100/100, wins=1, losses=7, draws=92, failures=0, avgMoves=18.0
+Job completed at Mon Mar 23 14:16:04 CET 2026

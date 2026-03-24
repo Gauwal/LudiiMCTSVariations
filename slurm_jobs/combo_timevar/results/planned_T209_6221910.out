@@ -1,0 +1,7 @@
+Running T209 on lm4-w021 at Mon Mar 23 00:13:20 CET 2026
+Game: Kolowis Awithlaknannai
+Variant: Alpha-Beta | LGR | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T209 (Kolowis Awithlaknannai) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=615.0
+Job completed at Mon Mar 23 03:39:37 CET 2026

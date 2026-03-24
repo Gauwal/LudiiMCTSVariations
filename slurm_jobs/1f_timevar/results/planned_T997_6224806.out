@@ -1,0 +1,7 @@
+Running T997 on lm4-w014 at Tue Mar 24 02:14:23 CET 2026
+Game: CrossGeo
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T997 (CrossGeo) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=25.5
+Job completed at Tue Mar 24 02:18:18 CET 2026

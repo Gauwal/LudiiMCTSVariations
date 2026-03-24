@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1813,Iyogh,FULL,UCB1,Random,MonteCarlo,Robust,UCB1,MAST,MonteCarlo,MaxAvgScore,0.200000,100,2000,0,81,16,3,0,100,100,499.7800,

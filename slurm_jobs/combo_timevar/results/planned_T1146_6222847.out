@@ -1,0 +1,11 @@
+Running T1146 on lm4-w019 at Mon Mar 23 09:38:44 CET 2026
+Game: Throngs
+Variant: Progressive History | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Not a token: ""
+Check for empty clause "()".
+Not a token: ""
+Check for empty clause "()".
+Completed T1146 (Throngs) -> completed=100/100, wins=21, losses=78, draws=1, failures=0, avgMoves=98.9
+Job completed at Mon Mar 23 11:17:50 CET 2026

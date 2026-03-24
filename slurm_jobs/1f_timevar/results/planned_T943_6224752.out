@@ -1,0 +1,7 @@
+Running T943 on lm4-w031 at Tue Mar 24 01:48:22 CET 2026
+Game: Kisolo (Lali)
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T943 (Kisolo (Lali)) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=2000.0
+Job completed at Tue Mar 24 01:54:59 CET 2026

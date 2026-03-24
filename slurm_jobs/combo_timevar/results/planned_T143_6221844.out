@@ -1,0 +1,7 @@
+Running T143 on lm4-w008 at Sun Mar 22 23:24:48 CET 2026
+Game: Faraday
+Variant: McBRAVE | Heuristic Sampling | Implicit Minimax | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T143 (Faraday) -> completed=100/100, wins=44, losses=56, draws=0, failures=0, avgMoves=92.2
+Job completed at Mon Mar 23 01:35:40 CET 2026

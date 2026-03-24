@@ -1,0 +1,7 @@
+Running T787 on lm4-w005 at Mon Mar 23 05:20:32 CET 2026
+Game: Fanorona
+Variant: AG0 | Heuristic | Score Bounded | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T787 (Fanorona) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=30.7
+Job completed at Mon Mar 23 05:45:39 CET 2026

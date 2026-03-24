@@ -1,0 +1,7 @@
+Running T1074 on lm4-w031 at Mon Mar 23 09:15:43 CET 2026
+Game: Shui Yen Ho-Shang
+Variant: Progressive Bias | HS Playout | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1074 (Shui Yen Ho-Shang) -> completed=100/100, wins=2, losses=2, draws=96, failures=0, avgMoves=1931.2
+Job completed at Mon Mar 23 22:40:55 CET 2026

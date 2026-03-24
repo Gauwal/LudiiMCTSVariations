@@ -1,0 +1,7 @@
+Running T1505 on lm4-w011 at Tue Mar 24 06:41:01 CET 2026
+Game: Alquerque de Tres
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1505 (Alquerque de Tres) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=8.0
+Job completed at Tue Mar 24 06:43:03 CET 2026

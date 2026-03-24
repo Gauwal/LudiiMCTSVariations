@@ -1,0 +1,7 @@
+Running T1641 on lm4-w010 at Tue Mar 24 07:21:27 CET 2026
+Game: Yeung Luk Sz' Kon Tseung Kwan
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1641 (Yeung Luk Sz' Kon Tseung Kwan) -> completed=100/100, wins=10, losses=65, draws=25, failures=0, avgMoves=954.8
+Job completed at Tue Mar 24 10:00:17 CET 2026

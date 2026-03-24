@@ -1,0 +1,7 @@
+Running T1385 on lm4-w010 at Tue Mar 24 05:32:09 CET 2026
+Game: Nuktagaq
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1385 (Nuktagaq) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=562.2
+Job completed at Tue Mar 24 08:39:44 CET 2026

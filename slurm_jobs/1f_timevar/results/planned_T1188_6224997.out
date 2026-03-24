@@ -1,0 +1,7 @@
+Running T1188 on lm4-w035 at Tue Mar 24 03:45:32 CET 2026
+Game: Okwe (Achalla)
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1188 (Okwe (Achalla)) -> completed=100/100, wins=72, losses=26, draws=2, failures=0, avgMoves=42.9
+Job completed at Tue Mar 24 05:45:54 CET 2026

@@ -1,0 +1,7 @@
+Running T1628 on lm4-w008 at Tue Mar 24 07:16:57 CET 2026
+Game: Minishogi
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1628 (Minishogi) -> completed=100/100, wins=9, losses=91, draws=0, failures=0, avgMoves=36.7
+Job completed at Tue Mar 24 09:18:37 CET 2026

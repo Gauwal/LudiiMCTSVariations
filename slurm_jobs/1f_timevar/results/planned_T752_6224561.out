@@ -1,0 +1,7 @@
+Running T752 on lm4-w029 at Tue Mar 24 00:41:14 CET 2026
+Game: LastEdge
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T752 (LastEdge) -> completed=100/100, wins=51, losses=49, draws=0, failures=0, avgMoves=19.3
+Job completed at Tue Mar 24 01:45:36 CET 2026

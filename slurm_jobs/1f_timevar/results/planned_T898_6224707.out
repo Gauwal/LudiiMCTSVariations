@@ -1,0 +1,7 @@
+Running T898 on lm4-w023 at Mon Mar 23 17:21:10 CET 2026
+Game: Dots and Boxes
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T898 (Dots and Boxes) -> completed=100/100, wins=6, losses=94, draws=0, failures=0, avgMoves=121.4
+Job completed at Mon Mar 23 19:02:38 CET 2026

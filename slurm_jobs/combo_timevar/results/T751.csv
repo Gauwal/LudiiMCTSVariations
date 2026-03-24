@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T751,Zamma,FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,LGR,Heuristic,Robust,1.000000,100,2000,1,15,85,0,0,100,100,197.2900,

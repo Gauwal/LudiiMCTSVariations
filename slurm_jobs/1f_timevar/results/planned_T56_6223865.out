@@ -1,0 +1,7 @@
+Running T56 on lm4-w019 at Mon Mar 23 14:54:54 CET 2026
+Game: O An Quan
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T56 (O An Quan) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=68.8
+Job completed at Mon Mar 23 15:48:07 CET 2026

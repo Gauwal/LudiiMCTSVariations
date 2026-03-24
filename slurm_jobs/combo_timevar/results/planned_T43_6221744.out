@@ -1,0 +1,7 @@
+Running T43 on lm4-w003 at Sun Mar 22 20:26:09 CET 2026
+Game: Allemande
+Variant: Noisy AG0 | PlayoutHS | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T43 (Allemande) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=18.6
+Job completed at Sun Mar 22 20:42:13 CET 2026

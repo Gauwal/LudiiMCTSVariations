@@ -1,0 +1,7 @@
+Running T505 on lm4-w020 at Mon Mar 23 02:59:26 CET 2026
+Game: Kaua Dorki
+Variant: UCB1 | PlayoutHS | AlphaGo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T505 (Kaua Dorki) -> completed=100/100, wins=44, losses=48, draws=8, failures=0, avgMoves=314.4
+Job completed at Mon Mar 23 04:43:12 CET 2026

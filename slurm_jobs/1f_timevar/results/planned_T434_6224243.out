@@ -1,0 +1,7 @@
+Running T434 on lm4-w039 at Mon Mar 23 22:07:58 CET 2026
+Game: Kotu Baendum
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T434 (Kotu Baendum) -> completed=100/100, wins=51, losses=48, draws=1, failures=0, avgMoves=383.4
+Job completed at Tue Mar 24 00:19:32 CET 2026

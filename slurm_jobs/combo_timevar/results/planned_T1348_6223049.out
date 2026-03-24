@@ -1,0 +1,7 @@
+Running T1348 on lm4-w039 at Mon Mar 23 10:50:20 CET 2026
+Game: Cascades
+Variant: McGRAVE | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1348 (Cascades) -> completed=100/100, wins=7, losses=93, draws=0, failures=0, avgMoves=97.8
+Job completed at Mon Mar 23 15:39:52 CET 2026

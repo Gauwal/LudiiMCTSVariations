@@ -1,0 +1,6 @@
+Running T64 on lm4-w014 at Sun Mar 22 18:40:47 CET 2026
+Game: CrossGeo
+Variant: Progressive Widening | HS Playout | AlphaGo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 20:01:15 CET 2026

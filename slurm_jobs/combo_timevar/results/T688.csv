@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T688,"Fox and Geese",FULL,UCB1,Random,MonteCarlo,Robust,AG0,Heuristic,"Score Bounded",Robust,2.000000,100,2000,1,33,67,0,0,100,100,407.6900,

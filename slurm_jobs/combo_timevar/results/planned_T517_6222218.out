@@ -1,0 +1,7 @@
+Running T517 on lm4-w038 at Mon Mar 23 03:03:27 CET 2026
+Game: Gadis
+Variant: McBRAVE | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T517 (Gadis) -> completed=100/100, wins=0, losses=99, draws=1, failures=0, avgMoves=131.0
+Job completed at Mon Mar 23 03:43:23 CET 2026

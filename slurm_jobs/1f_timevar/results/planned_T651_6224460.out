@@ -1,0 +1,7 @@
+Running T651 on lm4-w022 at Mon Mar 23 16:45:36 CET 2026
+Game: Dorvolz
+Variant: UCB1 | Random | Heuristic | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T651 (Dorvolz) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=291.0
+Job completed at Tue Mar 24 00:39:42 CET 2026

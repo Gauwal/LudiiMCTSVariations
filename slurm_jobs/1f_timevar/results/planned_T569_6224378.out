@@ -1,0 +1,7 @@
+Running T569 on lm4-w025 at Mon Mar 23 23:21:05 CET 2026
+Game: Pretwa
+Variant: UCB1 | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T569 (Pretwa) -> completed=100/100, wins=0, losses=99, draws=1, failures=0, avgMoves=53.0
+Job completed at Mon Mar 23 23:40:17 CET 2026

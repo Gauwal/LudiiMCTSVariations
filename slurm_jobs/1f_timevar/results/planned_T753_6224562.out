@@ -1,0 +1,7 @@
+Running T753 on lm4-w021 at Tue Mar 24 00:41:44 CET 2026
+Game: Neg Tugal Tuux
+Variant: Implicit Minimax | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T753 (Neg Tugal Tuux) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=21.5
+Job completed at Tue Mar 24 00:48:24 CET 2026

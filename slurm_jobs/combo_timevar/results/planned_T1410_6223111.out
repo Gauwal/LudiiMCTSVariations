@@ -1,0 +1,7 @@
+Running T1410 on lm4-w039 at Sun Mar 22 22:02:43 CET 2026
+Game: Adere
+Variant: ExIt | MAST | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1410 (Adere) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=31.0
+Job completed at Sun Mar 22 22:15:29 CET 2026

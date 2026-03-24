@@ -1,0 +1,5 @@
+Running T592 on lm4-w027 at Mon Mar 23 23:31:06 CET 2026
+Game: Round Merels
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

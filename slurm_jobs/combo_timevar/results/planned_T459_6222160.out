@@ -1,0 +1,7 @@
+Running T459 on lm4-w012 at Mon Mar 23 02:37:26 CET 2026
+Game: Renard et les Poules
+Variant: UCB1 | Random | Implicit Minimax | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T459 (Renard et les Poules) -> completed=100/100, wins=8, losses=92, draws=0, failures=0, avgMoves=332.5
+Job completed at Mon Mar 23 11:13:24 CET 2026

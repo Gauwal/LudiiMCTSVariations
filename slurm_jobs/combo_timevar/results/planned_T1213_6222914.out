@@ -1,0 +1,7 @@
+Running T1213 on lm4-w034 at Mon Mar 23 09:52:15 CET 2026
+Game: Kisolo
+Variant: Noisy AG0 | MAST | Heuristic | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1213 (Kisolo) -> completed=100/100, wins=0, losses=99, draws=1, failures=0, avgMoves=138.7
+Job completed at Mon Mar 23 10:05:05 CET 2026

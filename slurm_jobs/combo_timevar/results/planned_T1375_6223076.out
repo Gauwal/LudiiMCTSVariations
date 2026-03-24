@@ -1,0 +1,7 @@
+Running T1375 on lm4-w035 at Mon Mar 23 11:02:52 CET 2026
+Game: Ploy
+Variant: UCB1 GRAVE | NST | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1375 (Ploy) -> completed=100/100, wins=68, losses=32, draws=0, failures=0, avgMoves=54.7
+Job completed at Mon Mar 23 12:34:23 CET 2026

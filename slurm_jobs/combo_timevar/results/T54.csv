@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T54,Hackenbush,FULL,UCB1,Random,MonteCarlo,Robust,McBRAVE,Heuristic,Heuristic,Robust,0.500000,100,2000,1,2,98,0,0,100,100,8.0800,

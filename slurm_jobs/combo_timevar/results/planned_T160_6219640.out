@@ -1,0 +1,6 @@
+Running T160 on lm4-w032 at Sun Mar 22 18:40:51 CET 2026
+Game: Bravalath
+Variant: Noisy AG0 | Heuristic | Qualitative | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=10G, time=16:00:00
+Job completed at Sun Mar 22 18:59:38 CET 2026

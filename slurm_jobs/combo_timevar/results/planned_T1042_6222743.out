@@ -1,0 +1,7 @@
+Running T1042 on lm4-w002 at Mon Mar 23 09:01:42 CET 2026
+Game: Dam
+Variant: ExIt | MAST | AlphaGo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1042 (Dam) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=782.6
+Job completed at Mon Mar 23 14:30:17 CET 2026

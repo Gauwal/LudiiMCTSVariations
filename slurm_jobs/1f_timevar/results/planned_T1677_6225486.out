@@ -1,0 +1,7 @@
+Running T1677 on lm4-w015 at Tue Mar 24 07:41:36 CET 2026
+Game: Lobudok
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1677 (Lobudok) -> completed=100/100, wins=3, losses=95, draws=2, failures=0, avgMoves=214.8
+Job completed at Tue Mar 24 07:56:09 CET 2026

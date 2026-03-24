@@ -1,0 +1,7 @@
+Running T224 on lm4-w017 at Mon Mar 23 20:35:18 CET 2026
+Game: Sneakthrough
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T224 (Sneakthrough) -> completed=100/100, wins=81, losses=19, draws=0, failures=0, avgMoves=61.0
+Job completed at Mon Mar 23 23:58:49 CET 2026

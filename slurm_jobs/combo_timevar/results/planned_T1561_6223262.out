@@ -1,0 +1,7 @@
+Running T1561 on lm4-w027 at Mon Mar 23 11:53:28 CET 2026
+Game: International Draughts
+Variant: UCB1 | Heuristic Sampling | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1561 (International Draughts) -> completed=100/100, wins=25, losses=69, draws=6, failures=0, avgMoves=272.4
+Job completed at Mon Mar 23 13:15:02 CET 2026

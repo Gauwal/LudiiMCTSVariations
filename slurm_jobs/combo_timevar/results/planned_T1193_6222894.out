@@ -1,0 +1,7 @@
+Running T1193 on lm4-w016 at Mon Mar 23 09:47:15 CET 2026
+Game: Camelot
+Variant: Progressive Bias | Heuristic Sampling | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1193 (Camelot) -> completed=100/100, wins=0, losses=97, draws=3, failures=0, avgMoves=266.6
+Job completed at Mon Mar 23 10:29:53 CET 2026

@@ -1,0 +1,7 @@
+Running T35 on lm4-w038 at Sun Mar 22 20:25:39 CET 2026
+Game: Crossway
+Variant: UCB1 GRAVE | MAST | Heuristic | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T35 (Crossway) -> completed=100/100, wins=99, losses=1, draws=0, failures=0, avgMoves=189.2
+Job completed at Mon Mar 23 01:41:37 CET 2026

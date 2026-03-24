@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1294,"Aw-li On-nam Ot-tjin",FULL,UCB1,Random,MonteCarlo,Robust,UCB1,Heuristic,"Score Bounded",MaxAvgScore,0.500000,100,2000,1,100,0,0,0,100,100,48.3400,

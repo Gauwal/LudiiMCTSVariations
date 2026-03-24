@@ -1,0 +1,7 @@
+Running T472 on lm4-w011 at Mon Mar 23 02:41:56 CET 2026
+Game: Reversi
+Variant: McGRAVE | Heuristic | AlphaGo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T472 (Reversi) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=62.4
+Job completed at Mon Mar 23 05:53:53 CET 2026

@@ -1,0 +1,7 @@
+Running T317 on lm4-w031 at Mon Mar 23 01:01:52 CET 2026
+Game: Ram Tir
+Variant: Implicit Minimax | PlayoutHS | Implicit Minimax | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T317 (Ram Tir) -> completed=100/100, wins=4, losses=94, draws=2, failures=0, avgMoves=1266.1
+Job completed at Mon Mar 23 09:34:19 CET 2026

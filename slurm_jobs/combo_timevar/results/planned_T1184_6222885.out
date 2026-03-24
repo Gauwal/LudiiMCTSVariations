@@ -1,0 +1,7 @@
+Running T1184 on lm4-w028 at Mon Mar 23 09:46:15 CET 2026
+Game: Njombwa (One Counter)
+Variant: AG0 | Random | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1184 (Njombwa (One Counter)) -> completed=100/100, wins=2, losses=85, draws=13, failures=0, avgMoves=463.0
+Job completed at Mon Mar 23 17:30:46 CET 2026

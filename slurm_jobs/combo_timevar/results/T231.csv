@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T231,"Mysore Tiger Game (Three Tigers)",FULL,UCB1,Random,MonteCarlo,Robust,"Noisy AG0",LGR,Heuristic,Robust,1.000000,100,2000,1,5,95,0,0,100,100,184.3000,

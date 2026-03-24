@@ -1,0 +1,7 @@
+Running T460 on lm4-w030 at Mon Mar 23 02:37:26 CET 2026
+Game: Nuktagaq
+Variant: AG0 | NST | Heuristic | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T460 (Nuktagaq) -> completed=100/100, wins=46, losses=54, draws=0, failures=0, avgMoves=505.5
+Job completed at Mon Mar 23 16:40:18 CET 2026

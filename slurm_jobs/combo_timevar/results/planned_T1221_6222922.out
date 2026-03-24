@@ -1,0 +1,7 @@
+Running T1221 on lm4-w012 at Mon Mar 23 09:57:15 CET 2026
+Game: Xanan Zirge
+Variant: Progressive History | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1221 (Xanan Zirge) -> completed=100/100, wins=42, losses=57, draws=1, failures=0, avgMoves=359.2
+Job completed at Mon Mar 23 11:27:34 CET 2026

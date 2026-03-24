@@ -1,0 +1,7 @@
+Running T501 on lm4-w017 at Mon Mar 23 22:44:32 CET 2026
+Game: I
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T501 (I) -> completed=100/100, wins=53, losses=46, draws=1, failures=0, avgMoves=40.1
+Job completed at Mon Mar 23 22:51:25 CET 2026

@@ -1,0 +1,7 @@
+Running T828 on lm4-w014 at Tue Mar 24 01:06:18 CET 2026
+Game: Khrour
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T828 (Khrour) -> completed=100/100, wins=0, losses=87, draws=13, failures=0, avgMoves=543.5
+Job completed at Tue Mar 24 09:13:14 CET 2026

@@ -1,0 +1,7 @@
+Running T757 on lm4-w034 at Mon Mar 23 17:00:08 CET 2026
+Game: Castello
+Variant: Alpha-Beta | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T757 (Castello) -> completed=100/100, wins=3, losses=9, draws=88, failures=0, avgMoves=1961.9
+Job completed at Tue Mar 24 04:53:45 CET 2026

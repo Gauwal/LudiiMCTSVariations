@@ -1,0 +1,7 @@
+Running T345 on lm4-w026 at Mon Mar 23 01:09:22 CET 2026
+Game: Line and Cross
+Variant: AG0 | Heuristic | Heuristic | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T345 (Line and Cross) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=22.1
+Job completed at Mon Mar 23 01:12:56 CET 2026

@@ -1,0 +1,7 @@
+Running T1018 on lm4-w040 at Mon Mar 23 08:40:41 CET 2026
+Game: Hasami Shogi
+Variant: Progressive Bias | Heuristic | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1018 (Hasami Shogi) -> completed=100/100, wins=3, losses=97, draws=0, failures=0, avgMoves=1045.3
+Job completed at Mon Mar 23 16:00:16 CET 2026

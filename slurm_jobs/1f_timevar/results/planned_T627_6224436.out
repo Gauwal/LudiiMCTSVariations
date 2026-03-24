@@ -1,0 +1,7 @@
+Running T627 on lm4-w034 at Mon Mar 23 16:41:05 CET 2026
+Game: Sam K'i
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T627 (Sam K'i) -> completed=100/100, wins=40, losses=60, draws=0, failures=0, avgMoves=103.6
+Job completed at Mon Mar 23 19:29:55 CET 2026

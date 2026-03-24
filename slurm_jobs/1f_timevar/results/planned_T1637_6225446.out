@@ -1,0 +1,7 @@
+Running T1637 on lm4-w012 at Tue Mar 24 07:19:43 CET 2026
+Game: Manipur Capturing Game
+Variant: McBRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1637 (Manipur Capturing Game) -> completed=100/100, wins=17, losses=83, draws=0, failures=0, avgMoves=93.0
+Job completed at Tue Mar 24 07:50:48 CET 2026

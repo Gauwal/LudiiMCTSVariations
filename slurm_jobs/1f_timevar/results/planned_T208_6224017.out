@@ -1,0 +1,7 @@
+Running T208 on lm4-w025 at Mon Mar 23 20:30:47 CET 2026
+Game: Msuwa wa Kunja
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T208 (Msuwa wa Kunja) -> completed=100/100, wins=41, losses=59, draws=0, failures=0, avgMoves=85.4
+Job completed at Mon Mar 23 23:20:56 CET 2026

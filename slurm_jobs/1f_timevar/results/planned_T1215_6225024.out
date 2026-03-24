@@ -1,0 +1,7 @@
+Running T1215 on lm4-w009 at Tue Mar 24 03:58:50 CET 2026
+Game: ArdRi
+Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1215 (ArdRi) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=46.5
+Job completed at Tue Mar 24 05:16:30 CET 2026

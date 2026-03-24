@@ -1,0 +1,7 @@
+Running T1833 on lm4-w026 at Mon Mar 23 13:50:16 CET 2026
+Game: Jeu de Renard (Two Foxes)
+Variant: AG0 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1833 (Jeu de Renard (Two Foxes)) -> completed=100/100, wins=2, losses=41, draws=57, failures=0, avgMoves=1334.9
+Job completed at Mon Mar 23 16:32:48 CET 2026

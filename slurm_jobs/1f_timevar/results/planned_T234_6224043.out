@@ -1,0 +1,7 @@
+Running T234 on lm4-w025 at Mon Mar 23 20:38:48 CET 2026
+Game: Fibonacci Nim
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T234 (Fibonacci Nim) -> completed=100/100, wins=37, losses=63, draws=0, failures=0, avgMoves=60.8
+Job completed at Mon Mar 23 21:07:27 CET 2026

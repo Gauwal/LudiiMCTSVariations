@@ -1,0 +1,5 @@
+Running T1231 on lm4-w031 at Mon Mar 23 18:08:15 CET 2026
+Game: Dai Seireigi
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=12G, time=16:00:00

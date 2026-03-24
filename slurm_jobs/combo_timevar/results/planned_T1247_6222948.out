@@ -1,0 +1,7 @@
+Running T1247 on lm4-w032 at Mon Mar 23 10:04:16 CET 2026
+Game: Hops-a-Daisy Generalized
+Variant: Implicit Minimax | LGR | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1247 (Hops-a-Daisy Generalized) -> completed=100/100, wins=47, losses=53, draws=0, failures=0, avgMoves=65.8
+Job completed at Mon Mar 23 11:37:26 CET 2026

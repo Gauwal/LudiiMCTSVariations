@@ -1,0 +1,7 @@
+Running T1457 on lm4-w023 at Tue Mar 24 06:14:16 CET 2026
+Game: Hyvn aetter Hare
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1457 (Hyvn aetter Hare) -> completed=100/100, wins=49, losses=48, draws=3, failures=0, avgMoves=605.7
+Job completed at Tue Mar 24 09:34:54 CET 2026

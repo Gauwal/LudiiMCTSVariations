@@ -1,0 +1,5 @@
+Running T372 on lm4-w023 at Mon Mar 23 16:01:02 CET 2026
+Game: Selayar Game
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

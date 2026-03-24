@@ -1,0 +1,7 @@
+Running T1271 on lm4-w039 at Tue Mar 24 04:29:32 CET 2026
+Game: Njombwa (Two Counters)
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1271 (Njombwa (Two Counters)) -> completed=100/100, wins=39, losses=50, draws=11, failures=0, avgMoves=465.3
+Job completed at Tue Mar 24 10:38:27 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T57,"Len Cua Kin Ngoa",FULL,UCB1,Random,MonteCarlo,Robust,ExIt,LGR,MonteCarlo,"Proportional Exp",0.200000,100,2000,1,12,88,0,0,100,100,31.8200,

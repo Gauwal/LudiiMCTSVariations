@@ -1,0 +1,6 @@
+Running T217 on lm4-w034 at Sun Mar 22 18:40:50 CET 2026
+Game: Plotto
+Variant: McBRAVE | NST | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00
+Job completed at Sun Mar 22 18:43:08 CET 2026

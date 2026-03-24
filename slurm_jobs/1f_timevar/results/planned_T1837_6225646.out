@@ -1,0 +1,7 @@
+Running T1837 on lm4-w003 at Tue Mar 24 08:58:21 CET 2026
+Game: Kapana Bona
+Variant: UCB1 | Random | Qualitative | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1837 (Kapana Bona) -> completed=100/100, wins=0, losses=99, draws=1, failures=0, avgMoves=12.2
+Job completed at Tue Mar 24 09:00:25 CET 2026

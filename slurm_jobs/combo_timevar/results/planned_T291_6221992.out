@@ -1,0 +1,7 @@
+Running T291 on lm4-w017 at Mon Mar 23 00:52:21 CET 2026
+Game: Blue Nile
+Variant: ExIt | Heuristic | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T291 (Blue Nile) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=13.1
+Job completed at Mon Mar 23 01:01:30 CET 2026

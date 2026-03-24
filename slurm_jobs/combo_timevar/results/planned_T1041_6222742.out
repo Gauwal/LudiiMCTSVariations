@@ -1,0 +1,7 @@
+Running T1041 on lm4-w034 at Mon Mar 23 09:01:12 CET 2026
+Game: Adi
+Variant: UCB1 GRAVE | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1041 (Adi) -> completed=100/100, wins=1, losses=13, draws=86, failures=0, avgMoves=1779.4
+Job completed at Mon Mar 23 11:03:01 CET 2026

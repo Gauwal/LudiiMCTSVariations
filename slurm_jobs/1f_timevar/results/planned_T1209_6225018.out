@@ -1,0 +1,7 @@
+Running T1209 on lm4-w019 at Tue Mar 24 03:54:32 CET 2026
+Game: El Zorro
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1209 (El Zorro) -> completed=100/100, wins=11, losses=7, draws=82, failures=0, avgMoves=1695.2
+Job completed at Tue Mar 24 10:02:12 CET 2026

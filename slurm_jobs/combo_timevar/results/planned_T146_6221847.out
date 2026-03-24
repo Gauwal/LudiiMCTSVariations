@@ -1,0 +1,7 @@
+Running T146 on lm4-w025 at Sun Mar 22 20:27:39 CET 2026
+Game: Contagion
+Variant: UCB1 GRAVE | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T146 (Contagion) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=73.0
+Job completed at Sun Mar 22 21:30:19 CET 2026

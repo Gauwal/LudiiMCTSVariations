@@ -1,0 +1,7 @@
+Running T678 on lm4-w019 at Mon Mar 23 04:34:00 CET 2026
+Game: Double-Run Stone
+Variant: McGRAVE | MAST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T678 (Double-Run Stone) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=10.2
+Job completed at Mon Mar 23 04:42:23 CET 2026

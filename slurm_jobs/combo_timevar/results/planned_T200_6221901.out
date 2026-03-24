@@ -1,0 +1,7 @@
+Running T200 on lm4-w014 at Mon Mar 23 00:05:19 CET 2026
+Game: Toguz Kumalak
+Variant: UCB1 | PlayoutHS | Heuristic | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T200 (Toguz Kumalak) -> completed=100/100, wins=41, losses=57, draws=2, failures=0, avgMoves=166.5
+Job completed at Mon Mar 23 09:04:59 CET 2026

@@ -1,0 +1,7 @@
+Running T1399 on lm4-w017 at Mon Mar 23 11:12:53 CET 2026
+Game: Fox and Geese
+Variant: UCB1 tuned | HS Playout | Qualitative | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1399 (Fox and Geese) -> completed=100/100, wins=38, losses=62, draws=0, failures=0, avgMoves=398.1
+Job completed at Mon Mar 23 16:45:44 CET 2026

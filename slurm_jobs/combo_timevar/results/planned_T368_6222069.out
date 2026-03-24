@@ -1,0 +1,7 @@
+Running T368 on lm4-w009 at Mon Mar 23 01:14:22 CET 2026
+Game: Nei-Pat-Kono
+Variant: Progressive Bias | Heuristic | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T368 (Nei-Pat-Kono) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=17.3
+Job completed at Mon Mar 23 01:44:00 CET 2026

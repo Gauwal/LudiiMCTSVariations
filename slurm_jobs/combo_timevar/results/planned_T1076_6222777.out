@@ -1,0 +1,7 @@
+Running T1076 on lm4-w012 at Mon Mar 23 09:19:13 CET 2026
+Game: 4 Squared
+Variant: AG0 | MAST | Score Bounded | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1076 (4 Squared) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=62.6
+Job completed at Mon Mar 23 11:04:45 CET 2026

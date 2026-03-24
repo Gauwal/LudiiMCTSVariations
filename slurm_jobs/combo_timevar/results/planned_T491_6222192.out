@@ -1,0 +1,7 @@
+Running T491 on lm4-w011 at Mon Mar 23 02:58:27 CET 2026
+Game: Pretwa
+Variant: UCB1 tuned | HS Playout | Heuristic | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T491 (Pretwa) -> completed=100/100, wins=0, losses=99, draws=1, failures=0, avgMoves=48.6
+Job completed at Mon Mar 23 04:20:45 CET 2026

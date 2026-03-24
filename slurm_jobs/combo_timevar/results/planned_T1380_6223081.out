@@ -1,0 +1,5 @@
+Running T1380 on lm4-w012 at Mon Mar 23 11:04:52 CET 2026
+Game: Oure Ngat
+Variant: ExIt | HS Playout | Qualitative | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

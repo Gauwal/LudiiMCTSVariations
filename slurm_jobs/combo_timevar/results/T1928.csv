@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1928,Luuth,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 GRAVE",MAST,MonteCarlo,MaxAvgScore,2.000000,100,2000,0,1,98,1,0,100,100,133.0600,

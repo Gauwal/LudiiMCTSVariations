@@ -1,0 +1,7 @@
+Running T897 on lm4-w010 at Sun Mar 22 20:46:09 CET 2026
+Game: Score Four
+Variant: AG0 | Heuristic | Heuristic | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T897 (Score Four) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=9.0
+Job completed at Sun Mar 22 20:47:46 CET 2026

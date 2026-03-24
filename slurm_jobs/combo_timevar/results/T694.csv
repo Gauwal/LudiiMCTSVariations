@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T694,Pentalath,FULL,UCB1,Random,MonteCarlo,Robust,"Implicit Minimax",NST,Heuristic,Robust,0.500000,100,2000,1,34,66,0,0,100,100,20.8400,

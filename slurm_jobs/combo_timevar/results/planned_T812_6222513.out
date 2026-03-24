@@ -1,0 +1,7 @@
+Running T812 on lm4-w002 at Mon Mar 23 05:41:33 CET 2026
+Game: Maharajah Chess
+Variant: UCB1 tuned | PlayoutHS | AlphaGo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T812 (Maharajah Chess) -> completed=100/100, wins=58, losses=31, draws=11, failures=0, avgMoves=198.9
+Job completed at Mon Mar 23 16:45:29 CET 2026

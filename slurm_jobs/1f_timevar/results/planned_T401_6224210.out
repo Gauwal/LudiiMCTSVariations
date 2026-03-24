@@ -1,0 +1,7 @@
+Running T401 on lm4-w029 at Mon Mar 23 21:51:26 CET 2026
+Game: Lontu-Holo
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T401 (Lontu-Holo) -> completed=100/100, wins=45, losses=51, draws=4, failures=0, avgMoves=649.0
+Job completed at Tue Mar 24 01:23:38 CET 2026

@@ -1,0 +1,7 @@
+Running T1247 on lm4-w025 at Mon Mar 23 18:10:45 CET 2026
+Game: N-Mesh
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1247 (N-Mesh) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=7.7
+Job completed at Mon Mar 23 18:17:33 CET 2026

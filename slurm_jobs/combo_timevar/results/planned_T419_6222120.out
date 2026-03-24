@@ -1,0 +1,7 @@
+Running T419 on lm4-w034 at Mon Mar 23 01:45:53 CET 2026
+Game: Zamma
+Variant: UCB1 tuned | PlayoutHS | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T419 (Zamma) -> completed=100/100, wins=83, losses=12, draws=5, failures=0, avgMoves=326.6
+Job completed at Mon Mar 23 10:47:08 CET 2026

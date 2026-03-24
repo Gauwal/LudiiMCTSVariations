@@ -1,0 +1,7 @@
+Running T1421 on lm4-w032 at Mon Mar 23 11:19:23 CET 2026
+Game: Misoro Tsoro (Additional Capture)
+Variant: UCB1 tuned | Heuristic Sampling | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1421 (Misoro Tsoro (Additional Capture)) -> completed=100/100, wins=50, losses=49, draws=1, failures=0, avgMoves=48.9
+Job completed at Mon Mar 23 11:30:16 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1217,"Gol Ekuish",BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,MonteCarlo,Robust,0.200000,100,2000,0,44,51,5,0,100,100,450.3800,

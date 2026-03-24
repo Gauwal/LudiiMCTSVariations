@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T378,"Yeung Luk Sz' Kon Tseung Kwan",FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned","Heuristic Sampling",Qualitative,"Proportional Exp",0.500000,100,2000,1,2,74,24,0,100,100,846.7200,

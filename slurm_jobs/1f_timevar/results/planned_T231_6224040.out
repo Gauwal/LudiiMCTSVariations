@@ -1,0 +1,7 @@
+Running T231 on lm4-w012 at Mon Mar 23 15:28:56 CET 2026
+Game: Weiqi
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T231 (Weiqi) -> completed=100/100, wins=60, losses=40, draws=0, failures=0, avgMoves=488.7
+Job completed at Tue Mar 24 05:07:44 CET 2026

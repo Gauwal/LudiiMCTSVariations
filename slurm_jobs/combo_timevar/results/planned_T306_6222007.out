@@ -1,0 +1,7 @@
+Running T306 on lm4-w022 at Mon Mar 23 00:59:22 CET 2026
+Game: Stargazers
+Variant: UCB1 GRAVE | LGR | AlphaGo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T306 (Stargazers) -> completed=100/100, wins=39, losses=61, draws=0, failures=0, avgMoves=34.3
+Job completed at Mon Mar 23 01:29:29 CET 2026

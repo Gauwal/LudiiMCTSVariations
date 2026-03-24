@@ -1,0 +1,5 @@
+Running T138 on lm4-w018 at Sun Mar 22 19:30:28 CET 2026
+Game: Rimau-Rimau (One Tiger)
+Variant: UCB1 tuned | NST | Implicit Minimax | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

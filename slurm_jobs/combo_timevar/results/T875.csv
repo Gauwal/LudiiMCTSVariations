@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T875,"Diagonal Hex",FULL,UCB1,Random,MonteCarlo,Robust,UCB1,NST,Heuristic,MaxAvgScore,1.000000,100,2000,1,12,88,0,0,100,100,23.2400,

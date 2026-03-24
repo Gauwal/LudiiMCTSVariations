@@ -1,0 +1,5 @@
+Running T1106 on lm4-w032 at Mon Mar 23 09:26:44 CET 2026
+Game: O-Pat-Kono
+Variant: Progressive History | Random | Heuristic | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,5 @@
+Running T486 on lm4-w008 at Mon Mar 23 16:26:33 CET 2026
+Game: Tai Shogi
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=19G, time=16:00:00

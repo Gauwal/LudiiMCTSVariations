@@ -1,0 +1,7 @@
+Running T804 on lm4-w020 at Mon Mar 23 05:33:33 CET 2026
+Game: Konane
+Variant: McGRAVE | HS Playout | Implicit Minimax | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T804 (Konane) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=77.9
+Job completed at Mon Mar 23 09:47:42 CET 2026

@@ -1,0 +1,7 @@
+Running T1466 on lm4-w036 at Mon Mar 23 11:33:25 CET 2026
+Game: Diamond
+Variant: ExIt | NST | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1466 (Diamond) -> completed=100/100, wins=1, losses=98, draws=1, failures=0, avgMoves=16.8
+Job completed at Mon Mar 23 11:40:39 CET 2026

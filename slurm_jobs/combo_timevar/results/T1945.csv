@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1945,Wrigglers,FULL,UCB1,Random,MonteCarlo,Robust,"UCB1 tuned",MAST,MonteCarlo,"Proportional Exp",0.200000,100,2000,0,66,34,0,0,100,100,46.3400,

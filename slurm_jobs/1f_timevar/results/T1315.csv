@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1315,Duene,SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,PlayoutHS,MonteCarlo,Robust,1.000000,100,2000,1,38,20,42,0,100,100,49.8400,

@@ -1,0 +1,7 @@
+Running T892 on lm4-w017 at Mon Mar 23 06:47:06 CET 2026
+Game: Shafran Chess
+Variant: Progressive Widening | MAST | AlphaGo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T892 (Shafran Chess) -> completed=100/100, wins=18, losses=80, draws=2, failures=0, avgMoves=100.3
+Job completed at Mon Mar 23 12:22:08 CET 2026

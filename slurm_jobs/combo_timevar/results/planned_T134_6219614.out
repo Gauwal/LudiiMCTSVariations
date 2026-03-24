@@ -1,0 +1,6 @@
+Running T134 on lm4-w016 at Sun Mar 22 19:28:56 CET 2026
+Game: DisPath
+Variant: UCB1 GRAVE | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 20:02:30 CET 2026

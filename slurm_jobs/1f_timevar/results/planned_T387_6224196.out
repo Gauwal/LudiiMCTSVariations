@@ -1,0 +1,7 @@
+Running T387 on lm4-w029 at Mon Mar 23 21:47:56 CET 2026
+Game: Pippinzip (Zipline variant)
+Variant: UCB1 | MAST | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T387 (Pippinzip (Zipline variant)) -> completed=100/100, wins=33, losses=67, draws=0, failures=0, avgMoves=95.5
+Job completed at Tue Mar 24 00:27:19 CET 2026

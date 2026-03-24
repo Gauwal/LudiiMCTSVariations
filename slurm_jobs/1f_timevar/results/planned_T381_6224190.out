@@ -1,0 +1,7 @@
+Running T381 on lm4-w007 at Mon Mar 23 21:38:55 CET 2026
+Game: Tibetan Jiuqi
+Variant: Noisy AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T381 (Tibetan Jiuqi) -> completed=100/100, wins=19, losses=71, draws=10, failures=0, avgMoves=946.3
+Job completed at Tue Mar 24 01:06:28 CET 2026

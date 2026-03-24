@@ -1,0 +1,7 @@
+Running T507 on lm4-w025 at Mon Mar 23 16:28:34 CET 2026
+Game: Shakhmaty (Early Modern)
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T507 (Shakhmaty (Early Modern)) -> completed=100/100, wins=42, losses=39, draws=19, failures=0, avgMoves=441.6
+Job completed at Tue Mar 24 04:56:08 CET 2026

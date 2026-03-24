@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T628,"Altan Xaraacaj",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Bias","Heuristic Sampling","Score Bounded",Robust,2.000000,100,2000,1,0,100,0,0,100,100,51.9800,

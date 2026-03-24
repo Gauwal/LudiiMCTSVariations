@@ -1,0 +1,5 @@
+Running T1114 on lm4-w015 at Tue Mar 24 03:09:27 CET 2026
+Game: Phantom Go
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

@@ -1,0 +1,7 @@
+Running T1178 on lm4-w012 at Tue Mar 24 03:42:05 CET 2026
+Game: Millieu
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1178 (Millieu) -> completed=100/100, wins=20, losses=80, draws=0, failures=0, avgMoves=60.3
+Job completed at Tue Mar 24 04:30:48 CET 2026

@@ -1,0 +1,7 @@
+Running T834 on lm4-w034 at Mon Mar 23 06:04:04 CET 2026
+Game: Hnefatafl
+Variant: Progressive Bias | NST | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T834 (Hnefatafl) -> completed=100/100, wins=21, losses=79, draws=0, failures=0, avgMoves=399.8
+Job completed at Mon Mar 23 08:52:07 CET 2026

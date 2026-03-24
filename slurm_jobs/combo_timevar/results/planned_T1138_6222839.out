@@ -1,0 +1,7 @@
+Running T1138 on lm4-w024 at Mon Mar 23 09:37:14 CET 2026
+Game: Peralikatuma
+Variant: UCB1 GRAVE | HS Playout | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1138 (Peralikatuma) -> completed=100/100, wins=76, losses=0, draws=24, failures=0, avgMoves=848.4
+Job completed at Mon Mar 23 21:25:38 CET 2026

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1841,Eleven-Fang,SELECTION,UCB1,Random,MonteCarlo,Robust,ExIt,Random,MonteCarlo,Robust,0.200000,100,2000,0,1,10,89,0,100,100,1968.2400,

@@ -1,0 +1,7 @@
+Running T1440 on lm4-w039 at Mon Mar 23 11:26:54 CET 2026
+Game: Alquerque de Tres
+Variant: McGRAVE | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1440 (Alquerque de Tres) -> completed=100/100, wins=0, losses=76, draws=24, failures=0, avgMoves=6.1
+Job completed at Mon Mar 23 11:45:36 CET 2026

@@ -1,0 +1,7 @@
+Running T133 on lm4-w023 at Sun Mar 22 20:27:39 CET 2026
+Game: Pente
+Variant: ExIt | Heuristic | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T133 (Pente) -> completed=100/100, wins=8, losses=92, draws=0, failures=0, avgMoves=109.3
+Job completed at Sun Mar 22 20:45:55 CET 2026

@@ -1,0 +1,5 @@
+Running T962 on lm4-w035 at Mon Mar 23 07:40:38 CET 2026
+Game: Double Chess
+Variant: UCB1 GRAVE | Heuristic | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

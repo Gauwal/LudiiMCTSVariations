@@ -1,0 +1,7 @@
+Running T1728 on lm4-w027 at Mon Mar 23 19:01:00 CET 2026
+Game: Lifeline
+Variant: AG0 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1728 (Lifeline) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=125.9
+Job completed at Mon Mar 23 22:35:40 CET 2026

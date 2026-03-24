@@ -1,0 +1,7 @@
+Running T1380 on lm4-w017 at Tue Mar 24 05:29:52 CET 2026
+Game: Y (Hex)
+Variant: UCB1 | HS Playout | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1380 (Y (Hex)) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=43.6
+Job completed at Tue Mar 24 07:56:43 CET 2026

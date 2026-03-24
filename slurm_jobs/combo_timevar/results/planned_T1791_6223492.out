@@ -1,0 +1,7 @@
+Running T1791 on lm4-w007 at Mon Mar 23 13:25:42 CET 2026
+Game: Dris at-Talata
+Variant: UCB1 | NST | Qualitative | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1791 (Dris at-Talata) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=8.2
+Job completed at Mon Mar 23 13:33:00 CET 2026

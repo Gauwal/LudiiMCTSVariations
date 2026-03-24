@@ -1,0 +1,7 @@
+Running T831 on lm4-w007 at Tue Mar 24 01:06:48 CET 2026
+Game: Mangala (Bedouin)
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T831 (Mangala (Bedouin)) -> completed=100/100, wins=1, losses=93, draws=6, failures=0, avgMoves=37.3
+Job completed at Tue Mar 24 01:55:19 CET 2026

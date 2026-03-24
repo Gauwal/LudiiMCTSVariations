@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T773,"Demala Diviyan Keliya",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",MAST,AlphaGo,MaxAvgScore,0.200000,100,2000,1,45,55,0,0,100,100,96.9100,

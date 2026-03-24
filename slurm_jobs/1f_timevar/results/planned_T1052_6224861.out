@@ -1,0 +1,7 @@
+Running T1052 on lm4-w011 at Mon Mar 23 17:40:42 CET 2026
+Game: Dots and Boxes
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1052 (Dots and Boxes) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=115.4
+Job completed at Tue Mar 24 00:05:40 CET 2026

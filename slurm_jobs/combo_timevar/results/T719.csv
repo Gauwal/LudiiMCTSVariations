@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T719,"Maharajah Chess",FULL,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,Heuristic,Qualitative,MaxAvgScore,1.000000,100,2000,1,33,55,12,0,100,100,178.8500,

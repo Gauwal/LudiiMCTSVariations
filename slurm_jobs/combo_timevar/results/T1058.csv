@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1058,"Selayar Game",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",Random,"Score Bounded",Robust,0.500000,100,2000,0,50,45,5,0,100,100,729.0000,

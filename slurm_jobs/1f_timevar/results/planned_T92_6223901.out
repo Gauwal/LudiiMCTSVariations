@@ -1,0 +1,7 @@
+Running T92 on lm4-w011 at Mon Mar 23 19:46:11 CET 2026
+Game: Surakarta
+Variant: UCB1 | Random | Implicit Minimax | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T92 (Surakarta) -> completed=100/100, wins=31, losses=63, draws=6, failures=0, avgMoves=152.5
+Job completed at Tue Mar 24 04:15:16 CET 2026

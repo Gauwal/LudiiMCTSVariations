@@ -1,0 +1,7 @@
+Running T249 on lm4-w037 at Mon Mar 23 20:44:19 CET 2026
+Game: Hus (Nama)
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T249 (Hus (Nama)) -> completed=100/100, wins=22, losses=16, draws=62, failures=0, avgMoves=1629.7
+Job completed at Tue Mar 24 04:01:30 CET 2026

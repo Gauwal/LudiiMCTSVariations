@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T102,Quoridor,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Widening",Heuristic,Heuristic,MaxAvgScore,0.500000,100,2000,1,18,82,0,0,100,100,87.9800,

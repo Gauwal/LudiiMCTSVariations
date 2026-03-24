@@ -1,0 +1,7 @@
+Running T925 on lm4-w023 at Tue Mar 24 01:42:51 CET 2026
+Game: Fanorona Telo
+Variant: UCB1 | NST | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T925 (Fanorona Telo) -> completed=100/100, wins=41, losses=49, draws=10, failures=0, avgMoves=206.8
+Job completed at Tue Mar 24 02:52:37 CET 2026

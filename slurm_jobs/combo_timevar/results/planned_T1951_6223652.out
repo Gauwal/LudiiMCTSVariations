@@ -1,0 +1,7 @@
+Running T1951 on lm4-w024 at Mon Mar 23 14:34:52 CET 2026
+Game: Tuknanavuhpi
+Variant: AG0 | Heuristic Sampling | Heuristic | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1951 (Tuknanavuhpi) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=180.7
+Job completed at Mon Mar 23 17:06:01 CET 2026

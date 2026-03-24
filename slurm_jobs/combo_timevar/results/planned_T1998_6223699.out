@@ -1,0 +1,7 @@
+Running T1998 on lm4-w035 at Mon Mar 23 14:39:22 CET 2026
+Game: Shatranj (14x14)
+Variant: Progressive History | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1998 (Shatranj (14x14)) -> completed=100/100, wins=46, losses=32, draws=22, failures=0, avgMoves=780.3
+Job completed at Tue Mar 24 01:50:55 CET 2026

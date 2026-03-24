@@ -1,0 +1,6 @@
+Running T725 on lm4-w011 at Sun Mar 22 18:51:05 CET 2026
+Game: Abande
+Variant: UCB1 GRAVE | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 19:09:15 CET 2026

@@ -1,0 +1,5 @@
+Running T707 on lm4-w012 at Mon Mar 23 04:42:01 CET 2026
+Game: Shatranj al-Husun
+Variant: Progressive Widening | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

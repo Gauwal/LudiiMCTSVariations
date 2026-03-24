@@ -1,0 +1,7 @@
+Running T1928 on lm4-w025 at Mon Mar 23 14:33:52 CET 2026
+Game: Luuth
+Variant: UCB1 GRAVE | MAST | MonteCarlo | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1928 (Luuth) -> completed=100/100, wins=1, losses=98, draws=1, failures=0, avgMoves=133.1
+Job completed at Mon Mar 23 21:17:10 CET 2026

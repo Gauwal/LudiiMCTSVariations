@@ -1,0 +1,7 @@
+Running T303 on lm4-w003 at Mon Mar 23 21:04:52 CET 2026
+Game: DisPath
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T303 (DisPath) -> completed=100/100, wins=9, losses=6, draws=85, failures=0, avgMoves=42.6
+Job completed at Mon Mar 23 22:14:08 CET 2026

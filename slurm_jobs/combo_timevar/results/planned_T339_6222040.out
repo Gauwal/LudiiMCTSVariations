@@ -1,0 +1,5 @@
+Running T339 on lm4-w025 at Sun Mar 22 20:33:09 CET 2026
+Game: Alea Evangelii
+Variant: UCB1 GRAVE | HS Playout | AlphaGo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00

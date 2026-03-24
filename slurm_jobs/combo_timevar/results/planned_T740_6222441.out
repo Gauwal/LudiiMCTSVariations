@@ -1,0 +1,7 @@
+Running T740 on lm4-w012 at Mon Mar 23 04:53:01 CET 2026
+Game: De Vasa Chess
+Variant: AG0 | NST | AlphaGo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T740 (De Vasa Chess) -> completed=100/100, wins=4, losses=93, draws=3, failures=0, avgMoves=161.2
+Job completed at Mon Mar 23 09:23:29 CET 2026

@@ -1,0 +1,5 @@
+Running T520 on lm4-w026 at Mon Mar 23 03:03:57 CET 2026
+Game: Ram Tir
+Variant: Noisy AG0 | Heuristic | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

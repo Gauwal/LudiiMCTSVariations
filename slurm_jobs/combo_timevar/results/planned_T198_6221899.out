@@ -1,0 +1,7 @@
+Running T198 on lm4-w029 at Sun Mar 22 20:28:09 CET 2026
+Game: Merimueng-rimueng
+Variant: UCB1 GRAVE | MAST | Score Bounded | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T198 (Merimueng-rimueng) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=567.6
+Job completed at Mon Mar 23 04:21:55 CET 2026

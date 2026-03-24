@@ -1,0 +1,7 @@
+Running T1695 on lm4-w028 at Tue Mar 24 07:54:53 CET 2026
+Game: Center
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1695 (Center) -> completed=100/100, wins=51, losses=49, draws=0, failures=0, avgMoves=28.1
+Job completed at Tue Mar 24 08:41:35 CET 2026

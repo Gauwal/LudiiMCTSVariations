@@ -1,0 +1,7 @@
+Running T785 on lm4-w002 at Mon Mar 23 05:16:32 CET 2026
+Game: Dogtown Clans
+Variant: Progressive Widening | Random | Qualitative | MaxAvgScore
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T785 (Dogtown Clans) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=39.6
+Job completed at Mon Mar 23 05:23:07 CET 2026

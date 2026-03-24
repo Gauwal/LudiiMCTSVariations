@@ -1,0 +1,7 @@
+Running T1267 on lm4-w022 at Tue Mar 24 04:26:31 CET 2026
+Game: Nim
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1267 (Nim) -> completed=100/100, wins=54, losses=46, draws=0, failures=0, avgMoves=27.5
+Job completed at Tue Mar 24 05:10:44 CET 2026

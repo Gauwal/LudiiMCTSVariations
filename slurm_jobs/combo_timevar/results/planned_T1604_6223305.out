@@ -1,0 +1,7 @@
+Running T1604 on lm4-w016 at Sun Mar 22 22:37:15 CET 2026
+Game: Veloop (Square)
+Variant: Progressive History | Random | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1604 (Veloop (Square)) -> completed=100/100, wins=69, losses=31, draws=0, failures=0, avgMoves=42.9
+Job completed at Mon Mar 23 01:00:22 CET 2026

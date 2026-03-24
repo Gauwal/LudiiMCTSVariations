@@ -1,0 +1,7 @@
+Running T1154 on lm4-w016 at Mon Mar 23 09:41:45 CET 2026
+Game: CoDi
+Variant: UCB1 tuned | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1154 (CoDi) -> completed=100/100, wins=51, losses=24, draws=25, failures=0, avgMoves=80.0
+Job completed at Mon Mar 23 10:48:41 CET 2026

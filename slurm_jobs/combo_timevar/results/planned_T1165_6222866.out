@@ -1,0 +1,7 @@
+Running T1165 on lm4-w004 at Sun Mar 22 21:16:11 CET 2026
+Game: Allemande
+Variant: Progressive History | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T1165 (Allemande) -> completed=100/100, wins=39, losses=61, draws=0, failures=0, avgMoves=19.2
+Job completed at Sun Mar 22 21:22:53 CET 2026

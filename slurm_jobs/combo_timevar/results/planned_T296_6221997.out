@@ -1,0 +1,7 @@
+Running T296 on lm4-w034 at Mon Mar 23 00:55:51 CET 2026
+Game: Loop Xiangqi
+Variant: Noisy AG0 | Random | Score Bounded | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T296 (Loop Xiangqi) -> completed=100/100, wins=17, losses=76, draws=7, failures=0, avgMoves=414.4
+Job completed at Mon Mar 23 13:25:58 CET 2026

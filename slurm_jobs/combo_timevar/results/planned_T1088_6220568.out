@@ -1,0 +1,5 @@
+Running T1088 on lm4-w038 at Sun Mar 22 18:56:04 CET 2026
+Game: CustAndantino
+Variant: McGRAVE | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=9G, time=16:00:00

@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1955,Onyx,SELECTION,UCB1,Random,MonteCarlo,Robust,"Progressive Bias",Random,MonteCarlo,Robust,1.000000,100,2000,0,18,82,0,0,100,100,137.6800,

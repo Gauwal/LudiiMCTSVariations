@@ -1,0 +1,7 @@
+Running T186 on lm4-w012 at Mon Mar 23 15:19:56 CET 2026
+Game: N-Mesh
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T186 (N-Mesh) -> completed=100/100, wins=51, losses=49, draws=0, failures=0, avgMoves=10.5
+Job completed at Mon Mar 23 15:28:43 CET 2026

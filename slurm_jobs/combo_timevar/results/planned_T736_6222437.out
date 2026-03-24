@@ -1,0 +1,7 @@
+Running T736 on lm4-w031 at Mon Mar 23 04:50:31 CET 2026
+Game: Diagonal Draughts
+Variant: UCB1 GRAVE | Heuristic | AlphaGo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T736 (Diagonal Draughts) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=100.5
+Job completed at Mon Mar 23 09:11:50 CET 2026

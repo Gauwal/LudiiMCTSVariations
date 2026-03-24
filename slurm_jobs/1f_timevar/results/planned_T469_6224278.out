@@ -1,0 +1,7 @@
+Running T469 on lm4-w025 at Mon Mar 23 22:33:31 CET 2026
+Game: Onek Rong
+Variant: UCB1 | Random | Score Bounded | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T469 (Onek Rong) -> completed=100/100, wins=36, losses=35, draws=29, failures=0, avgMoves=32.5
+Job completed at Mon Mar 23 22:44:25 CET 2026

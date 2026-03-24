@@ -1,0 +1,11 @@
+Running T866 on lm4-w012 at Tue Mar 24 01:17:49 CET 2026
+Game: Throngs
+Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Not a token: ""
+Check for empty clause "()".
+Not a token: ""
+Check for empty clause "()".
+Completed T866 (Throngs) -> completed=100/100, wins=49, losses=50, draws=1, failures=0, avgMoves=149.7
+Job completed at Tue Mar 24 03:42:03 CET 2026

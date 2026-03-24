@@ -1,0 +1,7 @@
+Running T114 on lm4-w008 at Sun Mar 22 23:20:18 CET 2026
+Game: Nuktagaq
+Variant: Implicit Minimax | HS Playout | Qualitative | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T114 (Nuktagaq) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=522.4
+Job completed at Mon Mar 23 02:58:47 CET 2026

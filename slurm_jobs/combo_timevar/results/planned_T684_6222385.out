@@ -1,0 +1,5 @@
+Running T684 on lm4-w028 at Mon Mar 23 04:37:30 CET 2026
+Game: Satoel
+Variant: McBRAVE | Heuristic Sampling | Qualitative | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

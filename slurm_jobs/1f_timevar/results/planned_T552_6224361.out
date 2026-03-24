@@ -1,0 +1,5 @@
+Running T552 on lm4-w025 at Mon Mar 23 23:16:05 CET 2026
+Game: Bizingo
+Variant: UCB1 | Random | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

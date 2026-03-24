@@ -1,0 +1,5 @@
+Running T2 on lm4-w027 at Mon Mar 23 14:42:23 CET 2026
+Game: Kriegsspiel
+Variant: UCB1 tuned | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=11G, time=16:00:00

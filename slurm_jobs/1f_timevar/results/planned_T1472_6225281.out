@@ -1,0 +1,5 @@
+Running T1472 on lm4-w027 at Tue Mar 24 06:21:23 CET 2026
+Game: Double Chess
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=8G, time=16:00:00

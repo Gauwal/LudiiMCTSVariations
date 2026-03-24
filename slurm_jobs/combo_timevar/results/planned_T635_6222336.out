@@ -1,0 +1,7 @@
+Running T635 on lm4-w034 at Mon Mar 23 04:16:29 CET 2026
+Game: Bajr
+Variant: UCB1 | PlayoutHS | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T635 (Bajr) -> completed=100/100, wins=40, losses=58, draws=2, failures=0, avgMoves=75.6
+Job completed at Mon Mar 23 06:03:17 CET 2026

@@ -1,0 +1,7 @@
+Running T1008 on lm4-w039 at Tue Mar 24 02:18:24 CET 2026
+Game: Nzengue (Small)
+Variant: UCB1 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1008 (Nzengue (Small)) -> completed=100/100, wins=0, losses=0, draws=100, failures=0, avgMoves=8.0
+Job completed at Tue Mar 24 02:38:27 CET 2026

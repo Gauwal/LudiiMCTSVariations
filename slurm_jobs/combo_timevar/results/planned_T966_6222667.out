@@ -1,0 +1,7 @@
+Running T966 on lm4-w010 at Sun Mar 22 20:48:40 CET 2026
+Game: Connect6
+Variant: UCB1 tuned | Heuristic Sampling | AlphaGo | MaxAvgScore
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=8G, time=16:00:00
+Completed T966 (Connect6) -> completed=100/100, wins=23, losses=77, draws=0, failures=0, avgMoves=133.1
+Job completed at Sun Mar 22 22:41:54 CET 2026

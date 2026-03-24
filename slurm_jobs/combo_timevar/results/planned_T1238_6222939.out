@@ -1,0 +1,7 @@
+Running T1238 on lm4-w009 at Mon Mar 23 10:02:16 CET 2026
+Game: 4 Squared
+Variant: McGRAVE | Random | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1238 (4 Squared) -> completed=100/100, wins=7, losses=91, draws=2, failures=0, avgMoves=125.4
+Job completed at Mon Mar 23 11:36:18 CET 2026

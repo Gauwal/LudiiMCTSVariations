@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1887,J'odu,FULL,UCB1,Random,MonteCarlo,Robust,"Progressive History",NST,Heuristic,"Proportional Exp",1.000000,100,2000,1,17,71,12,0,100,100,105.4900,

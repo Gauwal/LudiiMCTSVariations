@@ -1,0 +1,7 @@
+Running T1355 on lm4-w031 at Mon Mar 23 10:52:51 CET 2026
+Game: Fettas
+Variant: Progressive Widening | MAST | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1355 (Fettas) -> completed=100/100, wins=10, losses=90, draws=0, failures=0, avgMoves=145.7
+Job completed at Mon Mar 23 14:45:56 CET 2026

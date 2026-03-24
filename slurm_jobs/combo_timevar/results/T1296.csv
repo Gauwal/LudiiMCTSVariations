@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1296,Chongka',FULL,UCB1,Random,MonteCarlo,Robust,"Implicit Minimax","Heuristic Sampling",MonteCarlo,"Proportional Exp",2.000000,100,2000,1,10,87,3,0,100,100,119.9700,

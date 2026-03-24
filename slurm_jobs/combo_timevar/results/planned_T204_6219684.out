@@ -1,0 +1,5 @@
+Running T204 on lm4-w034 at Sun Mar 22 19:52:08 CET 2026
+Game: Mbelele
+Variant: AG0 | Random | MonteCarlo | Proportional Exp
+Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

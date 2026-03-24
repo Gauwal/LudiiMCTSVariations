@@ -1,0 +1,6 @@
+Running T41 on lm4-w004 at Sun Mar 22 18:40:48 CET 2026
+Game: Mutant Y^3
+Variant: McGRAVE | Random | Score Bounded | Proportional Exp
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Job completed at Sun Mar 22 18:48:02 CET 2026

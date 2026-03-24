@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T777,Nchuwa,BACKPROP,UCB1,Random,MonteCarlo,Robust,UCB1,Random,AlphaGo,Robust,0.200000,100,2000,1,53,47,0,0,100,100,81.8800,

@@ -1,0 +1,5 @@
+Running T1785 on lm4-w002 at Mon Mar 23 19:04:02 CET 2026
+Game: Rithmomachia
+Variant: Progressive Widening | Random | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

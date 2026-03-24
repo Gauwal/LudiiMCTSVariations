@@ -1,0 +1,7 @@
+Running T973 on lm4-w034 at Mon Mar 23 17:29:11 CET 2026
+Game: Archworm
+Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
+Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00
+Completed T973 (Archworm) -> completed=100/100, wins=79, losses=21, draws=0, failures=0, avgMoves=393.3
+Job completed at Mon Mar 23 19:48:49 CET 2026

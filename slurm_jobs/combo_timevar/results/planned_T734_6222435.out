@@ -1,0 +1,5 @@
+Running T734 on lm4-w034 at Mon Mar 23 04:49:01 CET 2026
+Game: Round Merels
+Variant: UCB1 | LGR | MonteCarlo | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

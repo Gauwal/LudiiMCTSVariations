@@ -1,0 +1,5 @@
+Running T1391 on lm4-w014 at Sun Mar 22 19:05:54 CET 2026
+Game: Lifeline
+Variant: ExIt | MAST | MonteCarlo | Proportional Exp
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=5, mem=7G, time=16:00:00

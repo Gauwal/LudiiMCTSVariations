@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1074,"Shui Yen Ho-Shang",FULL,UCB1,Random,MonteCarlo,Robust,"Progressive Bias","HS Playout",MonteCarlo,Robust,0.500000,100,2000,1,2,2,96,0,100,100,1931.2400,

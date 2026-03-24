@@ -1,0 +1,5 @@
+Running T1054 on lm4-w021 at Mon Mar 23 09:08:13 CET 2026
+Game: Gabata (Oromo)
+Variant: UCB1 tuned | NST | Score Bounded | Proportional Exp
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00

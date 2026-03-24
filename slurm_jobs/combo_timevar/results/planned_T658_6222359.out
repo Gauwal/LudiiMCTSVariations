@@ -1,0 +1,7 @@
+Running T658 on lm4-w017 at Mon Mar 23 04:22:30 CET 2026
+Game: Adhesion
+Variant: UCB1 GRAVE | PlayoutHS | Implicit Minimax | Robust
+Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T658 (Adhesion) -> completed=100/100, wins=29, losses=71, draws=0, failures=0, avgMoves=149.5
+Job completed at Mon Mar 23 06:37:36 CET 2026

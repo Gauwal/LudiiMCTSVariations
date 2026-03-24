@@ -1,0 +1,5 @@
+Running T683 on lm4-w025 at Mon Mar 23 04:37:30 CET 2026
+Game: Gasetavl
+Variant: AG0 | PlayoutHS | Score Bounded | MaxAvgScore
+Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
+Estimated: cpus=4, mem=7G, time=16:00:00
