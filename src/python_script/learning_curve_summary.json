@@ -1,0 +1,50 @@
+{
+  "dataset": "D:\\Master Thesis\\LudiiMCTSVariations\\src\\python_script\\dataset_all.csv",
+  "n_rows": 997,
+  "cv_mode": "ShuffleSplit(n_splits=5, test_size=0.2)",
+  "train_fracs": [
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "models": {
+    "DummyMean": {
+      "val_mse_first": 0.051360678280633745,
+      "val_mse_last": 0.05111203299769888,
+      "val_mse_gain_total_pct": 0.4841160421914129,
+      "val_mse_gain_recent_pct": 0.06145675612398515,
+      "val_r2_last": -0.0002819858949088871,
+      "likely_data_limited": false
+    },
+    "HistGradientBoosting": {
+      "val_mse_first": 0.057468487326629014,
+      "val_mse_last": 0.04049936596050383,
+      "val_mse_gain_total_pct": 29.5276979706794,
+      "val_mse_gain_recent_pct": 1.0990227515420157,
+      "val_r2_last": 0.20729528012437548,
+      "likely_data_limited": false
+    },
+    "RandomForest": {
+      "val_mse_first": 0.048965821738102745,
+      "val_mse_last": 0.04126380356531501,
+      "val_mse_gain_total_pct": 15.729375918538727,
+      "val_mse_gain_recent_pct": -0.12461696562657373,
+      "val_r2_last": 0.19216225952584504,
+      "likely_data_limited": false
+    },
+    "Ridge": {
+      "val_mse_first": 0.1338899034369268,
+      "val_mse_last": 0.044646849650990375,
+      "val_mse_gain_total_pct": 66.6540579200412,
+      "val_mse_gain_recent_pct": 5.664373020801077,
+      "val_r2_last": 0.12403335515400186,
+      "likely_data_limited": true
+    }
+  },
+  "interpretation": {
+    "likely_data_limited_rule": "A model is flagged likely_data_limited when validation MSE improves by >2% from the third-last to last train-size point."
+  }
+}

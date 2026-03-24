@@ -59,11 +59,11 @@ from parse_slurm_results import (
     build_datasets,
     RESULTS_DIR,
     GAME_PROPS,
-    DATASET_ALL_OUT,
-    DATASET_NOTIMEOUT_OUT,
+    get_output_paths,
 )
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = HERE
 
 VARIANT_COMP_COLS = [
     'variant_select',
@@ -83,32 +83,32 @@ META_FEATURE_COLS = [
 
 def _model_out_path(label: str) -> str:
     """Return the path for the best-model pipeline joblib file."""
-    return os.path.join(HERE, f'best_model_{label}.joblib')
+    return os.path.join(OUTPUT_DIR, f'best_model_{label}.joblib')
 
 
 def _info_out_path(label: str) -> str:
     """Return the path for the JSON file that records the best model and all models' metrics."""
-    return os.path.join(HERE, f'best_model_info_{label}.json')
+    return os.path.join(OUTPUT_DIR, f'best_model_info_{label}.json')
 
 
 def _features_out_path(label: str) -> str:
     """Return the path for the JSON file listing the feature names used at training time."""
-    return os.path.join(HERE, f'features_{label}.json')
+    return os.path.join(OUTPUT_DIR, f'features_{label}.json')
 
 
 def _catalogue_out_path(label: str) -> str:
     """Return the path for the JSON file listing the valid values per variant component."""
-    return os.path.join(HERE, f'variant_catalogue_{label}.json')
+    return os.path.join(OUTPUT_DIR, f'variant_catalogue_{label}.json')
 
 
 def _scatter_out_path(label: str, model_name: str) -> str:
     """Return the path for the true-vs-predicted scatter plot of one model."""
-    return os.path.join(HERE, f'plot_scatter_{model_name}_{label}.png')
+    return os.path.join(OUTPUT_DIR, f'plot_scatter_{model_name}_{label}.png')
 
 
 def _comparison_out_path(label: str) -> str:
     """Return the path for the model-comparison bar chart."""
-    return os.path.join(HERE, f'plot_comparison_{label}.png')
+    return os.path.join(OUTPUT_DIR, f'plot_comparison_{label}.png')
 
 
 # ---------------------------------------------------------------------------
@@ -544,10 +544,19 @@ def main():
         default=GAME_PROPS,
         help='Path to game_properties.csv',
     )
+    parser.add_argument(
+        '--out-dir',
+        default=None,
+        help='Optional directory for all generated datasets, models, plots, and JSON artefacts',
+    )
     args = parser.parse_args()
 
+    global OUTPUT_DIR
     results_dir = os.path.abspath(args.results_dir)
     game_props = os.path.abspath(args.game_props)
+    OUTPUT_DIR = os.path.abspath(args.out_dir) if args.out_dir else HERE
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    output_paths = get_output_paths(OUTPUT_DIR)
 
     if not os.path.isdir(results_dir):
         raise SystemExit(f"Results directory not found: {results_dir}")
@@ -556,6 +565,7 @@ def main():
 
     print(f"Using results directory: {results_dir}")
     print(f"Using game properties  : {game_props}")
+    print(f"Using output directory : {OUTPUT_DIR}")
 
     print("Parsing SLURM results…")
     df_all, df_notimeout = build_datasets(results_dir, game_props)
@@ -563,15 +573,21 @@ def main():
     if df_all.empty:
         raise SystemExit("No usable data parsed from results.")
 
-    df_all.to_csv(DATASET_ALL_OUT, index=False)
-    df_notimeout.to_csv(DATASET_NOTIMEOUT_OUT, index=False)
-    print(f"Saved {DATASET_ALL_OUT}")
-    print(f"Saved {DATASET_NOTIMEOUT_OUT}")
+    df_all.to_csv(output_paths['dataset_all'], index=False)
+    df_notimeout.to_csv(output_paths['dataset_notimeout'], index=False)
+    print(f"Saved {output_paths['dataset_all']}")
+    print(f"Saved {output_paths['dataset_notimeout']}")
 
     all_results: Dict[str, Dict[str, Dict]] = {}
     all_results['all'] = train_all_models(df_all, label='all')
 
-    if not df_notimeout.empty:
+    has_any_timeout = bool(
+        'n_timeouts' in df_all.columns and (df_all['n_timeouts'] > 0).any()
+    )
+
+    if not has_any_timeout:
+        print("No timeout rows detected in parsed data — skipping redundant 'notimeout' training.")
+    elif not df_notimeout.empty:
         all_results['notimeout'] = train_all_models(df_notimeout, label='notimeout')
     else:
         print("No-timeout dataset is empty — skipping.")
