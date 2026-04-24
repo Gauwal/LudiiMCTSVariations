@@ -3,3 +3,5 @@ Game: Erherhe
 Variant: McGRAVE | Random | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1719 (Erherhe) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=156.5
+Job completed at Tue Mar 24 11:38:11 CET 2026

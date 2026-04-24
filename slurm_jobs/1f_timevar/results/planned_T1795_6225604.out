@@ -3,3 +3,5 @@ Game: Mysore Tiger Game (Three Tigers)
 Variant: UCB1 | HS Playout | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1795 (Mysore Tiger Game (Three Tigers)) -> completed=100/100, wins=25, losses=74, draws=1, failures=0, avgMoves=300.7
+Job completed at Tue Mar 24 16:51:33 CET 2026

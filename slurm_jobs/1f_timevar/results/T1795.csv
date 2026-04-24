@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1795,"Mysore Tiger Game (Three Tigers)",SIMULATION,UCB1,Random,MonteCarlo,Robust,UCB1,"HS Playout",MonteCarlo,Robust,1.000000,100,2000,1,25,74,1,0,100,100,300.7000,

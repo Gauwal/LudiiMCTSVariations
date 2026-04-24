@@ -3,3 +3,5 @@ Game: Gala (Buginese)
 Variant: UCB1 | Random | MonteCarlo | Proportional Exp
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1266 (Gala (Buginese)) -> completed=100/100, wins=0, losses=97, draws=3, failures=0, avgMoves=1004.7
+Job completed at Tue Mar 24 18:21:59 CET 2026

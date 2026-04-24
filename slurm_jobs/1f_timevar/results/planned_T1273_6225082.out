@@ -3,3 +3,5 @@ Game: Tre Guti
 Variant: Progressive History | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1273 (Tre Guti) -> completed=100/100, wins=20, losses=22, draws=58, failures=0, avgMoves=1222.7
+Job completed at Tue Mar 24 11:14:14 CET 2026

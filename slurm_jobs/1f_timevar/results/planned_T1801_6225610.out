@@ -3,3 +3,5 @@ Game: Xiangqi
 Variant: Implicit Minimax | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1801 (Xiangqi) -> completed=100/100, wins=33, losses=29, draws=38, failures=0, avgMoves=967.1
+Job completed at Tue Mar 24 15:02:41 CET 2026

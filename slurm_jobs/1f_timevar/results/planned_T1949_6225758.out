@@ -3,3 +3,5 @@ Game: Fang
 Variant: UCB1 | Heuristic | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1949 (Fang) -> completed=100/100, wins=2, losses=98, draws=0, failures=0, avgMoves=518.0
+Job completed at Tue Mar 24 13:30:35 CET 2026

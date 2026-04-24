@@ -3,3 +3,5 @@ Game: Currierspiel
 Variant: ExIt | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1537 (Currierspiel) -> completed=100/100, wins=2, losses=17, draws=81, failures=0, avgMoves=1657.4
+Job completed at Tue Mar 24 11:32:42 CET 2026

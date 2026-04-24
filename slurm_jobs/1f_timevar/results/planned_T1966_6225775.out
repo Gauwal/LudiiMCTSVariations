@@ -3,3 +3,5 @@ Game: Brusky Chess
 Variant: UCB1 | LGR | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1966 (Brusky Chess) -> completed=100/100, wins=47, losses=52, draws=1, failures=0, avgMoves=99.5
+Job completed at Tue Mar 24 11:17:31 CET 2026

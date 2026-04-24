@@ -3,3 +3,5 @@ Game: Mwambulula
 Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1889 (Mwambulula) -> completed=100/100, wins=44, losses=31, draws=25, failures=0, avgMoves=1155.8
+Job completed at Tue Mar 24 14:06:14 CET 2026

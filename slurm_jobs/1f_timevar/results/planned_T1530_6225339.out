@@ -3,3 +3,5 @@ Game: Hus (Nama)
 Variant: UCB1 | NST | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1530 (Hus (Nama)) -> completed=100/100, wins=19, losses=34, draws=47, failures=0, avgMoves=1509.5
+Job completed at Tue Mar 24 22:37:22 CET 2026

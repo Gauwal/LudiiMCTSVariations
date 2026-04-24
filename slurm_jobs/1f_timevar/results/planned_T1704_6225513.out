@@ -3,3 +3,5 @@ Game: Comina
 Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1704 (Comina) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=187.7
+Job completed at Tue Mar 24 18:26:03 CET 2026

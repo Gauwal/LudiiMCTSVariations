@@ -3,3 +3,9 @@ Game: Mysore Tiger Game
 Variant: UCB1 | Random | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 71303168 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/users/g/s/gsavary/LudiiMCTSVariations/hs_err_pid2451890.log
+Job completed at Tue Mar 24 15:45:11 CET 2026

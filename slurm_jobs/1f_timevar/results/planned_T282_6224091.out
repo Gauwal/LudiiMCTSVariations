@@ -3,3 +3,5 @@ Game: Sittuyin
 Variant: UCB1 | Random | Implicit Minimax | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T282 (Sittuyin) -> completed=100/100, wins=24, losses=26, draws=50, failures=0, avgMoves=1091.3
+Job completed at Tue Mar 24 12:17:49 CET 2026

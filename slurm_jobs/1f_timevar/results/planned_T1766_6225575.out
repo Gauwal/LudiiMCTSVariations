@@ -3,3 +3,5 @@ Game: Main Chongkak
 Variant: UCB1 | Random | MonteCarlo | Proportional Exp
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1766 (Main Chongkak) -> completed=100/100, wins=8, losses=25, draws=67, failures=0, avgMoves=1676.3
+Job completed at Tue Mar 24 16:36:43 CET 2026

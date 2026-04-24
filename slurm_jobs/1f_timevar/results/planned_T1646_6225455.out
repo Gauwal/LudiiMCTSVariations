@@ -3,3 +3,5 @@ Game: Dragonchess
 Variant: UCB1 | Random | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1646 (Dragonchess) -> completed=100/100, wins=48, losses=43, draws=9, failures=0, avgMoves=323.9
+Job completed at Tue Mar 24 12:00:12 CET 2026

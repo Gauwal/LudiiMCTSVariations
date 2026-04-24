@@ -3,3 +3,5 @@ Game: Janggi
 Variant: UCB1 | Random | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1799 (Janggi) -> completed=100/100, wins=49, losses=49, draws=2, failures=0, avgMoves=111.3
+Job completed at Tue Mar 24 11:47:31 CET 2026

@@ -3,3 +3,5 @@ Game: Orissa Tiger Game (Four Tigers)
 Variant: UCB1 | Random | MonteCarlo | Proportional Exp
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1403 (Orissa Tiger Game (Four Tigers)) -> completed=100/100, wins=27, losses=73, draws=0, failures=0, avgMoves=246.5
+Job completed at Tue Mar 24 12:33:46 CET 2026

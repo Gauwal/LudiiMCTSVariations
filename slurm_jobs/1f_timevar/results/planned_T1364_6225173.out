@@ -3,3 +3,5 @@ Game: En Gehe
 Variant: UCB1 | Heuristic | MonteCarlo | Robust
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1364 (En Gehe) -> completed=100/100, wins=33, losses=66, draws=1, failures=0, avgMoves=505.1
+Job completed at Tue Mar 24 15:53:56 CET 2026

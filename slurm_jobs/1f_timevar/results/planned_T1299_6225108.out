@@ -3,3 +3,5 @@ Game: Xarajlt
 Variant: Progressive Widening | Random | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1299 (Xarajlt) -> completed=100/100, wins=30, losses=32, draws=38, failures=0, avgMoves=764.9
+Job completed at Tue Mar 24 15:19:37 CET 2026

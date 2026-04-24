@@ -3,3 +3,5 @@ Game: Xiang Hex
 Variant: Progressive History | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1313 (Xiang Hex) -> completed=100/100, wins=20, losses=31, draws=49, failures=0, avgMoves=1087.1
+Job completed at Tue Mar 24 12:41:07 CET 2026

@@ -3,3 +3,5 @@ Game: Nsumbi
 Variant: UCB1 | Random | Score Bounded | Robust
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1960 (Nsumbi) -> completed=100/100, wins=55, losses=45, draws=0, failures=0, avgMoves=123.2
+Job completed at Tue Mar 24 12:53:38 CET 2026

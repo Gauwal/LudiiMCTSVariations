@@ -3,3 +3,5 @@ Game: Shatera
 Variant: UCB1 | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1397 (Shatera) -> completed=100/100, wins=25, losses=18, draws=57, failures=0, avgMoves=1199.2
+Job completed at Tue Mar 24 12:32:51 CET 2026

@@ -3,3 +3,5 @@ Game: Xiangqi
 Variant: UCB1 | LGR | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1487 (Xiangqi) -> completed=100/100, wins=48, losses=39, draws=13, failures=0, avgMoves=461.2
+Job completed at Tue Mar 24 19:36:20 CET 2026

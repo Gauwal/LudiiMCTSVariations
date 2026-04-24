@@ -3,3 +3,5 @@ Game: Grand Trictrac
 Variant: AG0 | Random | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1239 (Grand Trictrac) -> completed=100/100, wins=4, losses=96, draws=0, failures=0, avgMoves=616.9
+Job completed at Tue Mar 24 11:55:09 CET 2026

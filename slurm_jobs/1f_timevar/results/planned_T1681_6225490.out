@@ -3,3 +3,5 @@ Game: Shatranj at-Tamma
 Variant: UCB1 | Random | AlphaGo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1681 (Shatranj at-Tamma) -> completed=100/100, wins=8, losses=8, draws=84, failures=0, avgMoves=1774.0
+Job completed at Tue Mar 24 18:10:41 CET 2026

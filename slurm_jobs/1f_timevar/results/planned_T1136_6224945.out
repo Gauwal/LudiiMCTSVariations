@@ -3,3 +3,5 @@ Game: Baqura
 Variant: McBRAVE | Random | MonteCarlo | Robust
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1136 (Baqura) -> completed=100/100, wins=0, losses=100, draws=0, failures=0, avgMoves=212.9
+Job completed at Tue Mar 24 13:26:31 CET 2026

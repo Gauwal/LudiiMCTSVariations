@@ -3,3 +3,5 @@ Game: O-Pat-Kono
 Variant: UCB1 GRAVE | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1157 (O-Pat-Kono) -> completed=100/100, wins=8, losses=10, draws=82, failures=0, avgMoves=1845.1
+Job completed at Tue Mar 24 13:51:45 CET 2026

@@ -3,3 +3,5 @@ Game: Game of Solomon
 Variant: UCB1 | Random | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1474 (Game of Solomon) -> completed=100/100, wins=1, losses=5, draws=94, failures=0, avgMoves=567.1
+Job completed at Tue Mar 24 14:13:35 CET 2026

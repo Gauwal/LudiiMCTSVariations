@@ -3,3 +3,5 @@ Game: Fart (7x7)
 Variant: UCB1 | MAST | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1887 (Fart (7x7)) -> completed=100/100, wins=22, losses=71, draws=7, failures=0, avgMoves=594.0
+Job completed at Tue Mar 24 19:22:24 CET 2026

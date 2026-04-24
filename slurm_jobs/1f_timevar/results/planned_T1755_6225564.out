@@ -3,3 +3,5 @@ Game: Tavan Tal
 Variant: Implicit Minimax | Random | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1755 (Tavan Tal) -> completed=100/100, wins=1, losses=99, draws=0, failures=0, avgMoves=115.1
+Job completed at Tue Mar 24 11:33:33 CET 2026

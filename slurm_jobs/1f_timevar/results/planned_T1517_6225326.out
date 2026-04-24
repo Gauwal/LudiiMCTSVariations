@@ -3,3 +3,5 @@ Game: Challis Ghutia
 Variant: UCB1 | Random | MonteCarlo | Proportional Exp
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1517 (Challis Ghutia) -> completed=100/100, wins=7, losses=83, draws=10, failures=0, avgMoves=1241.6
+Job completed at Tue Mar 24 13:40:08 CET 2026

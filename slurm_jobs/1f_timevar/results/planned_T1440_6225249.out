@@ -3,3 +3,5 @@ Game: Kay
 Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1440 (Kay) -> completed=100/100, wins=23, losses=19, draws=58, failures=0, avgMoves=200.4
+Job completed at Tue Mar 24 13:31:00 CET 2026

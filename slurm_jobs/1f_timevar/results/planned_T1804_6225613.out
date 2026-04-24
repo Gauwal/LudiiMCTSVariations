@@ -3,3 +3,5 @@ Game: Wrigglers Squared
 Variant: UCB1 | Heuristic Sampling | MonteCarlo | Robust
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1804 (Wrigglers Squared) -> completed=100/100, wins=79, losses=21, draws=0, failures=0, avgMoves=79.5
+Job completed at Tue Mar 24 13:08:40 CET 2026

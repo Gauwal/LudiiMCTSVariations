@@ -3,3 +3,5 @@ Game: Vela
 Variant: UCB1 | Random | Implicit Minimax | Robust
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1080 (Vela) -> completed=100/100, wins=30, losses=65, draws=5, failures=0, avgMoves=233.8
+Job completed at Tue Mar 24 15:32:59 CET 2026

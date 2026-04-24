@@ -3,3 +3,5 @@ Game: Adzua (Children)
 Variant: UCB1 | Random | MonteCarlo | MaxAvgScore
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1226 (Adzua (Children)) -> completed=100/100, wins=23, losses=25, draws=52, failures=0, avgMoves=1050.2
+Job completed at Tue Mar 24 11:49:26 CET 2026

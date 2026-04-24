@@ -3,3 +3,5 @@ Game: Shatranj al-Kabir
 Variant: Progressive Bias | Random | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=8G, time=16:00:00
+Completed T1466 (Shatranj al-Kabir) -> completed=100/100, wins=5, losses=28, draws=67, failures=0, avgMoves=1143.6
+Job completed at Tue Mar 24 17:16:50 CET 2026

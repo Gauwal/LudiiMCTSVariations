@@ -3,3 +3,5 @@ Game: Diviyan Keliya
 Variant: UCB1 | Random | Implicit Minimax | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1014 (Diviyan Keliya) -> completed=100/100, wins=50, losses=50, draws=0, failures=0, avgMoves=961.1
+Job completed at Tue Mar 24 15:42:26 CET 2026

@@ -3,3 +3,5 @@ Game: Boukerourou
 Variant: Implicit Minimax | Random | MonteCarlo | Robust
 Meta: moveTime=2.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1480 (Boukerourou) -> completed=100/100, wins=27, losses=44, draws=29, failures=0, avgMoves=733.6
+Job completed at Tue Mar 24 16:48:52 CET 2026

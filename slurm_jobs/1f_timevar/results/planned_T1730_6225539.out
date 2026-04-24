@@ -3,3 +3,5 @@ Game: Xarajlt
 Variant: UCB1 | Random | Implicit Minimax | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1730 (Xarajlt) -> completed=100/100, wins=32, losses=30, draws=38, failures=0, avgMoves=781.8
+Job completed at Tue Mar 24 15:28:30 CET 2026

@@ -3,3 +3,5 @@ Game: Hus (Nama)
 Variant: McGRAVE | Random | MonteCarlo | Robust
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1933 (Hus (Nama)) -> completed=100/100, wins=5, losses=25, draws=70, failures=0, avgMoves=1724.1
+Job completed at Tue Mar 24 17:16:56 CET 2026

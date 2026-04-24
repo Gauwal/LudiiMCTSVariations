@@ -1,0 +1,2 @@
+testId,gameName,component,baselineSelection,baselineSimulation,baselineBackprop,baselineFinalMove,variantSelection,variantSimulation,variantBackprop,variantFinalMove,moveTimeSeconds,gamesPerMatchup,maxMoves,usesHeuristic,variantWins,baselineWins,draws,failures,completedGames,attemptedGames,averageMoves,lastError
+T1507,"Renard et les Poules",SELECTION,UCB1,Random,MonteCarlo,Robust,Alpha-Beta,Random,MonteCarlo,Robust,1.000000,100,2000,1,9,91,0,0,100,100,237.0200,

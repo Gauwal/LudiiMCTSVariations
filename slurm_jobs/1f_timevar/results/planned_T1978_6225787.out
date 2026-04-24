@@ -3,3 +3,5 @@ Game: Laram Wali
 Variant: UCB1 tuned | Random | MonteCarlo | Robust
 Meta: moveTime=0.5, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1978 (Laram Wali) -> completed=100/100, wins=44, losses=29, draws=27, failures=0, avgMoves=916.1
+Job completed at Tue Mar 24 22:43:55 CET 2026

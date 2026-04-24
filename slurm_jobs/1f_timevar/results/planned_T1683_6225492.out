@@ -3,3 +3,5 @@ Game: Triple Tangle
 Variant: Implicit Minimax | Random | MonteCarlo | Robust
 Meta: moveTime=1.0, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1683 (Triple Tangle) -> completed=100/100, wins=19, losses=81, draws=0, failures=0, avgMoves=187.4
+Job completed at Tue Mar 24 12:55:27 CET 2026

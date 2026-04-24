@@ -3,3 +3,5 @@ Game: Ngolo
 Variant: UCB1 | Random | MonteCarlo | Proportional Exp
 Meta: moveTime=0.2, gamesPerMatchup=100, maxMoves=2000
 Estimated: cpus=4, mem=7G, time=16:00:00
+Completed T1481 (Ngolo) -> completed=100/100, wins=0, losses=50, draws=50, failures=0, avgMoves=1566.6
+Job completed at Tue Mar 24 15:09:57 CET 2026
