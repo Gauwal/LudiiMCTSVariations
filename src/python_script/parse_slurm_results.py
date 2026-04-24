@@ -25,6 +25,7 @@ Each row contains:
 import os
 import re
 from typing import Any, Dict, List, Optional
+import argparse
 
 import numpy as np
 import pandas as pd
@@ -38,6 +39,17 @@ DATASET_ALL_OUT = os.path.join(HERE, 'dataset_all.csv')
 DATASET_NOTIMEOUT_OUT = os.path.join(HERE, 'dataset_notimeout.csv')
 DATASET_RAW_OUT = os.path.join(HERE, 'dataset_raw.csv')
 
+
+def get_output_paths(out_dir: Optional[str] = None) -> Dict[str, str]:
+    """Return output CSV paths, optionally redirected to a custom directory."""
+    target_dir = os.path.abspath(out_dir) if out_dir else HERE
+    os.makedirs(target_dir, exist_ok=True)
+    return {
+        'dataset_all': os.path.join(target_dir, 'dataset_all.csv'),
+        'dataset_notimeout': os.path.join(target_dir, 'dataset_notimeout.csv'),
+        'dataset_raw': os.path.join(target_dir, 'dataset_raw.csv'),
+    }
+
 COMPLETED_RE = re.compile(
     r'completed=(\d+)/(\d+),\s*wins=(\d+),\s*losses=(\d+),\s*draws=(\d+),\s*'
     r'failures=(\d+),\s*avgMoves=([0-9.]+)'
@@ -46,6 +58,83 @@ GAME_RE = re.compile(r'^Game:\s*(.+)$', re.IGNORECASE)
 VARIANT_RE = re.compile(r'^Variant:\s*(.+)$', re.IGNORECASE)
 META_RE = re.compile(r'moveTime=([0-9.]+)|gamesPerMatchup=(\d+)|maxMoves=(\d+)')
 TIMEOUT_RE = re.compile(r'Game exceeded time limit', re.IGNORECASE)
+TEST_CSV_RE = re.compile(r'^T\d+\.csv$', re.IGNORECASE)
+
+
+def _to_int(value: Any) -> Optional[int]:
+    if value is None:
+        return None
+    try:
+        if isinstance(value, str) and not value.strip():
+            return None
+        return int(float(value))
+    except (TypeError, ValueError):
+        return None
+
+
+def _to_float(value: Any) -> Optional[float]:
+    if value is None:
+        return None
+    try:
+        if isinstance(value, str) and not value.strip():
+            return None
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _discover_test_csv_files(results_dir: str) -> List[str]:
+    """Return absolute paths of per-test CSV files (e.g. T3.csv)."""
+    files: List[str] = []
+    for fname in os.listdir(results_dir):
+        if TEST_CSV_RE.match(fname):
+            files.append(os.path.join(results_dir, fname))
+    return sorted(files)
+
+
+def _load_rows_from_test_csv(path: str) -> List[Dict[str, Any]]:
+    """Load rows from one per-test CSV file and map to parser schema."""
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        return []
+
+    rows: List[Dict[str, Any]] = []
+    for rec in df.to_dict(orient='records'):
+        rows.append({
+            'job': str(rec.get('testId') or os.path.splitext(os.path.basename(path))[0]),
+            'game': rec.get('gameName'),
+            'variant': ' | '.join([
+                str(rec.get('variantSelection') or '').strip(),
+                str(rec.get('variantSimulation') or '').strip(),
+                str(rec.get('variantBackprop') or '').strip(),
+                str(rec.get('variantFinalMove') or '').strip(),
+            ]),
+            'variant_select': str(rec.get('variantSelection') or '').strip(),
+            'variant_simulation': str(rec.get('variantSimulation') or '').strip(),
+            'variant_backprop': str(rec.get('variantBackprop') or '').strip(),
+            'variant_finalmove': str(rec.get('variantFinalMove') or '').strip(),
+            'wins': _to_int(rec.get('variantWins')),
+            'losses': _to_int(rec.get('baselineWins')),
+            'draws': _to_int(rec.get('draws')),
+            'failures': _to_int(rec.get('failures')),
+            'completed': _to_int(rec.get('completedGames')),
+            'total_expected': _to_int(rec.get('attemptedGames')),
+            'avgMoves': _to_float(rec.get('averageMoves')),
+            'moveTime': _to_float(rec.get('moveTimeSeconds')),
+            'maxMoves': _to_int(rec.get('maxMoves')),
+            # Successful-run CSVs typically do not include per-game timeout counts.
+            'n_timeouts': 0,
+        })
+    return rows
+
+
+def _iter_test_csv_rows(results_dir: str) -> List[Dict[str, Any]]:
+    """Load and combine all per-test CSV rows from a results directory."""
+    rows: List[Dict[str, Any]] = []
+    for path in _discover_test_csv_files(results_dir):
+        rows.extend(_load_rows_from_test_csv(path))
+    return rows
 
 
 def _normalize(s: str) -> str:
@@ -119,6 +208,59 @@ def build_raw_dataset(results_dir: str) -> pd.DataFrame:
     This keeps parseable and non-parseable jobs, and does not compute derived
     rates/scores. Useful for diagnostics.
     """
+    csv_rows = _iter_test_csv_rows(results_dir)
+    if csv_rows:
+        rows: List[Dict[str, Any]] = []
+        for rec in csv_rows:
+            has_game = bool(rec.get('game'))
+            has_variant = bool(rec.get('variant'))
+            has_wins = rec.get('wins') is not None
+            has_total = (rec.get('total_expected') is not None or rec.get('completed') is not None)
+            parse_ok = bool(has_game and has_wins and has_total)
+
+            if parse_ok:
+                diagnostic_reason = 'complete'
+            elif not has_game:
+                diagnostic_reason = 'missing_game_header'
+            elif not has_variant:
+                diagnostic_reason = 'missing_variant_header'
+            elif not has_wins and has_total:
+                diagnostic_reason = 'missing_wins_only'
+            elif has_wins and not has_total:
+                diagnostic_reason = 'missing_total_only'
+            else:
+                diagnostic_reason = 'other_partial_parse'
+
+            rows.append({
+                'job': rec.get('job'),
+                'out_file': None,
+                'err_file': None,
+                'out_exists': True,
+                'err_exists': False,
+                'out_size_bytes': 0,
+                'err_size_bytes': 0,
+                'parse_ok': parse_ok,
+                'has_game': has_game,
+                'has_variant': has_variant,
+                'has_wins': has_wins,
+                'has_total': has_total,
+                'diagnostic_reason': diagnostic_reason,
+                'n_timeouts': int(rec.get('n_timeouts') or 0),
+                'game': rec.get('game'),
+                'variant': rec.get('variant'),
+                'wins': rec.get('wins'),
+                'losses': rec.get('losses'),
+                'draws': rec.get('draws'),
+                'failures': rec.get('failures'),
+                'completed': rec.get('completed'),
+                'total_expected': rec.get('total_expected'),
+                'avgMoves': rec.get('avgMoves'),
+                'moveTime': rec.get('moveTime'),
+                'maxMoves': rec.get('maxMoves'),
+            })
+
+        return pd.DataFrame(rows)
+
     bases: Dict[str, Dict[str, str]] = {}
     for fname in os.listdir(results_dir):
         if fname.endswith('.out') or fname.endswith('.err'):
@@ -239,6 +381,117 @@ def build_datasets(results_dir: str, game_props_path: str):
     game_feature_cols = [c for c in games_df.columns if c != 'game']
     games_df['_norm'] = games_df['game'].apply(_normalize)
     norm_to_game = dict(zip(games_df['_norm'], games_df['game']))
+
+    csv_rows = _iter_test_csv_rows(results_dir)
+    if csv_rows:
+        rows: List[Dict[str, Any]] = []
+        skipped_parse = skipped_game = skipped_all_timeout = 0
+        skipped_incomplete = 0
+        skipped_missing_game = skipped_missing_wins = skipped_missing_total = 0
+        timeout_report: List[Dict[str, Any]] = []
+        total_timeout_games = 0
+
+        for parsed in csv_rows:
+            missing_game = not parsed.get('game')
+            missing_wins = parsed.get('wins') is None
+            missing_total = (parsed.get('total_expected') is None and parsed.get('completed') is None)
+
+            if (not missing_game) and missing_wins and missing_total:
+                skipped_incomplete += 1
+                continue
+
+            if missing_game or missing_wins or missing_total:
+                skipped_parse += 1
+                if missing_game:
+                    skipped_missing_game += 1
+                if missing_wins:
+                    skipped_missing_wins += 1
+                if missing_total:
+                    skipped_missing_total += 1
+                continue
+
+            mapped_game = _find_game(_normalize(str(parsed.get('game') or '')), norm_to_game)
+            if mapped_game is None:
+                skipped_game += 1
+                continue
+
+            total_expected = parsed.get('total_expected') or parsed.get('completed') or 0
+            wins = parsed.get('wins') or 0
+            losses = parsed.get('losses') or 0
+            draws = parsed.get('draws') or 0
+
+            n_timeouts = int(parsed.get('n_timeouts') or 0)
+            n_timeouts = min(n_timeouts, draws)
+            total_timeout_games += n_timeouts
+
+            if n_timeouts > 0:
+                timeout_report.append({
+                    'job': parsed.get('job', ''),
+                    'game': str(parsed.get('game') or ''),
+                    'variant': str(parsed.get('variant') or ''),
+                    'n_timeouts': n_timeouts,
+                    'total': total_expected,
+                    'wins': wins, 'losses': losses, 'draws': draws,
+                })
+
+            effective_total = total_expected - n_timeouts
+            if effective_total <= 0:
+                skipped_all_timeout += 1
+                continue
+            effective_draws = draws - n_timeouts
+
+            winrate = wins / float(effective_total)
+            drawrate = effective_draws / float(effective_total)
+            score = (wins + 0.5 * effective_draws) / float(effective_total)
+
+            props = games_df[games_df['game'] == mapped_game].iloc[0]
+
+            sel = str(parsed.get('variant_select') or '').strip()
+            sim = str(parsed.get('variant_simulation') or '').strip()
+            back = str(parsed.get('variant_backprop') or '').strip()
+            final = str(parsed.get('variant_finalmove') or '').strip()
+            if not any([sel, sim, back, final]):
+                v = str(parsed.get('variant') or '')
+                v_parts = [p.strip() for p in v.split('|')]
+                while len(v_parts) < 4:
+                    v_parts.append('')
+                sel, sim, back, final = v_parts[:4]
+
+            row: Dict[str, Any] = {
+                'variant_select': sel,
+                'variant_simulation': sim,
+                'variant_backprop': back,
+                'variant_finalmove': final,
+                'winrate': winrate,
+                'drawrate': drawrate,
+                'score': score,
+                'n_timeouts': n_timeouts,
+                'moveTime': parsed.get('moveTime'),
+                'maxMoves': parsed.get('maxMoves'),
+            }
+            for col in game_feature_cols:
+                row[f'game_{col}'] = props[col]
+
+            rows.append(row)
+
+        df_all = pd.DataFrame(rows)
+        df_notimeout = df_all[df_all['n_timeouts'] == 0].copy()
+
+        print(f"Total jobs parsed  : {len(df_all) + skipped_parse + skipped_incomplete + skipped_game + skipped_all_timeout}")
+        print(f"  Skipped (parse)  : {skipped_parse}")
+        if skipped_parse:
+            print(f"    - missing game     : {skipped_missing_game}")
+            print(f"    - missing wins     : {skipped_missing_wins}")
+            print(f"    - missing total    : {skipped_missing_total}")
+        print(f"  Skipped (incomplete): {skipped_incomplete}")
+        print(f"  Skipped (game)   : {skipped_game}")
+        print(f"  Skipped (all TO) : {skipped_all_timeout}  (all games timed out)")
+        print(f"  All dataset      : {len(df_all)} rows")
+        print(f"  No-timeout set   : {len(df_notimeout)} rows")
+        print(f"  Jobs with TO     : {len(timeout_report)}")
+        print(f"  Total TO games   : {total_timeout_games}")
+
+        return df_all, df_notimeout
 
     # collect .out / .err pairs
     bases: Dict[str, Dict[str, str]] = {}
@@ -386,21 +639,43 @@ def build_datasets(results_dir: str, game_props_path: str):
 
 
 def main():
-    if not os.path.isdir(RESULTS_DIR):
-        raise SystemExit(f"Results directory not found: {RESULTS_DIR}")
-    if not os.path.isfile(GAME_PROPS):
-        raise SystemExit(f"game_properties.csv not found: {GAME_PROPS}")
+    parser = argparse.ArgumentParser(description='Parse SLURM outputs into model-ready datasets')
+    parser.add_argument(
+        '--results-dir',
+        default=RESULTS_DIR,
+        help='Directory containing SLURM .out/.err and/or T*.csv result files',
+    )
+    parser.add_argument(
+        '--game-props',
+        default=GAME_PROPS,
+        help='Path to game_properties.csv',
+    )
+    parser.add_argument(
+        '--out-dir',
+        default=None,
+        help='Optional output directory for dataset_all.csv, dataset_notimeout.csv, dataset_raw.csv',
+    )
+    args = parser.parse_args()
 
-    df_all, df_notimeout = build_datasets(RESULTS_DIR, GAME_PROPS)
-    df_raw = build_raw_dataset(RESULTS_DIR)
+    results_dir = os.path.abspath(args.results_dir)
+    game_props = os.path.abspath(args.game_props)
+    outputs = get_output_paths(args.out_dir)
 
-    df_all.to_csv(DATASET_ALL_OUT, index=False)
-    df_notimeout.to_csv(DATASET_NOTIMEOUT_OUT, index=False)
-    df_raw.to_csv(DATASET_RAW_OUT, index=False)
+    if not os.path.isdir(results_dir):
+        raise SystemExit(f"Results directory not found: {results_dir}")
+    if not os.path.isfile(game_props):
+        raise SystemExit(f"game_properties.csv not found: {game_props}")
 
-    print(f"\nSaved: {DATASET_ALL_OUT}")
-    print(f"Saved: {DATASET_NOTIMEOUT_OUT}")
-    print(f"Saved: {DATASET_RAW_OUT}")
+    df_all, df_notimeout = build_datasets(results_dir, game_props)
+    df_raw = build_raw_dataset(results_dir)
+
+    df_all.to_csv(outputs['dataset_all'], index=False)
+    df_notimeout.to_csv(outputs['dataset_notimeout'], index=False)
+    df_raw.to_csv(outputs['dataset_raw'], index=False)
+
+    print(f"\nSaved: {outputs['dataset_all']}")
+    print(f"Saved: {outputs['dataset_notimeout']}")
+    print(f"Saved: {outputs['dataset_raw']}")
 
 
 if __name__ == '__main__':

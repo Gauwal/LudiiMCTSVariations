@@ -1,0 +1,40 @@
+{
+  "variant_select": [
+    "AG0",
+    "Alpha-Beta",
+    "ExIt",
+    "Implicit Minimax",
+    "McBRAVE",
+    "McGRAVE",
+    "Noisy AG0",
+    "Progressive Bias",
+    "Progressive History",
+    "Progressive Widening",
+    "UCB1",
+    "UCB1 GRAVE",
+    "UCB1 tuned"
+  ],
+  "variant_simulation": [
+    "HS Playout",
+    "Heuristic",
+    "Heuristic Sampling",
+    "LGR",
+    "MAST",
+    "NST",
+    "PlayoutHS",
+    "Random"
+  ],
+  "variant_backprop": [
+    "AlphaGo",
+    "Heuristic",
+    "Implicit Minimax",
+    "MonteCarlo",
+    "Qualitative",
+    "Score Bounded"
+  ],
+  "variant_finalmove": [
+    "MaxAvgScore",
+    "Proportional Exp",
+    "Robust"
+  ]
+}
