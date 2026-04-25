@@ -2,11 +2,9 @@
 #SBATCH --job-name=ludii_sweep
 #SBATCH --output=slurm_logs/sweep_%j.log
 #SBATCH --error=slurm_logs/sweep_%j.err
-#SBATCH --time=02:00:00
+#SBATCH --time=12:00:00
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
 #SBATCH --array=0-4
 
 # ============================================================================
@@ -29,7 +27,7 @@
 METHOD="${1:-baseline}"
 
 # Set project root (MODIFY THIS to match your workspace)
-PROJECT_ROOT="${HOME}/LudiiMCTSVariations"
+PROJECT_ROOT="/home/users/g/s/gsavary/LudiiMCTSVariations"
 
 # Create log directory if it doesn't exist
 mkdir -p "${PROJECT_ROOT}/slurm_sweep_full_dataset/slurm_logs"
