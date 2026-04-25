@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/users/g/s/gsavary/LudiiMCTSVariations/slurm_sweep_full_dataset/main_sweep.py", line 99, in compute_predictor_performance
+    preds = ssw.get_predictions_ludii(original_results, model_folder)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/users/g/s/gsavary/LudiiMCTSVariations/small_scale_warm_start.py", line 89, in get_predictions_ludii
+    preds_arr = model.predict(X)
+                ^^^^^^^^^^^^^^^^
+  File "/home/ucl/ingi/gsavary/venvs/myproj/lib/python3.12/site-packages/sklearn/pipeline.py", line 745, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ucl/ingi/gsavary/venvs/myproj/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ucl/ingi/gsavary/venvs/myproj/lib/python3.12/site-packages/sklearn/impute/_base.py", line 611, in transform
+    X = self._validate_input(X, in_fit=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ucl/ingi/gsavary/venvs/myproj/lib/python3.12/site-packages/sklearn/impute/_base.py", line 411, in _validate_input
+    fill_value_dtype = self._fill_dtype
+                       ^^^^^^^^^^^^^^^^
+AttributeError: 'SimpleImputer' object has no attribute '_fill_dtype'. Did you mean: '_fit_dtype'?

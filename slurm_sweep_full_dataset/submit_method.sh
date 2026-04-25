@@ -47,7 +47,7 @@ cd "${PROJECT_ROOT}" || exit 1
 # module load cuda/11.8
 
 # Activate virtual environment
-source ".venv/Scripts/activate"
+source "/home/users/g/s/gsavary/venvs/myproj/bin/activate"
 
 # Run the experiment
 echo "Starting experiment..."

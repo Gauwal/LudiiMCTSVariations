@@ -25,6 +25,7 @@ import random
 import argparse
 import math
 from pathlib import Path
+import traceback
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -102,8 +103,9 @@ def compute_predictor_performance(original_results, true_win_rate, model_folder)
         )
         print(f'  Predictions loaded: {total_pred} agent predictions')
     except Exception as e:
-        print(f'  Predictions load failed: {e}')
-        return None, None
+      print(f'  Predictions load failed: {e}')
+      traceback.print_exc() 
+      return None, None
 
     pred_regrets = []
     pred_apes = []
@@ -236,7 +238,8 @@ def run_experiment(method, time_limit, seed, batch_size, alpha, confidence_bound
         try:
             preds = ssw.get_predictions_ludii(original_results, model_folder) if model_folder else {}
         except Exception:
-            preds = {}
+          traceback.print_exc()
+          preds = {}
 
         # Build priors from predictions
         priors = {}

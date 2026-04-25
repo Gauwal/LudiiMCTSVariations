@@ -1,0 +1,28 @@
+Starting experiment...
+Project root: /home/users/g/s/gsavary/LudiiMCTSVariations
+Method: baseline
+Output dir: /home/users/g/s/gsavary/LudiiMCTSVariations/slurm_sweep_full_dataset/results_20260425_203236
+Seed: 4
+Time limit:  seconds
+
+
+======================================================================
+SLURM Sweep Experiment - Single Method
+======================================================================
+Method: baseline
+Time limit: 7200.0s, Seed: 4, Batch size: 20
+Output directory: /home/users/g/s/gsavary/LudiiMCTSVariations/slurm_sweep_full_dataset/results_20260425_203236
+
+Loading Ludii dataset...
+Loaded 1085 games
+Using 1085 games (full dataset, no subsampling)
+
+Running timing probe (100 pulls)...
+  Estimated secs/pull: 0.023147
+
+Time budget: 7200.0s → ~311057 total pulls
+Per-method budget: 44436 pulls (~1028.6s)
+
+Computing predictor-only performance...
+  Predictions load failed: No module named 'sklearn'
+Experiment finished. Results saved to: /home/users/g/s/gsavary/LudiiMCTSVariations/slurm_sweep_full_dataset/results_20260425_203236
