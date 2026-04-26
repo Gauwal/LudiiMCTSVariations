@@ -1,0 +1,1 @@
+/var/spool/slurm//job6582964/slurm_script: line 48: 1418031 Bus error               (core dumped) python slurm_sweep_full_dataset/main_sweep_fractional.py --method "${METHOD}" --time-limit 3600 --seed "${SEED}" --batch-size 20 --output-dir "${OUTPUT_DIR}"
