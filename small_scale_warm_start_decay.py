@@ -160,6 +160,9 @@ def run_warm_start_rcp_with_decay(
                         else:
                             actual_remove = 0
 
+                        # Never empty the list — bai.average_results divides by len()
+                        actual_remove = min(actual_remove, max(0, len(sample_results[g][a]) - 1))
+
                         if actual_remove > 0:
                             # Synthetic samples are at the FRONT of the list
                             # (they were added first via copy.deepcopy(prior_samples))
